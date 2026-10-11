@@ -6,11 +6,14 @@ Il descend de **Pampre** (le « Duolingo du vin », https://github.com/williamdo
 
 ## Ce cours
 
-*(À remplir par `/nouveau-cours` dans le dépôt d'un cours : nom, source des supports et date, modules, unités, analogies récurrentes, état.)*
+**Proto** (« Proto — l'UX en jouant ») : le cours **Expérience utilisateur 1 (ExUt1)** de Marie Kuter, HEIG-VD, BSc Ingénierie des médias. Mascotte : Proto, le renard au béret ; couleur turquoise ; clé `proto`.
 
-Dans le modèle : `config.app` d'exemple (« Mon cours »), langage `js`, modules `code-js` et `dom` activés, deux unités d'exemple (et, pour tester les autres langages, `tools/exemples/php` et `tools/exemples/java`) :
-- `u01-apprendre` : une unité **sans code** (bien apprendre : récupération active, répétition espacée, entrelacement), avec un boss « étude de cas » ;
-- `u02-catalogue` : **un exercice de chaque type**, pris dans ProgWeb 2, avec un boss de code et un boss DOM. Référence vivante des types.
+- **Supports** : export du Moodle (Cyberlearn) reçu le 2026-10-11 (zip Google Drive) ; slides CC BY-NC-SA 4.0 dans `supports/expUt1/`, texte dans `docs/cours/`, registre `docs/cours/index.md`. Non reçus : glossaire, quizz d'apprentissage, examen, consignes du Hackathon Para-Fake.
+- **Profil** : méthodes et études de cas, avec une bonne part de par cœur. **Aucun module** (pas de code) : types `qcm`, `vf`, `ordre`, `tri`, `assoc` ; tous les boss sont des études de cas. Pas de projet dans l'appli (hackathon laissé de côté). L'avertissement « langage js sans son module code-js » du validateur est attendu.
+- **Unités** (`docs/programme.md`) : u01 Qu'est-ce que l'UX ? · u02 Concepts-clés et acteurs · u03 Design Thinking et Empathize · u04 Define (HMW, empathy map) · u05 Personas et design inclusif · u06 Ideate · u07 Prototype · u08 Tests utilisateurs · u09 Examen blanc (pour l'« Examen théorique sur table », format inconnu).
+- **Analogies** : le **reporter** (empathie, interviews) ; le **zoom de l'appareil photo** (HMW ni trop vague ni trop précis) ; la **boussole** (persona) ; le **plan de la maison** (zoning → wireframe → maquette → prototype) ; le **chef qui fait goûter** (tests, itérations, coût du changement).
+- **Pas enseigné faute de support** : SUS et Net Promoter Score (dans les objectifs, absents des slides).
+- **État** : u01 à u08 écrites et testées ; u09 en cours.
 
 ## Lancer
 
