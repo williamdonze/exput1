@@ -2,55 +2,943 @@
   "id": "u08",
   "titre": "Tests utilisateurs",
   "sousTitre": "Cours 6.1, template de scénario",
-  "objectif": "",
-  "icone": "",
-  "fiches": [],
+  "objectif": "Préparer, mener et exploiter un test utilisateur : à quoi il sert, avec combien d'utilisateurs, le scénario de test, le déroulé en 13 étapes (et ce que dit le facilitateur à chacune), puis la suite à donner.",
+  "icone": "5/80",
+  "fiches": [
+    {
+      "id": "test-utilisateur",
+      "titre": "Le test utilisateur",
+      "icone": "5",
+      "resume": "« Les tests utilisateurs sont l'occasion de tester une interface auprès d'utilisateurs réels, d'identifier des problèmes et d'identifier des pistes d'amélioration. » Tester avec **5 utilisateurs** permet d'identifier **80 %** des problèmes ergonomiques (Nielsen & Norman group).",
+      "analogie": "Le test, c'est **le chef qui fait goûter** : il fait goûter le plat **tôt et souvent**, à **quelques personnes** (5 suffisent pour 80 % des problèmes) ; il teste le plat, pas le goûteur ; et un plat corrigé en cuisine coûte bien moins qu'un plat renvoyé de la salle.",
+      "texte": "**Définition du cours** : « Les tests utilisateurs sont l'occasion de tester une interface auprès d'utilisateurs réels, d'identifier des problèmes et d'identifier des pistes d'amélioration. »\n\n- Scenario-based vs. récolte d'avis\n- Learning launch\n- Tâches à accomplir (scénarios)\n- Commenter les actions, les pensées\n- Efficacité ? Efficience ? Satisfaction ? (les trois critères de l'[[utilisabilite]])\n- En présentiel ou en ligne\n\n**5 utilisateurs** : « Selon Nielsen et Norman, tester un produit auprès de 5 utilisateurs permet d'identifier 80 % des problèmes ergonomiques. » Sur la courbe du cours, chaque utilisateur en plus fait gagner de moins en moins.\n\n**À quoi ça sert ?** « A tester des interfaces ou valider des hypothèses à partir d'un prototype. » Par exemple répondre aux questions suivantes :\n- « Je constate un taux de conversion très faible à cette étape de mon parcours utilisateur. Les analytics montrent le constat, mais n'expliquent pas pourquoi. Qu'est-ce qui empêche les utilisateurs de poursuivre ? »\n- « On va migrer un outil interne vers une nouvelle solution. Comment est utilisé l'outil actuel ? Qu'est-ce qu'on doit garder / améliorer ? »\n- « Pourquoi les utilisateurs boudent-ils / elles notre solution et continuent à utiliser l'ancien outil ? »\n- « Les utilisateurs.trices comprennent-ils / elles cet élément de design ? »\n- « A partir de mon prototype cliquable, puis-je identifier des éléments à améliorer ? Les utilisateurs comprennent-ils / elles l'interface et arrivent à compléter le parcours ? »\n\n**Effort / coût d'un changement** : sur le cycle projet **Plan → Do → Deliver**, le coût d'un changement monte en flèche. Sur le schéma, une première série de tests couvre Plan et Do, quand changer coûte encore peu ; des tests après Deliver arrivent quand un changement coûte bien plus.\n\n**Le bouton qui valait 300 millions de dollars** (histoire racontée par Jared M. Spool) : l'exemple du cours montre un formulaire de connexion avant / après, où le bouton « Register » a laissé la place à « Continue as guest » (« You do not need to create an account to make purchases on our site »).",
+      "pieges": [
+        "5 utilisateurs = 80 % des problèmes, pas 100 % : c'est pour ça qu'on refait des rounds de tests.",
+        "Les analytics montrent **le constat** (un taux de conversion faible), pas **le pourquoi** : c'est le test utilisateur qui l'explique.",
+        "On teste avec des utilisateurs **réels**, pas avec ses collègues de l'équipe projet.",
+        "Plus on teste tard (après Deliver), plus un changement coûte cher."
+      ]
+    },
+    {
+      "id": "guerilla-testing",
+      "titre": "Le guerilla testing",
+      "icone": "G",
+      "resume": "Objectifs : identifier des problèmes ergonomiques et des pistes de solution, confirmer ou infirmer des hypothèses, garder le contact avec les utilisateurs. Quand ? **Le plus souvent possible !** Concepts-clés : **basé sur un scénario, empathie, timeboxé**.",
+      "analogie": "Le guerilla testing, c'est **le chef qui fait goûter** une cuillère à la sortie de la cuisine : quelques minutes, souvent, à qui passe. Et pendant ce temps, il écoute comme **le reporter** : il crée le dialogue, reformule, prend des notes structurées.",
+      "texte": "**Objectifs**\n- Identifier des problèmes ergonomiques\n- Identifier des pistes de solution\n- Confirmer ou infirmer des hypothèses\n- Garder le contact avec les utilisateurs\n\n**Quand** : le plus souvent possible !\n\n**Qui** : UX, ergonome\n\n**Concepts-clés**\n\n**Basé sur un scénario**\n- **Mise en situation**, projection\n- L'utilisateur prend les manettes du prototype.\n- Succession de **tâches**\n- Succès, satisfaction, estimation de la complexité\n- **Observation** commentée\n- Eviter les retours subjectifs ou les avis personnels !\n\n**Empathie**\n- Créer le dialogue\n- Ecoute active\n- Relation de confiance\n- Observer\n- Reformuler\n- Prendre des notes structurées\n\n**Timeboxé**\n- 1h maximum si entretien structuré\n- Quelques minutes si guerilla testing",
+      "pieges": [
+        "C'est **l'utilisateur** qui prend les manettes du prototype, pas le facilitateur.",
+        "« Eviter les retours subjectifs ou les avis personnels ! » : on observe ce que la personne fait avec les tâches, on ne récolte pas des goûts.",
+        "1 h maximum pour un entretien structuré ; quelques minutes seulement en guerilla testing."
+      ]
+    },
+    {
+      "id": "scenario-de-test",
+      "titre": "Le scénario de test",
+      "icone": "A4",
+      "resume": "Format : **impression A4**, avec de l'espace pour noter les réponses. Sections : **introduction, contexte, tâches, questions spécifiques générales, questions subjectives**. Plus les 3 questions d'Avinash Kaushik.",
+      "analogie": "Le scénario de test, c'est le carnet du **reporter** : préparé à l'avance, imprimé, avec la place de noter les réponses au fil de l'entretien, dans le même ordre pour chaque personne.",
+      "texte": "**Format**\n- Impression A4\n- Espace pour noter les réponses aux questions\n\n**Questions** : introduction, contexte, tâches, questions spécifiques générales, questions subjectives.\n\n**Exemples de questions** (section / phase → exemples)\n- **Introduction** : nom et prénom ; rôle dans l'entreprise\n- **Contexte** : fréquence d'utilisation ; tâches principales\n- **Tâches** : tâche / scénario réussis ? ; difficultés évoquées ; satisfaction\n- **Spécifiques** : expliquer un élément de l'interface ; « Avez-vous remarqué… ? » ; « Saviez-vous que… ? »\n- **Subjectives** : aime / n'aime pas ; souhaits pour la suite\n\n**The Three Greatest Survey Questions Ever** : Avinash Kaushik propose une base de 3 questions essentielles pour tout sondage, qu'on peut utiliser pour les tests utilisateurs.\n1. « What is the purpose of your visit to our website today? »\n2. « Were you able to complete your task today? »\n3. « If you were not able to complete your task today, why not? »\n\n**Le template du cours** (« Test utilisateur ») : en-tête (nom du produit, date, nom de la personne, rôle, interviewer), puis les étapes Accueillir, Expliquer, Rassurer, Démarrer, Mettre en situation, Réaliser la tâche, Débriefer la tâche (« Répéter Réaliser et Débriefer la tâche pour chaque tâche »), Mesurer, Finaliser, Dialoguer, avec les phrases à dire et des cases à cocher (par exemple : Très difficile, Plutôt difficile, Plutôt facile, Très facile, Ne se prononce pas). Voir [[deroule-test]].",
+      "pieges": [
+        "« Avez-vous remarqué… ? » et « Saviez-vous que… ? » sont des questions **spécifiques**, pas subjectives.",
+        "« Fréquence d'utilisation » et « tâches principales » relèvent du **contexte**, pas des tâches du test.",
+        "Les questions subjectives (aime / n'aime pas) viennent **à la fin**, après les tâches."
+      ]
+    },
+    {
+      "id": "deroule-test",
+      "titre": "Le déroulé du test : 13 étapes",
+      "icone": "13",
+      "resume": "Agenda : 1. Préparer (avant) 2. Accueillir 3. Expliquer 4. Rassurer 5. Démarrer 6. Mettre en situation 7. Réaliser la tâche #n 8. Débriefer la tâche #n 9. Mesurer 10. Finaliser 11. Dialoguer 12. Remercier 13. Synthétiser (après).",
+      "analogie": "Comme **le chef qui fait goûter** : il prépare (avant), accueille son goûteur, explique le plat, le rassure (« c'est le plat qu'on goûte, pas toi »), sert, fait goûter bouchée par bouchée, demande ce qu'il en pense, remercie, puis retourne en cuisine corriger la recette.",
+      "texte": "**1. Préparer (avant)** : mettre en place une stratégie de recrutement (incluant profils et rétribution) ; préparer le prototype (parcours, interactions, contenus, etc.) ; recruter les participants ; préparer le guide de test ; réserver les salles et le matériel ; envoyer les invitations ; envoyer les rappels ; mettre en place la salle.\n\n**2. Accueillir** : « Bonjour, bienvenue ! Je m'appelle… et je suis… Merci d'être venu/e ! Je vous laisse vous installer. Est-ce que je peux vous proposer un café ou un thé ? » « Est-ce que je peux vous demander de vous présenter ? » [questions ciblées, caractérisation]\n\n**3. Expliquer** : « Aujourd'hui on va regarder… [objet du test.] C'est un/e… [description du produit] On va regarder ensemble des écrans, pour voir ce qui fonctionne, ce qui fonctionne moins bien, etc. Pendant tout le test, je vous invite à commenter à voix haute ce que vous faites ou voulez faire, ou les questions que vous vous posez, les problèmes que vous rencontrez. Je vais prendre des notes en même temps sur mon guide de test. La session sera enregistrée [audio / vidéo.] »\n\n**4. Rassurer** : « Le but pour moi c'est vraiment de tester les écrans, ce n'est pas de vous tester vous ! Si vous êtes ici c'est que votre avis compte pour nous, alors n'hésitez pas à me dire ce que vous pensez, même si c'est négatif. Je n'ai pas personnellement travaillé sur ce projet, donc je ne serai pas blessée ou ennuyée si vous faites des remarques négatives. Vos commentaires resteront anonymes. »\n\n**5. Démarrer** : « Vous êtes prêt/e ? J'ouvre le prototype. Voilà. Il s'agit d'un prototype : ce n'est pas vraiment fonctionnel. Il se peut que certains boutons ne marchent pas : dans ce cas je n'hésiterai pas à vous décrire le fonctionnement prévu. Il est également possible qu'il y ait certains bugs ou oublis : merci d'avance pour votre bienveillance et votre patience. »\n\n**6. Mettre en situation** : « Pour ce test, on va se mettre dans la peau de… [persona.] Vous souhaitez… [buts d'utilisation.] Vous avez / êtes [caractéristiques importantes.] »\n\n**7. Réaliser la tâche #n** : « Vous voulez / devez… [description de la tâche à accomplir.] A partir de cet écran, que feriez-vous ? Pensez à bien commenter ce que vous faites et ce que vous pensez en le faisant. »\n\n**8. Débriefer la tâche #n** : « Avez-vous trouvé cette tâche… [plutôt facile, plutôt difficile ?] Qu'est-ce que vous avez apprécié ? Pas apprécié ? J'ai remarqué que… [constat], pourriez-vous… [approfondissement.] »\n\n**9. Mesurer** : « Globalement, qu'avez-vous pensé de ces écrans ? Qu'avez-vous particulièrement apprécié ? Pas apprécié ? Si vous pouviez tout faire, qu'est-ce que vous changeriez en priorité ? Utiliseriez-vous ce système ? Le recommanderiez-vous à un proche / collègue ? Pourquoi ? »\n\n**10. Finaliser** : « C'est tout ce que j'avais à vous présenter. Souhaitez-vous ajouter quelque chose ? »\n\n**11. Dialoguer** : « Est-ce que je peux encore vous demander… [caractérisation.] »\n\n**12. Remercier** : « Je vous remercie beaucoup pour votre temps ! Ces retours vont être très utiles pour nous. Est-ce que vous souhaitez rester informé/e des prochaines étapes du projet ? Je vous remets comme promis le… [rétribution prévue.] Et je vous raccompagne. Merci ! »\n\n**13. Synthétiser (après)** : voir [[apres-test]].\n\nLes étapes 7 et 8 se répètent pour chaque tâche (« Répéter Réaliser et Débriefer la tâche pour chaque tâche », dit le template).",
+      "pieges": [
+        "**Rassurer** vient juste après **Expliquer** et avant **Démarrer** : on rassure avant d'ouvrir le prototype.",
+        "**Mettre en situation** (le persona, ses buts) vient avant les tâches : la personne se met dans la peau du persona.",
+        "**Mesurer** (le bilan global de tous les écrans) vient après toutes les tâches ; **Débriefer** porte sur une seule tâche.",
+        "**Dialoguer** (encore une question de caractérisation) vient **après Finaliser** et avant **Remercier**.",
+        "Pendant la tâche, on ne guide pas : « A partir de cet écran, que feriez-vous ? »"
+      ]
+    },
+    {
+      "id": "apres-test",
+      "titre": "Après le test : synthétiser",
+      "icone": ">>",
+      "resume": "Étape 13, Synthétiser (après) : notes au propre après chaque entretien, points-clés, rassembler les notes, prioriser les modifications, réunion de débrief, prise de décisions, plan d'action, implémentation, **nouveau round de tests**.",
+      "analogie": "Après la dégustation, **le chef** relit ses notes, garde ce qui revient le plus, décide avec sa brigade quoi changer en premier, corrige la recette… et fait **regoûter**.",
+      "texte": "Dans l'ordre du schéma du cours :\n1. Après chaque entretien, mettre les notes au propre\n2. Mettre en valeur les points-clés\n3. Rassembler les notes\n4. Prioriser les modifications\n5. Réunion de débrief\n6. Prise de décisions\n7. Elaboration d'un plan d'action\n8. Implémentation\n9. Nouveau round de tests\n\nLa boucle se referme : on teste à nouveau ce qu'on a modifié.",
+      "pieges": [
+        "Les notes se mettent au propre **après chaque entretien**, pas à la fin de tous les tests.",
+        "La synthèse ne s'arrête pas à l'implémentation : elle se termine par un **nouveau round de tests**.",
+        "On **priorise** les modifications avant de décider et de faire un plan d'action : tout ne se corrige pas en même temps."
+      ]
+    }
+  ],
   "lecons": [
     {
       "id": "u08-l1",
-      "titre": "",
+      "titre": "Pourquoi tester (et avec combien d'utilisateurs)",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": ["test-utilisateur"],
+      "cartes": [
+        {
+          "titre": "Étape 5 : Test",
+          "texte": "Dernière étape du [[design-thinking|Design Thinking]] : après Empathize, Define, Ideate et Prototype, on **teste** : recueillir les feedbacks des utilisateurs sur le prototype.",
+          "fiche": "design-thinking"
+        },
+        {
+          "titre": "Le test utilisateur",
+          "texte": "Définition du cours : « Les tests utilisateurs sont l'occasion de tester une interface auprès d'**utilisateurs réels**, d'**identifier des problèmes** et d'**identifier des pistes d'amélioration**. »\n\nEn présentiel ou en ligne.",
+          "analogie": "Proto, le renard, est **le chef qui fait goûter** : il ne demande pas à sa brigade si le plat est bon, il le fait goûter à de vrais clients.",
+          "fiche": "test-utilisateur"
+        },
+        {
+          "titre": "5 utilisateurs = 80 %",
+          "texte": "« Selon Nielsen et Norman, tester un produit auprès de **5 utilisateurs** permet d'identifier **80 %** des problèmes ergonomiques. »\n\nSur la courbe du cours, chaque utilisateur en plus apporte de moins en moins de nouveaux problèmes.",
+          "astuce": "Mieux vaut plusieurs petits rounds de 5 que un seul gros test : le chef fait goûter souvent, à quelques personnes.",
+          "fiche": "test-utilisateur"
+        },
+        {
+          "titre": "Comment on teste",
+          "texte": "- Scenario-based vs. récolte d'avis\n- Learning launch\n- Tâches à accomplir (scénarios)\n- Commenter les actions, les pensées\n- Efficacité ? Efficience ? Satisfaction ?\n\nLes trois dernières questions, ce sont les trois critères de l'[[utilisabilite]].",
+          "fiche": "test-utilisateur"
+        },
+        {
+          "titre": "À quoi ça sert ?",
+          "texte": "« A tester des interfaces ou valider des hypothèses à partir d'un prototype. » Par exemple : comprendre pourquoi les utilisateurs ne poursuivent pas un parcours (« Les analytics montrent le constat, mais n'expliquent pas pourquoi »), préparer la migration d'un outil interne, comprendre pourquoi on boude une nouvelle solution, vérifier qu'un élément de design est compris, trouver quoi améliorer dans un prototype cliquable.",
+          "fiche": "test-utilisateur"
+        },
+        {
+          "titre": "Tester tôt : le coût d'un changement",
+          "texte": "Sur le cycle projet **Plan → Do → Deliver**, l'effort et le coût d'un changement montent en flèche. Sur le schéma du cours, les tests couvrent d'abord Plan et Do, quand changer coûte encore peu.\n\nL'exemple du cours : **le bouton qui valait 300 millions de dollars** (Jared M. Spool), un formulaire où « Register » a laissé la place à « Continue as guest ».",
+          "analogie": "Un plat corrigé en cuisine coûte bien moins qu'un plat renvoyé de la salle.",
+          "fiche": "test-utilisateur"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u08-l1-e1",
+          "type": "qcm",
+          "question": "Selon Nielsen & Norman group, combien d'utilisateurs suffisent pour identifier 80 % des problèmes ergonomiques d'une interface ?",
+          "choix": ["5", "15", "50", "1"],
+          "bonne": 0,
+          "notions": ["test-utilisateur"],
+          "explication": "« Tester une interface avec 5 utilisateurs permet d'identifier 80 % des problèmes ergonomiques. » (Nielsen & Norman group)"
+        },
+        {
+          "id": "u08-l1-e2",
+          "type": "vf",
+          "question": "Un test utilisateur sert à identifier des problèmes **et** des pistes d'amélioration, auprès d'utilisateurs réels.",
+          "bonne": true,
+          "notions": ["test-utilisateur"],
+          "explication": "C'est la définition du cours : tester une interface auprès d'utilisateurs réels, identifier des problèmes et identifier des pistes d'amélioration."
+        },
+        {
+          "id": "u08-l1-e3",
+          "type": "qcm",
+          "question": "Une appli de covoiturage voit que 70 % des gens abandonnent à l'écran de paiement. Que disent les analytics, selon le cours ?",
+          "choix": ["Le constat, mais pas pourquoi : il faut un test utilisateur pour comprendre ce qui empêche de poursuivre", "Le constat et la cause : pas besoin de tester", "Rien d'utile : il faut ignorer les analytics", "La solution à mettre en place"],
+          "bonne": 0,
+          "notions": ["test-utilisateur"],
+          "explication": "« Les analytics montrent le constat, mais n'expliquent pas pourquoi. Qu'est-ce qui empêche les utilisateurs de poursuivre ? » C'est un des usages du test cités par le cours."
+        },
+        {
+          "id": "u08-l1-e4",
+          "type": "ordre",
+          "question": "Remets les phases du cycle projet dans l'ordre (le coût d'un changement y monte en flèche).",
+          "items": ["Plan", "Do", "Deliver"],
+          "notions": ["test-utilisateur"],
+          "explication": "Plan, Do, Deliver : plus on avance, plus un changement coûte cher. D'où l'intérêt de tester tôt, pendant Plan et Do, comme sur le schéma du cours."
+        },
+        {
+          "id": "u08-l1-e5",
+          "type": "assoc",
+          "question": "Associe chaque critère vérifié pendant le test à ce qu'il mesure.",
+          "paires": [["Efficacité", "La personne atteint-elle son but ?"], ["Efficience", "Avec quel effort, quel temps ?"], ["Satisfaction", "Comment l'a-t-elle vécu ?"]],
+          "notions": ["test-utilisateur", "utilisabilite"],
+          "explication": "« Efficacité ? Efficience ? Satisfaction ? » : ce sont les trois critères de l'utilisabilité selon l'ISO 9241, qu'on observe pendant le test."
+        },
+        {
+          "id": "u08-l1-e6",
+          "type": "vf",
+          "question": "Corriger un problème après la livraison (Deliver) coûte à peu près autant que pendant la conception (Plan).",
+          "bonne": false,
+          "notions": ["test-utilisateur"],
+          "explication": "Sur le schéma du cours, l'effort / coût d'un changement monte en flèche au fil du cycle projet. Le chef qui fait goûter corrige en cuisine, pas une fois le plat servi."
+        },
+        {
+          "id": "u08-l1-e7",
+          "type": "tri",
+          "question": "Ces situations relèvent-elles de ce à quoi sert un test utilisateur, selon le cours ?",
+          "categories": ["Usage cité par le cours", "Pas l'objet d'un test"],
+          "items": [["Comprendre pourquoi les gens boudent la nouvelle appli et gardent l'ancienne", 0], ["Vérifier que l'icône « panier » est comprise", 0], ["Savoir quoi garder de l'ancien outil interne avant de migrer", 0], ["Tester les connaissances informatiques des participants", 1], ["Choisir la couleur préférée du chef de projet", 1]],
+          "notions": ["test-utilisateur"],
+          "explication": "Le cours cite : comprendre un abandon, préparer une migration, comprendre pourquoi on boude une solution, vérifier qu'un élément de design est compris, améliorer un prototype cliquable. On teste l'interface, jamais la personne ; et l'avis du chef de projet, c'est le HIPPO, pas un test."
+        }
+      ]
     },
     {
       "id": "u08-l2",
-      "titre": "",
+      "titre": "Guerilla testing et scénario de test",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": ["guerilla-testing", "scenario-de-test"],
+      "cartes": [
+        {
+          "titre": "Guerilla testing : pourquoi, quand, qui",
+          "texte": "**Objectifs** : identifier des problèmes ergonomiques ; identifier des pistes de solution ; confirmer ou infirmer des hypothèses ; garder le contact avec les utilisateurs.\n\n**Quand** : le plus souvent possible !\n\n**Qui** : UX, ergonome.",
+          "fiche": "guerilla-testing"
+        },
+        {
+          "titre": "Trois concepts-clés",
+          "texte": "- **Basé sur un scénario** : mise en situation, projection ; l'utilisateur prend les manettes du prototype ; succession de tâches ; succès, satisfaction, estimation de la complexité ; observation commentée ; éviter les retours subjectifs ou les avis personnels !\n- **Empathie** : créer le dialogue, écoute active, relation de confiance, observer, reformuler, prendre des notes structurées.\n- **Timeboxé** : 1h maximum si entretien structuré ; quelques minutes si guerilla testing.",
+          "analogie": "Pour l'empathie, Proto redevient **le reporter** : il écoute, reformule, prend des notes structurées, ne coupe pas la parole.",
+          "fiche": "guerilla-testing"
+        },
+        {
+          "titre": "Le scénario de test",
+          "texte": "**Format** : impression A4, avec de l'espace pour noter les réponses aux questions.\n\n**Questions**, dans l'ordre : introduction, contexte, tâches, questions spécifiques générales, questions subjectives.",
+          "fiche": "scenario-de-test"
+        },
+        {
+          "titre": "Exemples de questions",
+          "texte": "- **Introduction** : nom et prénom ; rôle dans l'entreprise\n- **Contexte** : fréquence d'utilisation ; tâches principales\n- **Tâches** : tâche / scénario réussis ? difficultés évoquées ; satisfaction\n- **Spécifiques** : expliquer un élément de l'interface ; « Avez-vous remarqué… ? » ; « Saviez-vous que… ? »\n- **Subjectives** : aime / n'aime pas ; souhaits pour la suite",
+          "fiche": "scenario-de-test"
+        },
+        {
+          "titre": "Les 3 questions d'Avinash Kaushik",
+          "texte": "« The Three Greatest Survey Questions Ever » : une base de 3 questions essentielles pour tout sondage, qu'on peut utiliser pour les tests utilisateurs.\n1. What is the purpose of your visit to our website today?\n2. Were you able to complete your task today?\n3. If you were not able to complete your task today, why not?",
+          "fiche": "scenario-de-test"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u08-l2-e1",
+          "type": "tri",
+          "question": "Range chaque élément dans le bon concept-clé du guerilla testing.",
+          "categories": ["Basé sur un scénario", "Empathie", "Timeboxé"],
+          "items": [["Mise en situation, projection", 0], ["Succession de tâches", 0], ["Observation commentée", 0], ["Ecoute active", 1], ["Reformuler", 1], ["Relation de confiance", 1], ["1h maximum si entretien structuré", 2], ["Quelques minutes si guerilla testing", 2]],
+          "notions": ["guerilla-testing"],
+          "explication": "Scénario : mise en situation, tâches, observation commentée. Empathie : dialogue, écoute active, confiance, observer, reformuler, notes structurées. Timeboxé : 1 h max structuré, quelques minutes en guerilla."
+        },
+        {
+          "id": "u08-l2-e2",
+          "type": "qcm",
+          "question": "Quand faut-il faire du guerilla testing, selon le cours ?",
+          "choix": ["Le plus souvent possible !", "Une seule fois, juste avant la livraison", "Seulement quand le produit est terminé", "Quand le chef de projet le décide"],
+          "bonne": 0,
+          "notions": ["guerilla-testing"],
+          "explication": "« Quand : le plus souvent possible ! » Le chef fait goûter souvent, pas seulement au moment de servir."
+        },
+        {
+          "id": "u08-l2-e3",
+          "type": "vf",
+          "question": "Pendant le test, c'est le facilitateur qui manipule le prototype et la personne regarde.",
+          "bonne": false,
+          "notions": ["guerilla-testing"],
+          "explication": "« L'utilisateur prend les manettes du prototype. » Le facilitateur observe et écoute."
+        },
+        {
+          "id": "u08-l2-e4",
+          "type": "tri",
+          "question": "Test d'une appli de bibliothèque : dans quelle section du scénario de test va chaque question ?",
+          "categories": ["Introduction", "Contexte", "Tâches", "Spécifiques", "Subjectives"],
+          "items": [["Quel est votre rôle à la bibliothèque ?", 0], ["À quelle fréquence empruntez-vous des livres ?", 1], ["Avez-vous réussi à prolonger votre prêt ?", 2], ["Avez-vous remarqué le bouton « Mes réservations » ?", 3], ["Qu'est-ce que vous aimez ou n'aimez pas dans cette appli ?", 4]],
+          "notions": ["scenario-de-test"],
+          "explication": "Introduction : nom, rôle. Contexte : fréquence d'utilisation, tâches principales. Tâches : réussie ? difficultés ? satisfaction. Spécifiques : « Avez-vous remarqué… ? ». Subjectives : aime / n'aime pas, souhaits."
+        },
+        {
+          "id": "u08-l2-e5",
+          "type": "ordre",
+          "question": "Remets les sections du scénario de test dans l'ordre.",
+          "items": ["Introduction", "Contexte", "Tâches", "Questions spécifiques générales", "Questions subjectives"],
+          "notions": ["scenario-de-test"],
+          "explication": "Introduction, contexte, tâches, questions spécifiques générales, questions subjectives : les avis personnels viennent à la fin, après avoir observé les tâches."
+        },
+        {
+          "id": "u08-l2-e6",
+          "type": "qcm",
+          "question": "Laquelle de ces questions fait partie des « Three Greatest Survey Questions Ever » d'Avinash Kaushik ?",
+          "choix": ["Were you able to complete your task today?", "Do you like the colors of our website?", "How old are you?", "Would you pay for this app?"],
+          "bonne": 0,
+          "notions": ["scenario-de-test"],
+          "explication": "Les 3 questions : « What is the purpose of your visit to our website today? », « Were you able to complete your task today? », « If you were not able to complete your task today, why not? »"
+        },
+        {
+          "id": "u08-l2-e7",
+          "type": "qcm",
+          "question": "Quel est le format du scénario de test, selon le cours ?",
+          "choix": ["Une impression A4, avec de l'espace pour noter les réponses", "Un fichier Figma partagé avec la personne testée", "Un questionnaire en ligne que la personne remplit seule", "Une liste de questions à apprendre par cœur, sans support"],
+          "bonne": 0,
+          "notions": ["scenario-de-test"],
+          "explication": "« Format : impression A4 ; espace pour noter les réponses aux questions. » Comme le carnet du reporter."
+        }
+      ]
     },
     {
       "id": "u08-l3",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Les 13 étapes du test (1 à 6)",
+      "duree": 6,
+      "notions": ["deroule-test"],
+      "cartes": [
+        {
+          "titre": "L'agenda en 13 étapes",
+          "texte": "1. Préparer (avant)\n2. Accueillir\n3. Expliquer\n4. Rassurer\n5. Démarrer\n6. Mettre en situation\n7. Réaliser la tâche #n\n8. Débriefer la tâche #n\n9. Mesurer\n10. Finaliser\n11. Dialoguer\n12. Remercier\n13. Synthétiser (après)",
+          "astuce": "Les étapes 2 à 6 installent la personne ; 7 et 8 se répètent pour chaque tâche ; 9 à 12 referment le test.",
+          "fiche": "deroule-test"
+        },
+        {
+          "titre": "1. Préparer (avant)",
+          "texte": "Mettre en place une stratégie de recrutement (incluant profils et rétribution) → préparer le prototype (parcours, interactions, contenus, etc.) → recruter les participants → préparer le guide de test → réserver les salles et le matériel → envoyer les invitations → envoyer les rappels → mettre en place la salle.",
+          "fiche": "deroule-test"
+        },
+        {
+          "titre": "2. Accueillir · 3. Expliquer",
+          "texte": "**Accueillir** : « Bonjour, bienvenue ! Je m'appelle… et je suis… Merci d'être venu/e ! Je vous laisse vous installer. Est-ce que je peux vous proposer un café ou un thé ? » puis « Est-ce que je peux vous demander de vous présenter ? »\n\n**Expliquer** : « Aujourd'hui on va regarder… [objet du test.] […] Pendant tout le test, je vous invite à commenter à voix haute ce que vous faites ou voulez faire […]. Je vais prendre des notes en même temps sur mon guide de test. La session sera enregistrée [audio / vidéo.] »",
+          "fiche": "deroule-test"
+        },
+        {
+          "titre": "4. Rassurer",
+          "texte": "« Le but pour moi c'est vraiment de **tester les écrans, ce n'est pas de vous tester vous** ! Si vous êtes ici c'est que votre avis compte pour nous, alors n'hésitez pas à me dire ce que vous pensez, même si c'est négatif. Je n'ai pas personnellement travaillé sur ce projet, donc je ne serai pas blessée ou ennuyée si vous faites des remarques négatives. Vos commentaires resteront anonymes. »",
+          "analogie": "Le chef le dit à son goûteur : on teste le plat, pas le goûteur.",
+          "fiche": "deroule-test"
+        },
+        {
+          "titre": "5. Démarrer · 6. Mettre en situation",
+          "texte": "**Démarrer** : « Vous êtes prêt/e ? J'ouvre le prototype. Voilà. Il s'agit d'un prototype : ce n'est pas vraiment fonctionnel. Il se peut que certains boutons ne marchent pas […]. Il est également possible qu'il y ait certains bugs ou oublis : merci d'avance pour votre bienveillance et votre patience. »\n\n**Mettre en situation** : « Pour ce test, on va se mettre dans la peau de… [persona.] Vous souhaitez… [buts d'utilisation.] Vous avez / êtes [caractéristiques importantes.] »",
+          "astuce": "La mise en situation reprend le [[persona]] : il reste la boussole jusque dans le test.",
+          "fiche": "deroule-test"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u08-l3-e1",
+          "type": "ordre",
+          "question": "Remets les 6 premières étapes de l'agenda dans l'ordre.",
+          "items": ["Préparer (avant)", "Accueillir", "Expliquer", "Rassurer", "Démarrer", "Mettre en situation"],
+          "notions": ["deroule-test"],
+          "explication": "1. Préparer (avant), 2. Accueillir, 3. Expliquer, 4. Rassurer, 5. Démarrer, 6. Mettre en situation."
+        },
+        {
+          "id": "u08-l3-e2",
+          "type": "assoc",
+          "question": "Associe chaque phrase du facilitateur à son étape.",
+          "paires": [["« Merci d'être venu/e ! Je vous laisse vous installer. »", "Accueillir"], ["« Pendant tout le test, je vous invite à commenter à voix haute ce que vous faites… »", "Expliquer"], ["« Vos commentaires resteront anonymes. »", "Rassurer"], ["« J'ouvre le prototype. »", "Démarrer"], ["« Pour ce test, on va se mettre dans la peau de… »", "Mettre en situation"]],
+          "notions": ["deroule-test"],
+          "explication": "Accueillir : bienvenue, installation. Expliquer : objet du test, commenter à voix haute, notes, enregistrement. Rassurer : on teste les écrans, pas vous ; anonymat. Démarrer : ouvrir le prototype. Mettre en situation : le persona et ses buts."
+        },
+        {
+          "id": "u08-l3-e3",
+          "type": "ordre",
+          "question": "Étape 1, Préparer (avant) : remets les tâches dans l'ordre du schéma du cours.",
+          "items": ["Mettre en place une stratégie de recrutement (profils et rétribution)", "Préparer le prototype", "Recruter les participants", "Préparer le guide de test", "Réserver les salles et le matériel", "Envoyer les invitations", "Envoyer les rappels", "Mettre en place la salle"],
+          "notions": ["deroule-test"],
+          "explication": "Stratégie de recrutement, prototype, recrutement, guide de test, salles et matériel, invitations, rappels, et enfin la mise en place de la salle juste avant le test."
+        },
+        {
+          "id": "u08-l3-e4",
+          "type": "qcm",
+          "question": "Quelle phrase dit le facilitateur à l'étape **Rassurer** ?",
+          "choix": ["« Le but pour moi c'est vraiment de tester les écrans, ce n'est pas de vous tester vous ! »", "« Vous êtes prêt/e ? »", "« Globalement, qu'avez-vous pensé de ces écrans ? »", "« Est-ce que je peux vous proposer un café ou un thé ? »"],
+          "bonne": 0,
+          "notions": ["deroule-test"],
+          "explication": "Rassurer : on teste les écrans, pas la personne ; son avis compte, même négatif ; le facilitateur n'a pas travaillé sur le projet ; les commentaires restent anonymes."
+        },
+        {
+          "id": "u08-l3-e5",
+          "type": "vf",
+          "question": "À l'étape Rassurer, le facilitateur dit qu'il n'a pas personnellement travaillé sur le projet, pour que la personne ose faire des remarques négatives.",
+          "bonne": true,
+          "notions": ["deroule-test"],
+          "explication": "« Je n'ai pas personnellement travaillé sur ce projet, donc je ne serai pas blessée ou ennuyée si vous faites des remarques négatives. »"
+        },
+        {
+          "id": "u08-l3-e6",
+          "type": "qcm",
+          "question": "Test d'une appli de réservation de salle de sport. À l'étape **Démarrer**, que prévient le facilitateur ?",
+          "choix": ["Que c'est un prototype : certains boutons peuvent ne pas marcher, et il y a peut-être des bugs ou oublis", "Que l'appli est terminée et sans bug", "Que la personne sera notée sur sa rapidité", "Qu'il va lui montrer comment faire chaque tâche"],
+          "bonne": 0,
+          "notions": ["deroule-test", "prototype"],
+          "explication": "« Il s'agit d'un prototype : ce n'est pas vraiment fonctionnel. Il se peut que certains boutons ne marchent pas : dans ce cas je n'hésiterai pas à vous décrire le fonctionnement prévu. »"
+        },
+        {
+          "id": "u08-l3-e7",
+          "type": "qcm",
+          "question": "À l'étape **Mettre en situation**, sur quoi s'appuie le facilitateur ?",
+          "choix": ["Le persona : « on va se mettre dans la peau de… », ses buts d'utilisation, ses caractéristiques", "Les goûts personnels de la personne testée", "Le planning du projet", "La liste des bugs connus"],
+          "bonne": 0,
+          "notions": ["deroule-test", "persona"],
+          "explication": "« Pour ce test, on va se mettre dans la peau de… [persona.] Vous souhaitez… [buts d'utilisation.] Vous avez / êtes [caractéristiques importantes.] » Le persona reste la boussole."
+        }
+      ]
     },
     {
       "id": "u08-l4",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Les 13 étapes du test (7 à 13) et après",
+      "duree": 6,
+      "notions": ["deroule-test", "apres-test"],
+      "cartes": [
+        {
+          "titre": "7. Réaliser · 8. Débriefer la tâche #n",
+          "texte": "**Réaliser la tâche** : « Vous voulez / devez… [description de la tâche à accomplir.] A partir de cet écran, que feriez-vous ? Pensez à bien commenter ce que vous faites et ce que vous pensez en le faisant. »\n\n**Débriefer la tâche** : « Avez-vous trouvé cette tâche… [plutôt facile, plutôt difficile ?] Qu'est-ce que vous avez apprécié ? Pas apprécié ? J'ai remarqué que… [constat], pourriez-vous… [approfondissement.] »\n\nOn répète Réaliser et Débriefer pour chaque tâche.",
+          "fiche": "deroule-test"
+        },
+        {
+          "titre": "9. Mesurer",
+          "texte": "Le bilan de **tous** les écrans : « Globalement, qu'avez-vous pensé de ces écrans ? Qu'avez-vous particulièrement apprécié ? Pas apprécié ? Si vous pouviez tout faire, qu'est-ce que vous changeriez en priorité ? Utiliseriez-vous ce système ? Le recommanderiez-vous à un proche / collègue ? Pourquoi ? »",
+          "fiche": "deroule-test"
+        },
+        {
+          "titre": "10. Finaliser · 11. Dialoguer · 12. Remercier",
+          "texte": "**Finaliser** : « C'est tout ce que j'avais à vous présenter. Souhaitez-vous ajouter quelque chose ? »\n\n**Dialoguer** : « Est-ce que je peux encore vous demander… [caractérisation.] »\n\n**Remercier** : « Je vous remercie beaucoup pour votre temps ! Ces retours vont être très utiles pour nous. Est-ce que vous souhaitez rester informé/e des prochaines étapes du projet ? Je vous remets comme promis le… [rétribution prévue.] Et je vous raccompagne. Merci ! »",
+          "fiche": "deroule-test"
+        },
+        {
+          "titre": "13. Synthétiser (après)",
+          "texte": "Après chaque entretien, mettre les notes au propre → mettre en valeur les points-clés → rassembler les notes → prioriser les modifications → réunion de débrief → prise de décisions → élaboration d'un plan d'action → implémentation → **nouveau round de tests**.",
+          "analogie": "Le chef relit ses notes de dégustation, décide quoi corriger en premier, change la recette… et refait goûter.",
+          "fiche": "apres-test"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u08-l4-e1",
+          "type": "ordre",
+          "question": "Remets les étapes 7 à 13 de l'agenda dans l'ordre.",
+          "items": ["Réaliser la tâche #n", "Débriefer la tâche #n", "Mesurer", "Finaliser", "Dialoguer", "Remercier", "Synthétiser (après)"],
+          "notions": ["deroule-test"],
+          "explication": "7. Réaliser la tâche #n, 8. Débriefer la tâche #n, 9. Mesurer, 10. Finaliser, 11. Dialoguer, 12. Remercier, 13. Synthétiser (après)."
+        },
+        {
+          "id": "u08-l4-e2",
+          "type": "assoc",
+          "question": "Associe chaque phrase du facilitateur à son étape.",
+          "paires": [["« A partir de cet écran, que feriez-vous ? »", "Réaliser la tâche"], ["« Avez-vous trouvé cette tâche plutôt facile, plutôt difficile ? »", "Débriefer la tâche"], ["« Si vous pouviez tout faire, qu'est-ce que vous changeriez en priorité ? »", "Mesurer"], ["« Souhaitez-vous ajouter quelque chose ? »", "Finaliser"], ["« Est-ce que je peux encore vous demander… [caractérisation] »", "Dialoguer"], ["« Je vous remets comme promis le… [rétribution prévue] »", "Remercier"]],
+          "notions": ["deroule-test"],
+          "explication": "Réaliser : la tâche et « que feriez-vous ? ». Débriefer : facile ou difficile, apprécié ou pas. Mesurer : le bilan global. Finaliser : ajouter quelque chose ? Dialoguer : une dernière question de caractérisation. Remercier : temps, suite du projet, rétribution."
+        },
+        {
+          "id": "u08-l4-e3",
+          "type": "qcm",
+          "question": "Quelle est la différence entre **Débriefer la tâche** et **Mesurer** ?",
+          "choix": ["Débriefer porte sur une tâche, juste après l'avoir faite ; Mesurer fait le bilan global de tous les écrans", "Ce sont deux noms pour la même étape", "Mesurer, c'est chronométrer la personne ; Débriefer, c'est lui donner la bonne réponse", "Débriefer se fait après le départ de la personne"],
+          "bonne": 0,
+          "notions": ["deroule-test"],
+          "explication": "Débriefer : « Avez-vous trouvé cette tâche… ? » après chaque tâche. Mesurer : « Globalement, qu'avez-vous pensé de ces écrans ? », une fois toutes les tâches faites."
+        },
+        {
+          "id": "u08-l4-e4",
+          "type": "vf",
+          "question": "Réaliser la tâche et Débriefer la tâche se répètent pour chaque tâche du scénario.",
+          "bonne": true,
+          "notions": ["deroule-test"],
+          "explication": "D'où le « #n » de l'agenda ; le template le dit : « Répéter Réaliser et Débriefer la tâche pour chaque tâche. »"
+        },
+        {
+          "id": "u08-l4-e5",
+          "type": "ordre",
+          "question": "Étape 13, Synthétiser (après) : remets la suite dans l'ordre du schéma du cours.",
+          "items": ["Après chaque entretien, mettre les notes au propre", "Mettre en valeur les points-clés", "Rassembler les notes", "Prioriser les modifications", "Réunion de débrief", "Prise de décisions", "Elaboration d'un plan d'action", "Implémentation", "Nouveau round de tests"],
+          "notions": ["apres-test"],
+          "explication": "Notes au propre, points-clés, rassembler, prioriser, débrief, décisions, plan d'action, implémentation, nouveau round de tests : la boucle recommence."
+        },
+        {
+          "id": "u08-l4-e6",
+          "type": "qcm",
+          "question": "Quand faut-il mettre ses notes au propre, selon le cours ?",
+          "choix": ["Après chaque entretien", "Une fois tous les tests terminés", "Pendant la réunion de débrief", "Jamais : l'enregistrement suffit"],
+          "bonne": 0,
+          "notions": ["apres-test"],
+          "explication": "« Après chaque entretien, mettre les notes au propre » : c'est la toute première étape de la synthèse, tant que les souvenirs sont frais."
+        },
+        {
+          "id": "u08-l4-e7",
+          "type": "vf",
+          "question": "La synthèse se termine par l'implémentation des modifications.",
+          "bonne": false,
+          "notions": ["apres-test"],
+          "explication": "Après l'implémentation vient un **nouveau round de tests** : le chef refait goûter le plat corrigé."
+        }
+      ]
     },
     {
       "id": "u08-l5",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Mélange : du prototype au test",
+      "duree": 6,
+      "notions": ["test-utilisateur", "guerilla-testing", "scenario-de-test", "deroule-test", "apres-test"],
+      "cartes": [
+        {
+          "titre": "Les 5 phases, enfin complètes",
+          "texte": "Empathize (comprendre), Define (reformuler), Ideate (brainstormer), Prototype (rendre concret et testable), **Test** (recueillir les feedbacks). Le test nourrit un nouveau tour : on revient aux phases précédentes avec ce qu'on a appris.",
+          "fiche": "design-thinking"
+        },
+        {
+          "titre": "Comme une interview… mais avec des tâches",
+          "texte": "Le test reprend l'esprit de l'[[interview]] : écoute active, reformuler, notes structurées, ne pas orienter (les [[interview-dos-donts|DOs et DON'Ts]]). La différence : la personne **prend les manettes du prototype** et réalise des tâches, qu'on observe.",
+          "analogie": "Proto reste **le reporter** : il écoute et observe, il ne souffle pas la réponse.",
+          "fiche": "interview-dos-donts"
+        },
+        {
+          "titre": "Éviter les avis personnels",
+          "texte": "« Eviter les retours subjectifs ou les avis personnels ! » On observe ce que la personne **fait** avec le prototype (succès, difficultés, complexité). Les questions subjectives existent, mais en fin de scénario.",
+          "fiche": "guerilla-testing"
+        },
+        {
+          "titre": "Le chef qui fait goûter",
+          "texte": "Tôt et souvent (le coût d'un changement monte au fil du projet), à quelques personnes (5 = 80 %), en testant le plat et pas le goûteur (Rassurer), puis on corrige et on refait goûter (nouveau round de tests).",
+          "fiche": "test-utilisateur"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u08-l5-e1",
+          "type": "tri",
+          "question": "Quelle étape du Design Thinking ? Range chaque activité.",
+          "categories": ["Empathize", "Define", "Ideate", "Prototype", "Test"],
+          "items": [["Mener une observation ethnographique (shadowing)", 0], ["Formuler un HMW", 1], ["Faire un crazy 8", 2], ["Dessiner un paper prototype", 3], ["Faire réaliser des tâches à 5 utilisateurs", 4], ["Construire une empathy map", 1], ["Dot-voting", 2]],
+          "notions": ["design-thinking", "test-utilisateur"],
+          "explication": "Empathize : interviews, observations. Define : HMW, empathy map, personas. Ideate : brainstorming, crazy 8, dot-voting. Prototype : paper prototype, wireframes. Test : tâches avec des utilisateurs réels."
+        },
+        {
+          "id": "u08-l5-e2",
+          "type": "qcm",
+          "question": "Pendant un test d'appli de covoiturage, la personne hésite devant l'écran de réservation. Que fait le facilitateur ?",
+          "choix": ["Il l'invite à commenter ce qu'elle pense et observe, sans montrer le bouton", "Il lui montre où cliquer pour gagner du temps", "Il lui explique que l'écran est pourtant très clair", "Il passe à la tâche suivante sans rien noter"],
+          "bonne": 0,
+          "notions": ["deroule-test", "interview-dos-donts"],
+          "explication": "« Pensez à bien commenter ce que vous faites et ce que vous pensez en le faisant. » Comme en interview, on n'oriente pas : l'hésitation est justement un problème à noter."
+        },
+        {
+          "id": "u08-l5-e3",
+          "type": "tri",
+          "question": "Phrase du facilitateur : bonne pratique du cours ou erreur ?",
+          "categories": ["Bonne pratique", "Erreur"],
+          "items": [["« Ce n'est pas vous qu'on teste, ce sont les écrans. »", 0], ["« Vous allez voir, c'est très simple, tout le monde y arrive. »", 1], ["« J'ai remarqué que vous êtes revenu en arrière, pourriez-vous m'en dire plus ? »", 0], ["« Cliquez plutôt sur le bouton vert en haut. »", 1], ["« Vos commentaires resteront anonymes. »", 0], ["« C'est moi qui ai dessiné ces écrans, j'espère qu'ils vous plaisent ! »", 1]],
+          "notions": ["deroule-test", "interview-dos-donts"],
+          "explication": "Le cours rassure (on teste les écrans, anonymat), approfondit un constat (« J'ai remarqué que… pourriez-vous… »). Il ne met pas la pression, n'oriente pas les réponses (un DON'T de l'interview), et précise au contraire « Je n'ai pas personnellement travaillé sur ce projet »."
+        },
+        {
+          "id": "u08-l5-e4",
+          "type": "qcm",
+          "question": "Une équipe veut tester son appli de covoiturage avec 40 personnes en une seule fois, à la fin du projet. Que lui conseille le cours ?",
+          "choix": ["Plutôt des petits tests de 5 utilisateurs, tôt et le plus souvent possible", "Tester avec encore plus de monde, pour trouver 100 % des problèmes", "Ne pas tester du tout : les analytics suffisent", "Tester seulement avec l'équipe projet"],
+          "bonne": 0,
+          "notions": ["test-utilisateur", "guerilla-testing"],
+          "explication": "5 utilisateurs = 80 % des problèmes ; plus on corrige tard, plus ça coûte ; guerilla testing : le plus souvent possible. Le chef fait goûter tôt et souvent, à quelques personnes."
+        },
+        {
+          "id": "u08-l5-e5",
+          "type": "assoc",
+          "question": "Associe chaque élément à sa place.",
+          "paires": [["Le persona", "Mettre en situation"], ["Le prototype cliquable", "Démarrer"], ["La rétribution", "Remercier"], ["Le guide de test", "Préparer (avant)"], ["La réunion de débrief", "Synthétiser (après)"]],
+          "notions": ["deroule-test", "apres-test", "persona"],
+          "explication": "Le persona sert à la mise en situation ; on ouvre le prototype à Démarrer ; la rétribution se remet en remerciant ; le guide de test se prépare avant ; la réunion de débrief fait partie de la synthèse."
+        },
+        {
+          "id": "u08-l5-e6",
+          "type": "vf",
+          "question": "Dans un test basé sur un scénario, on cherche surtout à récolter les avis personnels des participants sur le design.",
+          "bonne": false,
+          "notions": ["guerilla-testing", "test-utilisateur"],
+          "explication": "« Scenario-based vs. récolte d'avis » : on observe la réalisation de tâches (succès, satisfaction, complexité). « Eviter les retours subjectifs ou les avis personnels ! »"
+        },
+        {
+          "id": "u08-l5-e7",
+          "type": "qcm",
+          "question": "Le test a révélé 14 problèmes, l'équipe ne peut pas tout corriger ce mois-ci. Quelle étape de la synthèse l'aide ?",
+          "choix": ["Prioriser les modifications", "Envoyer les rappels", "Mettre en situation", "Accueillir"],
+          "bonne": 0,
+          "notions": ["apres-test"],
+          "explication": "« Prioriser les modifications », puis réunion de débrief, prise de décisions et plan d'action."
+        },
+        {
+          "id": "u08-l5-e8",
+          "type": "qcm",
+          "question": "Que veut-on savoir à la question **« Avez-vous remarqué le filtre par prix ? »** dans le scénario de test d'une appli de location de vélos ?",
+          "choix": ["Si un élément précis de l'interface est vu : c'est une question spécifique", "L'âge de la personne : c'est une question d'introduction", "Si elle aime les vélos : c'est une question subjective", "Rien : c'est une question interdite"],
+          "bonne": 0,
+          "notions": ["scenario-de-test"],
+          "explication": "« Avez-vous remarqué… ? », « Saviez-vous que… ? », « expliquer un élément de l'interface » : ce sont les questions spécifiques."
+        }
+      ]
     }
   ],
-  "jeux": [],
+  "jeux": [
+    {
+      "id": "u08-jeu",
+      "titre": "Top chrono du test",
+      "description": "Questions éclair sur les tests utilisateurs : chiffres, concepts-clés, scénario, les 13 étapes et la synthèse.",
+      "tours": 10,
+      "questions": [
+        {
+          "id": "u08-jeu-q1",
+          "type": "qcm",
+          "question": "5 utilisateurs permettent d'identifier quelle part des problèmes ergonomiques ?",
+          "choix": ["80 %", "50 %", "100 %", "20 %"],
+          "bonne": 0,
+          "notions": ["test-utilisateur"],
+          "explication": "5 utilisateurs = 80 % des problèmes ergonomiques (Nielsen & Norman group)."
+        },
+        {
+          "id": "u08-jeu-q2",
+          "type": "qcm",
+          "question": "Qui a montré que 5 utilisateurs suffisent pour 80 % des problèmes ?",
+          "choix": ["Nielsen & Norman group", "Avinash Kaushik", "Jared M. Spool", "Google Ventures"],
+          "bonne": 0,
+          "notions": ["test-utilisateur"],
+          "explication": "Nielsen & Norman group. Kaushik : les 3 questions ; Spool : le bouton à 300 millions de dollars."
+        },
+        {
+          "id": "u08-jeu-q3",
+          "type": "qcm",
+          "question": "Combien valait « le bouton » de l'histoire racontée par Jared M. Spool ?",
+          "choix": ["300 millions de dollars", "3 millions de dollars", "30 000 dollars", "1 milliard de dollars"],
+          "bonne": 0,
+          "notions": ["test-utilisateur"],
+          "explication": "« Le bouton qui valait 300 millions de dollars. »"
+        },
+        {
+          "id": "u08-jeu-q4",
+          "type": "qcm",
+          "question": "Durée maximum d'un entretien de test structuré ?",
+          "choix": ["1 h", "10 minutes", "3 h", "Une journée"],
+          "bonne": 0,
+          "notions": ["guerilla-testing"],
+          "explication": "Timeboxé : 1h maximum si entretien structuré ; quelques minutes si guerilla testing."
+        },
+        {
+          "id": "u08-jeu-q5",
+          "type": "vf",
+          "question": "Un guerilla testing dure quelques minutes.",
+          "bonne": true,
+          "notions": ["guerilla-testing"],
+          "explication": "« Quelques minutes si guerilla testing. »"
+        },
+        {
+          "id": "u08-jeu-q6",
+          "type": "qcm",
+          "question": "Qui mène le guerilla testing, selon le cours ?",
+          "choix": ["UX, ergonome", "Le client final", "Le développeur seul", "Le service marketing"],
+          "bonne": 0,
+          "notions": ["guerilla-testing"],
+          "explication": "« Qui : UX, ergonome. »"
+        },
+        {
+          "id": "u08-jeu-q7",
+          "type": "qcm",
+          "question": "Le scénario de test s'imprime sur…",
+          "choix": ["Une feuille A4", "Un post-it", "Une affiche A0", "Rien : il est oral"],
+          "bonne": 0,
+          "notions": ["scenario-de-test"],
+          "explication": "« Format : impression A4 », avec de l'espace pour noter les réponses."
+        },
+        {
+          "id": "u08-jeu-q8",
+          "type": "qcm",
+          "question": "Combien d'étapes compte l'agenda du test ?",
+          "choix": ["13", "5", "8", "10"],
+          "bonne": 0,
+          "notions": ["deroule-test"],
+          "explication": "De 1. Préparer (avant) à 13. Synthétiser (après)."
+        },
+        {
+          "id": "u08-jeu-q9",
+          "type": "qcm",
+          "question": "« Vos commentaires resteront anonymes. » : quelle étape ?",
+          "choix": ["Rassurer", "Expliquer", "Remercier", "Finaliser"],
+          "bonne": 0,
+          "notions": ["deroule-test"],
+          "explication": "C'est la dernière phrase de Rassurer."
+        },
+        {
+          "id": "u08-jeu-q10",
+          "type": "qcm",
+          "question": "« Je vais prendre des notes en même temps sur mon guide de test. » : quelle étape ?",
+          "choix": ["Expliquer", "Accueillir", "Démarrer", "Mesurer"],
+          "bonne": 0,
+          "notions": ["deroule-test"],
+          "explication": "Expliquer : objet du test, commenter à voix haute, prise de notes, enregistrement."
+        },
+        {
+          "id": "u08-jeu-q11",
+          "type": "qcm",
+          "question": "« C'est tout ce que j'avais à vous présenter. » : quelle étape ?",
+          "choix": ["Finaliser", "Remercier", "Mesurer", "Dialoguer"],
+          "bonne": 0,
+          "notions": ["deroule-test"],
+          "explication": "Finaliser : « C'est tout ce que j'avais à vous présenter. Souhaitez-vous ajouter quelque chose ? »"
+        },
+        {
+          "id": "u08-jeu-q12",
+          "type": "qcm",
+          "question": "« Utiliseriez-vous ce système ? Le recommanderiez-vous à un proche / collègue ? » : quelle étape ?",
+          "choix": ["Mesurer", "Débriefer la tâche #n", "Dialoguer", "Expliquer"],
+          "bonne": 0,
+          "notions": ["deroule-test"],
+          "explication": "C'est la dernière question de Mesurer, le bilan global."
+        },
+        {
+          "id": "u08-jeu-q13",
+          "type": "vf",
+          "question": "Dialoguer vient après Finaliser.",
+          "bonne": true,
+          "notions": ["deroule-test"],
+          "explication": "10. Finaliser, 11. Dialoguer, 12. Remercier."
+        },
+        {
+          "id": "u08-jeu-q14",
+          "type": "qcm",
+          "question": "Dernière étape de la synthèse, selon le schéma du cours ?",
+          "choix": ["Nouveau round de tests", "Implémentation", "Réunion de débrief", "Rassembler les notes"],
+          "bonne": 0,
+          "notions": ["apres-test"],
+          "explication": "Après l'implémentation, un nouveau round de tests."
+        },
+        {
+          "id": "u08-jeu-q15",
+          "type": "vf",
+          "question": "« Saviez-vous que… ? » est une question subjective.",
+          "bonne": false,
+          "notions": ["scenario-de-test"],
+          "explication": "C'est une question **spécifique** (comme « Avez-vous remarqué… ? »). Subjectives : aime / n'aime pas, souhaits pour la suite."
+        },
+        {
+          "id": "u08-jeu-q16",
+          "type": "qcm",
+          "question": "Le cycle projet du schéma « coût d'un changement » ?",
+          "choix": ["Plan, Do, Deliver", "Empathize, Define, Ideate", "Zoning, wireframe, maquette", "Avant, pendant, après"],
+          "bonne": 0,
+          "notions": ["test-utilisateur"],
+          "explication": "Plan, Do, Deliver : le coût d'un changement monte au fil du cycle."
+        }
+      ]
+    }
+  ],
   "quiz": {
     "titre": "Quiz : Tests utilisateurs",
-    "questions": []
+    "questions": [
+      {
+        "id": "u08-quiz-q1",
+        "type": "qcm",
+        "question": "Quelle est la définition des tests utilisateurs donnée par le cours ?",
+        "choix": ["L'occasion de tester une interface auprès d'utilisateurs réels, d'identifier des problèmes et d'identifier des pistes d'amélioration", "Un sondage en ligne pour connaître les goûts des clients", "Une vérification technique du code par les développeurs", "Une présentation du produit fini aux clients"],
+        "bonne": 0,
+        "notions": ["test-utilisateur"],
+        "explication": "« Les tests utilisateurs sont l'occasion de tester une interface auprès d'utilisateurs réels, d'identifier des problèmes et d'identifier des pistes d'amélioration. »"
+      },
+      {
+        "id": "u08-quiz-q2",
+        "type": "vf",
+        "question": "Un test utilisateur peut se faire en présentiel ou en ligne.",
+        "bonne": true,
+        "notions": ["test-utilisateur"],
+        "explication": "Le cours le dit : « En présentiel ou en ligne »."
+      },
+      {
+        "id": "u08-quiz-q3",
+        "type": "qcm",
+        "question": "Pourquoi tester tôt dans le cycle projet (Plan, Do) plutôt qu'après Deliver ?",
+        "choix": ["Parce que l'effort et le coût d'un changement augmentent fortement au fil du projet", "Parce que les utilisateurs sont plus disponibles au début", "Parce qu'après Deliver, on n'a plus le droit de changer", "Ça ne change rien au coût"],
+        "bonne": 0,
+        "notions": ["test-utilisateur"],
+        "explication": "Le schéma « Effort / coût d'un changement » monte en flèche de Plan à Deliver. Un plat corrigé en cuisine coûte moins qu'un plat renvoyé de la salle."
+      },
+      {
+        "id": "u08-quiz-q4",
+        "type": "tri",
+        "question": "Objectif du guerilla testing ou non ?",
+        "categories": ["Objectif cité par le cours", "Pas un objectif"],
+        "items": [["Identifier des problèmes ergonomiques", 0], ["Identifier des pistes de solution", 0], ["Confirmer ou infirmer des hypothèses", 0], ["Garder le contact avec les utilisateurs", 0], ["Évaluer les compétences de la personne testée", 1], ["Vendre le produit à la personne testée", 1]],
+        "notions": ["guerilla-testing"],
+        "explication": "Les 4 objectifs du cours : problèmes ergonomiques, pistes de solution, confirmer ou infirmer des hypothèses, garder le contact. On ne teste jamais la personne, et on ne lui vend rien."
+      },
+      {
+        "id": "u08-quiz-q5",
+        "type": "qcm",
+        "question": "Quels sont les 3 concepts-clés du guerilla testing ?",
+        "choix": ["Basé sur un scénario, empathie, timeboxé", "Rapide, gratuit, anonyme", "Interview, observation, journal de bord", "Zoning, wireframe, prototype"],
+        "bonne": 0,
+        "notions": ["guerilla-testing"],
+        "explication": "Basé sur un scénario (tâches, observation commentée), empathie (dialogue, écoute active, reformuler), timeboxé (1 h max structuré, quelques minutes en guerilla)."
+      },
+      {
+        "id": "u08-quiz-q6",
+        "type": "assoc",
+        "question": "Associe chaque section du scénario de test à un exemple de question du cours.",
+        "paires": [["Introduction", "Rôle dans l'entreprise"], ["Contexte", "Fréquence d'utilisation"], ["Tâches", "Difficultés évoquées"], ["Spécifiques", "Saviez-vous que… ?"], ["Subjectives", "Souhaits pour la suite"]],
+        "notions": ["scenario-de-test"],
+        "explication": "Introduction : nom, rôle. Contexte : fréquence, tâches principales. Tâches : réussie ? difficultés ? satisfaction. Spécifiques : expliquer un élément, « Avez-vous remarqué… ? », « Saviez-vous que… ? ». Subjectives : aime / n'aime pas, souhaits."
+      },
+      {
+        "id": "u08-quiz-q7",
+        "type": "qcm",
+        "question": "Quelle est la 3e des « Three Greatest Survey Questions Ever » d'Avinash Kaushik ?",
+        "choix": ["If you were not able to complete your task today, why not?", "What is the purpose of your visit to our website today?", "Would you recommend us to a friend?", "How did you hear about us?"],
+        "bonne": 0,
+        "notions": ["scenario-de-test"],
+        "explication": "1. What is the purpose of your visit to our website today? 2. Were you able to complete your task today? 3. If you were not able to complete your task today, why not?"
+      },
+      {
+        "id": "u08-quiz-q8",
+        "type": "ordre",
+        "question": "Remets dans l'ordre ces étapes de l'agenda.",
+        "items": ["Accueillir", "Expliquer", "Rassurer", "Démarrer", "Mettre en situation", "Réaliser la tâche #n", "Débriefer la tâche #n", "Mesurer"],
+        "notions": ["deroule-test"],
+        "explication": "2. Accueillir, 3. Expliquer, 4. Rassurer, 5. Démarrer, 6. Mettre en situation, 7. Réaliser la tâche #n, 8. Débriefer la tâche #n, 9. Mesurer."
+      },
+      {
+        "id": "u08-quiz-q9",
+        "type": "ordre",
+        "question": "Et la fin de l'agenda ?",
+        "items": ["Mesurer", "Finaliser", "Dialoguer", "Remercier", "Synthétiser (après)"],
+        "notions": ["deroule-test"],
+        "explication": "9. Mesurer, 10. Finaliser, 11. Dialoguer, 12. Remercier, 13. Synthétiser (après)."
+      },
+      {
+        "id": "u08-quiz-q10",
+        "type": "qcm",
+        "question": "« J'ai remarqué que… [constat], pourriez-vous… [approfondissement.] » : à quelle étape le facilitateur dit-il cela ?",
+        "choix": ["Débriefer la tâche #n", "Accueillir", "Rassurer", "Remercier"],
+        "bonne": 0,
+        "notions": ["deroule-test"],
+        "explication": "Débriefer la tâche : « Avez-vous trouvé cette tâche… ? Qu'est-ce que vous avez apprécié ? Pas apprécié ? J'ai remarqué que…, pourriez-vous… ? »"
+      },
+      {
+        "id": "u08-quiz-q11",
+        "type": "qcm",
+        "question": "Que dit le facilitateur à l'étape **Expliquer** ?",
+        "choix": ["Qu'on va regarder des écrans ensemble, qu'il faut commenter à voix haute, qu'il prend des notes et que la session est enregistrée", "Que la personne doit être rapide", "Que la personne doit deviner ce que l'équipe a voulu faire", "Comment faire chaque tâche avant de commencer"],
+        "bonne": 0,
+        "notions": ["deroule-test"],
+        "explication": "« On va regarder ensemble des écrans […]. Pendant tout le test, je vous invite à commenter à voix haute […]. Je vais prendre des notes en même temps sur mon guide de test. La session sera enregistrée [audio / vidéo.] »"
+      },
+      {
+        "id": "u08-quiz-q12",
+        "type": "vf",
+        "question": "Mettre en place la salle fait partie de l'étape Préparer (avant).",
+        "bonne": true,
+        "notions": ["deroule-test"],
+        "explication": "Préparer : stratégie de recrutement, prototype, recruter, guide de test, salles et matériel, invitations, rappels, mettre en place la salle."
+      },
+      {
+        "id": "u08-quiz-q13",
+        "type": "ordre",
+        "question": "Remets dans l'ordre ces étapes de la synthèse.",
+        "items": ["Mettre en valeur les points-clés", "Prioriser les modifications", "Prise de décisions", "Implémentation", "Nouveau round de tests"],
+        "notions": ["apres-test"],
+        "explication": "Notes au propre, points-clés, rassembler, prioriser, débrief, décisions, plan d'action, implémentation, nouveau round de tests."
+      },
+      {
+        "id": "u08-quiz-q14",
+        "type": "qcm",
+        "question": "Révision · Pendant un test comme pendant une interview, lequel est un DON'T ?",
+        "choix": ["Orienter les réponses / influencer", "Écouter activement", "Reformuler", "Prendre des notes structurées"],
+        "bonne": 0,
+        "notions": ["interview-dos-donts", "deroule-test"],
+        "explication": "« Orienter les réponses / influencer » est un DON'T de l'interview, et le test reprend la même posture. Écoute active, reformuler, notes structurées : ce sont des concepts-clés du test (empathie)."
+      },
+      {
+        "id": "u08-quiz-q15",
+        "type": "qcm",
+        "question": "Révision · L'utilisabilité selon l'ISO 9241 regroupe trois critères. Lesquels retrouve-t-on dans le test utilisateur ?",
+        "choix": ["Efficacité, efficience, satisfaction", "Beauté, rapidité, prix", "Originalité, faisabilité, impact", "Visibilité, couleur, contraste"],
+        "bonne": 0,
+        "notions": ["utilisabilite", "test-utilisateur"],
+        "explication": "« Efficacité ? Efficience ? Satisfaction ? » : ce sont les critères de l'utilisabilité (ISO 9241), qu'on observe pendant le test."
+      },
+      {
+        "id": "u08-quiz-q16",
+        "type": "qcm",
+        "question": "Révision · Dans la mise en situation du test, la personne se met « dans la peau de » qui ?",
+        "choix": ["Du persona", "Du chef de projet", "Du développeur", "Du facilitateur"],
+        "bonne": 0,
+        "notions": ["persona", "deroule-test"],
+        "explication": "« Pour ce test, on va se mettre dans la peau de… [persona.] » Le persona, archétype fictif basé sur des utilisateurs réels, reste la boussole jusqu'au test."
+      }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u08-b1",
+      "titre": "Le jour du test",
+      "source": "Étude de cas d'après le cours 6.1 (Tests utilisateurs) et le template de scénario de tests utilisateurs",
+      "notions": ["deroule-test", "scenario-de-test", "apres-test", "guerilla-testing", "test-utilisateur"],
+      "cartes": [
+        {
+          "titre": "La mission de Proto",
+          "texte": "La bibliothèque municipale lance **Biblio+**, une appli pour réserver et prolonger ses livres. L'équipe a un **prototype cliquable** et un persona : **Lina**, 34 ans, infirmière à horaires décalés, qui passe à la bibliothèque entre deux services.\n\nProto, le renard, organise le **test utilisateur** avec le template du cours. À toi de l'aider : préparer, dérouler l'agenda, éviter les erreurs, choisir les bonnes questions, puis donner la suite."
+        }
+      ],
+      "seuil": 0.8,
+      "questions": [
+        {
+          "id": "u08-b1-q1",
+          "type": "qcm",
+          "question": "Combien de participants Proto recrute-t-il pour ce premier round ?",
+          "choix": ["5, puis un nouveau round après les corrections", "1 seul : son collègue de l'équipe", "50, pour tout trouver d'un coup", "Aucun : les analytics de l'ancienne appli suffisent"],
+          "bonne": 0,
+          "notions": ["test-utilisateur"],
+          "explication": "5 utilisateurs réels permettent d'identifier 80 % des problèmes ergonomiques ; on corrige, puis on refait un round de tests."
+        },
+        {
+          "id": "u08-b1-q2",
+          "type": "ordre",
+          "question": "Proto prépare (avant). Remets ses tâches dans l'ordre du cours.",
+          "items": ["Mettre en place une stratégie de recrutement (profils et rétribution)", "Préparer le prototype", "Recruter les participants", "Préparer le guide de test", "Réserver les salles et le matériel", "Envoyer les invitations", "Envoyer les rappels", "Mettre en place la salle"],
+          "notions": ["deroule-test"],
+          "explication": "C'est l'ordre du schéma « Préparer (avant) » du cours."
+        },
+        {
+          "id": "u08-b1-q3",
+          "type": "ordre",
+          "question": "Le jour J : remets l'agenda du test dans l'ordre.",
+          "items": ["Accueillir", "Expliquer", "Rassurer", "Démarrer", "Mettre en situation", "Réaliser la tâche #n", "Débriefer la tâche #n", "Mesurer", "Finaliser", "Dialoguer", "Remercier"],
+          "notions": ["deroule-test"],
+          "explication": "Les étapes 2 à 12 de l'agenda, entre Préparer (avant) et Synthétiser (après)."
+        },
+        {
+          "id": "u08-b1-q4",
+          "type": "assoc",
+          "question": "Associe chaque phrase du guide de Proto à son étape.",
+          "paires": [["« Il s'agit d'un prototype : ce n'est pas vraiment fonctionnel. »", "Démarrer"], ["« Pour ce test, on va se mettre dans la peau de Lina, infirmière à horaires décalés. »", "Mettre en situation"], ["« Vous voulez prolonger votre prêt. A partir de cet écran, que feriez-vous ? »", "Réaliser la tâche"], ["« Globalement, qu'avez-vous pensé de ces écrans ? »", "Mesurer"], ["« Est-ce que vous souhaitez rester informé/e des prochaines étapes du projet ? »", "Remercier"]],
+          "notions": ["deroule-test"],
+          "explication": "Démarrer : prévenir que c'est un prototype. Mettre en situation : le persona. Réaliser : la tâche et « que feriez-vous ? ». Mesurer : le bilan global. Remercier : la suite du projet et la rétribution."
+        },
+        {
+          "id": "u08-b1-q5",
+          "type": "tri",
+          "question": "Le stagiaire de la bibliothèque a écrit son propre guide. Qu'est-ce qui suit le cours, et qu'est-ce qui cloche ?",
+          "categories": ["Conforme au cours", "Erreur"],
+          "items": [["« Ce sont les écrans qu'on teste, pas vous. »", 0], ["« On va voir si vous êtes à l'aise avec les applis. »", 1], ["« Pour prolonger, c'est l'icône en haut à droite. »", 1], ["« Pensez à bien commenter ce que vous faites et ce que vous pensez. »", 0], ["« Quelle couleur préférez-vous pour le logo ? » (pendant une tâche)", 1], ["« Vos commentaires resteront anonymes. »", 0]],
+          "notions": ["deroule-test", "guerilla-testing"],
+          "explication": "Erreurs : tester la personne (on teste les écrans), orienter vers la réponse (on demande « que feriez-vous ? »), récolter des avis subjectifs pendant les tâches (« Eviter les retours subjectifs ou les avis personnels ! »)."
+        },
+        {
+          "id": "u08-b1-q6",
+          "type": "tri",
+          "question": "Range les questions du scénario de test de Biblio+ dans leur section.",
+          "categories": ["Introduction", "Contexte", "Tâches", "Spécifiques", "Subjectives"],
+          "items": [["Nom et prénom", 0], ["Combien de fois par mois venez-vous à la bibliothèque ?", 1], ["La réservation a-t-elle réussi ? Quelles difficultés ?", 2], ["Saviez-vous qu'on peut être averti quand un livre revient ?", 3], ["Que souhaiteriez-vous dans une prochaine version ?", 4]],
+          "notions": ["scenario-de-test"],
+          "explication": "Introduction : nom, rôle. Contexte : fréquence d'utilisation. Tâches : réussite et difficultés. Spécifiques : « Saviez-vous que… ? ». Subjectives : souhaits pour la suite."
+        },
+        {
+          "id": "u08-b1-q7",
+          "type": "qcm",
+          "question": "Pendant la tâche « réserver un livre », une participante cherche longtemps le bouton, puis réussit. Que fait Proto à l'étape **Débriefer la tâche** ?",
+          "choix": ["« J'ai remarqué que vous avez cherché un moment, pourriez-vous m'en dire plus ? »", "Il lui montre où était le bouton, pour qu'elle sache", "Il ne dit rien : elle a réussi, donc il n'y a pas de problème", "Il lui demande si elle se trouve douée avec les applis"],
+          "bonne": 0,
+          "notions": ["deroule-test"],
+          "explication": "Débriefer : « J'ai remarqué que… [constat], pourriez-vous… [approfondissement.] » Une hésitation est un problème à comprendre, même si la tâche est réussie. Et on ne teste pas la personne."
+        },
+        {
+          "id": "u08-b1-q8",
+          "type": "ordre",
+          "question": "Les 5 tests sont faits. Remets la synthèse dans l'ordre.",
+          "items": ["Après chaque entretien, mettre les notes au propre", "Mettre en valeur les points-clés", "Rassembler les notes", "Prioriser les modifications", "Réunion de débrief", "Prise de décisions", "Elaboration d'un plan d'action", "Implémentation", "Nouveau round de tests"],
+          "notions": ["apres-test"],
+          "explication": "C'est l'ordre du schéma « Synthétiser (après) » : la boucle se termine par un nouveau round de tests."
+        }
+      ]
+    }
+  ]
 }

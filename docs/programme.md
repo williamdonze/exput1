@@ -121,7 +121,7 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Notions des unités précédentes à revoir : prototype, persona, interview-dos-donts, utilisabilite
 - Leçons : 1. Pourquoi tester (et avec combien d'utilisateurs) 2. Le scénario de test 3. Les 13 étapes du test (1 à 6) 4. Les 13 étapes du test (7 à 13) et après 5. Mélange
 - Boss : étude de cas « Le jour du test » : avec le template du cours, préparer le test d'une appli (autre domaine) : remettre l'agenda dans l'ordre, associer chaque phrase du facilitateur à son étape, repérer les erreurs (orienter, tester la personne, avis subjectifs), choisir les bonnes questions par section, puis prioriser les suites
-- État : à écrire
+- État : écrite, testée
 
 ## u09 — Examen blanc
 - Objectif : s'entraîner à l'« Examen théorique sur table » : des questions de toutes les unités, sans indice.
