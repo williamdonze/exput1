@@ -1,0 +1,56 @@
+{
+  "id": "u07",
+  "titre": "Prototype",
+  "sousTitre": "Cours 5.1",
+  "objectif": "",
+  "icone": "",
+  "fiches": [],
+  "lecons": [
+    {
+      "id": "u07-l1",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u07-l2",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u07-l3",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u07-l4",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u07-l5",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    }
+  ],
+  "jeux": [],
+  "quiz": {
+    "titre": "Quiz : Prototype",
+    "questions": []
+  },
+  "boss": []
+}

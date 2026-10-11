@@ -1,0 +1,24 @@
+{
+  "id": "u09",
+  "titre": "Examen blanc",
+  "sousTitre": "Examen théorique sur table",
+  "objectif": "",
+  "icone": "",
+  "fiches": [],
+  "lecons": [
+    {
+      "id": "u09-l1",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    }
+  ],
+  "jeux": [],
+  "quiz": {
+    "titre": "Quiz : Examen blanc",
+    "questions": []
+  },
+  "boss": []
+}

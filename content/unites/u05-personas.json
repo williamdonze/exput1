@@ -1,0 +1,56 @@
+{
+  "id": "u05",
+  "titre": "Personas et design inclusif",
+  "sousTitre": "Focus personas, UX Conf",
+  "objectif": "",
+  "icone": "",
+  "fiches": [],
+  "lecons": [
+    {
+      "id": "u05-l1",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u05-l2",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u05-l3",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u05-l4",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u05-l5",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    }
+  ],
+  "jeux": [],
+  "quiz": {
+    "titre": "Quiz : Personas et design inclusif",
+    "questions": []
+  },
+  "boss": []
+}

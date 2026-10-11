@@ -1,0 +1,48 @@
+{
+  "id": "u01",
+  "titre": "Qu'est-ce que l'UX ?",
+  "sousTitre": "Cours 1.1 et 1.2",
+  "objectif": "",
+  "icone": "",
+  "fiches": [],
+  "lecons": [
+    {
+      "id": "u01-l1",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u01-l2",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u01-l3",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u01-l4",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    }
+  ],
+  "jeux": [],
+  "quiz": {
+    "titre": "Quiz : Qu'est-ce que l'UX ?",
+    "questions": []
+  },
+  "boss": []
+}

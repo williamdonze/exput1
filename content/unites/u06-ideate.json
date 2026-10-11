@@ -1,0 +1,56 @@
+{
+  "id": "u06",
+  "titre": "Ideate",
+  "sousTitre": "Cours 4.1, Petit manuel anti page blanche",
+  "objectif": "",
+  "icone": "",
+  "fiches": [],
+  "lecons": [
+    {
+      "id": "u06-l1",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u06-l2",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u06-l3",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u06-l4",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u06-l5",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    }
+  ],
+  "jeux": [],
+  "quiz": {
+    "titre": "Quiz : Ideate",
+    "questions": []
+  },
+  "boss": []
+}

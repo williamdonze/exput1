@@ -1,0 +1,56 @@
+{
+  "id": "u04",
+  "titre": "Define : HMW et empathy map",
+  "sousTitre": "Cours 3.1, Focus empathy map",
+  "objectif": "",
+  "icone": "",
+  "fiches": [],
+  "lecons": [
+    {
+      "id": "u04-l1",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u04-l2",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u04-l3",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u04-l4",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    },
+    {
+      "id": "u04-l5",
+      "titre": "",
+      "duree": 5,
+      "notions": [],
+      "cartes": [],
+      "exercices": []
+    }
+  ],
+  "jeux": [],
+  "quiz": {
+    "titre": "Quiz : Define : HMW et empathy map",
+    "questions": []
+  },
+  "boss": []
+}
