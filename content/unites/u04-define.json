@@ -2,55 +2,1680 @@
   "id": "u04",
   "titre": "Define : HMW et empathy map",
   "sousTitre": "Cours 3.1, Focus empathy map",
-  "objectif": "",
-  "icone": "",
-  "fiches": [],
+  "objectif": "Formuler et juger un HMW (« Comment pourrait-on… de manière à… »), organiser la recherche utilisateurs et construire une empathy map.",
+  "icone": "3.1",
+  "fiches": [
+    {
+      "id": "hmw",
+      "titre": "Le HMW : How might we… so that",
+      "icone": "HMW",
+      "resume": "Exprimer le problème de départ sous la forme « How might we... so that », ou « Comment pourrait-on... de manière à ».",
+      "analogie": "Le zoom de l'appareil photo : trop large, on ne voit rien de précis (« sauver la planète ») ; trop serré, on ne voit qu'un détail et la solution est déjà dans le cadre (« la voiture, par l'autoroute, à 9 h ») ; le bon HMW cadre juste.",
+      "texte": "**HMW statement : comment pourrait-on ?** Les designers aiment exprimer les problèmes de départ (problem statement) sous cette forme : **How might we... so that**, ou **Comment pourrait-on... de manière à**.\n\nSe forcer à exprimer le problème de départ sous cette forme, très rapidement dans le processus de conception, permet à l'équipe de **s'aligner** sur le problème qu'on va tâcher de résoudre, et de garantir l'efficacité de la démarche.\n\nLe HMW (pour les intimes) doit être **assez précis** pour initier une démarche utile, mais **pas trop précis** pour ne pas enfermer la réflexion. C'est un juste équilibre à trouver.\n\n**La forme du problème** :\n- Focus sur le problème : subjectif, individuel, bloqué\n- Focus sur sa résolution : analytique, collectif, constructif\n\n**Aller au travail ?** Plus le problème est précis, moins il y a d'idées qui peuvent le résoudre :\n- « Aller au travail ? » : trop vague, trop d'idées, difficile de faire le tri\n- « Aller de la maison au travail de la manière la plus efficiente possible sans devoir se lever trop tôt ? » : équilibre entre précision et ouverture\n- « Utiliser la voiture pour me rendre au travail en prenant l'autoroute et en partant à 9h du matin ? » : trop précis et déjà orienté sur la solution, pas de place pour de nouvelles idées\n\nLe HMW relève de l'étape 2 du [[design-thinking]] : **Define**.",
+      "exemples": [
+        {
+          "note": "Bon exemple : « Comment pourrait-on changer la perception de la nature de manière à ce que les citadins se sentent impliqués dans sa protection ? »"
+        },
+        {
+          "note": "Bon exemple : « Comment pourrait-on simplifier le processus de maintenance des ordinateurs pour que les pannes soient résolues plus rapidement ? »"
+        },
+        {
+          "note": "Bon exemple : « Comment pourrait-on améliorer notre application de manière à ce que les utilisateurs soient plus engagés et interactifs ? »"
+        }
+      ],
+      "pieges": [
+        "Trop général : « Comment pourrait-on sauver la planète de manière à ce qu'on puisse y vivre ? »",
+        "Trop précis : « Comment pourrait-on améliorer le processus de maintenance de la machine ABC-123-ZY de manière à ce que les opérateurs de pose gagnent 10 secondes par opération ? »",
+        "La solution est déjà exprimée dans la question, pas de problème à résoudre : « Comment pourrait-on implémenter le nouveau système de recherche intelligente de manière à ce que les utilisateurs trouvent le contenu plus facilement ? »"
+      ]
+    },
+    {
+      "id": "recherche-utilisateurs",
+      "titre": "La recherche utilisateurs : récolter les informations",
+      "icone": "R",
+      "resume": "Temps 1 de l'empathy map : récolter les informations, par une recherche « anonyme », de masse, puis une recherche personnalisée.",
+      "analogie": "Le reporter : « imaginez que vous êtes journaliste, reporter ou que vous souhaitez écrire un livre sur l'histoire de cette personne ». Proto, le renard, part en reportage : il écoute, observe, prend des notes structurées.",
+      "texte": "**Temps 1 : Recherche utilisateurs : récolter les informations**\n\n**1. Recherche « anonyme », de masse** (voir [[donnees-publiques]]) :\n- Données publiques (avis, blogs, commentaires, etc.)\n- Forums (Reddit, Quora, Facebook groups, etc.)\n- Presse (portraits, interviews, reportages, etc.)\n- Médias et réseaux sociaux (Youtube, TikTok, Instagram, etc.)\n- Recherche scientifique (Perplexity, mémoires, thèses, etc.)\n- Veille (Google Alerts)\n\n**2. Recherche personnalisée** :\n1. Identification des types de profils (mindmap, stakeholder analysis)\n2. [[interview|Interviews]]\n3. Panels, focus groups\n4. [[journal-de-bord|Journaux de bord]]\n5. [[observation-ethnographique|Observations ethnographiques]]\n\n**Quelques conseils** :\n- Rassemblez toutes vos notes de manière structurée dans un même endroit où vous pourrez faire des recherches\n- Ne négligez pas les contenus visuels (images, vidéos) ou audio (podcasts, interviews), qui véhiculent beaucoup d'empathie et d'émotions\n- Commencez par utiliser des « proxies », c'est-à-dire des personnes qui connaissent bien les profils qui vous intéressent mais sont plus faciles d'accès (associations, journalistes, business analysist, etc.)\n- Demandez toujours à chaque personne que vous interviewez ou rencontrez d'autres contacts pour continuer votre recherche\n- Faites preuve d'[[empathie]] et d'écoute active (voir le cours sur les interviews)\n- Posture : imaginez que vous êtes journaliste, reporter ou que vous souhaitez écrire un livre sur l'histoire de cette personne",
+      "pieges": [
+        "La recherche « anonyme », de masse (données publiques, forums, presse…) n'est pas la recherche personnalisée (interviews, panels, journaux de bord, observations).",
+        "Un « proxy » n'est pas un utilisateur : c'est une personne qui connaît bien les profils qui t'intéressent, mais plus facile d'accès (associations, journalistes, business analysist…).",
+        "Les contenus visuels et audio ne sont pas à négliger : ils véhiculent beaucoup d'empathie et d'émotions."
+      ]
+    },
+    {
+      "id": "empathy-map",
+      "titre": "L'empathy map (carte d'empathie)",
+      "icone": "EM",
+      "resume": "Un livrable intermédiaire de la recherche utilisateur, qui permet de synthétiser ce qu'une personne doit faire, voit, dit, fait, entend, etc. et ainsi de pouvoir se mettre véritablement à sa place.",
+      "analogie": "Le reporter : après le reportage, il range ses notes dans un carnet structuré ; l'empathy map est ce carnet, une case pour ce que la personne voit, dit, fait, entend, pense et ressent.",
+      "texte": "La **carte d'empathie** est un livrable intermédiaire de la recherche utilisateur, qui permet de synthétiser ce qu'une personne doit faire, voit, dit, fait, entend, etc. et ainsi de pouvoir se mettre véritablement à sa place.\n\n- Elle peut être remplie à plusieurs, lors d'un workshop avec des personnes qui connaissent bien les utilisateurs, ou de manière incrémentale, pour récapituler les données issues d'[[interview|interviews]] ou d'[[observation-ethnographique|observations ethnographiques]].\n- Elle peut être complémentaire aux [[persona|personas]], ou en être la base de travail.\n- Selon les projets ou les produits, on peut remplacer les zones.\n\n**Quoi ?** Décrire une personne en complétant un template favorisant l'[[empathie]], c'est-à-dire la capacité à se mettre à sa place, en décrivant ce qu'elle perçoit et ressent.\n- Une intro : qui est la personne ? Quels sont ses objectifs ?\n- Ce qu'elle **perçoit** : ce qu'elle dit, fait, entend, voit\n- Ce qu'elle **ressent** : ce qu'elle ressent, pense\n\n**Le template de Dave Gray (xplane), Empathy Map Canvas** : 7 zones.\n1. **WHO** are we empathizing with? Qui est la personne, dans quelle situation, avec quel rôle ?\n2. What do they need to **DO**? (GOAL) Ce qu'elle doit faire, faire autrement, les décisions à prendre, comment savoir qu'elle a réussi\n3. What do they **SEE**? Le marché, son environnement immédiat, ce que les autres disent et font, ce qu'elle regarde et lit\n4. What do they **SAY**? Ce qu'on l'a entendue dire, ce qu'on peut l'imaginer dire\n5. What do they **DO**? Ce qu'elle fait aujourd'hui, le comportement observé, ce qu'on peut l'imaginer faire\n6. What do they **HEAR**? Ce qu'elle entend les autres dire, ses amis, ses collègues, de seconde main\n7. What do they **THINK and FEEL**? **PAINS** : ses peurs, frustrations et anxiétés ; **GAINS** : ses envies, besoins, espoirs et rêves\n\n**Un exemple illustré** : David, Français expatrié en Ukraine.",
+      "pieges": [
+        "Deux zones « DO » : la 2 (need to DO, le but : ce qu'elle doit faire) et la 5 (DO : ce qu'elle fait aujourd'hui, le comportement observé).",
+        "PAINS = peurs, frustrations, anxiétés ; GAINS = envies, besoins, espoirs, rêves : tous deux dans la zone 7, THINK and FEEL.",
+        "L'empathy map n'est pas un persona : elle peut le compléter, ou en être la base de travail.",
+        "Les zones ne sont pas figées : selon les projets ou les produits, on peut les remplacer."
+      ]
+    },
+    {
+      "id": "empathy-map-processus",
+      "titre": "Construire une empathy map : le processus",
+      "icone": "1→5",
+      "resume": "Sujet central, mind-map, parties prenantes, écouter, synthétiser : du sujet de recherche à l'empathy map.",
+      "analogie": "Le reporter : il choisit son sujet, fait le tour de la question, repère qui interroger, écoute, puis écrit son article.",
+      "texte": "**Processus** :\n1. Identifier le sujet central de votre recherche\n2. Faites le tour de la question : à quoi ça vous fait penser ? (mind-map)\n3. Identifiez les parties prenantes, les personnes qui apparaissent dans votre mind-map\n4. Écoutez ce que disent les parties prenantes sur ce sujet (interviews, panels, forums, etc.)\n5. Synthétisez ce que vous avez appris sous forme d'une empathy map\n\n**Comment ?** En deux temps :\n- **Temps 1** : [[recherche-utilisateurs|Recherche utilisateurs]] : récolter les informations\n- **Temps 2** : Template [[empathy-map]], synthétiser les indices (peut être fait de manière collaborative en atelier)\n\n**Pas forcément une empathy map par personne** : utilisez des codes-couleur par type de profil par exemple (en phase de recherche, préférez un espace de travail illimité à la template PDF).",
+      "pieges": [
+        "On ne commence pas par remplir le template : d'abord le sujet central, la mind-map, les parties prenantes et l'écoute ; l'empathy map vient en dernier, pour synthétiser.",
+        "Pas forcément une empathy map par personne : des codes-couleur par type de profil font l'affaire.",
+        "En phase de recherche, le cours conseille un espace de travail illimité plutôt que la template PDF."
+      ]
+    }
+  ],
   "lecons": [
     {
       "id": "u04-l1",
-      "titre": "",
+      "titre": "Le HMW : cadrer le problème",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "hmw"
+      ],
+      "cartes": [
+        {
+          "titre": "Étape 2 : Define",
+          "texte": "Après **Empathize** (comprendre nos utilisateurs et leur environnement), voici l'étape 2 du [[design-thinking]] : **Define**, reformuler le problème et ses caractéristiques.\n\nSon outil phare : le **HMW statement**.",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "How might we… so that",
+          "texte": "Les designers aiment exprimer les problèmes de départ (problem statement) sous cette forme : **How might we... so that**, ou **Comment pourrait-on... de manière à**.\n\nExemple : « Comment pourrait-on simplifier le processus de maintenance des ordinateurs pour que les pannes soient résolues plus rapidement ? »",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "Pourquoi si tôt ?",
+          "texte": "Se forcer à exprimer le problème de départ sous cette forme, **très rapidement** dans le processus de conception, permet à l'équipe de **s'aligner** sur le problème qu'on va tâcher de résoudre, et de garantir l'efficacité de la démarche.",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "Un juste équilibre",
+          "texte": "Le HMW (pour les intimes) doit être **assez précis** pour initier une démarche utile, mais **pas trop précis** pour ne pas enfermer la réflexion. C'est un juste équilibre à trouver.",
+          "analogie": "Le zoom de l'appareil photo : le bon HMW cadre juste, ni trop large ni trop serré.",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "Problème ou résolution ?",
+          "texte": "Le HMW change la forme du problème :\n- **Focus sur le problème** : subjectif, individuel, bloqué\n- **Focus sur sa résolution** : analytique, collectif, constructif",
+          "astuce": "Le HMW fait passer l'équipe du côté de la résolution : collectif et constructif.",
+          "fiche": "hmw"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u04-l1-e1",
+          "type": "qcm",
+          "question": "Sous quelle forme les designers aiment-ils exprimer le problème de départ ?",
+          "choix": [
+            "How might we... so that (Comment pourrait-on... de manière à)",
+            "As a user, I want... (En tant qu'utilisateur, je veux...)",
+            "Why... because (Pourquoi... parce que)"
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "HMW statement : **How might we... so that**, ou **Comment pourrait-on... de manière à**."
+        },
+        {
+          "id": "u04-l1-e2",
+          "type": "vf",
+          "question": "Le HMW s'exprime à la fin du processus de conception, une fois les idées trouvées.",
+          "bonne": false,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Au contraire : **très rapidement dans le processus de conception**, pour que l'équipe s'aligne sur le problème qu'on va tâcher de résoudre."
+        },
+        {
+          "id": "u04-l1-e3",
+          "type": "qcm",
+          "question": "Qu'apporte à l'équipe le fait d'exprimer tôt le problème sous forme de HMW ?",
+          "choix": [
+            "Elle s'aligne sur le problème à résoudre et garantit l'efficacité de la démarche",
+            "Elle connaît déjà la solution à développer",
+            "Elle peut se passer de la recherche utilisateurs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Le HMW permet à l'équipe de **s'aligner** sur le problème qu'on va tâcher de résoudre, et de garantir l'efficacité de la démarche."
+        },
+        {
+          "id": "u04-l1-e4",
+          "type": "tri",
+          "question": "Range ces qualificatifs : focus sur le problème ou focus sur sa résolution ?",
+          "categories": [
+            "Focus sur le problème",
+            "Focus sur sa résolution"
+          ],
+          "items": [
+            [
+              "Subjectif",
+              0
+            ],
+            [
+              "Individuel",
+              0
+            ],
+            [
+              "Bloqué",
+              0
+            ],
+            [
+              "Analytique",
+              1
+            ],
+            [
+              "Collectif",
+              1
+            ],
+            [
+              "Constructif",
+              1
+            ]
+          ],
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Slide « HMW statement : la forme du problème » : problème = subjectif, individuel, bloqué ; résolution = analytique, collectif, constructif."
+        },
+        {
+          "id": "u04-l1-e5",
+          "type": "qcm",
+          "question": "Une équipe qui conçoit l'appli d'une bibliothèque municipale hésite. Lequel de ces énoncés a la forme d'un HMW ?",
+          "choix": [
+            "Comment pourrait-on faciliter l'emprunt de livres de manière à ce que les lecteurs pressés passent plus souvent ?",
+            "Les lecteurs pressés ne viennent plus à la bibliothèque.",
+            "Il faut une borne d'emprunt automatique à l'entrée."
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Seul le premier suit la forme **Comment pourrait-on... de manière à**. Le deuxième est un constat (focus sur le problème), le troisième une solution."
+        },
+        {
+          "id": "u04-l1-e6",
+          "type": "vf",
+          "question": "Un HMW doit être le plus précis possible.",
+          "bonne": false,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Assez précis pour initier une démarche utile, mais **pas trop précis** pour ne pas enfermer la réflexion : un juste équilibre à trouver. Comme le zoom de l'appareil photo : ni trop large ni trop serré."
+        }
+      ]
     },
     {
       "id": "u04-l2",
-      "titre": "",
+      "titre": "Trop vague, trop précis, déjà la solution",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "hmw"
+      ],
+      "cartes": [
+        {
+          "titre": "Aller au travail ?",
+          "texte": "Le cours place les HMW sur deux axes : la **précision du problème** et la **quantité d'idées** qui peuvent le résoudre.\n\n« **Aller au travail ?** » : trop vague, trop d'idées, difficile de faire le tri.",
+          "analogie": "Le zoom de l'appareil photo, réglé trop large : tout le paysage est dans le cadre, rien n'est net.",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "Le bon cadrage",
+          "texte": "« Aller de la maison au travail de la manière la plus efficiente possible sans devoir se lever trop tôt ? »\n\n**Équilibre entre précision et ouverture.**",
+          "analogie": "Le zoom réglé juste : on voit le sujet, et il reste de la place autour.",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "Trop serré",
+          "texte": "« Utiliser la voiture pour me rendre au travail en prenant l'autoroute et en partant à 9h du matin ? »\n\n**Trop précis et déjà orienté sur la solution** : pas de place pour de nouvelles idées.",
+          "analogie": "Le zoom réglé trop serré : on ne voit qu'un détail, et la solution (la voiture, l'autoroute, 9 h) est déjà dans le cadre.",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "Les trois défauts",
+          "texte": "Les moins bons exemples de HMW du cours :\n- **Trop général** : « Comment pourrait-on sauver la planète de manière à ce qu'on puisse y vivre ? »\n- **Trop précis** : « … la machine ABC-123-ZY de manière à ce que les opérateurs de pose gagnent 10 secondes par opération ? »\n- **La solution est déjà exprimée** dans la question, pas de problème à résoudre : « Comment pourrait-on implémenter le nouveau système de recherche intelligente… ? »",
+          "piege": "Un nom de technologie ou de fonctionnalité dans le HMW (« implémenter le nouveau système de… ») : la solution est déjà choisie.",
+          "fiche": "hmw"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u04-l2-e1",
+          "type": "ordre",
+          "question": "Range ces HMW du plus vague au plus précis (schéma « Aller au travail »).",
+          "items": [
+            "Aller au travail ?",
+            "Aller de la maison au travail de la manière la plus efficiente possible sans devoir se lever trop tôt ?",
+            "Utiliser la voiture pour me rendre au travail en prenant l'autoroute et en partant à 9h du matin ?"
+          ],
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Plus le problème est précis, moins il y a d'idées pour le résoudre : trop vague, puis équilibre entre précision et ouverture, puis trop précis et déjà orienté sur la solution."
+        },
+        {
+          "id": "u04-l2-e2",
+          "type": "assoc",
+          "question": "Associe chaque HMW du cours à son défaut.",
+          "paires": [
+            [
+              "Sauver la planète de manière à ce qu'on puisse y vivre",
+              "Trop général"
+            ],
+            [
+              "Améliorer la maintenance de la machine ABC-123-ZY pour gagner 10 secondes par opération",
+              "Trop précis"
+            ],
+            [
+              "Implémenter le nouveau système de recherche intelligente",
+              "Solution déjà exprimée"
+            ]
+          ],
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Les trois « moins bons exemples de HMW » du Cours 3.1 : trop général, trop précis, et la solution déjà exprimée dans la question."
+        },
+        {
+          "id": "u04-l2-e3",
+          "type": "tri",
+          "question": "Une équipe travaille sur la cantine d'une école. Range ses HMW.",
+          "categories": [
+            "Trop vague",
+            "Équilibré",
+            "Déjà la solution"
+          ],
+          "items": [
+            [
+              "Comment pourrait-on améliorer l'alimentation ?",
+              0
+            ],
+            [
+              "Comment pourrait-on rendre le monde plus sain ?",
+              0
+            ],
+            [
+              "Comment pourrait-on réduire l'attente au self de manière à ce que les élèves aient le temps de manger calmement ?",
+              1
+            ],
+            [
+              "Comment pourrait-on installer des bornes de commande tactiles de manière à ce que les élèves commandent plus vite ?",
+              2
+            ],
+            [
+              "Comment pourrait-on créer une appli de précommande avec paiement par QR code ?",
+              2
+            ]
+          ],
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Le HMW équilibré laisse place à plusieurs idées (horaires décalés, nouvelle disposition, précommande…). Bornes et appli : la solution est déjà choisie. « L'alimentation », « le monde » : trop d'idées, difficile de faire le tri."
+        },
+        {
+          "id": "u04-l2-e4",
+          "type": "qcm",
+          "question": "« Comment pourrait-on ajouter un chatbot à notre site de manière à ce que les clients obtiennent des réponses plus vite ? » Qu'est-ce qui cloche ?",
+          "choix": [
+            "La solution est déjà exprimée dans la question : pas de problème à résoudre",
+            "Il est trop général",
+            "Il n'a pas la forme « de manière à »"
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Le chatbot est une solution : comme « implémenter le nouveau système de recherche intelligente » dans le cours. Recadré sur le problème : « Comment pourrait-on aider les clients à obtenir des réponses plus vite… »."
+        },
+        {
+          "id": "u04-l2-e5",
+          "type": "vf",
+          "question": "Plus un HMW est vague, plus il y a d'idées qui peuvent le résoudre, au point qu'il devient difficile de faire le tri.",
+          "bonne": true,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "« Aller au travail ? » : trop vague, trop d'idées, difficile de faire le tri."
+        },
+        {
+          "id": "u04-l2-e6",
+          "type": "qcm",
+          "question": "Quel HMW pour un club de sport de quartier cadre juste (ni trop large, ni trop serré) ?",
+          "choix": [
+            "Comment pourrait-on faciliter l'inscription aux cours de manière à ce que les nouveaux membres reviennent la deuxième semaine ?",
+            "Comment pourrait-on rendre les gens heureux ?",
+            "Comment pourrait-on envoyer un SMS de rappel le lundi à 18 h de manière à ce que les membres du cours de yoga de la salle B viennent ?"
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Le premier est assez précis pour démarrer et assez ouvert pour beaucoup d'idées. Le deuxième est trop général ; le troisième est trop précis et contient déjà la solution (le SMS)."
+        },
+        {
+          "id": "u04-l2-e7",
+          "type": "qcm",
+          "question": "Pourquoi un HMW trop précis est-il un problème ?",
+          "choix": [
+            "Il enferme la réflexion : pas de place pour de nouvelles idées",
+            "Il donne trop d'idées à trier",
+            "Il empêche l'équipe de s'aligner"
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Pas trop précis « pour ne pas enfermer la réflexion » ; trop précis et déjà orienté sur la solution : pas de place pour de nouvelles idées."
+        }
+      ]
     },
     {
       "id": "u04-l3",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Récolter : la recherche utilisateurs",
+      "duree": 6,
+      "notions": [
+        "recherche-utilisateurs",
+        "empathy-map-processus"
+      ],
+      "cartes": [
+        {
+          "titre": "Le processus",
+          "texte": "Pour construire une empathy map :\n1. Identifier le sujet central de votre recherche\n2. Faites le tour de la question : à quoi ça vous fait penser ? (mind-map)\n3. Identifiez les parties prenantes, les personnes qui apparaissent dans votre mind-map\n4. Écoutez ce que disent les parties prenantes sur ce sujet (interviews, panels, forums, etc.)\n5. Synthétisez ce que vous avez appris sous forme d'une empathy map",
+          "fiche": "empathy-map-processus"
+        },
+        {
+          "titre": "Deux temps",
+          "texte": "- **Temps 1** : recherche utilisateurs, récolter les informations\n- **Temps 2** : template empathy map, synthétiser les indices (peut être fait de manière collaborative en atelier)",
+          "fiche": "empathy-map-processus"
+        },
+        {
+          "titre": "Recherche « anonyme », de masse",
+          "texte": "- Données publiques (avis, blogs, commentaires, etc.)\n- Forums (Reddit, Quora, Facebook groups, etc.)\n- Presse (portraits, interviews, reportages, etc.)\n- Médias et réseaux sociaux (Youtube, TikTok, Instagram, etc.)\n- Recherche scientifique (Perplexity, mémoires, thèses, etc.)\n- Veille (Google Alerts)",
+          "fiche": "recherche-utilisateurs"
+        },
+        {
+          "titre": "Recherche personnalisée",
+          "texte": "1. Identification des types de profils (mindmap, stakeholder analysis)\n2. Interviews\n3. Panels, focus groups\n4. Journaux de bord\n5. Observations ethnographiques",
+          "fiche": "recherche-utilisateurs"
+        },
+        {
+          "titre": "Quelques conseils",
+          "texte": "- Rassemblez toutes vos notes de manière structurée dans un même endroit\n- Ne négligez pas les contenus visuels ou audio, qui véhiculent beaucoup d'empathie et d'émotions\n- Commencez par des « proxies » : des personnes qui connaissent bien les profils qui vous intéressent mais sont plus faciles d'accès\n- Demandez toujours d'autres contacts\n- Faites preuve d'empathie et d'écoute active",
+          "fiche": "recherche-utilisateurs"
+        },
+        {
+          "titre": "La posture",
+          "texte": "« Imaginez que vous êtes **journaliste, reporter** ou que vous souhaitez écrire un livre sur l'histoire de cette personne. »",
+          "analogie": "Le reporter : Proto part en reportage, il écoute, observe, prend des notes structurées et demande toujours « qui d'autre devrais-je rencontrer ? ».",
+          "fiche": "recherche-utilisateurs"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u04-l3-e1",
+          "type": "ordre",
+          "question": "Remets dans l'ordre le processus de l'empathy map.",
+          "items": [
+            "Identifier le sujet central de votre recherche",
+            "Faire le tour de la question (mind-map)",
+            "Identifier les parties prenantes",
+            "Écouter ce que disent les parties prenantes",
+            "Synthétiser sous forme d'une empathy map"
+          ],
+          "notions": [
+            "empathy-map-processus"
+          ],
+          "explication": "Sujet central, mind-map, parties prenantes (les personnes qui apparaissent dans la mind-map), écoute (interviews, panels, forums…), puis synthèse en empathy map."
+        },
+        {
+          "id": "u04-l3-e2",
+          "type": "tri",
+          "question": "Une équipe étudie les personnes qui adoptent un chien pour la première fois. Range ses sources.",
+          "categories": [
+            "Recherche « anonyme », de masse",
+            "Recherche personnalisée"
+          ],
+          "items": [
+            [
+              "Lire les avis laissés sur les sites de refuges",
+              0
+            ],
+            [
+              "Parcourir un forum Reddit de nouveaux maîtres",
+              0
+            ],
+            [
+              "Mettre une Google Alert sur « adoption chien »",
+              0
+            ],
+            [
+              "Interviewer trois familles qui viennent d'adopter",
+              1
+            ],
+            [
+              "Demander à deux familles de tenir un journal de bord pendant un mois",
+              1
+            ],
+            [
+              "Accompagner une famille à sa première promenade (shadowing)",
+              1
+            ]
+          ],
+          "notions": [
+            "recherche-utilisateurs",
+            "observation-ethnographique"
+          ],
+          "explication": "De masse : données publiques, forums, presse, médias, recherche scientifique, veille. Personnalisée : profils, interviews, panels, journaux de bord, observations ethnographiques."
+        },
+        {
+          "id": "u04-l3-e3",
+          "type": "qcm",
+          "question": "Que sont les « proxies » de la recherche utilisateurs ?",
+          "choix": [
+            "Des personnes qui connaissent bien les profils qui t'intéressent, mais sont plus faciles d'accès",
+            "Des utilisateurs fictifs inventés par l'équipe",
+            "Des outils de veille automatique comme Google Alerts"
+          ],
+          "bonne": 0,
+          "notions": [
+            "recherche-utilisateurs"
+          ],
+          "explication": "« Commencez par utiliser des proxies, c'est-à-dire des personnes qui connaissent bien les profils qui vous intéressent mais sont plus faciles d'accès (associations, journalistes, business analysist, etc.) »"
+        },
+        {
+          "id": "u04-l3-e4",
+          "type": "vf",
+          "question": "On peut négliger les vidéos et les podcasts : seuls les textes comptent pour la recherche.",
+          "bonne": false,
+          "notions": [
+            "recherche-utilisateurs"
+          ],
+          "explication": "« Ne négligez pas les contenus visuels (images, vidéos) ou audio (podcasts, interviews), qui véhiculent beaucoup d'empathie et d'émotions. »"
+        },
+        {
+          "id": "u04-l3-e5",
+          "type": "qcm",
+          "question": "À la fin d'une interview, que conseille le cours de toujours demander ?",
+          "choix": [
+            "D'autres contacts pour continuer ta recherche",
+            "Une note sur 10 de l'interview",
+            "La solution que la personne imagine"
+          ],
+          "bonne": 0,
+          "notions": [
+            "recherche-utilisateurs"
+          ],
+          "explication": "« Demandez toujours à chaque personne que vous interviewez ou rencontrez d'autres contacts pour continuer votre recherche. » Comme un reporter qui remonte la piste."
+        },
+        {
+          "id": "u04-l3-e6",
+          "type": "qcm",
+          "question": "Quelle posture le cours recommande-t-il pour la recherche ?",
+          "choix": [
+            "Celle d'un journaliste, d'un reporter, ou de quelqu'un qui veut écrire un livre sur l'histoire de cette personne",
+            "Celle d'un vendeur qui présente son produit",
+            "Celle d'un juge qui évalue les réponses"
+          ],
+          "bonne": 0,
+          "notions": [
+            "recherche-utilisateurs"
+          ],
+          "explication": "« Posture : imaginez que vous êtes journaliste, reporter ou que vous souhaitez écrire un livre sur l'histoire de cette personne. »"
+        },
+        {
+          "id": "u04-l3-e7",
+          "type": "assoc",
+          "question": "Associe chaque temps à ce qu'on y fait.",
+          "paires": [
+            [
+              "Temps 1",
+              "Recherche utilisateurs : récolter les informations"
+            ],
+            [
+              "Temps 2",
+              "Template empathy map : synthétiser les indices"
+            ]
+          ],
+          "notions": [
+            "empathy-map-processus"
+          ],
+          "explication": "Temps 1 : récolter ; Temps 2 : synthétiser dans le template, éventuellement de manière collaborative en atelier."
+        }
+      ]
     },
     {
       "id": "u04-l4",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "L'empathy map",
+      "duree": 6,
+      "notions": [
+        "empathy-map"
+      ],
+      "cartes": [
+        {
+          "titre": "Un livrable intermédiaire",
+          "texte": "La **carte d'empathie** est un livrable intermédiaire de la recherche utilisateur, qui permet de synthétiser ce qu'une personne doit faire, voit, dit, fait, entend, etc. et ainsi de pouvoir se mettre véritablement à sa place.",
+          "analogie": "Le reporter : l'empathy map est son carnet de notes rangé, une case par type d'indice.",
+          "fiche": "empathy-map"
+        },
+        {
+          "titre": "Qui la remplit ?",
+          "texte": "- À plusieurs, lors d'un **workshop** avec des personnes qui connaissent bien les utilisateurs\n- Ou de manière **incrémentale**, pour récapituler les données issues d'interviews ou d'observations ethnographiques\n\nElle peut être complémentaire aux personas, ou en être la base de travail. Selon les projets ou les produits, on peut remplacer les zones.",
+          "fiche": "empathy-map"
+        },
+        {
+          "titre": "En 3 questions : quoi ?",
+          "texte": "Décrire une personne en complétant un template favorisant l'**empathie**, en décrivant ce qu'elle perçoit et ressent.\n- Une intro : qui est la personne ? Quels sont ses objectifs ?\n- Ce qu'elle **perçoit** : dit, fait, entend, voit\n- Ce qu'elle **ressent** : ressent, pense",
+          "fiche": "empathy-map"
+        },
+        {
+          "titre": "Le canvas de Dave Gray",
+          "texte": "1. **WHO** are we empathizing with?\n2. What do they need to **DO**? (GOAL)\n3. What do they **SEE**?\n4. What do they **SAY**?\n5. What do they **DO**?\n6. What do they **HEAR**?\n7. What do they **THINK and FEEL**? (PAINS et GAINS)",
+          "piege": "Deux « DO » : la zone 2 est le but (ce qu'elle doit faire), la zone 5 le comportement (ce qu'elle fait aujourd'hui).",
+          "fiche": "empathy-map"
+        },
+        {
+          "titre": "Pains et gains",
+          "texte": "Dans la zone 7, THINK and FEEL :\n- **PAINS** : What are their fears, frustrations, and anxieties? (peurs, frustrations, anxiétés)\n- **GAINS** : What are their wants, needs, hopes and dreams? (envies, besoins, espoirs, rêves)",
+          "fiche": "empathy-map"
+        },
+        {
+          "titre": "L'exemple de David",
+          "texte": "**David, Français expatrié en Ukraine** (WHO).\n- Need to DO : mettre sa famille en sécurité, fuir la guerre, reconstruire sa vie, lutter à sa manière\n- SEE : la maison qu'il a dû quitter, le AirBnB où sa famille est installée\n- HEAR : guerre, bombes ; rires de ses enfants\n- SAY : « On va faire tout ce qu'on peut. » « Le traumatisme, c'est pour la vie »\n- DO : changement dans sa vie, reprendre le travail, rejoindre un collectif de pirates informatiques",
+          "fiche": "empathy-map"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u04-l4-e1",
+          "type": "qcm",
+          "question": "Qu'est-ce que l'empathy map ?",
+          "choix": [
+            "Un livrable intermédiaire de la recherche utilisateur, qui synthétise ce qu'une personne doit faire, voit, dit, fait, entend, etc.",
+            "Le livrable final du projet, remis au client",
+            "Une carte des écrans de l'application"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "Un **livrable intermédiaire** de la recherche utilisateur, pour pouvoir se mettre véritablement à la place de la personne."
+        },
+        {
+          "id": "u04-l4-e2",
+          "type": "tri",
+          "question": "Ce que la personne perçoit, ou ce qu'elle ressent ?",
+          "categories": [
+            "Ce qu'elle perçoit",
+            "Ce qu'elle ressent"
+          ],
+          "items": [
+            [
+              "Dit",
+              0
+            ],
+            [
+              "Fait",
+              0
+            ],
+            [
+              "Entend",
+              0
+            ],
+            [
+              "Voit",
+              0
+            ],
+            [
+              "Ressent",
+              1
+            ],
+            [
+              "Pense",
+              1
+            ]
+          ],
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "L'empathy map en 3 questions : ce qu'elle perçoit (dit, fait, entend, voit) et ce qu'elle ressent (ressent, pense)."
+        },
+        {
+          "id": "u04-l4-e3",
+          "type": "ordre",
+          "question": "Remets les zones du canvas de Dave Gray dans l'ordre de leur numéro (1 à 7).",
+          "items": [
+            "WHO are we empathizing with?",
+            "What do they need to DO?",
+            "What do they SEE?",
+            "What do they SAY?",
+            "What do they DO?",
+            "What do they HEAR?",
+            "What do they THINK and FEEL?"
+          ],
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "1 WHO, 2 need to DO (GOAL), 3 SEE, 4 SAY, 5 DO, 6 HEAR, 7 THINK and FEEL."
+        },
+        {
+          "id": "u04-l4-e4",
+          "type": "tri",
+          "question": "Lucie, 72 ans, découvre la visioconférence pour parler à ses petits-enfants. Range ces indices : pains ou gains ?",
+          "categories": [
+            "PAINS (peurs, frustrations, anxiétés)",
+            "GAINS (envies, besoins, espoirs, rêves)"
+          ],
+          "items": [
+            [
+              "Peur d'appuyer sur le mauvais bouton et de tout « casser »",
+              0
+            ],
+            [
+              "Frustrée quand l'image se fige",
+              0
+            ],
+            [
+              "Envie de voir grandir ses petits-enfants",
+              1
+            ],
+            [
+              "Espère pouvoir appeler seule, sans aide",
+              1
+            ]
+          ],
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "PAINS : fears, frustrations, and anxieties. GAINS : wants, needs, hopes and dreams. Les deux sont dans la zone 7, THINK and FEEL."
+        },
+        {
+          "id": "u04-l4-e5",
+          "type": "tri",
+          "question": "Dans l'exemple du cours (David, Français expatrié en Ukraine), où sont placés ces post-it ?",
+          "categories": [
+            "SEE",
+            "HEAR",
+            "SAY"
+          ],
+          "items": [
+            [
+              "La maison qu'il a dû quitter",
+              0
+            ],
+            [
+              "Le AirBnB où sa famille est installée",
+              0
+            ],
+            [
+              "Guerre, bombes",
+              1
+            ],
+            [
+              "Rires de ses enfants",
+              1
+            ],
+            [
+              "On va faire tout ce qu'on peut.",
+              2
+            ],
+            [
+              "Le traumatisme, c'est pour la vie",
+              2
+            ]
+          ],
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "Ce qu'il voit autour de lui (SEE), ce qu'il entend (HEAR), et ses propres paroles (SAY)."
+        },
+        {
+          "id": "u04-l4-e6",
+          "type": "vf",
+          "question": "Les zones de l'empathy map sont fixes : on ne peut jamais les changer.",
+          "bonne": false,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "« Selon les projets ou les produits, on peut remplacer les zones. »"
+        },
+        {
+          "id": "u04-l4-e7",
+          "type": "qcm",
+          "question": "Quel lien entre empathy map et personas ?",
+          "choix": [
+            "Elle peut être complémentaire aux personas, ou en être la base de travail",
+            "Elle remplace toujours les personas",
+            "Elle n'a aucun lien avec les personas"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map",
+            "persona"
+          ],
+          "explication": "« Elle peut être complémentaire aux personas, ou en être la base de travail. »"
+        }
+      ]
     },
     {
       "id": "u04-l5",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Mélange : de la recherche au problème",
+      "duree": 6,
+      "notions": [
+        "hmw",
+        "recherche-utilisateurs",
+        "empathy-map",
+        "empathy-map-processus"
+      ],
+      "cartes": [
+        {
+          "titre": "Où en est-on ?",
+          "texte": "Les 5 étapes du [[design-thinking]] : **Empathize** (comprendre nos utilisateurs et leur environnement), **Define** (reformuler le problème et ses caractéristiques), Ideate, Prototype, Test.\n\nL'empathy map synthétise ce que l'étape Empathize a récolté ; le HMW reformule le problème avant d'idéer.",
+          "fiche": "empathy-map-processus"
+        },
+        {
+          "titre": "Une par personne ?",
+          "texte": "**Pas forcément une empathy map par personne** : utilisez des codes-couleur par type de profil par exemple (en phase de recherche, préférez un espace de travail illimité à la template PDF).",
+          "fiche": "empathy-map-processus"
+        },
+        {
+          "titre": "Du carnet au cadrage",
+          "texte": "Les pains et les gains de l'empathy map montrent ce qui bloque et ce qui est espéré : de quoi formuler un HMW centré sur le problème, sans solution déjà choisie.",
+          "analogie": "Le reporter a rempli son carnet ; il reste à régler le zoom pour cadrer le bon sujet.",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "Rappel : l'interview",
+          "texte": "L'[[interview]] reste une grande source de la recherche personnalisée. Rassemble tes notes de manière structurée dans un même endroit : elles nourriront l'empathy map.",
+          "fiche": "interview"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u04-l5-e1",
+          "type": "assoc",
+          "question": "Associe chaque outil à son usage.",
+          "paires": [
+            [
+              "HMW",
+              "Exprimer le problème de départ"
+            ],
+            [
+              "Empathy map",
+              "Synthétiser ce qu'une personne voit, dit, fait, entend…"
+            ],
+            [
+              "Mind-map",
+              "Faire le tour de la question"
+            ],
+            [
+              "Google Alerts",
+              "Faire de la veille"
+            ]
+          ],
+          "notions": [
+            "hmw",
+            "empathy-map",
+            "empathy-map-processus",
+            "recherche-utilisateurs"
+          ],
+          "explication": "HMW : problem statement. Empathy map : synthèse. Mind-map : étape 2 du processus. Google Alerts : veille, dans la recherche « anonyme », de masse."
+        },
+        {
+          "id": "u04-l5-e2",
+          "type": "vf",
+          "question": "Il faut obligatoirement une empathy map par personne interviewée.",
+          "bonne": false,
+          "notions": [
+            "empathy-map-processus"
+          ],
+          "explication": "Pas forcément une empathy map par personne : utilisez des codes-couleur par type de profil, par exemple."
+        },
+        {
+          "id": "u04-l5-e3",
+          "type": "tri",
+          "question": "Tes notes d'interview sur Karim, livreur à vélo. Dans quelle zone de l'empathy map ?",
+          "categories": [
+            "SAY",
+            "DO",
+            "HEAR",
+            "SEE"
+          ],
+          "items": [
+            [
+              "« Je ne m'arrête jamais pour manger à midi. »",
+              0
+            ],
+            [
+              "Consulte son téléphone à chaque feu rouge (observé)",
+              1
+            ],
+            [
+              "Ses collègues lui disent que l'appli bloque les mauvais livreurs",
+              2
+            ],
+            [
+              "Les bouchons et les chantiers sur son trajet",
+              3
+            ]
+          ],
+          "notions": [
+            "empathy-map",
+            "interview"
+          ],
+          "explication": "SAY : ce qu'on l'a entendu dire. DO : le comportement observé. HEAR : ce qu'il entend de ses collègues. SEE : son environnement immédiat."
+        },
+        {
+          "id": "u04-l5-e4",
+          "type": "qcm",
+          "question": "D'après l'empathy map de Karim, quel HMW cadre juste ?",
+          "choix": [
+            "Comment pourrait-on aider les livreurs à faire une vraie pause à midi de manière à ce qu'ils tiennent toute la journée ?",
+            "Comment pourrait-on améliorer la livraison ?",
+            "Comment pourrait-on ajouter un bouton « pause » rouge en haut à droite de l'appli de manière à ce que Karim mange à 12 h 15 ?"
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw",
+            "empathy-map"
+          ],
+          "explication": "Le premier part d'un pain observé et laisse place à de nombreuses idées. « Améliorer la livraison » est trop vague ; le bouton rouge est trop précis et déjà la solution."
+        },
+        {
+          "id": "u04-l5-e5",
+          "type": "qcm",
+          "question": "Pour récapituler au fur et à mesure les données de tes interviews, comment remplis-tu l'empathy map ?",
+          "choix": [
+            "De manière incrémentale",
+            "Une seule fois, avant toute interview",
+            "Uniquement le jour de la présentation au client"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map",
+            "interview"
+          ],
+          "explication": "Elle peut être remplie à plusieurs en workshop, « ou de manière incrémentale, pour récapituler les données issues d'interviews ou d'observations ethnographiques »."
+        },
+        {
+          "id": "u04-l5-e6",
+          "type": "qcm",
+          "question": "En phase de recherche, quel support le cours conseille-t-il pour l'empathy map ?",
+          "choix": [
+            "Un espace de travail illimité, plutôt que la template PDF",
+            "Uniquement la template PDF imprimée",
+            "Un tableur avec une ligne par personne"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map-processus"
+          ],
+          "explication": "« En phase de recherche, préférez un espace de travail illimité à la template PDF. »"
+        },
+        {
+          "id": "u04-l5-e7",
+          "type": "vf",
+          "question": "Le journal de bord fait partie de la recherche personnalisée.",
+          "bonne": true,
+          "notions": [
+            "recherche-utilisateurs",
+            "journal-de-bord"
+          ],
+          "explication": "Recherche personnalisée : identification des profils, interviews, panels et focus groups, journaux de bord, observations ethnographiques."
+        }
+      ]
     }
   ],
-  "jeux": [],
+  "jeux": [
+    {
+      "id": "u04-jeu",
+      "titre": "Zoom ou carnet ?",
+      "description": "Des questions rapides sur le HMW et l'empathy map.",
+      "tours": 12,
+      "questions": [
+        {
+          "id": "u04-jeu-q1",
+          "type": "vf",
+          "question": "HMW signifie « How might we ».",
+          "bonne": true,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "How might we... so that : Comment pourrait-on... de manière à."
+        },
+        {
+          "id": "u04-jeu-q2",
+          "type": "vf",
+          "question": "« Comment pourrait-on sauver la planète de manière à ce qu'on puisse y vivre ? » est un bon HMW.",
+          "bonne": false,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Exemple du cours d'un HMW trop général."
+        },
+        {
+          "id": "u04-jeu-q3",
+          "type": "vf",
+          "question": "Focus sur le problème : subjectif, individuel, bloqué.",
+          "bonne": true,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Focus sur sa résolution : analytique, collectif, constructif."
+        },
+        {
+          "id": "u04-jeu-q4",
+          "type": "vf",
+          "question": "Focus sur la résolution : analytique, individuel, constructif.",
+          "bonne": false,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Analytique, **collectif**, constructif. Individuel est du côté du problème."
+        },
+        {
+          "id": "u04-jeu-q5",
+          "type": "qcm",
+          "question": "Le canvas d'empathy map du cours compte combien de zones numérotées ?",
+          "choix": [
+            "5",
+            "7",
+            "4"
+          ],
+          "bonne": 1,
+          "ordreFixe": true,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "7 zones : WHO, need to DO, SEE, SAY, DO, HEAR, THINK and FEEL."
+        },
+        {
+          "id": "u04-jeu-q6",
+          "type": "qcm",
+          "question": "Qui a conçu le template d'empathy map du cours ?",
+          "choix": [
+            "Dave Gray (xplane)",
+            "Don Norman",
+            "Jakob Nielsen"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "Empathy Map Canvas, © 2017 Dave Gray, xplane.com."
+        },
+        {
+          "id": "u04-jeu-q7",
+          "type": "qcm",
+          "question": "Dans quelle zone sont les PAINS et les GAINS ?",
+          "choix": [
+            "THINK and FEEL",
+            "SEE",
+            "WHO"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "Zone 7 : What do they THINK and FEEL? PAINS et GAINS."
+        },
+        {
+          "id": "u04-jeu-q8",
+          "type": "vf",
+          "question": "Les GAINS sont les peurs, frustrations et anxiétés.",
+          "bonne": false,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "Ce sont les PAINS. Les GAINS : envies, besoins, espoirs et rêves."
+        },
+        {
+          "id": "u04-jeu-q9",
+          "type": "vf",
+          "question": "Google Alerts sert à la veille, dans la recherche « anonyme », de masse.",
+          "bonne": true,
+          "notions": [
+            "recherche-utilisateurs"
+          ],
+          "explication": "Veille (Google Alerts)."
+        },
+        {
+          "id": "u04-jeu-q10",
+          "type": "vf",
+          "question": "Les panels et focus groups font partie de la recherche « anonyme », de masse.",
+          "bonne": false,
+          "notions": [
+            "recherche-utilisateurs"
+          ],
+          "explication": "Ils font partie de la recherche **personnalisée**."
+        },
+        {
+          "id": "u04-jeu-q11",
+          "type": "vf",
+          "question": "Une empathy map peut être remplie à plusieurs, en workshop.",
+          "bonne": true,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "Lors d'un workshop avec des personnes qui connaissent bien les utilisateurs."
+        },
+        {
+          "id": "u04-jeu-q12",
+          "type": "qcm",
+          "question": "Première étape du processus de l'empathy map ?",
+          "choix": [
+            "Identifier le sujet central de la recherche",
+            "Remplir le template",
+            "Interviewer les parties prenantes"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map-processus"
+          ],
+          "explication": "Sujet central, mind-map, parties prenantes, écouter, synthétiser."
+        },
+        {
+          "id": "u04-jeu-q13",
+          "type": "vf",
+          "question": "Les parties prenantes sont les personnes qui apparaissent dans ta mind-map.",
+          "bonne": true,
+          "notions": [
+            "empathy-map-processus"
+          ],
+          "explication": "« Identifiez les parties prenantes, les personnes qui apparaissent dans votre mind-map. »"
+        },
+        {
+          "id": "u04-jeu-q14",
+          "type": "vf",
+          "question": "« Utiliser la voiture… en partant à 9h du matin » est trop précis et déjà orienté sur la solution.",
+          "bonne": true,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Pas de place pour de nouvelles idées."
+        },
+        {
+          "id": "u04-jeu-q15",
+          "type": "vf",
+          "question": "Dans l'empathy map de David, « Rires de ses enfants » est dans la zone HEAR.",
+          "bonne": true,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "Avec « Guerre, bombes » : ce qu'il entend autour de lui."
+        },
+        {
+          "id": "u04-jeu-q16",
+          "type": "qcm",
+          "question": "La zone 2, « need to DO », porte aussi l'étiquette…",
+          "choix": [
+            "GOAL",
+            "PAINS",
+            "WHO"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "What do they need to DO? : le but (GOAL)."
+        }
+      ]
+    }
+  ],
   "quiz": {
     "titre": "Quiz : Define : HMW et empathy map",
-    "questions": []
+    "questions": [
+      {
+        "id": "u04-quiz-q1",
+        "type": "qcm",
+        "question": "Que veut dire « Comment pourrait-on... de manière à » ?",
+        "choix": [
+          "La traduction de « How might we... so that », la forme du problème de départ",
+          "La formule de fin d'une interview",
+          "Le titre de la zone 7 de l'empathy map"
+        ],
+        "bonne": 0,
+        "notions": [
+          "hmw"
+        ],
+        "explication": "Le HMW statement : la forme sous laquelle les designers aiment exprimer le problème de départ."
+      },
+      {
+        "id": "u04-quiz-q2",
+        "type": "vf",
+        "question": "Exprimer tôt le problème sous forme de HMW permet à l'équipe de s'aligner sur le problème à résoudre.",
+        "bonne": true,
+        "notions": [
+          "hmw"
+        ],
+        "explication": "Et de garantir l'efficacité de la démarche."
+      },
+      {
+        "id": "u04-quiz-q3",
+        "type": "assoc",
+        "question": "Associe chaque HMW du schéma « Aller au travail » à son jugement.",
+        "paires": [
+          [
+            "Aller au travail ?",
+            "Trop vague"
+          ],
+          [
+            "De la maison au travail de la manière la plus efficiente sans se lever trop tôt",
+            "Équilibre entre précision et ouverture"
+          ],
+          [
+            "La voiture, par l'autoroute, en partant à 9h",
+            "Trop précis et déjà orienté sur la solution"
+          ]
+        ],
+        "notions": [
+          "hmw"
+        ],
+        "explication": "Plus le problème est précis, moins il y a d'idées : il faut l'équilibre entre précision et ouverture."
+      },
+      {
+        "id": "u04-quiz-q4",
+        "type": "qcm",
+        "question": "Un musée veut attirer les adolescents. Quel HMW est le meilleur ?",
+        "choix": [
+          "Comment pourrait-on rendre la visite du musée attirante pour les adolescents de manière à ce qu'ils aient envie d'y revenir avec leurs amis ?",
+          "Comment pourrait-on améliorer la culture ?",
+          "Comment pourrait-on développer un jeu en réalité augmentée pour la salle 4 de manière à ce que les 15-16 ans y restent 3 minutes de plus ?"
+        ],
+        "bonne": 0,
+        "notions": [
+          "hmw"
+        ],
+        "explication": "Le premier cadre juste. Le deuxième est trop général ; le troisième trop précis, avec la solution (le jeu en réalité augmentée) déjà dans la question."
+      },
+      {
+        "id": "u04-quiz-q5",
+        "type": "tri",
+        "question": "Range ces HMW.",
+        "categories": [
+          "Trop général",
+          "Trop précis",
+          "Solution déjà exprimée"
+        ],
+        "items": [
+          [
+            "Comment pourrait-on rendre les transports meilleurs ?",
+            0
+          ],
+          [
+            "Comment pourrait-on réduire de 2 minutes l'attente au guichet 3 de la gare de Lausanne le mardi ?",
+            1
+          ],
+          [
+            "Comment pourrait-on créer une appli de billets pour que les voyageurs achètent plus vite ?",
+            2
+          ]
+        ],
+        "notions": [
+          "hmw"
+        ],
+        "explication": "Les trois défauts du cours : trop général, trop précis, la solution déjà exprimée (pas de problème à résoudre)."
+      },
+      {
+        "id": "u04-quiz-q6",
+        "type": "tri",
+        "question": "Recherche « anonyme », de masse, ou personnalisée ?",
+        "categories": [
+          "De masse",
+          "Personnalisée"
+        ],
+        "items": [
+          [
+            "Presse (portraits, reportages)",
+            0
+          ],
+          [
+            "Recherche scientifique (mémoires, thèses)",
+            0
+          ],
+          [
+            "Médias et réseaux sociaux",
+            0
+          ],
+          [
+            "Panels, focus groups",
+            1
+          ],
+          [
+            "Observations ethnographiques",
+            1
+          ],
+          [
+            "Identification des types de profils (stakeholder analysis)",
+            1
+          ]
+        ],
+        "notions": [
+          "recherche-utilisateurs"
+        ],
+        "explication": "Temps 1 : recherche « anonyme », de masse, puis recherche personnalisée."
+      },
+      {
+        "id": "u04-quiz-q7",
+        "type": "qcm",
+        "question": "Tu étudies les personnes sourdes qui prennent le train, mais tu n'en connais aucune. Par quoi le cours conseille-t-il de commencer ?",
+        "choix": [
+          "Des proxies, par exemple une association, plus faciles d'accès",
+          "Inventer une personne type et passer directement au HMW",
+          "Attendre d'avoir un prototype pour les rencontrer"
+        ],
+        "bonne": 0,
+        "notions": [
+          "recherche-utilisateurs"
+        ],
+        "explication": "« Commencez par utiliser des proxies » : des personnes qui connaissent bien ces profils mais sont plus faciles d'accès (associations, journalistes…)."
+      },
+      {
+        "id": "u04-quiz-q8",
+        "type": "ordre",
+        "question": "Remets dans l'ordre le processus de l'empathy map.",
+        "items": [
+          "Sujet central",
+          "Mind-map",
+          "Parties prenantes",
+          "Écouter",
+          "Synthétiser"
+        ],
+        "notions": [
+          "empathy-map-processus"
+        ],
+        "explication": "Identifier le sujet, faire le tour de la question, identifier les parties prenantes, les écouter, synthétiser en empathy map."
+      },
+      {
+        "id": "u04-quiz-q9",
+        "type": "qcm",
+        "question": "L'empathy map, c'est…",
+        "choix": [
+          "Un livrable intermédiaire de la recherche utilisateur",
+          "Un livrable de l'étape Prototype",
+          "Un outil de dot-voting"
+        ],
+        "bonne": 0,
+        "notions": [
+          "empathy-map"
+        ],
+        "explication": "Un livrable intermédiaire de la recherche utilisateur, qui synthétise ce qu'une personne doit faire, voit, dit, fait, entend, etc."
+      },
+      {
+        "id": "u04-quiz-q10",
+        "type": "assoc",
+        "question": "Associe chaque zone du canvas à sa question.",
+        "paires": [
+          [
+            "WHO",
+            "Qui est la personne que l'on veut comprendre ?"
+          ],
+          [
+            "SEE",
+            "Que voit-elle dans son environnement immédiat ?"
+          ],
+          [
+            "HEAR",
+            "Qu'entend-elle de ses amis, de ses collègues ?"
+          ],
+          [
+            "SAY",
+            "Qu'est-ce qu'on l'a entendue dire ?"
+          ],
+          [
+            "DO",
+            "Quel comportement a-t-on observé ?"
+          ]
+        ],
+        "notions": [
+          "empathy-map"
+        ],
+        "explication": "Questions du canvas de Dave Gray : WHO, SEE, HEAR, SAY, DO."
+      },
+      {
+        "id": "u04-quiz-q11",
+        "type": "tri",
+        "question": "Notes sur Sofia, étudiante qui cherche un logement. Pains ou gains ?",
+        "categories": [
+          "PAINS",
+          "GAINS"
+        ],
+        "items": [
+          [
+            "Angoisse de ne rien trouver avant la rentrée",
+            0
+          ],
+          [
+            "Frustrée par les annonces sans photos",
+            0
+          ],
+          [
+            "Rêve d'un appartement près de la HEIG",
+            1
+          ],
+          [
+            "Besoin d'un loyer qu'elle peut payer seule",
+            1
+          ]
+        ],
+        "notions": [
+          "empathy-map"
+        ],
+        "explication": "PAINS : peurs, frustrations, anxiétés. GAINS : envies, besoins, espoirs, rêves."
+      },
+      {
+        "id": "u04-quiz-q12",
+        "type": "vf",
+        "question": "Dans l'exemple de David, « Rejoindre un collectif de pirates informatiques » est dans la zone DO.",
+        "bonne": true,
+        "notions": [
+          "empathy-map"
+        ],
+        "explication": "Zone DO, avec « Changement dans sa vie » et « Reprendre le travail »."
+      },
+      {
+        "id": "u04-quiz-q13",
+        "type": "qcm",
+        "question": "L'empathy map, que décrit-elle de la personne ?",
+        "choix": [
+          "Ce qu'elle perçoit et ressent",
+          "Uniquement ce qu'elle achète",
+          "Uniquement ses données démographiques"
+        ],
+        "bonne": 0,
+        "notions": [
+          "empathy-map"
+        ],
+        "explication": "« Décrire une personne en complétant un template favorisant l'empathie […] en décrivant ce qu'elle perçoit et ressent. »"
+      },
+      {
+        "id": "u04-quiz-q14",
+        "type": "vf",
+        "question": "Pas forcément une empathy map par personne : on peut utiliser des codes-couleur par type de profil.",
+        "bonne": true,
+        "notions": [
+          "empathy-map-processus"
+        ],
+        "explication": "Conseil du Focus empathy map."
+      },
+      {
+        "id": "u04-quiz-q15",
+        "type": "qcm",
+        "question": "Révision (Cours 2.1) : à quelle étape du Design Thinking appartiennent le HMW et l'empathy map ?",
+        "choix": [
+          "Define",
+          "Ideate",
+          "Test"
+        ],
+        "bonne": 0,
+        "notions": [
+          "design-thinking",
+          "hmw"
+        ],
+        "explication": "Étape 2 : Define, reformuler le problème et ses caractéristiques."
+      },
+      {
+        "id": "u04-quiz-q16",
+        "type": "qcm",
+        "question": "Révision (Cours 2.2) : tu suis une personne dans son quotidien pour l'observer. Quelle méthode de la recherche personnalisée est-ce ?",
+        "choix": [
+          "L'observation ethnographique (shadowing)",
+          "Le journal de bord",
+          "La veille"
+        ],
+        "bonne": 0,
+        "notions": [
+          "observation-ethnographique",
+          "recherche-utilisateurs"
+        ],
+        "explication": "Observations ethnographiques (shadowing) : une des cinq méthodes de la recherche personnalisée."
+      },
+      {
+        "id": "u04-quiz-q17",
+        "type": "vf",
+        "question": "Révision (Cours 2.2) : l'écoute active fait partie des conseils de la recherche utilisateurs, comme dans le cours sur les interviews.",
+        "bonne": true,
+        "notions": [
+          "interview",
+          "recherche-utilisateurs"
+        ],
+        "explication": "« Faites preuve d'empathie et d'écoute active (voir le cours sur les interviews). »"
+      }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u04-b1",
+      "titre": "De la recherche au problème",
+      "source": "Étude de cas d'après le Cours 3.1 et le Focus empathy map",
+      "notions": [
+        "empathy-map",
+        "empathy-map-processus",
+        "recherche-utilisateurs",
+        "hmw"
+      ],
+      "enonce": "**Partie 1, l'exemple du cours.** Une équipe a rencontré **David, Français expatrié en Ukraine**. Ses post-it attendent d'être rangés dans le canvas de Dave Gray.\n\n**Partie 2, un autre sujet.** Ton équipe travaille pour une coopérative qui livre des paniers de légumes. Tu as interviewé **Inès**, infirmière de nuit et mère de deux enfants, qui a résilié son abonnement. Extraits de tes notes :\n- « Je n'ai jamais le temps de cuisiner tout ça. »\n- Elle jette des légumes chaque semaine (tu l'as vue faire).\n- Ses collègues lui disent que les plats tout prêts sont plus pratiques.\n- Son frigo est déjà plein le jour de la livraison.\n- Elle a peur de gaspiller, ça la culpabilise.\n- Elle rêve de faire manger plus de légumes à ses enfants.\n\nÀ toi de passer de la recherche au problème.",
+      "questions": [
+        {
+          "id": "u04-b1-q1",
+          "type": "tri",
+          "question": "Partie 1 : range les post-it de David.",
+          "categories": [
+            "WHO",
+            "Need to DO (GOAL)",
+            "SEE"
+          ],
+          "items": [
+            [
+              "David, Français expatrié en Ukraine",
+              0
+            ],
+            [
+              "Mettre sa famille en sécurité",
+              1
+            ],
+            [
+              "Fuir la guerre",
+              1
+            ],
+            [
+              "Reconstruire sa vie",
+              1
+            ],
+            [
+              "Lutter à sa manière",
+              1
+            ],
+            [
+              "La maison qu'il a dû quitter",
+              2
+            ],
+            [
+              "Le AirBnB où sa famille est installée",
+              2
+            ]
+          ],
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "WHO : qui est la personne. Need to DO : ce qu'il doit faire, son but (GOAL). SEE : son environnement immédiat."
+        },
+        {
+          "id": "u04-b1-q2",
+          "type": "tri",
+          "question": "Partie 1 : la suite des post-it de David.",
+          "categories": [
+            "SAY",
+            "DO",
+            "HEAR"
+          ],
+          "items": [
+            [
+              "On va faire tout ce qu'on peut.",
+              0
+            ],
+            [
+              "Le traumatisme, c'est pour la vie",
+              0
+            ],
+            [
+              "Changement dans sa vie",
+              1
+            ],
+            [
+              "Reprendre le travail",
+              1
+            ],
+            [
+              "Rejoindre un collectif de pirates informatiques",
+              1
+            ],
+            [
+              "Guerre, bombes",
+              2
+            ],
+            [
+              "Rires de ses enfants",
+              2
+            ]
+          ],
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "SAY : ses paroles. DO : ce qu'il fait aujourd'hui. HEAR : ce qu'il entend autour de lui."
+        },
+        {
+          "id": "u04-b1-q3",
+          "type": "tri",
+          "question": "Partie 2 : range les notes sur Inès dans l'empathy map.",
+          "categories": [
+            "SAY",
+            "DO",
+            "HEAR",
+            "SEE"
+          ],
+          "items": [
+            [
+              "« Je n'ai jamais le temps de cuisiner tout ça. »",
+              0
+            ],
+            [
+              "Jette des légumes chaque semaine (observé)",
+              1
+            ],
+            [
+              "Ses collègues disent que les plats tout prêts sont plus pratiques",
+              2
+            ],
+            [
+              "Son frigo déjà plein le jour de la livraison",
+              3
+            ]
+          ],
+          "notions": [
+            "empathy-map",
+            "interview"
+          ],
+          "explication": "SAY : ce qu'on l'a entendue dire. DO : le comportement observé. HEAR : ce qu'elle entend de ses collègues. SEE : son environnement immédiat."
+        },
+        {
+          "id": "u04-b1-q4",
+          "type": "tri",
+          "question": "Partie 2 : dans la zone THINK and FEEL, pains ou gains ?",
+          "categories": [
+            "PAINS",
+            "GAINS"
+          ],
+          "items": [
+            [
+              "Peur de gaspiller, culpabilité",
+              0
+            ],
+            [
+              "Manque de temps pour cuisiner",
+              0
+            ],
+            [
+              "Faire manger plus de légumes à ses enfants",
+              1
+            ]
+          ],
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "PAINS : peurs, frustrations, anxiétés. GAINS : envies, besoins, espoirs, rêves."
+        },
+        {
+          "id": "u04-b1-q5",
+          "type": "qcm",
+          "question": "Partie 2 : l'équipe propose quatre HMW. Lequel retiens-tu ?",
+          "choix": [
+            "Comment pourrait-on aider les familles aux horaires décalés à cuisiner les légumes reçus de manière à ce qu'elles ne gaspillent plus ?",
+            "Comment pourrait-on mieux nourrir le monde ?",
+            "Comment pourrait-on envoyer une notification à 7 h le mardi de manière à ce qu'Inès cuisine ses courgettes ?",
+            "Comment pourrait-on lancer une appli de recettes de manière à ce que les abonnés cuisinent plus ?"
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Le premier part des pains observés et laisse place à beaucoup d'idées. Les autres : trop général, trop précis, et une solution déjà exprimée (l'appli de recettes)."
+        },
+        {
+          "id": "u04-b1-q6",
+          "type": "qcm",
+          "question": "Partie 2 : « Comment pourrait-on lancer une appli de recettes de manière à ce que les abonnés cuisinent plus ? » Qu'est-ce qui cloche ?",
+          "choix": [
+            "La solution est déjà exprimée dans la question : pas de problème à résoudre",
+            "Il est trop général",
+            "Il manque la partie « de manière à »"
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Comme « implémenter le nouveau système de recherche intelligente » dans le cours : la solution est déjà choisie."
+        },
+        {
+          "id": "u04-b1-q7",
+          "type": "qcm",
+          "question": "Tu as interviewé huit anciens abonnés aux profils très proches d'Inès. Combien d'empathy maps ?",
+          "choix": [
+            "Pas forcément une par personne : une seule avec des codes-couleur par type de profil, par exemple",
+            "Obligatoirement huit, une par personne",
+            "Aucune : l'empathy map ne sert qu'en workshop"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathy-map-processus"
+          ],
+          "explication": "« Pas forcément une empathy map par personne : utilisez des codes-couleur par type de profil par exemple. »"
+        },
+        {
+          "id": "u04-b1-q8",
+          "type": "qcm",
+          "question": "Avant de rencontrer d'autres abonnés, tu veux élargir ta recherche. Quelle action suit les conseils du cours ?",
+          "choix": [
+            "Demander à Inès d'autres contacts, et lire les avis publiés sur la coopérative",
+            "Imaginer les réponses des autres abonnés à partir de celles d'Inès",
+            "Ne garder que les notes écrites et supprimer les enregistrements audio"
+          ],
+          "bonne": 0,
+          "notions": [
+            "recherche-utilisateurs"
+          ],
+          "explication": "Demander toujours d'autres contacts ; les données publiques (avis) font partie de la recherche de masse ; et ne pas négliger l'audio, qui véhicule beaucoup d'empathie et d'émotions."
+        }
+      ],
+      "seuil": 0.8
+    }
+  ]
 }

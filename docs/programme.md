@@ -85,7 +85,7 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Notions des unités précédentes à revoir : design-thinking, interview, observation-ethnographique, journal-de-bord, empathie
 - Leçons : 1. Le HMW : cadrer le problème 2. Trop vague, trop précis, déjà la solution 3. Récolter : la recherche utilisateurs 4. L'empathy map 5. Mélange
 - Boss : étude de cas « De la recherche au problème » : l'empathy map de David (exemple du cours) : ranger les indices dans les zones ; puis un autre sujet : trier des notes d'interview dans l'empathy map, choisir le meilleur HMW parmi des candidats trop vagues / trop précis / déjà orientés solution
-- État : à écrire
+- État : écrite, testée
 
 ## u05 — Personas et design inclusif
 - Objectif : construire des personas utiles (processus, contenu, conseils), repérer les stéréotypes, et leur préférer des archétypes inclusifs.
