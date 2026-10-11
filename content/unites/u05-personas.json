@@ -2,55 +2,1593 @@
   "id": "u05",
   "titre": "Personas et design inclusif",
   "sousTitre": "Focus personas, UX Conf",
-  "objectif": "",
-  "icone": "",
-  "fiches": [],
+  "objectif": "Construire des personas utiles (processus, contenu, conseils), repérer les stéréotypes, et leur préférer des archétypes inclusifs.",
+  "icone": "P+",
+  "fiches": [
+    {
+      "id": "persona-processus",
+      "titre": "Fabriquer un persona : le processus",
+      "icone": "1→5",
+      "resume": "Les personas synthétisent sous la forme de personnages fictifs les informations obtenues via la recherche utilisateurs et/ou projetées (on parle alors de proto-personas).",
+      "analogie": "La boussole : le persona est la boussole de l'équipe tout au long du projet ; on la consulte à chaque décision.",
+      "texte": "**Persona** : les personas sont un des livrables-clés les plus populaires et connus quand on parle d'UX et de recherche utilisateurs. Ils synthétisent sous la forme de **personnages fictifs** les informations obtenues via la recherche utilisateurs et/ou **projetées** (on parle alors de **proto-personas**). Ces personas sont ensuite le **fil rouge** qui permettra de conserver une approche [[user-centric]] tout au long du processus projet.\n\n**Processus** (5 étapes) :\n\n- 1. Identifiez les personnes qui pourraient utiliser votre solution\n- 2. À partir de votre recherche utilisateurs et empathy maps, listez leurs pain-points, motivations, attitudes et contextes d'utilisation\n- 3. Créez des catégories (clusters) de pain-point, motivations, attitudes et/ou contextes d'utilisation\n- 4. Représentez chaque catégorie par un personnage fictif (persona ou archétype)\n- 5. Priorisez les personas principaux (max. 5) et secondaires\n\n**Quand ?** Aux deux premières étapes du [[design-thinking|Design Thinking]] : Exploration (comprendre nos utilisateurs et leur environnement) et Définition (reformuler le problème et ses caractéristiques).\n\n**Comment ?** (peut être fait de manière collaborative en atelier)\n\n- Temps 1 : [[recherche-utilisateurs|Recherche utilisateurs]] : récolter les informations (recherche « anonyme », de masse, et recherche personnalisée)\n- Temps 2 : Template [[empathy-map]], synthétiser les indices\n- Temps 3 : Listez leurs pain-points, motivations, attitudes et contextes d'utilisation\n- Temps 4 : Créez des catégories (clusters) de pain-point, motivations, attitudes et/ou contextes d'utilisation\n- Temps 5 : Représentez chaque catégorie par un personnage fictif (persona ou archétype)\n- Temps 6 : Priorisez les personas principaux (max. 5) et secondaires",
+      "pieges": [
+        "Un proto-persona repose sur des informations **projetées**, pas (seulement) sur la recherche utilisateurs.",
+        "On regroupe d'abord en catégories (clusters), **puis** on représente chaque catégorie par un personnage fictif : pas l'inverse.",
+        "Maximum **5** personas principaux ; les autres deviennent secondaires."
+      ]
+    },
+    {
+      "id": "persona-conseils",
+      "titre": "Ce que contient un persona, et 6 conseils",
+      "icone": "A4",
+      "resume": "Représenter les profils des utilisateurs d'une solution grâce à la fiche d'identité d'un personnage fictif, limitée à une page A4.",
+      "analogie": "La boussole : le persona est la boussole de l'équipe tout au long du projet ; on la consulte à chaque décision. Une boussole trop chargée ou faussée ne sert plus à s'orienter.",
+      "texte": "**Quoi ?** Représenter les profils des utilisateurs d'une solution grâce à la fiche d'identité d'un personnage fictif :\n\n- Empathie, visuel représentatif, citation\n- À propos, contexte, écosystème (autres solutions), attitude envers le domaine\n- Besoins, pain-points, motivations, expérience souhaitée\n\nInformations fréquentes d'un persona (Cours 3.1) : un prénom, une photo, une citation-clé, l'aisance avec les nouvelles technologies, les buts dans la vie, buts d'usage et expérience attendue, les freins, les tâches à accomplir, etc.\n\n**Quelques conseils** :\n\n- Concentrez-vous sur les informations de nature à influencer l'utilisation de votre solution (notamment pain-points, contexte, motivations et attitudes) et supprimez ou simplifiez les autres informations au maximum\n- Évitez les données socio-démographiques préjugées (c'est-à-dire ne reposant sur aucune recherche préalable) y compris dans le visuel représentant votre persona\n- Limitez vos personas à une page A4, avec une lisibilité suffisante pour favoriser leur utilisation réelle\n- Ne dépassez pas 5 personas principaux, quitte à avoir des personas secondaires pour favoriser leur utilisation réelle\n- Préférez un visuel qui représente le persona dans son contexte d'utilisation plutôt qu'un visuel « beau »\n- Adaptez les informations de vos personas selon les besoins et spécificités de chaque projet",
+      "pieges": [
+        "« Préjugées » veut dire : ne reposant sur aucune recherche préalable. Un âge ou un métier tiré de la recherche n'est pas préjugé ; un âge choisi au hasard, si.",
+        "Le conseil vaut **aussi pour le visuel** : la photo choisie peut porter des données socio-démographiques préjugées.",
+        "Un visuel « beau » n'est pas un bon critère : on préfère le persona dans son contexte d'utilisation."
+      ]
+    },
+    {
+      "id": "diverse-personas",
+      "titre": "Diverse Personas : 211 personas à la loupe",
+      "icone": "211",
+      "resume": "Recherche menée par Marie Kuter en 2023 sur 211 personas dans le cadre de 43 projets digitaux, présentée à la UX Conf Paris : une diversité relative et très ciblée, beaucoup d'exclusion.",
+      "analogie": "La boussole faussée : des personas stéréotypés orientent l'équipe vers des utilisateurs qui n'existent pas, et en laissent d'autres hors de la carte.",
+      "texte": "**L'étude** : recherche menée par Marie Kuter en 2023 sur **211 personas** dans le cadre de **43 projets digitaux** et présentée à la UX Conf Paris (19.09.23).\n\nAnalyse des personas en termes de **représentativité** (QUI ? genre, couleur de peau, âge et handicap) et **représentation** (COMMENT ? titre, expression, localisation, style et accessoires).\n\n**Représentativité : une diversité relative et très ciblée, beaucoup d'exclusion**\n\n- Genre : quasiment autant de personas masculins (48 %) que féminins (51 %) ; 44 % des 43 projets présentent quasiment autant de personas féminins et masculins (entre 40 et 60 %)\n- Couleur de peau : 47 % des 43 projets ont entre 20 % et 50 % de personas avec la couleur de peau la plus claire de l'échantillon\n- Genre et couleur de peau : 21 % de ces projets sont à la fois équilibrés en genre et en couleur de peau\n- Aucun des personas n'était non genré\n- Âge : très peu ont moins de 20 ans (3 %) ou plus de 60 ans (5 %)\n- Handicaps : 1 persona sur les 211 est présenté avec un dispositif d'assistance (canne), soit 0 % de l'échantillon\n\n**Représentation : distribution inégalitaire des attributs de pouvoir**\n\n- Moins d'1/4 des personas féminins portent des lunettes, contre plus d'1/3 des personas masculins\n- Les femmes ont surtout les cheveux longs et détachés, les hommes surtout les cheveux courts et noirs\n- Plus d'1/4 des femmes regardent vers le bas, contre moins d'1/5 des hommes\n- Les hommes portent plus de vêtements « business » ou professionnels, les femmes plus de tenues « casual »\n- Les hommes sont davantage des entrepreneurs et des experts, les femmes davantage des cadres et des étudiantes\n\n**Conclusions** : une diversité relative et très ciblée (genre OU couleur de peau, rarement les deux) ; beaucoup d'exclusion (notamment personnes très jeunes ou très âgées, ou en situation de handicap) ; distribution inégalitaire des attributs de pouvoir (titre, expression, style et accessoires).\n\n**Causes probables** : données socio-démographiques non appuyées par des faits ; visuels choisis pour leur beauté plutôt que représentatifs ; influence des personas en marketing ; biais culturels et renforcement.\n\n**Vous avez dit… stéréotypes ?**\n\n- Homme blanc entre 20 et 50 ans avec les cheveux noirs et courts, habillé en costume ou en vêtements professionnels sombres, expert de son domaine ou manager\n- Femme blanche entre 20 et 50 ans, avec les cheveux longs et détachés, souriante dans ses vêtements « casual » clairs ou colorés, experte dans son domaine ou entrepreneur\n\n**Recherche d'images** « A manager signing documents in an office », avec des personnes : hommes 10 359, femmes 6 883, non binaire 0.",
+      "pieges": [
+        "**Représentativité** = QUI (genre, couleur de peau, âge, handicaps) ; **représentation** = COMMENT (titre, expression, style, accessoires…).",
+        "L'équilibre de genre est presque atteint dans l'échantillon (48 % / 51 %) : le problème est que la diversité est **ciblée** (genre OU couleur de peau, rarement les deux) et qu'elle exclut âges extrêmes et handicaps.",
+        "1 seul persona sur 211 avec un dispositif d'assistance : c'est arrondi à **0 %**."
+      ]
+    },
+    {
+      "id": "archetypes",
+      "titre": "Une solution : les archétypes",
+      "icone": "◎",
+      "resume": "Isoler les données individuelles des données communes au persona, de manière à pouvoir raconter plusieurs histoires plutôt qu'une seule.",
+      "analogie": "La boussole sans visage : l'archétype garde le nord (pain-points, motivations, contexte, attitudes) sans enfermer l'équipe dans le portrait d'une seule personne.",
+      "texte": "**Une solution : les archétypes.** Isoler les données individuelles des données communes au persona, de manière à pouvoir **raconter plusieurs histoires plutôt qu'une seule** :\n\n- Garder les informations essentielles d'un persona : pain-points, motivations, contexte et attitudes\n- Illustrer le contexte plutôt qu'une personne ou préférer un visuel favorisant le design inclusif (photo de groupe par exemple)\n- Visuellement représenter grâce à des icônes les situations de handicap concernées\n- Raconter plusieurs histoires grâce à des citations et des visuels « tranches de vie »\n\nLa conférence UX Conf passe en revue des pistes de visuels (generative AI pictures, humanoïdes, smileys et emojis, contexte) et termine sur : **archétypes + tranches de vie**.\n\nPour en savoir plus : Nielsen Norman Group, « Personas vs. Archetypes » (https://www.nngroup.com/articles/personas-archetypes/).",
+      "pieges": [
+        "Un archétype n'abandonne pas les informations utiles : il garde pain-points, motivations, contexte et attitudes.",
+        "On ne représente pas une personne unique : on illustre le **contexte**, ou on choisit un visuel inclusif (photo de groupe par exemple).",
+        "Les situations de handicap se montrent par des **icônes**, pas en les gommant."
+      ]
+    }
+  ],
   "lecons": [
     {
       "id": "u05-l1",
-      "titre": "",
+      "titre": "Fabriquer un persona en 5 étapes",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "persona-processus",
+        "persona"
+      ],
+      "cartes": [
+        {
+          "titre": "Le persona, livrable-clé",
+          "texte": "Les personas sont un des **livrables-clés** les plus populaires et connus quand on parle d'UX et de recherche utilisateurs. Ils synthétisent sous la forme de **personnages fictifs** les informations obtenues via la recherche utilisateurs et/ou projetées.",
+          "analogie": "La boussole : le persona est la boussole de l'équipe tout au long du projet ; on la consulte à chaque décision.",
+          "fiche": "persona-processus"
+        },
+        {
+          "titre": "Proto-personas",
+          "texte": "Quand les informations sont **projetées** (et non obtenues par la recherche utilisateurs), on parle de **proto-personas**.\n\nUne fois faits, les personas sont le **fil rouge** qui permettra de conserver une approche [[user-centric]] tout au long du processus projet.",
+          "fiche": "persona-processus"
+        },
+        {
+          "titre": "Quand ?",
+          "texte": "Les personas se construisent aux deux premières étapes du [[design-thinking|Design Thinking]] :\n\n- **Exploration** : comprendre nos utilisateurs et leur environnement\n- **Définition** : reformuler le problème et ses caractéristiques",
+          "fiche": "persona-processus"
+        },
+        {
+          "titre": "Le processus en 5 étapes",
+          "texte": "- 1. Identifiez les personnes qui pourraient utiliser votre solution\n- 2. À partir de votre recherche utilisateurs et empathy maps, listez leurs pain-points, motivations, attitudes et contextes d'utilisation\n- 3. Créez des catégories (**clusters**)\n- 4. Représentez chaque catégorie par un **personnage fictif** (persona ou archétype)\n- 5. Priorisez les personas **principaux (max. 5)** et secondaires",
+          "fiche": "persona-processus"
+        },
+        {
+          "titre": "Comment ? Temps 1 à 6",
+          "texte": "- Temps 1 : recherche utilisateurs : récolter les informations\n- Temps 2 : template empathy map, synthétiser les indices\n- Temps 3 : lister pain-points, motivations, attitudes, contextes d'utilisation\n- Temps 4 : créer les clusters\n- Temps 5 : un personnage fictif par catégorie\n- Temps 6 : prioriser (max. 5 principaux)\n\nLe tout peut être fait de manière **collaborative en atelier**.",
+          "astuce": "Proto le renard revient de reportage avec ses notes : il les range (empathy map), les regroupe (clusters), puis seulement dessine ses personnages.",
+          "fiche": "persona-processus"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u05-l1-e1",
+          "type": "ordre",
+          "question": "Remets dans l'ordre les 5 étapes du processus persona.",
+          "items": [
+            "Identifier les personnes qui pourraient utiliser la solution",
+            "Lister leurs pain-points, motivations, attitudes et contextes d'utilisation",
+            "Créer des catégories (clusters)",
+            "Représenter chaque catégorie par un personnage fictif",
+            "Prioriser les personas principaux (max. 5) et secondaires"
+          ],
+          "notions": [
+            "persona-processus"
+          ],
+          "explication": "C'est le processus du Focus personas : identifier, lister, regrouper en clusters, représenter par un personnage fictif, prioriser."
+        },
+        {
+          "id": "u05-l1-e2",
+          "type": "vf",
+          "question": "Une équipe imagine ses utilisateurs sans avoir fait de recherche : ses personas sont des proto-personas.",
+          "bonne": true,
+          "notions": [
+            "persona-processus"
+          ],
+          "explication": "Quand les informations sont projetées plutôt qu'obtenues par la recherche utilisateurs, on parle de **proto-personas**."
+        },
+        {
+          "id": "u05-l1-e3",
+          "type": "qcm",
+          "question": "À quelles étapes du Design Thinking construit-on les personas ?",
+          "choix": [
+            "Exploration et Définition",
+            "Idéation et Prototypage",
+            "Prototypage et Test",
+            "Uniquement en Test"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-processus",
+            "design-thinking"
+          ],
+          "explication": "Slide « Quand ? » : les personas se placent en Exploration (comprendre nos utilisateurs et leur environnement) et en Définition (reformuler le problème et ses caractéristiques)."
+        },
+        {
+          "id": "u05-l1-e4",
+          "type": "qcm",
+          "question": "Ton équipe a dessiné 9 personas pour une appli de covoiturage. Que dit le processus ?",
+          "choix": [
+            "Prioriser : 5 principaux au maximum, les autres en secondaires",
+            "Les garder tous comme principaux : plus il y en a, mieux c'est",
+            "En supprimer 4 au hasard",
+            "Les fusionner en un seul persona moyen"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-processus"
+          ],
+          "explication": "Étape 5 : priorisez les personas principaux (**max. 5**) et secondaires."
+        },
+        {
+          "id": "u05-l1-e5",
+          "type": "assoc",
+          "question": "Associe chaque temps à ce qu'on y fait.",
+          "paires": [
+            [
+              "Temps 1",
+              "Récolter les informations (recherche utilisateurs)"
+            ],
+            [
+              "Temps 2",
+              "Synthétiser les indices dans l'empathy map"
+            ],
+            [
+              "Temps 4",
+              "Créer des clusters"
+            ],
+            [
+              "Temps 5",
+              "Un personnage fictif par catégorie"
+            ],
+            [
+              "Temps 6",
+              "Prioriser principaux et secondaires"
+            ]
+          ],
+          "notions": [
+            "persona-processus",
+            "empathy-map"
+          ],
+          "explication": "Les 6 temps du « Comment ? » : récolter, synthétiser dans l'empathy map, lister, regrouper, représenter, prioriser."
+        },
+        {
+          "id": "u05-l1-e6",
+          "type": "qcm",
+          "question": "Pour une appli de médiathèque, tu as listé les pain-points et motivations de 12 personnes interviewées. Prochaine étape ?",
+          "choix": [
+            "Les regrouper en catégories (clusters)",
+            "Dessiner directement 12 personas, un par personne",
+            "Choisir une belle photo pour chaque persona",
+            "Passer au brainstorming"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-processus"
+          ],
+          "explication": "Étape 3 puis 4 : on crée d'abord des catégories (clusters) de pain-points, motivations, attitudes et/ou contextes d'utilisation, puis on représente **chaque catégorie** par un personnage fictif."
+        },
+        {
+          "id": "u05-l1-e7",
+          "type": "vf",
+          "question": "Une fois créés, les personas servent tout au long du processus projet, pas seulement en Définition.",
+          "bonne": true,
+          "notions": [
+            "persona-processus",
+            "persona"
+          ],
+          "explication": "Les personas sont le **fil rouge** qui permettra de conserver une approche user-centric tout au long du processus projet : la boussole de l'équipe."
+        }
+      ]
     },
     {
       "id": "u05-l2",
-      "titre": "",
+      "titre": "Ce qu'on met (et ce qu'on enlève)",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "persona-conseils",
+        "persona-processus"
+      ],
+      "cartes": [
+        {
+          "titre": "Une fiche d'identité",
+          "texte": "**Quoi ?** Représenter les profils des utilisateurs d'une solution grâce à la **fiche d'identité** d'un personnage fictif :\n\n- Empathie, visuel représentatif, citation\n- À propos, contexte, écosystème (autres solutions), attitude envers le domaine\n- Besoins, pain-points, motivations, expérience souhaitée",
+          "fiche": "persona-conseils"
+        },
+        {
+          "titre": "Les informations fréquentes",
+          "texte": "Le Cours 3.1 cite notamment : un prénom, une photo, une citation-clé, l'aisance avec les nouvelles technologies, les buts dans la vie, buts d'usage et expérience attendue, les freins, les tâches à accomplir, etc.",
+          "fiche": "persona-conseils"
+        },
+        {
+          "titre": "Conseil 1 : ce qui influence l'usage",
+          "texte": "Concentrez-vous sur les informations **de nature à influencer l'utilisation de votre solution** (notamment pain-points, contexte, motivations et attitudes) et **supprimez ou simplifiez** les autres informations au maximum.",
+          "analogie": "Une boussole n'affiche que le nord : un persona n'affiche que ce qui oriente les décisions.",
+          "fiche": "persona-conseils"
+        },
+        {
+          "titre": "Conseils 2 et 5 : pas de préjugés, pas de « beau »",
+          "texte": "- Évitez les données socio-démographiques **préjugées** (c'est-à-dire ne reposant sur aucune recherche préalable) **y compris dans le visuel**\n- Préférez un visuel qui représente le persona **dans son contexte d'utilisation** plutôt qu'un visuel « beau »",
+          "fiche": "persona-conseils"
+        },
+        {
+          "titre": "Conseils 3, 4 et 6 : pour qu'on s'en serve",
+          "texte": "- Limitez vos personas à **une page A4**, avec une lisibilité suffisante pour favoriser leur utilisation réelle\n- Ne dépassez pas **5 personas principaux**, quitte à avoir des personas secondaires\n- **Adaptez** les informations de vos personas selon les besoins et spécificités de chaque projet",
+          "piege": "Trois conseils sur six parlent de « favoriser leur utilisation réelle » : un persona qu'on ne lit pas ne sert à rien.",
+          "fiche": "persona-conseils"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u05-l2-e1",
+          "type": "tri",
+          "question": "Persona d'une appli de réservation de terrains de sport. Garder ou supprimer / simplifier ?",
+          "categories": [
+            "Garder",
+            "Supprimer ou simplifier"
+          ],
+          "items": [
+            [
+              "Ne trouve jamais de créneau libre après 18 h",
+              0
+            ],
+            [
+              "Joue surtout pour retrouver ses amis",
+              0
+            ],
+            [
+              "Réserve depuis son téléphone dans le bus",
+              0
+            ],
+            [
+              "Couleur préférée : le vert",
+              1
+            ],
+            [
+              "Nom de son chat : Pistache",
+              1
+            ],
+            [
+              "Signe astrologique : Balance",
+              1
+            ]
+          ],
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Conseil 1 : on garde ce qui est de nature à influencer l'utilisation de la solution (pain-points, contexte, motivations, attitudes) ; on supprime ou simplifie le reste."
+        },
+        {
+          "id": "u05-l2-e2",
+          "type": "vf",
+          "question": "Un bon persona tient sur une page A4.",
+          "bonne": true,
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Conseil : limitez vos personas à une page A4, avec une lisibilité suffisante pour favoriser leur utilisation réelle."
+        },
+        {
+          "id": "u05-l2-e3",
+          "type": "qcm",
+          "question": "Quel visuel choisir pour le persona d'une appli de jardinage ?",
+          "choix": [
+            "Une photo de la personne en train de jardiner, les mains dans la terre",
+            "Un portrait de studio très soigné, fond blanc",
+            "Une photo de mannequin souriant tirée d'une banque d'images",
+            "Aucun visuel, jamais"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Préférez un visuel qui représente le persona **dans son contexte d'utilisation** plutôt qu'un visuel « beau »."
+        },
+        {
+          "id": "u05-l2-e4",
+          "type": "qcm",
+          "question": "Que signifie « données socio-démographiques préjugées » ?",
+          "choix": [
+            "Des données qui ne reposent sur aucune recherche préalable",
+            "Des données tirées des interviews",
+            "Les pain-points et les motivations",
+            "Des données vérifiées par un statisticien"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Données socio-démographiques **préjugées** = ne reposant sur aucune recherche préalable. Le conseil est de les éviter, y compris dans le visuel."
+        },
+        {
+          "id": "u05-l2-e5",
+          "type": "qcm",
+          "question": "Lequel de ces conseils n'est **pas** dans la liste du cours ?",
+          "choix": [
+            "Choisir une photo de qualité professionnelle",
+            "Limiter les personas à une page A4",
+            "Ne pas dépasser 5 personas principaux",
+            "Adapter les informations selon chaque projet"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Les 6 conseils : se concentrer sur ce qui influence l'utilisation, éviter les données préjugées, une page A4, max. 5 principaux, visuel en contexte, adapter selon le projet. Rien sur le fait d'avoir une photo de professionnel."
+        },
+        {
+          "id": "u05-l2-e6",
+          "type": "assoc",
+          "question": "Associe chaque défaut au conseil qu'il ne respecte pas.",
+          "paires": [
+            [
+              "Persona de 4 pages",
+              "Limitez à une page A4"
+            ],
+            [
+              "8 personas principaux",
+              "Pas plus de 5 personas principaux"
+            ],
+            [
+              "Âge choisi au hasard",
+              "Évitez les données préjugées"
+            ],
+            [
+              "Photo de studio « parfaite »",
+              "Visuel dans le contexte d'utilisation"
+            ]
+          ],
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Chaque défaut va contre un des conseils du cours."
+        },
+        {
+          "id": "u05-l2-e7",
+          "type": "qcm",
+          "question": "D'où doivent venir les pain-points d'un persona ?",
+          "choix": [
+            "De la recherche utilisateurs et des empathy maps",
+            "De l'imagination de l'équipe marketing",
+            "De l'avis du chef de projet",
+            "D'un générateur de prénoms"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-conseils",
+            "persona-processus"
+          ],
+          "explication": "La fiche d'identité du persona réunit notamment besoins, pain-points, motivations et expérience souhaitée ; ces informations viennent de la recherche utilisateurs (Temps 1 à 3)."
+        }
+      ]
     },
     {
       "id": "u05-l3",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Diverse Personas : ce que révèlent 211 personas",
+      "duree": 6,
+      "notions": [
+        "diverse-personas"
+      ],
+      "cartes": [
+        {
+          "titre": "L'étude",
+          "texte": "Recherche menée par **Marie Kuter** en **2023** sur **211 personas** dans le cadre de **43 projets digitaux**, présentée à la **UX Conf Paris** (19.09.23).",
+          "fiche": "diverse-personas"
+        },
+        {
+          "titre": "QUI ? et COMMENT ?",
+          "texte": "- **Représentativité** (QUI ?) : genre, couleur de peau, âge, handicaps\n- **Représentation** (COMMENT ?) : titre, expression, localisation, style, accessoires",
+          "fiche": "diverse-personas"
+        },
+        {
+          "titre": "Représentativité",
+          "texte": "Une diversité relative et très ciblée, beaucoup d'exclusion :\n\n- Genre : 48 % masculins, 51 % féminins ; aucun persona non genré\n- Genre et couleur de peau équilibrés à la fois : 21 % des projets\n- Moins de 20 ans : 3 % ; plus de 60 ans : 5 %\n- Handicap : 1 persona sur 211 avec un dispositif d'assistance (canne), soit 0 %",
+          "analogie": "La boussole faussée : des pans entiers d'utilisateurs n'apparaissent plus sur la carte.",
+          "fiche": "diverse-personas"
+        },
+        {
+          "titre": "Représentation",
+          "texte": "Distribution inégalitaire des **attributs de pouvoir** :\n\n- Lunettes : moins d'1/4 des femmes, plus d'1/3 des hommes\n- Regard vers le bas : plus d'1/4 des femmes, moins d'1/5 des hommes\n- Vêtements « business » pour les hommes, « casual » pour les femmes\n- Hommes davantage entrepreneurs et experts, femmes davantage cadres et étudiantes",
+          "fiche": "diverse-personas"
+        },
+        {
+          "titre": "Vous avez dit… stéréotypes ?",
+          "texte": "- Homme blanc entre 20 et 50 ans avec les cheveux noirs et courts, habillé en costume ou en vêtements professionnels sombres, expert de son domaine ou manager\n- Femme blanche entre 20 et 50 ans, avec les cheveux longs et détachés, souriante dans ses vêtements « casual » clairs ou colorés, experte dans son domaine ou entrepreneur",
+          "fiche": "diverse-personas"
+        },
+        {
+          "titre": "Causes probables",
+          "texte": "- Données socio-démographiques non appuyées par des faits\n- Visuels choisis pour leur beauté plutôt que représentatifs\n- Influence des personas en marketing\n- Biais culturels et renforcement\n\nExemple : une recherche d'images « A manager signing documents in an office » donne 10 359 hommes, 6 883 femmes et 0 personne non binaire.",
+          "astuce": "Deux causes sur quatre correspondent exactement à deux conseils du Focus personas : pas de données préjugées, pas de visuel « beau ».",
+          "fiche": "diverse-personas"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u05-l3-e1",
+          "type": "tri",
+          "question": "Représentativité ou représentation ?",
+          "categories": [
+            "Représentativité (QUI ?)",
+            "Représentation (COMMENT ?)"
+          ],
+          "items": [
+            [
+              "Genre",
+              0
+            ],
+            [
+              "Couleur de peau",
+              0
+            ],
+            [
+              "Âge",
+              0
+            ],
+            [
+              "Handicaps",
+              0
+            ],
+            [
+              "Titre",
+              1
+            ],
+            [
+              "Expression",
+              1
+            ],
+            [
+              "Style",
+              1
+            ],
+            [
+              "Accessoires",
+              1
+            ]
+          ],
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Représentativité = QUI ? (genre, couleur de peau, âge, handicaps). Représentation = COMMENT ? (titre, expression, localisation, style, accessoires)."
+        },
+        {
+          "id": "u05-l3-e2",
+          "type": "qcm",
+          "question": "Sur combien de personas porte l'étude Diverse Personas ?",
+          "choix": [
+            "211 personas, 43 projets",
+            "43 personas, 211 projets",
+            "100 personas, 10 projets",
+            "1 000 personas, 50 projets"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "211 personas, 43 projets digitaux, en 2023, présentés à la UX Conf Paris."
+        },
+        {
+          "id": "u05-l3-e3",
+          "type": "vf",
+          "question": "Dans l'échantillon, il y a nettement plus de personas masculins que féminins.",
+          "bonne": false,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Le genre est presque équilibré dans l'échantillon : 48 % de personas masculins, 51 % de féminins. Le problème est ailleurs : diversité ciblée, exclusion des âges extrêmes et des handicaps."
+        },
+        {
+          "id": "u05-l3-e4",
+          "type": "qcm",
+          "question": "Quels utilisateurs sont presque absents des 211 personas ?",
+          "choix": [
+            "Les personnes très jeunes, très âgées ou en situation de handicap",
+            "Les femmes",
+            "Les hommes entre 20 et 50 ans",
+            "Les experts"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Très peu ont moins de 20 ans (3 %) ou plus de 60 ans (5 %) ; 1 persona sur 211 avec un dispositif d'assistance, soit 0 %. D'où la conclusion : beaucoup d'exclusion."
+        },
+        {
+          "id": "u05-l3-e5",
+          "type": "qcm",
+          "question": "Que veut dire « une diversité très ciblée » ?",
+          "choix": [
+            "Genre OU couleur de peau, rarement les deux",
+            "Tous les critères sont équilibrés",
+            "Aucune diversité du tout",
+            "Seulement des personas de plus de 60 ans"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Conclusion : une diversité relative et **très ciblée** (genre OU couleur de peau, rarement les deux) : seuls 21 % des projets sont équilibrés à la fois en genre et en couleur de peau."
+        },
+        {
+          "id": "u05-l3-e6",
+          "type": "tri",
+          "question": "Cause probable citée par l'étude, ou non ?",
+          "categories": [
+            "Cause probable citée",
+            "Pas citée"
+          ],
+          "items": [
+            [
+              "Données socio-démographiques non appuyées par des faits",
+              0
+            ],
+            [
+              "Visuels choisis pour leur beauté plutôt que représentatifs",
+              0
+            ],
+            [
+              "Influence des personas en marketing",
+              0
+            ],
+            [
+              "Biais culturels et renforcement",
+              0
+            ],
+            [
+              "Trop d'interviews réalisées",
+              1
+            ],
+            [
+              "Personas trop courts",
+              1
+            ]
+          ],
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Les 4 causes probables du cours : données socio-démographiques non appuyées par des faits, visuels choisis pour leur beauté, influence des personas en marketing, biais culturels et renforcement."
+        },
+        {
+          "id": "u05-l3-e7",
+          "type": "qcm",
+          "question": "Persona d'une appli bancaire : « Thomas, 38 ans, homme blanc, cheveux noirs et courts, costume sombre, manager, lunettes ». Que relève l'étude ?",
+          "choix": [
+            "C'est le stéréotype masculin le plus fréquent des personas analysés",
+            "C'est un persona parfaitement inclusif",
+            "C'est un archétype",
+            "Rien : le visuel n'a pas d'importance"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "C'est un des deux stéréotypes relevés : homme blanc entre 20 et 50 ans, cheveux noirs et courts, costume ou vêtements professionnels sombres, expert ou manager. Lunettes, titre, style : des attributs de pouvoir distribués de façon inégalitaire."
+        }
+      ]
     },
     {
       "id": "u05-l4",
-      "titre": "",
+      "titre": "Les archétypes",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "archetypes",
+        "diverse-personas"
+      ],
+      "cartes": [
+        {
+          "titre": "Une solution : les archétypes",
+          "texte": "Isoler les **données individuelles** des **données communes** au persona, de manière à pouvoir **raconter plusieurs histoires plutôt qu'une seule**.",
+          "analogie": "La boussole sans visage : elle garde le nord sans enfermer l'équipe dans le portrait d'une seule personne.",
+          "fiche": "archetypes"
+        },
+        {
+          "titre": "Ce qu'on garde",
+          "texte": "Garder les informations essentielles d'un persona : **pain-points, motivations, contexte et attitudes**.\n\nCe sont les mêmes informations que le premier conseil du [[persona-conseils|Focus personas]] demande de privilégier.",
+          "fiche": "archetypes"
+        },
+        {
+          "titre": "Ce qu'on montre",
+          "texte": "- Illustrer le **contexte** plutôt qu'une personne, ou préférer un visuel favorisant le design inclusif (**photo de groupe** par exemple)\n- Visuellement représenter grâce à des **icônes** les situations de handicap concernées",
+          "fiche": "archetypes"
+        },
+        {
+          "titre": "Plusieurs histoires",
+          "texte": "Raconter plusieurs histoires grâce à des **citations** et des visuels **« tranches de vie »**.\n\nLa conférence passe en revue des pistes de visuels (generative AI pictures, humanoïdes, smileys et emojis, contexte) et termine sur : **archétypes + tranches de vie**.",
+          "fiche": "archetypes"
+        },
+        {
+          "titre": "Pour aller plus loin",
+          "texte": "Le cours renvoie à l'article du Nielsen Norman Group : https://www.nngroup.com/articles/personas-archetypes/",
+          "fiche": "archetypes"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u05-l4-e1",
+          "type": "qcm",
+          "question": "Qu'est-ce qu'un archétype, selon le cours ?",
+          "choix": [
+            "Isoler les données individuelles des données communes, pour raconter plusieurs histoires plutôt qu'une seule",
+            "Un persona avec une photo plus belle",
+            "Un persona sans pain-points",
+            "Un persona pour le marketing"
+          ],
+          "bonne": 0,
+          "notions": [
+            "archetypes"
+          ],
+          "explication": "Définition du cours : isoler les données individuelles des données communes au persona, de manière à pouvoir raconter plusieurs histoires plutôt qu'une seule."
+        },
+        {
+          "id": "u05-l4-e2",
+          "type": "tri",
+          "question": "Archétype d'une appli de location de trottinettes : garder ou isoler ?",
+          "categories": [
+            "Garder (commun)",
+            "Isoler (individuel)"
+          ],
+          "items": [
+            [
+              "Craint de ne pas trouver de trottinette chargée",
+              0
+            ],
+            [
+              "Veut arriver à l'heure sans transpirer",
+              0
+            ],
+            [
+              "Trajets courts en ville, souvent sous la pluie",
+              0
+            ],
+            [
+              "Se méfie des paiements par appli",
+              0
+            ],
+            [
+              "Prénom et nom de famille",
+              1
+            ],
+            [
+              "Portrait unique d'une seule personne",
+              1
+            ]
+          ],
+          "notions": [
+            "archetypes"
+          ],
+          "explication": "L'archétype garde l'essentiel (pain-points, motivations, contexte, attitudes) et isole les données individuelles."
+        },
+        {
+          "id": "u05-l4-e3",
+          "type": "qcm",
+          "question": "Quel visuel pour l'archétype « parent pressé » d'une appli de courses en ligne ?",
+          "choix": [
+            "Un caddie, une poussette et une liste de courses dans une cuisine (le contexte)",
+            "Le portrait d'une seule mère souriante",
+            "Un mannequin en costume",
+            "Le logo de l'appli"
+          ],
+          "bonne": 0,
+          "notions": [
+            "archetypes"
+          ],
+          "explication": "Illustrer le contexte plutôt qu'une personne, ou préférer un visuel favorisant le design inclusif (photo de groupe par exemple)."
+        },
+        {
+          "id": "u05-l4-e4",
+          "type": "vf",
+          "question": "Dans un archétype, on représente les situations de handicap concernées par des icônes.",
+          "bonne": true,
+          "notions": [
+            "archetypes",
+            "accessibilite"
+          ],
+          "explication": "Visuellement représenter grâce à des **icônes** les situations de handicap concernées : elles restent visibles pour l'équipe, comme le demande l'accessibilité."
+        },
+        {
+          "id": "u05-l4-e5",
+          "type": "qcm",
+          "question": "Comment raconter plusieurs histoires avec un archétype ?",
+          "choix": [
+            "Avec des citations et des visuels « tranches de vie »",
+            "Avec une seule photo de studio",
+            "En ajoutant plus de données socio-démographiques",
+            "En faisant 10 personas principaux"
+          ],
+          "bonne": 0,
+          "notions": [
+            "archetypes"
+          ],
+          "explication": "Raconter plusieurs histoires grâce à des citations et des visuels « tranches de vie » : la conférence termine sur « archétypes + tranches de vie »."
+        },
+        {
+          "id": "u05-l4-e6",
+          "type": "assoc",
+          "question": "Associe chaque problème de l'étude à la réponse de l'archétype.",
+          "paires": [
+            [
+              "Visuels choisis pour leur beauté",
+              "Illustrer le contexte"
+            ],
+            [
+              "Handicaps presque absents (0 %)",
+              "Icônes des situations de handicap"
+            ],
+            [
+              "Une seule histoire, souvent stéréotypée",
+              "Citations et tranches de vie"
+            ],
+            [
+              "Données socio-démographiques non appuyées par des faits",
+              "Isoler les données individuelles"
+            ]
+          ],
+          "notions": [
+            "archetypes",
+            "diverse-personas"
+          ],
+          "explication": "Chaque piste de l'archétype répond à un problème relevé par l'étude Diverse Personas."
+        }
+      ]
     },
     {
       "id": "u05-l5",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Mélange",
+      "duree": 6,
+      "notions": [
+        "persona-processus",
+        "persona-conseils",
+        "diverse-personas",
+        "archetypes",
+        "persona",
+        "empathy-map"
+      ],
+      "cartes": [
+        {
+          "titre": "Le fil de l'unité",
+          "texte": "- [[persona-processus|Fabriquer]] : 5 étapes, de la recherche aux personas priorisés\n- [[persona-conseils|Remplir]] : une fiche d'identité d'une page A4, centrée sur ce qui influence l'usage\n- [[diverse-personas|Vérifier]] : pas de stéréotypes ni d'exclusion\n- [[archetypes|Transformer]] : des archétypes qui racontent plusieurs histoires"
+        },
+        {
+          "titre": "Le reporter et la boussole",
+          "texte": "Proto le renard revient de **reportage** (interviews, observations) avec ses notes. Il les synthétise dans une [[empathy-map]], qui peut être complémentaire aux personas, ou en être la base de travail. Puis il en tire des personas : la **boussole** de l'équipe.",
+          "analogie": "Le reporter rapporte, la boussole oriente."
+        },
+        {
+          "titre": "Une boussole juste",
+          "texte": "Une boussole faussée par des données préjugées ou des visuels « beaux » oriente vers des utilisateurs qui n'existent pas. Les archétypes gardent le nord : pain-points, motivations, contexte et attitudes."
+        },
+        {
+          "titre": "Les chiffres à retenir",
+          "texte": "- Max. **5** personas principaux, sur **une page A4**\n- **211** personas, **43** projets (2023)\n- **3 %** de moins de 20 ans, **5 %** de plus de 60 ans\n- **1** persona sur 211 avec une canne, soit **0 %**"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u05-l5-e1",
+          "type": "qcm",
+          "question": "Persona d'une appli de randonnée : « Léa, 27 ans, photo de mannequin souriante en studio, revenus inventés ». Quels conseils sont ignorés ?",
+          "choix": [
+            "Éviter les données préjugées et préférer un visuel en contexte plutôt que « beau »",
+            "Limiter à une page A4",
+            "Ne pas dépasser 5 personas principaux",
+            "Aucun : le persona est conforme"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-conseils",
+            "diverse-personas"
+          ],
+          "explication": "Deux causes probables de l'étude (données non appuyées par des faits, visuels choisis pour leur beauté) rejoignent deux conseils du Focus personas."
+        },
+        {
+          "id": "u05-l5-e2",
+          "type": "vf",
+          "question": "L'empathy map peut servir de base de travail pour créer les personas.",
+          "bonne": true,
+          "notions": [
+            "empathy-map",
+            "persona-processus"
+          ],
+          "explication": "Cours 3.1 : l'empathy map peut être complémentaire aux personas, ou en être la base de travail. Et dans le processus, le Temps 2 est le template empathy map."
+        },
+        {
+          "id": "u05-l5-e3",
+          "type": "tri",
+          "question": "Range chaque phrase dans la bonne partie du cours.",
+          "categories": [
+            "Processus",
+            "Conseils",
+            "Étude Diverse Personas",
+            "Archétypes"
+          ],
+          "items": [
+            [
+              "Créez des catégories (clusters)",
+              0
+            ],
+            [
+              "Priorisez les personas principaux",
+              0
+            ],
+            [
+              "Limitez vos personas à une page A4",
+              1
+            ],
+            [
+              "Adaptez les informations selon chaque projet",
+              1
+            ],
+            [
+              "3 % ont moins de 20 ans",
+              2
+            ],
+            [
+              "Distribution inégalitaire des attributs de pouvoir",
+              2
+            ],
+            [
+              "Raconter plusieurs histoires plutôt qu'une seule",
+              3
+            ],
+            [
+              "Icônes des situations de handicap",
+              3
+            ]
+          ],
+          "notions": [
+            "persona-processus",
+            "persona-conseils",
+            "diverse-personas",
+            "archetypes"
+          ],
+          "explication": "Processus : comment on fabrique ; conseils : ce qu'on met ; Diverse Personas : ce que l'étude a constaté ; archétypes : la solution proposée."
+        },
+        {
+          "id": "u05-l5-e4",
+          "type": "qcm",
+          "question": "En réunion, le directeur veut ajouter un mode sombre « parce qu'il aime ça ». Que fait une équipe user-centric ?",
+          "choix": [
+            "Elle consulte ses personas : ce besoin apparaît-il dans leurs pain-points ou motivations ?",
+            "Elle suit l'avis du directeur",
+            "Elle suit le dernier qui a parlé",
+            "Elle crée un nouveau persona qui aime le mode sombre"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-processus",
+            "persona"
+          ],
+          "explication": "Le persona est le fil rouge qui permet de conserver une approche user-centric tout au long du processus projet : c'est la boussole qu'on consulte plutôt que l'avis du chef (HIPPO)."
+        },
+        {
+          "id": "u05-l5-e5",
+          "type": "ordre",
+          "question": "Remets dans l'ordre, pour une appli de piscine municipale.",
+          "items": [
+            "Interviewer des nageurs et observer les vestiaires",
+            "Lister pain-points, motivations, attitudes et contextes",
+            "Regrouper en clusters (ex. : « nage avant le travail »)",
+            "Représenter chaque cluster par un archétype",
+            "Prioriser : 5 principaux au maximum"
+          ],
+          "notions": [
+            "persona-processus",
+            "archetypes"
+          ],
+          "explication": "Lister, regrouper, représenter (persona ou archétype), prioriser : la représentation peut prendre la forme d'un archétype."
+        },
+        {
+          "id": "u05-l5-e6",
+          "type": "qcm",
+          "question": "Pourquoi l'absence de personas en situation de handicap pose-t-elle problème ?",
+          "choix": [
+            "Parce que l'équipe oublie des utilisateurs bien réels (1,4 million de personnes en situation de handicap en Suisse)",
+            "Ce n'est pas un problème : ils utilisent peu le numérique",
+            "Parce que les personas doivent être beaux",
+            "Parce que la loi interdit les personas"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas",
+            "accessibilite"
+          ],
+          "explication": "Seul 1 persona sur 211 est présenté avec un dispositif d'assistance (0 %), alors que 1,4 million de personnes vivent en situation de handicap en Suisse."
+        }
+      ]
     }
   ],
-  "jeux": [],
+  "jeux": [
+    {
+      "id": "u05-jeu",
+      "titre": "Chiffres de personas",
+      "description": "Les chiffres et les mots-clés des personas et de l'étude Diverse Personas, en rafale.",
+      "tours": 10,
+      "questions": [
+        {
+          "id": "u05-jeu-q1",
+          "type": "vf",
+          "question": "Maximum 5 personas principaux.",
+          "bonne": true,
+          "notions": [
+            "persona-processus"
+          ],
+          "explication": "Priorisez les personas principaux (max. 5) et secondaires."
+        },
+        {
+          "id": "u05-jeu-q2",
+          "type": "vf",
+          "question": "Un persona tient sur deux pages A4.",
+          "bonne": false,
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Limitez vos personas à une page A4."
+        },
+        {
+          "id": "u05-jeu-q3",
+          "type": "qcm",
+          "question": "L'étude Diverse Personas a été présentée à…",
+          "choix": [
+            "La UX Conf Paris",
+            "Une conférence à Tokyo",
+            "Un salon du marketing"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Recherche menée en 2023, présentée à la UX Conf Paris le 19.09.23."
+        },
+        {
+          "id": "u05-jeu-q4",
+          "type": "vf",
+          "question": "L'étude porte sur 211 personas de 43 projets.",
+          "bonne": true,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "211 personas dans le cadre de 43 projets digitaux."
+        },
+        {
+          "id": "u05-jeu-q5",
+          "type": "qcm",
+          "question": "Part des personas de moins de 20 ans ?",
+          "choix": [
+            "3 %",
+            "20 %",
+            "48 %"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Très peu de personas ont moins de 20 ans : 3 %."
+        },
+        {
+          "id": "u05-jeu-q6",
+          "type": "qcm",
+          "question": "Part des personas de plus de 60 ans ?",
+          "choix": [
+            "5 %",
+            "30 %",
+            "51 %"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Plus de 60 ans : 5 %."
+        },
+        {
+          "id": "u05-jeu-q7",
+          "type": "vf",
+          "question": "Plusieurs personas de l'étude étaient non genrés.",
+          "bonne": false,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Aucun des personas analysés n'était non genré."
+        },
+        {
+          "id": "u05-jeu-q8",
+          "type": "qcm",
+          "question": "Combien de personas avec un dispositif d'assistance ?",
+          "choix": [
+            "1 sur 211 (0 %)",
+            "21 sur 211 (10 %)",
+            "Aucun"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "1 persona sur 211 avec un dispositif d'assistance (canne), soit 0 %."
+        },
+        {
+          "id": "u05-jeu-q9",
+          "type": "qcm",
+          "question": "Projets équilibrés à la fois en genre et en couleur de peau ?",
+          "choix": [
+            "21 %",
+            "44 %",
+            "47 %"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "21 % des projets sont à la fois équilibrés en genre et en couleur de peau."
+        },
+        {
+          "id": "u05-jeu-q10",
+          "type": "vf",
+          "question": "Persona fait d'informations projetées = proto-persona.",
+          "bonne": true,
+          "notions": [
+            "persona-processus"
+          ],
+          "explication": "Informations projetées : on parle de proto-personas."
+        },
+        {
+          "id": "u05-jeu-q11",
+          "type": "vf",
+          "question": "Recherche « manager signing documents » : 0 image de personne non binaire.",
+          "bonne": true,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Recherche d'images « A manager signing documents in an office » : non binaire : 0."
+        },
+        {
+          "id": "u05-jeu-q12",
+          "type": "assoc",
+          "question": "Associe.",
+          "paires": [
+            [
+              "Représentativité",
+              "QUI ?"
+            ],
+            [
+              "Représentation",
+              "COMMENT ?"
+            ]
+          ],
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Représentativité : QUI ? Représentation : COMMENT ?"
+        },
+        {
+          "id": "u05-jeu-q13",
+          "type": "qcm",
+          "question": "Un archétype raconte…",
+          "choix": [
+            "Plusieurs histoires",
+            "Une seule histoire",
+            "Aucune histoire"
+          ],
+          "bonne": 0,
+          "notions": [
+            "archetypes"
+          ],
+          "explication": "Archétypes : raconter plusieurs histoires plutôt qu'une seule."
+        },
+        {
+          "id": "u05-jeu-q14",
+          "type": "vf",
+          "question": "Pour un persona, on choisit le visuel le plus beau.",
+          "bonne": false,
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Préférez un visuel en contexte d'utilisation plutôt qu'un visuel « beau »."
+        }
+      ]
+    }
+  ],
   "quiz": {
     "titre": "Quiz : Personas et design inclusif",
-    "questions": []
+    "questions": [
+      {
+        "id": "u05-quiz-q1",
+        "type": "ordre",
+        "question": "Remets dans l'ordre le processus persona.",
+        "items": [
+          "Identifier les personnes",
+          "Lister pain-points, motivations, attitudes, contextes",
+          "Créer des clusters",
+          "Représenter par un personnage fictif",
+          "Prioriser (max. 5 principaux)"
+        ],
+        "notions": [
+          "persona-processus"
+        ],
+        "explication": "Identifier, lister, clusters, personnage fictif, prioriser."
+      },
+      {
+        "id": "u05-quiz-q2",
+        "type": "qcm",
+        "question": "Les personas synthétisent…",
+        "choix": [
+          "Sous la forme de personnages fictifs les informations de la recherche utilisateurs et/ou projetées",
+          "Les chiffres de vente sous forme de graphiques",
+          "Les idées du brainstorming",
+          "Les résultats des tests utilisateurs uniquement"
+        ],
+        "bonne": 0,
+        "notions": [
+          "persona-processus"
+        ],
+        "explication": "Les personas synthétisent sous la forme de personnages fictifs les informations obtenues via la recherche utilisateurs et/ou projetées (proto-personas)."
+      },
+      {
+        "id": "u05-quiz-q3",
+        "type": "qcm",
+        "question": "Dans le « Comment ? », que fait-on au Temps 2 ?",
+        "choix": [
+          "Synthétiser les indices dans le template empathy map",
+          "Prioriser les personas",
+          "Créer des clusters",
+          "Choisir le visuel"
+        ],
+        "bonne": 0,
+        "notions": [
+          "persona-processus"
+        ],
+        "explication": "Temps 2 : template empathy map, synthétiser les indices ; Temps 1 : récolter les informations."
+      },
+      {
+        "id": "u05-quiz-q4",
+        "type": "vf",
+        "question": "La création de personas peut se faire de manière collaborative en atelier.",
+        "bonne": true,
+        "notions": [
+          "persona-processus"
+        ],
+        "explication": "Le cours précise : (peut être fait de manière collaborative en atelier)."
+      },
+      {
+        "id": "u05-quiz-q5",
+        "type": "tri",
+        "question": "Conseil du cours, ou contraire ?",
+        "categories": [
+          "Conseil du cours",
+          "Contraire"
+        ],
+        "items": [
+          [
+            "Visuel dans le contexte d'utilisation",
+            0
+          ],
+          [
+            "Une page A4 lisible",
+            0
+          ],
+          [
+            "Supprimer ou simplifier ce qui n'influence pas l'utilisation",
+            0
+          ],
+          [
+            "Le même modèle d'informations pour tous les projets",
+            1
+          ],
+          [
+            "Visuel le plus beau possible",
+            1
+          ]
+        ],
+        "notions": [
+          "persona-conseils"
+        ],
+        "explication": "Le cours liste 6 conseils ; les deux autres affirmations les contredisent."
+      },
+      {
+        "id": "u05-quiz-q6",
+        "type": "qcm",
+        "question": "Sur quelles informations se concentrer ?",
+        "choix": [
+          "Pain-points, contexte, motivations et attitudes",
+          "Âge, revenus et situation familiale",
+          "Loisirs, animal de compagnie et signe astrologique",
+          "Couleur de cheveux et style vestimentaire"
+        ],
+        "bonne": 0,
+        "notions": [
+          "persona-conseils"
+        ],
+        "explication": "Concentrez-vous notamment sur pain-points, contexte, motivations et attitudes."
+      },
+      {
+        "id": "u05-quiz-q7",
+        "type": "vf",
+        "question": "Le conseil sur les données préjugées ne concerne que le texte, pas le visuel.",
+        "bonne": false,
+        "notions": [
+          "persona-conseils"
+        ],
+        "explication": "Évitez les données socio-démographiques préjugées **y compris dans le visuel** représentant votre persona."
+      },
+      {
+        "id": "u05-quiz-q8",
+        "type": "qcm",
+        "question": "Qui a mené l'étude Diverse Personas ?",
+        "choix": [
+          "Marie Kuter, en 2023",
+          "Jakob Nielsen, en 1993",
+          "Google Ventures, en 2016",
+          "Dave Gray, en 2010"
+        ],
+        "bonne": 0,
+        "notions": [
+          "diverse-personas"
+        ],
+        "explication": "Recherche menée par Marie Kuter en 2023, présentée à la UX Conf Paris."
+      },
+      {
+        "id": "u05-quiz-q9",
+        "type": "qcm",
+        "question": "Laquelle n'est **pas** une conclusion de l'étude ?",
+        "choix": [
+          "Les personas sont trop longs",
+          "Une diversité relative et très ciblée",
+          "Beaucoup d'exclusion",
+          "Distribution inégalitaire des attributs de pouvoir"
+        ],
+        "bonne": 0,
+        "notions": [
+          "diverse-personas"
+        ],
+        "explication": "Les trois conclusions : diversité relative et très ciblée ; beaucoup d'exclusion ; distribution inégalitaire des attributs de pouvoir."
+      },
+      {
+        "id": "u05-quiz-q10",
+        "type": "qcm",
+        "question": "Dans l'échantillon, qui regarde le plus souvent vers le bas ?",
+        "choix": [
+          "Les personas féminins (plus d'1/4)",
+          "Les personas masculins (plus d'1/3)",
+          "Autant les deux"
+        ],
+        "bonne": 0,
+        "notions": [
+          "diverse-personas"
+        ],
+        "explication": "Plus d'1/4 des femmes regardent vers le bas, contre moins d'1/5 des hommes : un attribut de pouvoir (expression) distribué de façon inégalitaire."
+      },
+      {
+        "id": "u05-quiz-q11",
+        "type": "vf",
+        "question": "Les personas masculins portent plus souvent des lunettes que les personas féminins.",
+        "bonne": true,
+        "notions": [
+          "diverse-personas"
+        ],
+        "explication": "Moins d'1/4 des personas féminins portent des lunettes, contre plus d'1/3 des personas masculins."
+      },
+      {
+        "id": "u05-quiz-q12",
+        "type": "assoc",
+        "question": "Associe chaque chiffre à ce qu'il mesure.",
+        "paires": [
+          [
+            "48 %",
+            "Personas masculins"
+          ],
+          [
+            "3 %",
+            "Personas de moins de 20 ans"
+          ],
+          [
+            "5 %",
+            "Personas de plus de 60 ans"
+          ],
+          [
+            "0 %",
+            "Personas avec un dispositif d'assistance"
+          ]
+        ],
+        "notions": [
+          "diverse-personas"
+        ],
+        "explication": "Chiffres de la représentativité : 48 % / 51 %, 3 %, 5 %, 0 %."
+      },
+      {
+        "id": "u05-quiz-q13",
+        "type": "qcm",
+        "question": "Que garde un archétype ?",
+        "choix": [
+          "Pain-points, motivations, contexte et attitudes",
+          "Le prénom et la photo",
+          "L'âge et les revenus",
+          "Rien : il part de zéro"
+        ],
+        "bonne": 0,
+        "notions": [
+          "archetypes"
+        ],
+        "explication": "Garder les informations essentielles d'un persona : pain-points, motivations, contexte et attitudes."
+      },
+      {
+        "id": "u05-quiz-q14",
+        "type": "vf",
+        "question": "Une photo de groupe peut être un visuel favorisant le design inclusif.",
+        "bonne": true,
+        "notions": [
+          "archetypes"
+        ],
+        "explication": "Illustrer le contexte plutôt qu'une personne, ou préférer un visuel favorisant le design inclusif (photo de groupe par exemple)."
+      },
+      {
+        "id": "u05-quiz-q15",
+        "type": "qcm",
+        "question": "Révision (Cours 1.3) : sur quoi un persona est-il basé ?",
+        "choix": [
+          "Des caractéristiques représentatives des utilisateurs réels",
+          "L'imagination du designer",
+          "Les souhaits du client",
+          "Des statistiques nationales seulement"
+        ],
+        "bonne": 0,
+        "notions": [
+          "persona"
+        ],
+        "explication": "Révision (Cours 1.3) : les personas sont des utilisateurs fictifs d'un système (archétypes), basés sur des caractéristiques représentatives des utilisateurs réels."
+      },
+      {
+        "id": "u05-quiz-q16",
+        "type": "qcm",
+        "question": "Révision (Cours 1.3) : combien de personnes vivent en situation de handicap en Suisse ?",
+        "choix": [
+          "1,4 million",
+          "140 000",
+          "14 millions"
+        ],
+        "bonne": 0,
+        "notions": [
+          "accessibilite"
+        ],
+        "explication": "Révision (Cours 1.3) : 1,4 million de personnes vivent en situation de handicap en Suisse : des utilisateurs qu'un persona ne doit pas exclure."
+      },
+      {
+        "id": "u05-quiz-q17",
+        "type": "vf",
+        "question": "Révision (Cours 3.1) : l'empathy map et les personas s'excluent : on fait l'un ou l'autre.",
+        "bonne": false,
+        "notions": [
+          "empathy-map"
+        ],
+        "explication": "Révision (Cours 3.1) : l'empathy map peut être complémentaire aux personas, ou en être la base de travail."
+      }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u05-b1",
+      "titre": "Audit de personas",
+      "source": "Étude de cas d'après le Focus personas et la UX Conf « Design inclusif » (Cours 3.1)",
+      "notions": [
+        "persona-processus",
+        "persona-conseils",
+        "diverse-personas",
+        "archetypes"
+      ],
+      "enonce": "La médiathèque de ta ville lance **Lirelà**, une appli pour réserver des livres, des jeux et des places aux ateliers. L'équipe a fait 10 interviews (dont 3 avec des personnes de plus de 70 ans et une personne malvoyante) et observé l'accueil un samedi.\n\nElle te montre ses **8 personas principaux**, chacun sur **3 pages**. Quelques extraits :\n\n- **Marc**, 42 ans, homme blanc, cheveux noirs et courts, costume sombre, « directeur commercial », revenus : 9 000 CHF par mois (personne n'a posé la question). Photo de studio.\n- **Julie**, 29 ans, femme blanche, cheveux longs et détachés, souriante, tenue « casual » colorée, étudiante. Elle aime le yoga et les chats.\n- Tous les personas ont entre 25 et 45 ans ; aucun n'évoque la vue ni l'âge.\n- Rubrique « pain-points » : vide pour 5 personas sur 8.\n\nAvant de t'en servir comme boussole, fais l'audit.",
+      "questions": [
+        {
+          "id": "u05-b1-q1",
+          "type": "tri",
+          "question": "Ce qui contredit les conseils du cours, et ce qui va bien.",
+          "categories": [
+            "Contredit un conseil",
+            "Conforme"
+          ],
+          "items": [
+            [
+              "8 personas principaux",
+              0
+            ],
+            [
+              "3 pages par persona",
+              0
+            ],
+            [
+              "Revenus de Marc : personne n'a posé la question",
+              0
+            ],
+            [
+              "Pain-points vides pour 5 personas",
+              0
+            ],
+            [
+              "Photo de studio plutôt qu'en contexte",
+              0
+            ],
+            [
+              "Personas tirés de 10 interviews et d'une observation",
+              1
+            ]
+          ],
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "Conseils du Focus personas : max. 5 principaux, une page A4, pas de données préjugées (revenus jamais demandés), se concentrer sur ce qui influence l'utilisation (pain-points vides, yoga et chats)."
+        },
+        {
+          "id": "u05-b1-q2",
+          "type": "qcm",
+          "question": "Que remarques-tu en comparant Marc et Julie à l'étude Diverse Personas ?",
+          "choix": [
+            "Ils reproduisent les deux stéréotypes relevés par l'étude",
+            "Ils sont parfaitement représentatifs",
+            "Ce sont des archétypes",
+            "Ils respectent l'équilibre de genre, donc tout va bien"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "Les deux personas reprennent presque mot pour mot les deux stéréotypes relevés par l'étude Diverse Personas (homme blanc en costume, expert ou manager ; femme blanche aux cheveux longs, souriante, casual)."
+        },
+        {
+          "id": "u05-b1-q3",
+          "type": "qcm",
+          "question": "Quelle conclusion de l'étude ces personas illustrent-ils le mieux ?",
+          "choix": [
+            "Beaucoup d'exclusion (personnes très âgées, en situation de handicap)",
+            "Une diversité de genre trop forte",
+            "Trop de personas non genrés",
+            "Des personas trop courts"
+          ],
+          "bonne": 0,
+          "notions": [
+            "diverse-personas"
+          ],
+          "explication": "L'équipe a interviewé des personnes de plus de 70 ans et une personne malvoyante, mais aucun persona ne les représente : c'est l'**exclusion** relevée par l'étude (personnes très âgées, en situation de handicap)."
+        },
+        {
+          "id": "u05-b1-q4",
+          "type": "qcm",
+          "question": "Que faire des 8 personas principaux ?",
+          "choix": [
+            "En prioriser 5 au maximum comme principaux, les autres en secondaires",
+            "Les garder tous : plus c'est complet, mieux c'est",
+            "Les fusionner en un seul",
+            "En supprimer 3 au hasard"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-processus"
+          ],
+          "explication": "Étape 5 : priorisez les personas principaux (**max. 5**) et secondaires. On ne supprime pas : on hiérarchise."
+        },
+        {
+          "id": "u05-b1-q5",
+          "type": "tri",
+          "question": "Pour transformer Marc en archétype : garder ou retirer ?",
+          "categories": [
+            "Garder",
+            "Retirer"
+          ],
+          "items": [
+            [
+              "Veut réserver un livre en 30 secondes entre deux rendez-vous",
+              0
+            ],
+            [
+              "Ne vient jamais aux heures d'ouverture",
+              0
+            ],
+            [
+              "Utilise déjà l'appli d'une librairie en ligne",
+              0
+            ],
+            [
+              "Revenus : 9 000 CHF par mois",
+              1
+            ],
+            [
+              "Costume sombre et cheveux courts",
+              1
+            ],
+            [
+              "Prénom « Marc »",
+              1
+            ]
+          ],
+          "notions": [
+            "archetypes",
+            "persona-conseils"
+          ],
+          "explication": "L'archétype garde pain-points, motivations, contexte et attitudes, et isole les données individuelles (et a fortiori préjugées)."
+        },
+        {
+          "id": "u05-b1-q6",
+          "type": "qcm",
+          "question": "Quel visuel pour l'archétype « lecteur qui réserve au dernier moment » ?",
+          "choix": [
+            "Le contexte (un téléphone devant le comptoir de la médiathèque), des citations et des tranches de vie variées",
+            "Une nouvelle photo de studio, plus diverse",
+            "Le portrait de Marc retouché",
+            "Une photo de mannequin tirée d'une banque d'images"
+          ],
+          "bonne": 0,
+          "notions": [
+            "archetypes"
+          ],
+          "explication": "Archétypes : illustrer le contexte plutôt qu'une personne (ou photo de groupe), représenter les situations de handicap par des icônes, raconter plusieurs histoires avec citations et tranches de vie."
+        },
+        {
+          "id": "u05-b1-q7",
+          "type": "qcm",
+          "question": "Comment faire apparaître la personne malvoyante interviewée ?",
+          "choix": [
+            "Par une icône de la situation de handicap concernée dans l'archétype",
+            "Ne rien changer : elle n'est qu'une sur dix",
+            "En ajoutant une canne sur la photo de Julie",
+            "En créant un 9e persona principal"
+          ],
+          "bonne": 0,
+          "notions": [
+            "archetypes",
+            "diverse-personas"
+          ],
+          "explication": "Visuellement représenter grâce à des icônes les situations de handicap concernées : la personne malvoyante interviewée n'est plus oubliée."
+        },
+        {
+          "id": "u05-b1-q8",
+          "type": "ordre",
+          "question": "Remets dans l'ordre la refonte des personas.",
+          "items": [
+            "Relire les notes des 10 interviews et de l'observation",
+            "Lister pain-points, motivations, attitudes et contextes",
+            "Regrouper en clusters",
+            "Représenter chaque cluster par un archétype",
+            "Prioriser les principaux (max. 5) et les secondaires"
+          ],
+          "notions": [
+            "persona-processus",
+            "archetypes"
+          ],
+          "explication": "On repart des données de recherche (Temps 3), on regroupe (Temps 4), on représente par des archétypes (Temps 5), on priorise (Temps 6)."
+        }
+      ],
+      "seuil": 0.8
+    }
+  ]
 }
