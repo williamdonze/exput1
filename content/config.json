@@ -6,14 +6,15 @@
     "cours": "Expérience utilisateur 1 (ExUt1), Marie Kuter, HEIG-VD, BSc Ingénierie des médias",
     "cle": "proto",
     "langue": "fr",
-    "accroche": "Salut, moi c'est Proto ! On va comprendre les utilisateurs, puis prototyper et tester, une étape à la fois.",
+    "accroche": "On va comprendre les utilisateurs, puis prototyper et tester, une étape à la fois.",
     "mascotte": {
       "nom": "Proto",
       "forme": "renard",
       "accessoire": "beret",
       "corps": "#F08A3C",
       "bord": "#B5541A",
-      "accent": "#fff"
+      "accent": "#fff",
+      "cadre": []
     },
     "couleurs": {
       "clair": {
