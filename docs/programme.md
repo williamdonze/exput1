@@ -94,7 +94,7 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Notions des unités précédentes à revoir : persona, empathy-map, recherche-utilisateurs, accessibilite
 - Leçons : 1. Fabriquer un persona en 5 étapes 2. Ce qu'on met (et ce qu'on enlève) 3. Diverse Personas : ce que révèlent 211 personas 4. Les archétypes 5. Mélange
 - Boss : étude de cas « Audit de personas » : une série de personas d'un projet (autre domaine que le cours) : repérer ce qui contredit les conseils et les biais de l'étude (visuel « beau », données socio-démographiques préjugées, stéréotypes, plus de 5 principaux…), puis choisir comment les transformer en archétypes
-- État : à écrire
+- État : écrite, testée
 
 ## u06 — Étape 3 : Ideate
 - Objectif : distinguer art et design, définir la créativité, animer un brainstorming (règles, techniques) et choisir une bonne idée.
