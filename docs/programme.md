@@ -103,7 +103,7 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Notions des unités précédentes à revoir : hmw, persona, design-thinking
 - Leçons : 1. Art ou design ? La créativité 2. Les règles du brainstorming 3. Diverger puis converger : crazy 8, cadavre exquis, dot-voting 4. Qu'est-ce qu'une bonne idée ? 5. Mélange (et « quelle étape du Design Thinking ? »)
 - Boss : étude de cas « L'atelier d'idéation » : animer un brainstorming à partir d'un HMW (autre domaine) : repérer les comportements contraires aux règles, remettre les étapes dans l'ordre (manuel anti page blanche, crazy 8, dot-voting), juger des idées avec les 5 critères
-- État : à écrire
+- État : écrite, testée
 
 ## u07 — Étape 4 : Prototype
 - Objectif : expliquer les niveaux de conception d'une interface, du zoning au prototype, et choisir le bon livrable et le bon outil selon le besoin.

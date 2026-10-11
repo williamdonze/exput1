@@ -2,55 +2,1676 @@
   "id": "u06",
   "titre": "Ideate",
   "sousTitre": "Cours 4.1, Petit manuel anti page blanche",
-  "objectif": "",
-  "icone": "",
-  "fiches": [],
+  "objectif": "Distinguer art et design, définir la créativité, animer un brainstorming (règles, techniques : crazy 8, cadavre exquis, dot-voting) et choisir une bonne idée avec les 5 critères.",
+  "icone": "***",
+  "fiches": [
+    {
+      "id": "art-vs-design",
+      "titre": "Art ou design ?",
+      "icone": "A|D",
+      "resume": "**Art : le message d'abord** (exprimer la vision de l'artiste). **Design : la fonction avant tout** (répondre à un problème de manière créative) : « la forme suit la fonction ».",
+      "analogie": "Le design, c'est **le plan de la maison** : chaque pièce est dessinée pour qu'on y vive bien, pas pour exprimer l'humeur de l'architecte. On le juge à l'usage : la forme suit la fonction.",
+      "texte": "**Art : le message d'abord.** Exprimer la vision de l'artiste.\n- Centré sur l'artiste, introspection\n- Expression de l'artiste\n- Savoir-faire\n- Technique secondaire\n- Style, personnalité, « patte »\n- Signature, authentification\n\nExemple du cours : **Jean Tinguely, Föhn 1, 1974**.\n\n**Design : la fonction avant tout.** Répondre à un problème de manière créative.\n- Centré sur la fonction : « la forme suit la fonction. »\n- Fonctionnel\n- Atteindre un ou plusieurs objectifs\n- Répondre à un problème\n- Mesurable\n- Centré sur l'utilisateur et l'utilisation\n\nExemple du cours : **le presse-citron de Philippe Starck**.",
+      "pieges": [
+        "Le design n'est pas « l'art appliqué aux écrans » : il part d'un problème et d'utilisateurs, pas de la vision de son auteur.",
+        "« Mesurable » est du côté du design : on peut vérifier si les objectifs sont atteints. Le style et la « patte » sont du côté de l'art."
+      ]
+    },
+    {
+      "id": "creativite",
+      "titre": "La créativité",
+      "icone": "!",
+      "resume": "« La créativité est la capacité à réaliser une production qui soit à la fois **nouvelle** et **adaptée au contexte** dans lequel elle se manifeste » (Lubart). Et : **vous êtes tous créatifs !**",
+      "analogie": "Une idée nouvelle mais hors contexte, c'est une **boussole** qui indique le nord… sur une autre planète : originale, mais inutile à l'équipe. Les deux conditions vont ensemble.",
+      "texte": "**Définition** : « La créativité est la capacité à réaliser une production qui soit à la fois **nouvelle** et **adaptée au contexte** dans lequel elle se manifeste. » (Source : **Lubart, Todd**, *Psychologie de la créativité*)\n\n**Vous êtes tous créatifs !** « Innovateur, rêveur, artistes, producteur... on est tous créatifs, à notre propre manière ! » Le cours propose un test pour découvrir ton profil créatif.",
+      "pieges": [
+        "Nouvelle **et** adaptée au contexte : les deux à la fois. Une idée seulement nouvelle ne suffit pas.",
+        "La créativité n'est pas réservée aux artistes : le cours dit que nous sommes tous créatifs, chacun à sa manière."
+      ]
+    },
+    {
+      "id": "brainstorming",
+      "titre": "Le brainstorming",
+      "icone": "***",
+      "resume": "3 buts : faire le tour du problème, capitaliser sur différents profils, aboutir à une vision commune. 7 règles de base, dont « il n'y a pas de mauvaise idée (à ce stade) » et « pas de jugement ». On va **de la quantité à la qualité**.",
+      "analogie": "Comme **le reporter** pendant l'interview : pendant le brainstorming, on écoute, on ne coupe pas, on ne juge pas. Le tri vient après.",
+      "texte": "**Les 3 buts du brainstorming** :\n- **Faire le tour d'un problème** en adoptant différents points de vue de manière à couvrir tous les aspects du problème : « Faire le tour du problème »\n- **Capitaliser sur différents profils et sensibilités** pour faire émerger de nouvelles idées : « On a chacun une pièce du puzzle »\n- **Encourager les discussions et les échanges** pour partager les visions, confronter les idées et finalement [aboutir] sur une vision commune : « Tout seul on va plus vite ; ensemble on va plus loin. »\n\n**Règles de base** :\n- Il n'y a pas de mauvaise idée (à ce stade)\n- Pas de jugement\n- Écoute active et attitude constructive et positive\n- Respect et bienveillance\n- Solidarité et soutien les uns envers les autres\n- Suivez les instructions données par le facilitateur / par la facilitatrice\n- Faites confiance à votre créativité !\n\n**De la quantité à la qualité** : d'abord la **divergence** (beaucoup d'idées, dans tous les sens), puis la **convergence** (on resserre vers la meilleure). « From chaos emerge brilliant ideas. »",
+      "pieges": [
+        "« Pas de mauvaise idée » vaut **à ce stade** : le tri vient ensuite, avec la convergence.",
+        "Diverger d'abord, converger ensuite : juger trop tôt coupe la quantité dont naît la qualité."
+      ]
+    },
+    {
+      "id": "techniques-ideation",
+      "titre": "Les techniques d'idéation",
+      "icone": "8",
+      "resume": "Crazy 8 (une feuille pliée en 8 cases), 3-2-1 « cadavre exquis » (3 idées, +2, +1, puis mise en commun), dot-voting (des points pour voter), et le **Petit manuel anti page blanche** en 4 étapes. Tout le monde peut « sketcher » !",
+      "analogie": "Le manuel commence par **le zoom** : écrire le problème sous la forme « Comment pourrait-on… ? ». Un HMW bien cadré, et la page n'est plus blanche.",
+      "texte": "**Crazy 8** : sur le schéma du cours, on plie une feuille en deux, puis encore en deux, puis encore en deux : dépliée, elle a **8 cases**, une idée par case (« Your idea here »).\n\n**3-2-1… « cadavre exquis » !** Sur le schéma, les participants sont en cercle :\n- 1. Liste **3** idées\n- 2. Ajoute **2** idées\n- 3. Ajoute **1** idée\n- 4. Mise en commun & décisions\n\n**Dot-voting** : sur le schéma, les idées sont sur des cartes au mur et chacun y colle des **points** ; l'idée qui a reçu le plus de points ressort.\n\n**Petit manuel anti page blanche** (Marie Kuter) :\n- 1. Écrivez votre problème sous la forme « **Comment pourrait-on ?** »\n- 2. À quoi ça vous fait penser ? Jouez aux **associations d'idées** en listant les mots-clés qui vous viennent à l'esprit\n- 3. **Que diraient les autres ?** Essayez d'imaginer les réponses de : Einstein, votre grand-mère, votre neveu de 6 ans, votre patron, Barack Obama, Lady Gaga, le chien de votre voisine (et bien d'autres !)\n- 4. Pensez aussi à chercher **l'inspiration chez les autres** : que font les concurrents ? Les groupes les plus célèbres ? Les start-ups ?\n\n**Tout le monde peut « sketcher » !**",
+      "pieges": [
+        "Crazy 8 et cadavre exquis servent à **diverger** (produire des idées) ; le dot-voting sert à **converger** (choisir).",
+        "Le manuel commence toujours par le problème écrit en « Comment pourrait-on ? » : c'est le HMW de l'étape Define.",
+        "Pas besoin de savoir dessiner : tout le monde peut « sketcher »."
+      ]
+    },
+    {
+      "id": "bonne-idee",
+      "titre": "Qu'est-ce qu'une bonne idée ?",
+      "icone": "5/5",
+      "resume": "5 critères : elle répond au besoin, elle est originale, elle n'ajoute pas au problème, elle est adaptée aux personas, elle est physiquement possible aujourd'hui. Puis : idée → concept → produit.",
+      "analogie": "Le critère « adaptée aux personas » ramène à **la boussole** : on consulte le persona avant de garder une idée. Et le passage de l'idée au concept, c'est passer au **plan de la maison** pour pouvoir la faire visiter.",
+      "texte": "**Qu'est-ce qu'une bonne idée de solution ?**\n- Elle répond au besoin en apportant une solution pour réduire ou éliminer le problème de départ ?\n- Elle est originale et apporte une solution nouvelle par rapport à l'existant ?\n- Elle n'ajoute pas au problème ou ne crée pas de risques supplémentaires ?\n- Elle est adaptée aux personas et à leur contexte d'utilisation ?\n- Il est physiquement possible qu'elle existe aujourd'hui et maintenant ?\n\n**De l'idée à… la suite** :\n- **Une idée de solution** : « On a une bonne idée, génial ! Elle répond au problème, est adaptée aux personas et à leur contexte. Mais pour l'instant elle n'est que dans notre tête. »\n- **Un concept qui prend forme** : « On précise notre idée, on la spécifie, on la décrit et on la prototype de manière à pouvoir la présenter à d'autres, les faire tester et adhérer à notre idée. »\n- **Un produit qui délivre de la valeur** : « Notre concept est suffisamment clair et précis pour pouvoir être réalisé et il est mis entre les mains de nos utilisateurs. »",
+      "pieges": [
+        "Une idée originale qui crée un nouveau risque n'est pas une bonne idée : les 5 critères comptent ensemble.",
+        "« Physiquement possible aujourd'hui et maintenant » : une idée qui dépend d'une technologie qui n'existe pas encore ne passe pas.",
+        "Une bonne idée n'est encore « que dans notre tête » : il faut ensuite en faire un concept, puis un produit."
+      ]
+    }
+  ],
   "lecons": [
     {
       "id": "u06-l1",
-      "titre": "",
+      "titre": "Art ou design ? La créativité",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "art-vs-design",
+        "creativite"
+      ],
+      "cartes": [
+        {
+          "titre": "Étape 3 : Ideate",
+          "texte": "Après Empathize (comprendre) et Define (reformuler le problème en « How might we… »), voici **Ideate** : **brainstormer toutes les idées possibles**.\n\nDéfinition du cours : « **Idéation** : brainstormer pour créer des idées nouvelles permettant de répondre au problème. »",
+          "fiche": "design-thinking"
+        },
+        {
+          "titre": "Art : le message d'abord",
+          "texte": "L'art veut **exprimer la vision de l'artiste** : centré sur l'artiste, introspection, expression de l'artiste, savoir-faire, technique secondaire, style, personnalité, « patte », signature, authentification.\n\nExemple : **Jean Tinguely, Föhn 1, 1974**.",
+          "fiche": "art-vs-design"
+        },
+        {
+          "titre": "Design : la fonction avant tout",
+          "texte": "Le design veut **répondre à un problème de manière créative** : centré sur la fonction (« **la forme suit la fonction** »), fonctionnel, atteindre un ou plusieurs objectifs, répondre à un problème, **mesurable**, centré sur l'utilisateur et l'utilisation.\n\nExemple : **le presse-citron de Philippe Starck**.",
+          "analogie": "Le design, c'est **le plan de la maison** : on dessine les pièces pour qu'on y vive bien.",
+          "fiche": "art-vs-design"
+        },
+        {
+          "titre": "La créativité selon Lubart",
+          "texte": "« La créativité est la capacité à réaliser une production qui soit à la fois **nouvelle** et **adaptée au contexte** dans lequel elle se manifeste. »\n\n(Lubart, Todd, *Psychologie de la créativité*)",
+          "piege": "Nouvelle **et** adaptée : une idée seulement originale ne suffit pas.",
+          "fiche": "creativite"
+        },
+        {
+          "titre": "Vous êtes tous créatifs !",
+          "texte": "« Innovateur, rêveur, artistes, producteur... on est **tous créatifs**, à notre propre manière ! »\n\nProto, le renard, n'est pas un artiste : il est quand même créatif. Toi aussi.",
+          "fiche": "creativite"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u06-l1-e1",
+          "type": "qcm",
+          "question": "Que fait-on à l'étape **Ideate** du Design Thinking ?",
+          "choix": [
+            "On brainstorme toutes les idées possibles",
+            "On interviewe les utilisateurs",
+            "On rend une idée concrète et testable",
+            "On recueille les feedbacks"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Ideate (Idéation) : brainstormer pour créer des idées nouvelles permettant de répondre au problème. Interviewer, c'est Empathize ; rendre concret, Prototype ; les feedbacks, Test."
+        },
+        {
+          "id": "u06-l1-e2",
+          "type": "tri",
+          "question": "Art ou design ?",
+          "categories": [
+            "Art : le message d'abord",
+            "Design : la fonction avant tout"
+          ],
+          "items": [
+            [
+              "Centré sur l'artiste, introspection",
+              0
+            ],
+            [
+              "Style, personnalité, « patte »",
+              0
+            ],
+            [
+              "Signature, authentification",
+              0
+            ],
+            [
+              "Technique secondaire",
+              0
+            ],
+            [
+              "Mesurable",
+              1
+            ],
+            [
+              "Atteindre un ou plusieurs objectifs",
+              1
+            ],
+            [
+              "Centré sur l'utilisateur et l'utilisation",
+              1
+            ],
+            [
+              "« La forme suit la fonction »",
+              1
+            ]
+          ],
+          "notions": [
+            "art-vs-design"
+          ],
+          "explication": "L'art exprime la vision de l'artiste (introspection, patte, signature). Le design répond à un problème : fonctionnel, mesurable, centré sur l'utilisateur, la forme suit la fonction."
+        },
+        {
+          "id": "u06-l1-e3",
+          "type": "qcm",
+          "question": "Une designer dessine une poignée de porte pour un hôpital : elle doit s'ouvrir du coude, sans les mains. Quelle phrase du cours résume sa démarche ?",
+          "choix": [
+            "« La forme suit la fonction »",
+            "« Style, personnalité, patte »",
+            "« Signature, authentification »",
+            "« Centré sur l'artiste, introspection »"
+          ],
+          "bonne": 0,
+          "notions": [
+            "art-vs-design"
+          ],
+          "explication": "Elle part d'une fonction (ouvrir sans les mains) et d'utilisateurs : c'est le design, où la forme suit la fonction."
+        },
+        {
+          "id": "u06-l1-e4",
+          "type": "assoc",
+          "question": "Relie chaque œuvre du cours à son camp.",
+          "paires": [
+            [
+              "Jean Tinguely, Föhn 1, 1974",
+              "Art : le message d'abord"
+            ],
+            [
+              "Presse-citron de Philippe Starck",
+              "Design : la fonction avant tout"
+            ]
+          ],
+          "notions": [
+            "art-vs-design"
+          ],
+          "explication": "Le cours oppose l'œuvre de Tinguely (art) au presse-citron de Starck (design)."
+        },
+        {
+          "id": "u06-l1-e5",
+          "type": "qcm",
+          "question": "Selon Lubart, la créativité est la capacité à réaliser une production qui soit à la fois…",
+          "choix": [
+            "nouvelle et adaptée au contexte dans lequel elle se manifeste",
+            "belle et originale",
+            "rapide et peu coûteuse",
+            "nouvelle et signée par son auteur"
+          ],
+          "bonne": 0,
+          "notions": [
+            "creativite"
+          ],
+          "explication": "Définition de Lubart : « nouvelle et adaptée au contexte dans lequel elle se manifeste ». Les deux conditions à la fois."
+        },
+        {
+          "id": "u06-l1-e6",
+          "type": "vf",
+          "question": "Selon le cours, seuls les profils artistiques sont créatifs.",
+          "bonne": false,
+          "notions": [
+            "creativite"
+          ],
+          "explication": "« Vous êtes tous créatifs ! » Innovateur, rêveur, artistes, producteur : on est tous créatifs, à notre propre manière."
+        },
+        {
+          "id": "u06-l1-e7",
+          "type": "qcm",
+          "question": "Pour un site de réservation de salles de sport, quelqu'un propose un calendrier en 3D qui tourne, jamais vu, mais que personne n'arrive à lire sur un téléphone. Selon la définition de Lubart, est-ce créatif ?",
+          "choix": [
+            "Non : c'est nouveau, mais pas adapté au contexte",
+            "Oui : c'est nouveau, c'est suffisant",
+            "Oui : c'est beau, c'est suffisant",
+            "Non : ce n'est pas signé"
+          ],
+          "bonne": 0,
+          "notions": [
+            "creativite"
+          ],
+          "explication": "Lubart demande une production **à la fois** nouvelle **et** adaptée au contexte. Illisible sur un téléphone, l'idée ne remplit que la moitié de la définition."
+        }
+      ]
     },
     {
       "id": "u06-l2",
-      "titre": "",
+      "titre": "Les règles du brainstorming",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "brainstorming"
+      ],
+      "cartes": [
+        {
+          "titre": "Pourquoi brainstormer ? 3 buts",
+          "texte": "- **Faire le tour d'un problème** en adoptant différents points de vue, pour couvrir tous les aspects du problème : « Faire le tour du problème »\n- **Capitaliser sur différents profils et sensibilités** pour faire émerger de nouvelles idées : « On a chacun une pièce du puzzle »\n- **Encourager les discussions et les échanges** pour partager les visions, confronter les idées et finalement [aboutir] sur une vision commune : « Tout seul on va plus vite ; ensemble on va plus loin. »",
+          "fiche": "brainstorming"
+        },
+        {
+          "titre": "Les règles de base (1/2)",
+          "texte": "- Il n'y a **pas de mauvaise idée** (à ce stade)\n- **Pas de jugement**\n- **Écoute active** et attitude constructive et positive\n- **Respect et bienveillance**",
+          "analogie": "Comme **le reporter** en interview : on écoute, on ne coupe pas, on ne juge pas.",
+          "fiche": "brainstorming"
+        },
+        {
+          "titre": "Les règles de base (2/2)",
+          "texte": "- **Solidarité et soutien** les uns envers les autres\n- **Suivez les instructions** données par le facilitateur / par la facilitatrice\n- **Faites confiance** à votre créativité !",
+          "fiche": "brainstorming"
+        },
+        {
+          "titre": "De la quantité à la qualité",
+          "texte": "D'abord la **divergence** : beaucoup d'idées, dans tous les sens. Puis la **convergence** : on resserre jusqu'à la meilleure.\n\n« From chaos emerge brilliant ideas. »",
+          "piege": "« Pas de mauvaise idée » vaut **à ce stade**, pendant la divergence. Le tri vient ensuite.",
+          "fiche": "brainstorming"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u06-l2-e1",
+          "type": "assoc",
+          "question": "Relie chaque but du brainstorming à sa citation.",
+          "paires": [
+            [
+              "Faire le tour d'un problème en adoptant différents points de vue",
+              "« Faire le tour du problème »"
+            ],
+            [
+              "Capitaliser sur différents profils et sensibilités",
+              "« On a chacun une pièce du puzzle »"
+            ],
+            [
+              "Encourager les discussions pour aboutir à une vision commune",
+              "« Tout seul on va plus vite ; ensemble on va plus loin. »"
+            ]
+          ],
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "Les 3 buts et leurs 3 citations, tels que dans le cours."
+        },
+        {
+          "id": "u06-l2-e2",
+          "type": "qcm",
+          "question": "Pendant un brainstorming sur une appli de covoiturage, Léa propose « des trajets à dos de chameau ». Que dit la règle de base ?",
+          "choix": [
+            "Il n'y a pas de mauvaise idée (à ce stade) : on la note",
+            "On l'écarte tout de suite pour gagner du temps",
+            "On vote immédiatement pour savoir si on la garde",
+            "On lui demande de se taire jusqu'à la fin"
+          ],
+          "bonne": 0,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "« Il n'y a pas de mauvaise idée (à ce stade) » et « pas de jugement » : pendant la divergence, toutes les idées sont notées. Une idée farfelue peut en faire naître une bonne."
+        },
+        {
+          "id": "u06-l2-e3",
+          "type": "tri",
+          "question": "Ces comportements respectent-ils les règles de base ?",
+          "categories": [
+            "Respecte les règles",
+            "Contraire aux règles"
+          ],
+          "items": [
+            [
+              "Rebondir sur l'idée d'un collègue pour la prolonger",
+              0
+            ],
+            [
+              "Suivre la consigne de la facilitatrice",
+              0
+            ],
+            [
+              "Écouter jusqu'au bout avant de parler",
+              0
+            ],
+            [
+              "Soupirer « ça ne marchera jamais »",
+              1
+            ],
+            [
+              "Se moquer d'une idée naïve",
+              1
+            ],
+            [
+              "Ignorer le temps donné par le facilitateur",
+              1
+            ]
+          ],
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "Écoute active, attitude constructive, solidarité, suivre les instructions du facilitateur : oui. Juger, se moquer, ignorer les instructions : non."
+        },
+        {
+          "id": "u06-l2-e4",
+          "type": "vf",
+          "question": "« Il n'y a pas de mauvaise idée » vaut pour toute la durée du projet, même au moment de choisir.",
+          "bonne": false,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "La règle dit « **à ce stade** » : pendant la divergence. Ensuite vient la convergence, où l'on choisit (de la quantité à la qualité)."
+        },
+        {
+          "id": "u06-l2-e5",
+          "type": "ordre",
+          "question": "Remets dans l'ordre le mouvement « de la quantité à la qualité ».",
+          "items": [
+            "Divergence : beaucoup d'idées dans tous les sens",
+            "Convergence : on resserre les idées",
+            "Une idée brillante émerge"
+          ],
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "D'abord diverger, puis converger : « From chaos emerge brilliant ideas »."
+        },
+        {
+          "id": "u06-l2-e6",
+          "type": "qcm",
+          "question": "Pourquoi réunir un développeur, une graphiste, un vendeur et une utilisatrice dans le même brainstorming ?",
+          "choix": [
+            "Parce qu'on a chacun une pièce du puzzle",
+            "Pour aller plus vite",
+            "Pour que chacun défende son idée jusqu'au bout",
+            "Pour que le chef choisisse à leur place"
+          ],
+          "bonne": 0,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "But n° 2 : capitaliser sur différents profils et sensibilités pour faire émerger de nouvelles idées, « on a chacun une pièce du puzzle ». Ensemble on ne va pas plus vite : on va plus loin."
+        },
+        {
+          "id": "u06-l2-e7",
+          "type": "qcm",
+          "question": "Laquelle de ces phrases n'est **pas** une règle de base du brainstorming dans le cours ?",
+          "choix": [
+            "Chacun défend son idée jusqu'à ce qu'elle soit retenue",
+            "Respect et bienveillance",
+            "Solidarité et soutien les uns envers les autres",
+            "Faites confiance à votre créativité !"
+          ],
+          "bonne": 0,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "Les 7 règles : pas de mauvaise idée (à ce stade), pas de jugement, écoute active, respect et bienveillance, solidarité, suivre le facilitateur, confiance en sa créativité. Défendre son idée à tout prix va contre l'esprit du brainstorming."
+        }
+      ]
     },
     {
       "id": "u06-l3",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Diverger puis converger : crazy 8, cadavre exquis, dot-voting",
+      "duree": 6,
+      "notions": [
+        "techniques-ideation",
+        "brainstorming"
+      ],
+      "cartes": [
+        {
+          "titre": "Petit manuel anti page blanche",
+          "texte": "- 1. Écris ton problème sous la forme « **Comment pourrait-on ?** »\n- 2. À quoi ça te fait penser ? **Associations d'idées** : liste les mots-clés qui te viennent\n- 3. **Que diraient les autres ?** Einstein, ta grand-mère, ton neveu de 6 ans, ton patron, Barack Obama, Lady Gaga, le chien de ta voisine…\n- 4. Cherche **l'inspiration chez les autres** : concurrents, groupes les plus célèbres, start-ups",
+          "analogie": "Étape 1 : **le zoom**. Un HMW bien cadré, ni trop large ni trop serré, et la page n'est plus blanche.",
+          "fiche": "techniques-ideation"
+        },
+        {
+          "titre": "Crazy 8",
+          "texte": "Sur le schéma du cours : on plie une feuille en deux, encore en deux, encore en deux. Dépliée, elle a **8 cases** : une idée par case (« Your idea here »).\n\n**Tout le monde peut « sketcher » !**",
+          "fiche": "techniques-ideation"
+        },
+        {
+          "titre": "3-2-1… « cadavre exquis » !",
+          "texte": "Les participants sont en cercle :\n- 1. Liste **3** idées\n- 2. Ajoute **2** idées\n- 3. Ajoute **1** idée\n- 4. Mise en commun & décisions",
+          "fiche": "techniques-ideation"
+        },
+        {
+          "titre": "Dot-voting",
+          "texte": "Les idées sont affichées ; chacun colle des **points** sur les cartes. L'idée qui a le plus de points ressort.\n\nCrazy 8 et cadavre exquis font **diverger** ; le dot-voting fait **converger**.",
+          "fiche": "techniques-ideation"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u06-l3-e1",
+          "type": "ordre",
+          "question": "Remets dans l'ordre les 4 étapes du Petit manuel anti page blanche.",
+          "items": [
+            "Écrire le problème sous la forme « Comment pourrait-on ? »",
+            "Associations d'idées : lister les mots-clés",
+            "Que diraient les autres ? (Einstein, ta grand-mère…)",
+            "Chercher l'inspiration chez les autres (concurrents, start-ups…)"
+          ],
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "1. Le problème en « Comment pourrait-on ? » ; 2. associations d'idées ; 3. que diraient les autres ? ; 4. l'inspiration chez les autres."
+        },
+        {
+          "id": "u06-l3-e2",
+          "type": "ordre",
+          "question": "Remets dans l'ordre le 3-2-1 « cadavre exquis ».",
+          "items": [
+            "Liste 3 idées",
+            "Ajoute 2 idées",
+            "Ajoute 1 idée",
+            "Mise en commun & décisions"
+          ],
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "3, puis 2, puis 1 idée, puis mise en commun et décisions : d'où le nom « 3-2-1 »."
+        },
+        {
+          "id": "u06-l3-e3",
+          "type": "qcm",
+          "question": "Combien de cases (donc d'idées) donne la feuille pliée du crazy 8 ?",
+          "choix": [
+            "8",
+            "3",
+            "6",
+            "4"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "La feuille pliée trois fois en deux donne 8 cases : une idée par case."
+        },
+        {
+          "id": "u06-l3-e4",
+          "type": "tri",
+          "question": "Diverger (produire des idées) ou converger (choisir) ?",
+          "categories": [
+            "Diverger",
+            "Converger"
+          ],
+          "items": [
+            [
+              "Crazy 8",
+              0
+            ],
+            [
+              "3-2-1 « cadavre exquis » (listes d'idées)",
+              0
+            ],
+            [
+              "Associations d'idées",
+              0
+            ],
+            [
+              "Que diraient les autres ?",
+              0
+            ],
+            [
+              "Dot-voting",
+              1
+            ],
+            [
+              "Mise en commun & décisions",
+              1
+            ]
+          ],
+          "notions": [
+            "techniques-ideation",
+            "brainstorming"
+          ],
+          "explication": "Crazy 8, cadavre exquis, associations d'idées, « que diraient les autres » produisent des idées (divergence). Le dot-voting et la mise en commun servent à choisir (convergence)."
+        },
+        {
+          "id": "u06-l3-e5",
+          "type": "qcm",
+          "question": "Une équipe bloque sur « Comment pourrait-on aider les cyclistes à réparer une crevaison en route ? ». La facilitatrice demande : « Et si c'était votre neveu de 6 ans qui répondait ? » Quelle étape du manuel utilise-t-elle ?",
+          "choix": [
+            "Que diraient les autres ?",
+            "Associations d'idées",
+            "Chercher l'inspiration chez les autres",
+            "Écrire le problème en « Comment pourrait-on ? »"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "Imaginer les réponses d'Einstein, de ta grand-mère, de ton neveu de 6 ans… c'est l'étape 3 : « Que diraient les autres ? »."
+        },
+        {
+          "id": "u06-l3-e6",
+          "type": "qcm",
+          "question": "Paul refuse le crazy 8 : « Je ne sais pas dessiner. » Que lui répond le cours ?",
+          "choix": [
+            "Tout le monde peut « sketcher » !",
+            "Il peut écrire ses idées dans un tableur",
+            "Il peut regarder les autres faire",
+            "Il doit d'abord suivre un cours de dessin"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "Le Petit manuel le dit : « Tout le monde peut « sketcher » ! » Il ne s'agit pas de faire beau, mais de rendre une idée visible."
+        },
+        {
+          "id": "u06-l3-e7",
+          "type": "qcm",
+          "question": "« Que font les concurrents ? Les groupes les plus célèbres ? Les start-ups ? » Quelle étape du manuel est-ce ?",
+          "choix": [
+            "Chercher l'inspiration chez les autres",
+            "Que diraient les autres ?",
+            "Associations d'idées",
+            "Dot-voting"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "Étape 4 du manuel : chercher l'inspiration chez les autres. À ne pas confondre avec l'étape 3, où l'on imagine des personnes qui répondent."
+        }
+      ]
     },
     {
       "id": "u06-l4",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Qu'est-ce qu'une bonne idée ?",
+      "duree": 6,
+      "notions": [
+        "bonne-idee"
+      ],
+      "cartes": [
+        {
+          "titre": "5 critères (1/2)",
+          "texte": "Une bonne idée de solution :\n- **répond au besoin** en apportant une solution pour réduire ou éliminer le problème de départ ;\n- est **originale** et apporte une solution nouvelle par rapport à l'existant ;\n- **n'ajoute pas au problème** ou ne crée pas de risques supplémentaires.",
+          "fiche": "bonne-idee"
+        },
+        {
+          "titre": "5 critères (2/2)",
+          "texte": "- elle est **adaptée aux personas** et à leur contexte d'utilisation ;\n- il est **physiquement possible** qu'elle existe aujourd'hui et maintenant.",
+          "analogie": "« Adaptée aux personas » : on consulte **la boussole** avant de garder une idée.",
+          "fiche": "bonne-idee"
+        },
+        {
+          "titre": "Une idée de solution…",
+          "texte": "« On a une bonne idée, génial ! Elle répond au problème, est adaptée aux personas et à leur contexte. Mais pour l'instant elle n'est **que dans notre tête**. »",
+          "fiche": "bonne-idee"
+        },
+        {
+          "titre": "… un concept, puis un produit",
+          "texte": "**Un concept qui prend forme** : on précise l'idée, on la spécifie, on la décrit et on la **prototype** pour la présenter à d'autres, la faire tester et faire adhérer.\n\n**Un produit qui délivre de la valeur** : le concept est assez clair et précis pour être réalisé, et il est mis entre les mains des utilisateurs.",
+          "analogie": "Le concept, c'est **le plan de la maison** : on peut enfin le montrer et le faire visiter.",
+          "fiche": "bonne-idee"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u06-l4-e1",
+          "type": "qcm",
+          "question": "Pour « Comment pourrait-on réduire l'attente au guichet de la poste ? », une idée propose de supprimer les guichets et de tout faire par courrier recommandé. Quel critère échoue d'abord ?",
+          "choix": [
+            "Elle n'ajoute pas au problème",
+            "Elle est physiquement possible aujourd'hui",
+            "Elle est originale",
+            "Elle ne vient pas d'un expert"
+          ],
+          "bonne": 0,
+          "notions": [
+            "bonne-idee"
+          ],
+          "explication": "Tout faire par recommandé crée d'autres attentes et d'autres risques : l'idée ajoute au problème. Elle est possible, et assez nouvelle ; le dernier choix n'est pas un critère du cours."
+        },
+        {
+          "id": "u06-l4-e2",
+          "type": "qcm",
+          "question": "« Des drones téléportés livrent les médicaments en zéro seconde. » Quel critère manque ?",
+          "choix": [
+            "Il est physiquement possible qu'elle existe aujourd'hui et maintenant",
+            "Elle est originale",
+            "Elle répond au besoin",
+            "Elle n'ajoute pas au problème"
+          ],
+          "bonne": 0,
+          "notions": [
+            "bonne-idee"
+          ],
+          "explication": "La téléportation n'existe pas : l'idée n'est pas physiquement possible aujourd'hui et maintenant."
+        },
+        {
+          "id": "u06-l4-e3",
+          "type": "qcm",
+          "question": "Le persona d'un projet est Rose, 78 ans, sans smartphone. L'équipe garde l'idée « une appli avec réalité augmentée ». Quel critère n'est pas respecté ?",
+          "choix": [
+            "Elle est adaptée aux personas et à leur contexte d'utilisation",
+            "Elle est originale",
+            "Elle est physiquement possible",
+            "Elle répond à un problème"
+          ],
+          "bonne": 0,
+          "notions": [
+            "bonne-idee",
+            "persona"
+          ],
+          "explication": "Sans smartphone, Rose ne peut pas l'utiliser : l'idée n'est pas adaptée au persona et à son contexte. Le persona est la boussole à consulter."
+        },
+        {
+          "id": "u06-l4-e4",
+          "type": "vf",
+          "question": "Une idée très originale est forcément une bonne idée.",
+          "bonne": false,
+          "notions": [
+            "bonne-idee"
+          ],
+          "explication": "L'originalité n'est qu'un des 5 critères : il faut aussi répondre au besoin, ne pas ajouter au problème, être adaptée aux personas, être physiquement possible."
+        },
+        {
+          "id": "u06-l4-e5",
+          "type": "ordre",
+          "question": "Remets dans l'ordre le chemin d'une idée.",
+          "items": [
+            "Une idée de solution (elle n'est que dans notre tête)",
+            "Un concept qui prend forme (spécifié, décrit, prototypé)",
+            "Un produit qui délivre de la valeur (entre les mains des utilisateurs)"
+          ],
+          "notions": [
+            "bonne-idee"
+          ],
+          "explication": "De l'idée… au concept… au produit."
+        },
+        {
+          "id": "u06-l4-e6",
+          "type": "assoc",
+          "question": "Relie chaque étape à sa description.",
+          "paires": [
+            [
+              "Une idée de solution",
+              "Pour l'instant elle n'est que dans notre tête"
+            ],
+            [
+              "Un concept qui prend forme",
+              "On la spécifie, on la décrit et on la prototype pour la faire tester"
+            ],
+            [
+              "Un produit qui délivre de la valeur",
+              "Il est mis entre les mains de nos utilisateurs"
+            ]
+          ],
+          "notions": [
+            "bonne-idee"
+          ],
+          "explication": "Idée (dans la tête), concept (spécifié, décrit, prototypé), produit (entre les mains des utilisateurs)."
+        },
+        {
+          "id": "u06-l4-e7",
+          "type": "qcm",
+          "question": "Pour « Comment pourrait-on aider les étudiants à trouver une salle libre pour réviser ? », quelle idée remplit le mieux les 5 critères ?",
+          "choix": [
+            "Afficher en temps réel les salles libres du bâtiment sur le téléphone, à partir du planning des cours",
+            "Construire un nouveau bâtiment de 300 salles",
+            "Imprimer chaque matin la liste de toutes les salles du campus",
+            "Interdire les révisions dans les salles de cours"
+          ],
+          "bonne": 0,
+          "notions": [
+            "bonne-idee"
+          ],
+          "explication": "L'affichage des salles libres répond au besoin, est nouveau par rapport à l'existant, ne crée pas de problème, convient à des étudiants avec téléphone, et est possible aujourd'hui. Les autres échouent sur la faisabilité, l'utilité ou ajoutent au problème."
+        }
+      ]
     },
     {
       "id": "u06-l5",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Mélange : quelle étape du Design Thinking ?",
+      "duree": 6,
+      "notions": [
+        "design-thinking",
+        "hmw",
+        "brainstorming",
+        "techniques-ideation",
+        "bonne-idee"
+      ],
+      "cartes": [
+        {
+          "titre": "Ideate, entre Define et Prototype",
+          "texte": "- **Define** te donne le problème sous forme de HMW (« Comment pourrait-on… ? »).\n- **Ideate** produit toutes les idées possibles, puis en choisit.\n- **Prototype** rend une idée concrète et testable : « modéliser de manière plus détaillée les concepts choisis issus de la phase d'idéation ».",
+          "fiche": "design-thinking"
+        },
+        {
+          "titre": "Le HMW, point de départ de l'idéation",
+          "texte": "Le Petit manuel anti page blanche commence par le HMW. Trop large, il ne donne aucune prise ; trop serré, la solution est déjà dedans.",
+          "analogie": "**Le zoom** : ni « sauver la planète », ni « la voiture, par l'autoroute, à 9 h ».",
+          "fiche": "hmw"
+        },
+        {
+          "titre": "Récap",
+          "texte": "- Art : le message ; design : la fonction.\n- Créativité : nouvelle **et** adaptée au contexte.\n- Brainstorming : 3 buts, 7 règles, de la quantité à la qualité.\n- Techniques : manuel anti page blanche, crazy 8, cadavre exquis, dot-voting.\n- Bonne idée : 5 critères, puis idée → concept → produit."
+        },
+        {
+          "titre": "À toi",
+          "texte": "Pour chaque situation, demande-toi : **à quelle étape** est l'équipe ? Comprendre, reformuler, brainstormer, rendre concret, recueillir les feedbacks ?"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u06-l5-e1",
+          "type": "tri",
+          "question": "Quelle étape du Design Thinking ?",
+          "categories": [
+            "Empathize",
+            "Define",
+            "Ideate",
+            "Prototype",
+            "Test"
+          ],
+          "items": [
+            [
+              "Interviewer des usagers d'une piscine",
+              0
+            ],
+            [
+              "Rédiger « Comment pourrait-on… ? »",
+              1
+            ],
+            [
+              "Faire un crazy 8",
+              2
+            ],
+            [
+              "Dot-voting sur les idées",
+              2
+            ],
+            [
+              "Modéliser en détail le concept choisi",
+              3
+            ],
+            [
+              "Faire essayer le prototype à des utilisateurs",
+              4
+            ]
+          ],
+          "notions": [
+            "design-thinking",
+            "techniques-ideation"
+          ],
+          "explication": "Empathize : comprendre (interviews) ; Define : reformuler en HMW ; Ideate : brainstormer (crazy 8, dot-voting) ; Prototype : modéliser les concepts choisis ; Test : faire essayer."
+        },
+        {
+          "id": "u06-l5-e2",
+          "type": "qcm",
+          "question": "Quel HMW est le meilleur point de départ pour un crazy 8 sur les déchets d'un festival ?",
+          "choix": [
+            "Comment pourrait-on aider les festivaliers à trier leurs déchets sur le site ?",
+            "Comment pourrait-on sauver la planète ?",
+            "Comment pourrait-on installer 40 poubelles jaunes à l'entrée nord à 18 h ?",
+            "Les festivaliers jettent leurs déchets par terre."
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw",
+            "techniques-ideation"
+          ],
+          "explication": "Le bon cadre : ni trop large (sauver la planète), ni trop serré avec la solution dedans (40 poubelles jaunes à 18 h). La dernière phrase n'est pas un « Comment pourrait-on ? »."
+        },
+        {
+          "id": "u06-l5-e3",
+          "type": "qcm",
+          "question": "Une équipe vient de remplir 8 cases chacun en crazy 8. Qu'est-ce qui vient logiquement ensuite pour converger ?",
+          "choix": [
+            "Un dot-voting sur les idées affichées",
+            "Une nouvelle série d'interviews",
+            "Le test utilisateur",
+            "Réécrire le persona"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation",
+            "brainstorming"
+          ],
+          "explication": "Après la divergence (crazy 8), la convergence : le dot-voting fait ressortir les idées préférées."
+        },
+        {
+          "id": "u06-l5-e4",
+          "type": "vf",
+          "question": "Pendant le dot-voting, on choisit ; pendant le crazy 8, on ne juge pas.",
+          "bonne": true,
+          "notions": [
+            "techniques-ideation",
+            "brainstorming"
+          ],
+          "explication": "Crazy 8 : divergence, pas de jugement. Dot-voting : convergence, on choisit. De la quantité à la qualité."
+        },
+        {
+          "id": "u06-l5-e5",
+          "type": "qcm",
+          "question": "L'idée retenue « répond au besoin, est adaptée aux personas », mais elle n'est encore « que dans notre tête ». Que faire maintenant ?",
+          "choix": [
+            "En faire un concept : la préciser, la décrire, la prototyper pour la faire tester",
+            "La livrer tout de suite aux utilisateurs",
+            "Relancer un brainstorming de zéro",
+            "La garder secrète"
+          ],
+          "bonne": 0,
+          "notions": [
+            "bonne-idee",
+            "design-thinking"
+          ],
+          "explication": "De l'idée au concept : on la spécifie, la décrit et la prototype pour la présenter, la faire tester et faire adhérer. C'est la porte vers l'étape Prototype."
+        },
+        {
+          "id": "u06-l5-e6",
+          "type": "tri",
+          "question": "Art ou design ?",
+          "categories": [
+            "Art",
+            "Design"
+          ],
+          "items": [
+            [
+              "Une sculpture qui exprime la colère de son autrice",
+              0
+            ],
+            [
+              "Un panneau de signalétique de gare lisible de loin",
+              1
+            ],
+            [
+              "Un tableau reconnaissable à la « patte » du peintre",
+              0
+            ],
+            [
+              "Un formulaire d'inscription dont on mesure le taux d'abandon",
+              1
+            ]
+          ],
+          "notions": [
+            "art-vs-design"
+          ],
+          "explication": "Art : la vision, la patte de l'artiste. Design : une fonction, des utilisateurs, du mesurable."
+        },
+        {
+          "id": "u06-l5-e7",
+          "type": "qcm",
+          "question": "Pendant l'atelier, le facilitateur annonce : « Chacun liste 3 idées, puis passe sa feuille. » Quelle technique lance-t-il ?",
+          "choix": [
+            "3-2-1 « cadavre exquis »",
+            "Crazy 8",
+            "Dot-voting",
+            "Associations d'idées"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "Liste 3 idées, ajoute 2, ajoute 1, puis mise en commun : c'est le 3-2-1 « cadavre exquis »."
+        }
+      ]
     }
   ],
-  "jeux": [],
+  "jeux": [
+    {
+      "id": "u06-jeu",
+      "titre": "Tempête d'idées",
+      "description": "Questions éclair sur l'étape Ideate : art et design, créativité, brainstorming, techniques, bonne idée.",
+      "tours": 10,
+      "questions": [
+        {
+          "id": "u06-jeu-q1",
+          "type": "qcm",
+          "question": "Ideate est l'étape n°… du Design Thinking.",
+          "choix": [
+            "3",
+            "1",
+            "2",
+            "4"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Exploration, Définition, **Idéation**, Prototypage, Test : la 3e."
+        },
+        {
+          "id": "u06-jeu-q2",
+          "type": "qcm",
+          "question": "Art : le message d'abord. Design : …",
+          "choix": [
+            "la fonction avant tout",
+            "le style avant tout",
+            "la signature avant tout",
+            "l'émotion avant tout"
+          ],
+          "bonne": 0,
+          "notions": [
+            "art-vs-design"
+          ],
+          "explication": "Design : la fonction avant tout, « la forme suit la fonction »."
+        },
+        {
+          "id": "u06-jeu-q3",
+          "type": "qcm",
+          "question": "Qui a défini la créativité comme une production « nouvelle et adaptée au contexte » ?",
+          "choix": [
+            "Lubart",
+            "Starck",
+            "Tinguely",
+            "Norman"
+          ],
+          "bonne": 0,
+          "notions": [
+            "creativite"
+          ],
+          "explication": "Todd Lubart, *Psychologie de la créativité*."
+        },
+        {
+          "id": "u06-jeu-q4",
+          "type": "qcm",
+          "question": "Le presse-citron de Philippe Starck illustre…",
+          "choix": [
+            "le design",
+            "l'art",
+            "le brainstorming",
+            "le dot-voting"
+          ],
+          "bonne": 0,
+          "notions": [
+            "art-vs-design"
+          ],
+          "explication": "Dans le cours, il illustre le design ; Föhn 1 de Tinguely illustre l'art."
+        },
+        {
+          "id": "u06-jeu-q5",
+          "type": "qcm",
+          "question": "« On a chacun une pièce du… »",
+          "choix": [
+            "puzzle",
+            "gâteau",
+            "problème",
+            "projet"
+          ],
+          "bonne": 0,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "« On a chacun une pièce du puzzle » : capitaliser sur différents profils et sensibilités."
+        },
+        {
+          "id": "u06-jeu-q6",
+          "type": "qcm",
+          "question": "« Tout seul on va plus vite ; ensemble on va… »",
+          "choix": [
+            "plus loin",
+            "plus haut",
+            "moins vite",
+            "plus fort"
+          ],
+          "bonne": 0,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "« Tout seul on va plus vite ; ensemble on va plus loin. »"
+        },
+        {
+          "id": "u06-jeu-q7",
+          "type": "vf",
+          "question": "Règle de base : il n'y a pas de mauvaise idée (à ce stade).",
+          "bonne": true,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "Première règle de base du brainstorming."
+        },
+        {
+          "id": "u06-jeu-q8",
+          "type": "qcm",
+          "question": "Crazy 8 : combien de cases sur la feuille pliée ?",
+          "choix": [
+            "8",
+            "6",
+            "4",
+            "3"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "8 cases, une idée par case."
+        },
+        {
+          "id": "u06-jeu-q9",
+          "type": "qcm",
+          "question": "3-2-1 « cadavre exquis » : on commence par lister…",
+          "choix": [
+            "3 idées",
+            "2 idées",
+            "1 idée",
+            "8 idées"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "Liste 3 idées, ajoute 2, ajoute 1, puis mise en commun."
+        },
+        {
+          "id": "u06-jeu-q10",
+          "type": "qcm",
+          "question": "Dot-voting sert à…",
+          "choix": [
+            "choisir parmi les idées (converger)",
+            "produire des idées (diverger)",
+            "interviewer des utilisateurs",
+            "rédiger le HMW"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "Chacun colle des points sur les idées : c'est une technique de convergence."
+        },
+        {
+          "id": "u06-jeu-q11",
+          "type": "qcm",
+          "question": "Combien de critères pour une bonne idée de solution ?",
+          "choix": [
+            "5",
+            "3",
+            "4",
+            "7"
+          ],
+          "bonne": 0,
+          "notions": [
+            "bonne-idee"
+          ],
+          "explication": "Besoin, originalité, pas de nouveau problème, adaptée aux personas, physiquement possible."
+        },
+        {
+          "id": "u06-jeu-q12",
+          "type": "qcm",
+          "question": "Combien de règles de base du brainstorming dans le cours ?",
+          "choix": [
+            "7",
+            "5",
+            "3",
+            "10"
+          ],
+          "bonne": 0,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "Pas de mauvaise idée, pas de jugement, écoute active, respect, solidarité, suivre le facilitateur, confiance en sa créativité."
+        },
+        {
+          "id": "u06-jeu-q13",
+          "type": "vf",
+          "question": "Le manuel anti page blanche commence par écrire le problème en « Comment pourrait-on ? ».",
+          "bonne": true,
+          "notions": [
+            "techniques-ideation",
+            "hmw"
+          ],
+          "explication": "Étape 1 du manuel : le problème sous forme de HMW."
+        },
+        {
+          "id": "u06-jeu-q14",
+          "type": "qcm",
+          "question": "Divergence, puis…",
+          "choix": [
+            "convergence",
+            "divergence",
+            "test",
+            "interview"
+          ],
+          "bonne": 0,
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "De la quantité à la qualité : divergence, puis convergence."
+        },
+        {
+          "id": "u06-jeu-q15",
+          "type": "vf",
+          "question": "Selon le cours, il faut savoir bien dessiner pour faire un crazy 8.",
+          "bonne": false,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "Tout le monde peut « sketcher » !"
+        }
+      ]
+    }
+  ],
   "quiz": {
     "titre": "Quiz : Ideate",
-    "questions": []
+    "questions": [
+      {
+        "id": "u06-quiz-q1",
+        "type": "qcm",
+        "question": "Quelle est la définition de l'**idéation** dans les 5 phases du Design Thinking ?",
+        "choix": [
+          "Brainstormer pour créer des idées nouvelles permettant de répondre au problème",
+          "Modéliser de manière plus détaillée les concepts choisis",
+          "Synthétiser les données pour mieux cerner le problème",
+          "Collecter un maximum de données"
+        ],
+        "bonne": 0,
+        "notions": [
+          "design-thinking"
+        ],
+        "explication": "Idéation : brainstormer pour créer des idées nouvelles permettant de répondre au problème. Les autres sont Prototypage, Définition et Exploration."
+      },
+      {
+        "id": "u06-quiz-q2",
+        "type": "tri",
+        "question": "Art ou design ?",
+        "categories": [
+          "Art",
+          "Design"
+        ],
+        "items": [
+          [
+            "Exprimer la vision de l'artiste",
+            0
+          ],
+          [
+            "Répondre à un problème de manière créative",
+            1
+          ],
+          [
+            "Expression de l'artiste",
+            0
+          ],
+          [
+            "Fonctionnel",
+            1
+          ],
+          [
+            "Savoir-faire",
+            0
+          ],
+          [
+            "Répondre à un problème",
+            1
+          ]
+        ],
+        "notions": [
+          "art-vs-design"
+        ],
+        "explication": "Art : exprimer la vision de l'artiste (expression, savoir-faire…). Design : répondre à un problème de manière créative, fonctionnel."
+      },
+      {
+        "id": "u06-quiz-q3",
+        "type": "vf",
+        "question": "Le design est mesurable.",
+        "bonne": true,
+        "notions": [
+          "art-vs-design"
+        ],
+        "explication": "« Mesurable » est l'une des caractéristiques du design dans le cours, avec « atteindre un ou plusieurs objectifs »."
+      },
+      {
+        "id": "u06-quiz-q4",
+        "type": "qcm",
+        "question": "Complète la définition de Lubart : « la capacité à réaliser une production qui soit à la fois nouvelle et … »",
+        "choix": [
+          "adaptée au contexte dans lequel elle se manifeste",
+          "esthétique",
+          "rentable",
+          "approuvée par le client"
+        ],
+        "bonne": 0,
+        "notions": [
+          "creativite"
+        ],
+        "explication": "Nouvelle **et** adaptée au contexte dans lequel elle se manifeste."
+      },
+      {
+        "id": "u06-quiz-q5",
+        "type": "qcm",
+        "question": "Lequel de ces buts est celui du brainstorming « faire le tour du problème » ?",
+        "choix": [
+          "Adopter différents points de vue pour couvrir tous les aspects du problème",
+          "Aller le plus vite possible",
+          "Laisser le plus expérimenté décider",
+          "Trouver la bonne idée du premier coup"
+        ],
+        "bonne": 0,
+        "notions": [
+          "brainstorming"
+        ],
+        "explication": "« Faire le tour d'un problème en adoptant différents points de vue de manière à couvrir tous les aspects du problème »."
+      },
+      {
+        "id": "u06-quiz-q6",
+        "type": "tri",
+        "question": "Règle de base du brainstorming ou non ?",
+        "categories": [
+          "Règle de base",
+          "Pas une règle du cours"
+        ],
+        "items": [
+          [
+            "Pas de jugement",
+            0
+          ],
+          [
+            "Respect et bienveillance",
+            0
+          ],
+          [
+            "Suivez les instructions du facilitateur",
+            0
+          ],
+          [
+            "Écoute active",
+            0
+          ],
+          [
+            "Seuls les experts proposent",
+            1
+          ],
+          [
+            "On élimine les idées faibles au fil de l'eau",
+            1
+          ]
+        ],
+        "notions": [
+          "brainstorming"
+        ],
+        "explication": "Pas de jugement, respect, suivre le facilitateur, écoute active sont des règles. Éliminer au fil de l'eau, c'est juger trop tôt ; et tout le monde participe."
+      },
+      {
+        "id": "u06-quiz-q7",
+        "type": "qcm",
+        "question": "« From chaos emerge brilliant ideas » illustre…",
+        "choix": [
+          "le passage de la quantité à la qualité",
+          "le dot-voting",
+          "la définition de Lubart",
+          "le presse-citron de Starck"
+        ],
+        "bonne": 0,
+        "notions": [
+          "brainstorming"
+        ],
+        "explication": "La slide « De la quantité à la qualité » : divergence, puis convergence."
+      },
+      {
+        "id": "u06-quiz-q8",
+        "type": "ordre",
+        "question": "Remets dans l'ordre le 3-2-1 « cadavre exquis ».",
+        "items": [
+          "Liste 3 idées",
+          "Ajoute 2 idées",
+          "Ajoute 1 idée",
+          "Mise en commun & décisions"
+        ],
+        "notions": [
+          "techniques-ideation"
+        ],
+        "explication": "3, 2, 1, puis mise en commun et décisions."
+      },
+      {
+        "id": "u06-quiz-q9",
+        "type": "qcm",
+        "question": "Dans le Petit manuel anti page blanche, « Einstein, votre grand-mère, votre neveu de 6 ans, Lady Gaga » servent à…",
+        "choix": [
+          "imaginer ce que diraient les autres",
+          "chercher ce que font les concurrents",
+          "choisir l'idée gagnante",
+          "écrire le HMW"
+        ],
+        "bonne": 0,
+        "notions": [
+          "techniques-ideation"
+        ],
+        "explication": "Étape 3 : que diraient les autres ? Imaginer leurs réponses aide à sortir de ses habitudes."
+      },
+      {
+        "id": "u06-quiz-q10",
+        "type": "assoc",
+        "question": "Relie chaque technique à son usage.",
+        "paires": [
+          [
+            "Crazy 8",
+            "Une feuille pliée en 8 cases, une idée par case"
+          ],
+          [
+            "3-2-1 « cadavre exquis »",
+            "3 idées, puis 2, puis 1, puis mise en commun"
+          ],
+          [
+            "Dot-voting",
+            "Des points collés sur les idées préférées"
+          ],
+          [
+            "Associations d'idées",
+            "Lister les mots-clés qui viennent à l'esprit"
+          ]
+        ],
+        "notions": [
+          "techniques-ideation"
+        ],
+        "explication": "Crazy 8, cadavre exquis et associations d'idées pour diverger ; dot-voting pour converger."
+      },
+      {
+        "id": "u06-quiz-q11",
+        "type": "qcm",
+        "question": "Pour « Comment pourrait-on aider les joueurs d'un club de foot à covoiturer vers les matchs ? », une idée propose un groupe de discussion où chacun indique ses places libres. Une autre propose d'acheter un bus au club, alors qu'il n'a pas de budget. Quel critère départage les deux ?",
+        "choix": [
+          "Physiquement possible aujourd'hui et maintenant",
+          "Originale",
+          "Adaptée à l'artiste",
+          "Mesurable"
+        ],
+        "bonne": 0,
+        "notions": [
+          "bonne-idee"
+        ],
+        "explication": "Sans budget, le bus n'est pas possible aujourd'hui et maintenant ; le groupe de discussion, si."
+      },
+      {
+        "id": "u06-quiz-q12",
+        "type": "tri",
+        "question": "Critère d'une bonne idée selon le cours, ou non ?",
+        "categories": [
+          "Critère du cours",
+          "Pas un critère du cours"
+        ],
+        "items": [
+          [
+            "Elle répond au besoin",
+            0
+          ],
+          [
+            "Elle est originale",
+            0
+          ],
+          [
+            "Elle est adaptée aux personas",
+            0
+          ],
+          [
+            "Elle ne crée pas de risques supplémentaires",
+            0
+          ],
+          [
+            "Elle plaît au chef de projet",
+            1
+          ],
+          [
+            "Elle a reçu un nom accrocheur",
+            1
+          ]
+        ],
+        "notions": [
+          "bonne-idee",
+          "persona"
+        ],
+        "explication": "Les 5 critères : besoin, originalité, pas de nouveau problème, adaptée aux personas, physiquement possible. L'avis du chef n'en fait pas partie : la boussole, c'est le persona."
+      },
+      {
+        "id": "u06-quiz-q13",
+        "type": "ordre",
+        "question": "Remets dans l'ordre : de l'idée à… la suite.",
+        "items": [
+          "Une idée de solution",
+          "Un concept qui prend forme",
+          "Un produit qui délivre de la valeur"
+        ],
+        "notions": [
+          "bonne-idee"
+        ],
+        "explication": "Idée (dans la tête) → concept (prototypé, testé) → produit (entre les mains des utilisateurs)."
+      },
+      {
+        "id": "u06-quiz-q14",
+        "type": "vf",
+        "question": "Selon le cours, tout le monde peut « sketcher ».",
+        "bonne": true,
+        "notions": [
+          "techniques-ideation"
+        ],
+        "explication": "« Tout le monde peut « sketcher » ! » (Petit manuel anti page blanche)."
+      },
+      {
+        "id": "u06-quiz-q15",
+        "type": "qcm",
+        "question": "Révision (Define) : un HMW, c'est un problème reformulé sous la forme…",
+        "choix": [
+          "« Comment pourrait-on… ? »",
+          "« Il faut que… »",
+          "« L'utilisateur veut… »",
+          "« Pourquoi… ? »"
+        ],
+        "bonne": 0,
+        "notions": [
+          "hmw"
+        ],
+        "explication": "How might we… : « Comment pourrait-on… ? ». C'est aussi l'étape 1 du Petit manuel anti page blanche."
+      },
+      {
+        "id": "u06-quiz-q16",
+        "type": "qcm",
+        "question": "Révision : quelle étape suit Ideate dans le Design Thinking ?",
+        "choix": [
+          "Prototype : rendre une idée concrète et testable",
+          "Test : recueillir les feedbacks",
+          "Define : reformuler le problème",
+          "Empathize : comprendre les utilisateurs"
+        ],
+        "bonne": 0,
+        "notions": [
+          "design-thinking"
+        ],
+        "explication": "Empathize, Define, Ideate, **Prototype**, Test."
+      },
+      {
+        "id": "u06-quiz-q17",
+        "type": "qcm",
+        "question": "Révision : pourquoi le persona compte-t-il au moment de choisir une idée ?",
+        "choix": [
+          "Une bonne idée doit être adaptée aux personas et à leur contexte d'utilisation",
+          "Le persona vote au dot-voting",
+          "Le persona écrit le HMW",
+          "Il ne compte pas à l'étape Ideate"
+        ],
+        "bonne": 0,
+        "notions": [
+          "persona",
+          "bonne-idee"
+        ],
+        "explication": "Critère n° 4 : adaptée aux personas et à leur contexte. Le persona est la boussole de l'équipe à chaque décision."
+      }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u06-b1",
+      "titre": "L'atelier d'idéation",
+      "source": "Étude de cas d'après le cours 4.1 (Ideate) et le Petit manuel anti page blanche",
+      "notions": [
+        "brainstorming",
+        "techniques-ideation",
+        "bonne-idee",
+        "hmw"
+      ],
+      "cartes": [
+        {
+          "titre": "La mission de Proto",
+          "texte": "La gérance d'un immeuble de 40 appartements a remarqué que chaque habitant achète ses propres outils de bricolage, qui ne servent presque jamais. Après les interviews (Empathize) et le persona (Define), Proto, le renard, anime l'**atelier d'idéation** avec 6 habitants.\n\nPersona : **Mme Favre**, 81 ans, sans smartphone, habite au 2e étage.\n\nÀ toi de l'aider : cadrer le HMW, dérouler l'atelier, faire respecter les règles, puis juger les idées avec les 5 critères."
+        }
+      ],
+      "seuil": 0.8,
+      "questions": [
+        {
+          "id": "u06-b1-q1",
+          "type": "qcm",
+          "question": "Point de départ de l'atelier : quel HMW la facilitatrice doit-elle afficher au mur ?",
+          "choix": [
+            "Comment pourrait-on aider les habitants de l'immeuble à se prêter leurs outils de bricolage ?",
+            "Comment pourrait-on améliorer la vie en ville ?",
+            "Comment pourrait-on installer une armoire à outils grise au sous-sol, ouverte le samedi ?",
+            "Les habitants achètent des perceuses qui servent 10 minutes."
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw",
+            "techniques-ideation"
+          ],
+          "explication": "Étape 1 du manuel : le problème en « Comment pourrait-on ? », bien cadré. « La vie en ville » est trop large ; l'armoire grise du samedi contient déjà la solution ; la dernière phrase est un constat, pas un HMW."
+        },
+        {
+          "id": "u06-b1-q2",
+          "type": "ordre",
+          "question": "Remets dans l'ordre le déroulé de l'atelier, d'après le Petit manuel anti page blanche puis les techniques du cours.",
+          "items": [
+            "Écrire le problème sous la forme « Comment pourrait-on ? »",
+            "Associations d'idées : lister les mots-clés",
+            "Que diraient les autres ?",
+            "Chercher l'inspiration chez les autres",
+            "Crazy 8 : 8 idées sur une feuille pliée",
+            "Dot-voting pour faire ressortir les idées"
+          ],
+          "notions": [
+            "techniques-ideation",
+            "brainstorming"
+          ],
+          "explication": "Le manuel (problème, associations, que diraient les autres, inspiration), puis la divergence (crazy 8), puis la convergence (dot-voting) : de la quantité à la qualité."
+        },
+        {
+          "id": "u06-b1-q3",
+          "type": "tri",
+          "question": "Pendant l'atelier, ces comportements respectent-ils les règles de base ?",
+          "categories": [
+            "Respecte les règles",
+            "Contraire aux règles"
+          ],
+          "items": [
+            [
+              "Marc lance : « Ça, on l'a déjà essayé, ça ne marchera jamais. »",
+              1
+            ],
+            [
+              "Sonia continue son crazy 8 alors que la facilitatrice a annoncé la mise en commun",
+              1
+            ],
+            [
+              "Yann rit de l'idée « un pigeon voyageur pour les clés »",
+              1
+            ],
+            [
+              "Nadia note l'idée d'Ali et propose une variante",
+              0
+            ],
+            [
+              "Ali écoute Nadia jusqu'au bout avant de répondre",
+              0
+            ],
+            [
+              "Léo, timide, dessine quand même ses 8 cases",
+              0
+            ]
+          ],
+          "notions": [
+            "brainstorming"
+          ],
+          "explication": "Juger (« ça ne marchera jamais »), ignorer les instructions de la facilitatrice, se moquer : contraire aux règles. Rebondir, écouter, faire confiance à sa créativité : conforme."
+        },
+        {
+          "id": "u06-b1-q4",
+          "type": "qcm",
+          "question": "Marc dit : « Arrêtons de noter des idées farfelues, on perd du temps. » Que lui répondre ?",
+          "choix": [
+            "Il n'y a pas de mauvaise idée à ce stade : on trie plus tard, avec le dot-voting",
+            "Il a raison : la qualité d'abord, la quantité ensuite",
+            "On vote tout de suite sur chaque idée",
+            "Seules les idées des experts comptent"
+          ],
+          "bonne": 0,
+          "notions": [
+            "brainstorming",
+            "techniques-ideation"
+          ],
+          "explication": "De la quantité à la qualité : on diverge d'abord sans juger, puis on converge (dot-voting)."
+        },
+        {
+          "id": "u06-b1-q5",
+          "type": "qcm",
+          "question": "Ali bloque devant sa page blanche. La facilitatrice lui demande : « Que ferait ta grand-mère ? Et le chien de la voisine ? » Quelle étape du manuel est-ce ?",
+          "choix": [
+            "Que diraient les autres ?",
+            "Associations d'idées",
+            "Chercher l'inspiration chez les autres",
+            "Écrire le HMW"
+          ],
+          "bonne": 0,
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "Imaginer les réponses de personnes très différentes (et du chien de la voisine !) : étape 3 du manuel."
+        },
+        {
+          "id": "u06-b1-q6",
+          "type": "tri",
+          "question": "Après le dot-voting, passe les idées gagnantes aux 5 critères. Bonne idée ou non ? (Persona : Mme Favre, 81 ans, sans smartphone, habite au 2e étage.)",
+          "categories": [
+            "Bonne idée",
+            "Ne remplit pas les critères"
+          ],
+          "items": [
+            [
+              "Un classeur au hall d'entrée : qui prête quoi, et à quel étage",
+              0
+            ],
+            [
+              "Une appli en réalité augmentée pour réserver les outils",
+              1
+            ],
+            [
+              "Un robot qui livre les outils par les fenêtres",
+              1
+            ],
+            [
+              "Laisser toutes les caves ouvertes pour se servir",
+              1
+            ]
+          ],
+          "notions": [
+            "bonne-idee",
+            "persona"
+          ],
+          "explication": "Le classeur répond au besoin, convient à Mme Favre, ne crée pas de risque et est possible aujourd'hui. L'appli n'est pas adaptée au persona ; le robot n'est pas possible aujourd'hui ; les caves ouvertes créent un risque de vol."
+        },
+        {
+          "id": "u06-b1-q7",
+          "type": "qcm",
+          "question": "L'équipe retient le classeur du hall. Qu'est-ce qui vient ensuite selon le cours ?",
+          "choix": [
+            "En faire un concept : la préciser, la décrire et la prototyper pour la faire tester",
+            "L'imprimer en 500 exemplaires tout de suite",
+            "Recommencer un crazy 8",
+            "Rédiger un nouveau persona"
+          ],
+          "bonne": 0,
+          "notions": [
+            "bonne-idee",
+            "design-thinking"
+          ],
+          "explication": "De l'idée au concept : spécifier, décrire, prototyper, faire tester et adhérer ; puis seulement le produit entre les mains des utilisateurs."
+        }
+      ]
+    }
+  ]
 }
