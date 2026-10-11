@@ -1,35 +1,38 @@
-# Modèle : une appli façon Duolingo pour chaque cours
+<p align="center"><img src="icones/mascotte.svg" width="150" alt="Proto, la mascotte de Proto"></p>
+<h1 align="center">Proto</h1>
+<p align="center"><b>Apprendre l'expérience utilisateur et le Design Thinking en jouant : leçons courtes, exercices, défi du jour et révisions espacées.</b></p>
+<p align="center">Expérience utilisateur 1 (ExUt1), Marie Kuter, HEIG-VD, BSc Ingénierie des médias</p>
+<p align="center"><a href="https://williamdonze.github.io/exput1/"><b>Ouvrir l'appli →</b></a></p>
 
-Un moteur d'apprentissage prêt à l'emploi : leçons de 5 minutes, 23 types d'exercices, XP, séries de jours, badges, défi du jour, révisions espacées, fiches de théorie, mode sombre, appli installable sur téléphone et utilisable hors connexion. Pour les cours de programmation : du vrai code exécuté et testé dans le navigateur (JavaScript, PHP), avec les erreurs expliquées en français ; pour les autres langages (Java, Python, C, SQL…), du code coloré et des exercices de lecture, sans exécution.
+Une appli façon Duolingo pour réviser le cours : leçons de cinq minutes, exercices interactifs, XP, séries de jours, badges, défi du jour et révisions espacées (les notions ratées reviennent vite, les autres de plus en plus rarement). Elle s'installe sur le téléphone et marche hors connexion ; la progression reste dans le navigateur.
 
-Issu de [Pampre](https://github.com/williamdonze/pampre) (le vin) et de [ProgWeb 2](https://github.com/williamdonze/progweb2) (JavaScript).
+**2 unités · 5 leçons · 59 questions · 6 fiches de théorie · 3 boss** (les exercices du cours).
 
-## Créer l'appli d'un nouveau cours
+## Les unités
 
-1. Sur GitHub, en haut de ce dépôt : **Use this template → Create a new repository** (par exemple `cours-php`).
-2. Ouvre une session Claude Code sur le nouveau dépôt.
-3. Tape **`/nouveau-cours`** et envoie les supports du cours (zip des pages d'exercices, slides, PDF, lien du site).
-4. Claude te pose toutes ses questions d'un coup (type de cours, projet, examen, difficultés, nom, mascotte), te propose un programme d'unités ; tu valides ; il écrit les unités (chacune dans son propre contexte, pour aller plus vite), les teste, génère le README du cours, et pousse.
-5. Mise en ligne : **Settings → Pages → Deploy from a branch → `main`, `/ (root)`**. Le site est à `https://<ton-compte>.github.io/<dépôt>/`.
+| | Unité | Ce que tu sauras faire | Boss |
+|---|---|---|---|
+| 1 | **Bien apprendre**<br><sub>Exemple : une unité sans code</sub> | Comprendre pourquoi l'appli te fait répondre plutôt que relire, revenir sur une notion après quelques jours, et mélanger les sujets. À remplacer par la première unité de ton cours. | Exemple d'étude de cas (boss d'un cours sans code) |
+| 2 | **Catalogue des exercices**<br><sub>Exemple : un exercice de chaque type</sub> | Voir chaque type d'exercice du moteur en action, avec un exemple réel tiré de ProgWeb 2 (cours de JavaScript). À supprimer ou remplacer dans un vrai cours. | TP Fonctions · exercice 1<br>TP DOM · exercice 1 |
 
-Ensuite :
-- **la suite du cours** : dépose les nouveaux fichiers dans `supports/` (sur GitHub : *Add file → Upload files*), puis tape **`/ajouter-supports`** ;
-- **une unité à la fois** (pour étaler le travail sur plusieurs sessions) : **`/ecrire-unite u05`** ;
-- **les améliorations du modèle** : **`/mettre-a-jour-moteur`** dans le dépôt du cours.
+## Sur ton téléphone
 
-## Ce qu'il y a dedans
+Ouvre [l'appli](https://williamdonze.github.io/exput1/) sur ton téléphone : après la première leçon, Proto te montre comment l'ajouter à l'écran d'accueil (iPhone : Partager → « Sur l'écran d'accueil » ; Android : « Installer »). Le mode d'emploi est aussi dans Profil.
 
-<p align="center"><img src="docs/mascottes.png" width="640" alt="Les mascottes du catalogue : œuf, éléphant, chouette, renard, goutte, livre, avec leurs humeurs, leurs cadres de code et leurs accessoires"></p>
+## Compléter le cours
 
-- **`content/`** : tout le contenu, en JSON (une unité par fichier). La section `app` de `content/config.json` règle le nom, la mascotte (forme, accessoire, cadre de code, ou dessin libre), les couleurs et les **modules** (`code-js` pour du JavaScript, `dom` pour des pages web, aucun pour un cours sans code).
-- Deux **unités d'exemple** : « Bien apprendre » (un cours sans code, avec un boss « étude de cas ») et « Catalogue des exercices » (un exemple de chaque type). Elles sont retirées quand on crée un vrai cours.
-- **`docs/format-contenu.md`** : la référence du format ; **`docs/format-memo.md`** : son mémo court. **`docs/modules.md`** : les langages (JavaScript et PHP exécutés ; Java, Python, C, SQL… sans exécution) et comment en faire exécuter un nouveau. **`docs/feuille-de-route.md`** : les améliorations prévues.
+- **Nouveaux supports** (slides, énoncés, PDF) : dépose-les dans `supports/` (sur GitHub : *Add file → Upload files*), puis, dans une session Claude Code sur ce dépôt, tape **`/ajouter-supports`**. Claude propose les nouvelles unités, tu valides, il les écrit et les teste.
+- **Améliorations du moteur** : **`/mettre-a-jour-moteur`** reprend la dernière version du modèle sans toucher au contenu.
 
-## Lancer et tester
+## Pour développer
 
 ```bash
-python3 -m http.server 8765                    # puis http://localhost:8765/
-pip install playwright && playwright install chromium   # une fois, pour les tests
+python3 -m http.server 8765        # puis http://localhost:8765/
 python3 tools/valider-contenu.py && python3 tools/tester-exercices.py && python3 tools/test-parcours.py
-python3 tools/configurer.py                    # après avoir changé le nom, la mascotte ou les couleurs
 ```
+
+Le contenu est en JSON dans `content/` (une unité par fichier), le format dans `docs/format-contenu.md`, le programme dans `docs/programme.md`.
+
+---
+
+<p align="center"><sub>Créé à partir du <a href="https://github.com/williamdonze/cours-duolingo-template">modèle de cours façon Duolingo</a> de <a href="https://github.com/williamdonze">William Donzé</a>.</sub></p>
