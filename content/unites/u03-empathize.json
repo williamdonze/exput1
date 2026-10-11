@@ -2,55 +2,1820 @@
   "id": "u03",
   "titre": "Design Thinking et Empathize",
   "sousTitre": "Cours 2.1 et 2.2",
-  "objectif": "",
-  "icone": "",
-  "fiches": [],
+  "objectif": "Citer et ordonner les 5 phases du Design Thinking, connaître le Design Sprint, et préparer, mener et exploiter une interview, une observation, un journal de bord.",
+  "icone": "1/5",
+  "fiches": [
+    {
+      "id": "design-thinking",
+      "titre": "Le Design Thinking : 5 grandes étapes",
+      "icone": "1→5",
+      "resume": "Une approche qui s'appuie sur les méthodes du design pour résoudre des **problèmes complexes**, en **5 grandes étapes** : Exploration, Définition, Idéation, Prototypage, Test.",
+      "analogie": "Les 5 étapes, ce sont les images du cours mises bout à bout : Proto part d'abord **en reportage** (Exploration), puis règle **le zoom** sur le bon problème (Définition, le « How might we… »), cherche toutes les idées, dessine **le plan de la maison** (Prototypage), et enfin, comme **le chef qui fait goûter**, fait essayer aux utilisateurs (Test).",
+      "texte": "**Définition du cours** : « Le Design Thinking est une approche qui s'appuie sur les méthodes issues du monde du design pour résoudre des problèmes complexes. Cette succession de 5 grandes étapes est particulièrement efficace pour répondre à des questions complexes, dont on ne cerne pas tous les aspects. »\n\n**Les 5 étapes en un verbe** :\n- Comprendre nos utilisateurs et leur environnement\n- Reformuler le problème et ses caractéristiques\n- Brainstormer toutes les idées possibles\n- Rendre une idée concrète et testable\n- Recueillir les feedbacks pour améliorer\n\n**Les 5 phases du Design Thinking** :\n- **1. Exploration** : collecter un maximum de données sur les domaines liés à la question à laquelle on essaye de répondre initialement\n- **2. Définition** : synthétiser les données pour mieux cerner le problème qu'on essaye de résoudre, sous la forme « How might we... » (« Comment pourrait-on... »)\n- **3. Idéation** : brainstormer pour créer des idées nouvelles permettant de répondre au problème\n- **4. Prototypage** : modéliser de manière plus détaillée les concepts choisis issus de la phase d'idéation\n- **5. Test** : rapidement tester les prototypes avec des utilisateurs pour valider les idées et les ajuster\n\nDans le cours, les modules portent les noms anglais des étapes : **Empathize, Define, Ideate, Prototype, Test**. La suite : [[design-sprint]], et l'étape 1, [[empathie|Empathize]].",
+      "pieges": [
+        "Le Design Thinking sert aux questions **complexes, dont on ne cerne pas tous les aspects** : pas aux problèmes simples déjà bien connus.",
+        "Le « How might we... » appartient à la **Définition** (étape 2), pas à l'Idéation.",
+        "Prototypage = modéliser **les concepts choisis** issus de l'idéation, pas toutes les idées."
+      ]
+    },
+    {
+      "id": "design-sprint",
+      "titre": "Le Design Sprint : 5 étapes en 5 jours",
+      "icone": "5j",
+      "resume": "Basé sur le Design Thinking, le Design Sprint met en œuvre les **5 grandes étapes en 5 jours**, pour tester très vite des solutions sous forme de prototype.",
+      "analogie": "C'est **le chef qui fait goûter** au pas de course : en une semaine, du marché (Exploration) jusqu'à la dégustation (Test), pour savoir si le plat vaut la peine d'entrer à la carte.",
+      "texte": "**Définition du cours** : « Basée sur le Design Thinking, la méthode du Design Sprint propose de mettre en oeuvre les 5 grandes étapes (Exploration, Définition, Idéation, Prototype et Test) en 5 jours, de manière à très rapidement tester des solutions sous forme de prototype et déterminer la valeur d'une éventuelle implémentation. »\n\n**Qui ?** « Cette technique a été développée et popularisée par **Jake Knapp, John Zeratsky et Braden Kowitz** au sein de **Google Ventures**, et est aujourd'hui tout à fait répandue un peu partout, notamment dans les **startups**. »\n\nVoir aussi : [[design-thinking]].",
+      "pieges": [
+        "Le Design Sprint n'ajoute pas d'étape : ce sont **les mêmes 5 étapes** que le Design Thinking, en **5 jours**.",
+        "Son but : tester **très rapidement** des solutions sous forme de prototype et **déterminer la valeur d'une éventuelle implémentation** (avant de développer)."
+      ]
+    },
+    {
+      "id": "donnees-publiques",
+      "titre": "Les données publiques",
+      "icone": "★☆",
+      "resume": "Avant de rencontrer qui que ce soit, il existe déjà **de nombreuses données publiques** : commentaires des stores, groupes thématiques, forums, personnalités du domaine.",
+      "analogie": "**Le reporter** commence par lire tout ce qui a déjà été publié sur son sujet avant d'aller sur le terrain : les avis des stores, ce sont des témoignages spontanés qui l'attendent.",
+      "texte": "« On l'oublie souvent, mais il existe de nombreuses données disponibles publiquement et qui peuvent nous aider à mieux comprendre nos utilisateurs. »\n\n- « Les **commentaires sur les stores** Android ou iOS sont une **source spontanée** précieuse pour comprendre ce que les utilisateurs d'une application pensent, ressentent et les problèmes qu'ils peuvent rencontrer avec un produit. »\n- « Rejoindre des **groupes thématiques** sur les réseaux sociaux, des **forums** ou suivre des **personnalités reconnues** dans notre domaine d'intérêt est une excellente manière de nous projeter dans leur expérience. »\n- « La recherche utilisateur est plus efficace lorsqu'elle est menée **sur le long terme** et se rapproche d'un **intérêt réel** dans un domaine concerné. »\n\nC'est une des méthodes de l'étape 1, Empathize ([[empathie]]).",
+      "pieges": [
+        "« On l'oublie souvent » : les données publiques sont la source qu'on néglige, pas une source de second rang.",
+        "La recherche utilisateur ne se fait pas en un après-midi : elle est plus efficace **sur le long terme**."
+      ]
+    },
+    {
+      "id": "interview",
+      "titre": "L'interview : avant, pendant, après",
+      "icone": "?!",
+      "resume": "Une interview individuelle permet de poser des **questions ouvertes ou précises** ; elle est **scriptée**, mais le script **sert uniquement de guide**. Elle se prépare (contenu, logistique, autres) et se prolonge (notes, relation).",
+      "analogie": "**Le reporter** : il prépare son sujet et ses questions, choisit un endroit calme, fait parler la personne, prend des notes structurées, puis relit ses notes et remercie. « Le plus souvent les gens sont contents de vous parler de leur vie. »",
+      "texte": "« Les interviews individuelles avec un utilisateur permettent de poser des **questions ouvertes ou précises**, afin de mieux comprendre leurs besoins, leurs attentes, les freins ou problèmes qu'ils peuvent rencontrer actuellement, leurs craintes ou évaluation d'une solution proposée... »\n\n« Les interviews peuvent servir **de base aux observations ethnographiques**, ou au contraire intervenir **a posteriori**, pour répondre à des questions plus précises. » (voir [[observation-ethnographique]])\n\n« Les interviews doivent être **scriptées** (c'est-à-dire se baser sur une liste de questions ou de points à évoquer) qui servent **uniquement de guide** : le facilitateur doit pouvoir s'adapter aux réponses de son interlocuteur, sans rester figé dans une liste trop rigide. L'essentiel est de **faire parler la personne** interviewée autour des sujets identifiés. »\n\n**Avant l'interview**\n- **Contenu** : identifiez vos objectifs (que cherchez-vous à savoir ou comprendre ? Personne n'aime perdre son temps : qu'est-ce qui fera que votre interview a été utile pour vous ?) ; préparation du guide d'interview ; prise de connaissance générale minimum du domaine.\n- **Logistique** : choix du créneau (**max. 1 heure**) ; réservation d'une salle appropriée à une conversation confortable (attention au bruit et à la confidentialité) ; envoi invitation et rappel à l'invité.e quelques jours avant.\n- **Autres** : relation de confiance avec l'invité.e ; matériel : prise de notes, etc.\n\n**Quelques exemples de questions**\n- **Contexte** : Quel est votre métier ? Pouvez-vous me décrire votre parcours jusqu'à aujourd'hui ? Que faites-vous au quotidien ? A quoi ressemble une journée-type pour vous ? Qu'est-ce que vous aimez le plus / le moins dans votre métier actuellement ? Quels outils ou logiciels utilisez-vous le plus ? Comment présentez-vous votre métier à vos enfants / parents ? Si un.e journaliste vous contactait pour une interview, ce serait pour parler de quoi ? Quelles sont les compétences les plus importantes pour faire ce travail, selon vous ?\n- **Motivations** : Qu'est-ce qui vous a motivé.e à vous lancer dans ce domaine ? Quels sont vos défis principaux ? Quand vous êtes satisfait.e de votre journée, c'est pour quelles raisons ? Comment aimeriez-vous que votre métier évolue dans le futur ? Quelles sont vos raisons d'espérer pour l'avenir de votre domaine d'activité ?\n- **Pain-points** : Qu'est-ce qui vous prend le plus de temps inutilement aujourd'hui ? Si vous pouviez changer une seule chose, mais ce que vous voulez, ce serait quoi ? Qu'est-ce qui vous freine dans votre travail ? Quand vous rentrez le soir et que vous râlez à cause d'une mauvaise journée, quelles sont les causes principales ? Est-ce que vous avez des inquiétudes par rapport à votre travail ?\n- **Ouverture** : Si c'était à refaire, referiez-vous les mêmes choix professionnels ? Quels conseils donneriez-vous à un.e étudiant.e qui voudrait démarrer sa carrière dans ce domaine ?\n\n**Pendant l'interview** : voir [[interview-dos-donts]].\n\n**Après l'interview**\n- **Notes** : relire et synthétiser vos notes + **codes couleur** (pour faciliter la suite) ; notez rapidement vos impressions / idées sur le moment.\n- **Relation** : envoyer un **email de remerciement** ; profitez-en pour communiquer sur votre projet (**follow-up**).",
+      "pieges": [
+        "Scriptée ne veut pas dire figée : la liste de questions **sert uniquement de guide**.",
+        "Le créneau : **max. 1 heure**.",
+        "La salle : attention **au bruit et à la confidentialité**.",
+        "L'interview ne s'arrête pas quand l'invité.e part : il reste à relire, synthétiser (codes couleur) et remercier."
+      ]
+    },
+    {
+      "id": "interview-dos-donts",
+      "titre": "Pendant l'interview : DOs et DON'Ts",
+      "icone": "✓✗",
+      "resume": "Les deux listes du cours : ce qu'on fait (se présenter, écoute active, reformuler, prendre des notes structurées…) et ce qu'on ne fait jamais (interrompre, orienter les réponses, regarder un écran…).",
+      "analogie": "**Le reporter** tourné vers son invité.e : attention visible, notes structurées sur papier, relances et reformulations. Il ne coupe pas la parole, ne souffle pas la réponse et ne lève pas les yeux au ciel.",
+      "texte": "**Pendant l'interview : DOs**\n- Se présenter\n- Offrir quelque chose à boire\n- Mettre en confiance, rassurer\n- Commencer par des questions faciles\n- Posture neutre et encourageante\n- Regarder la personne avec attention\n- Se synchroniser physiquement\n- Ecoute active\n- Acquiescer\n- Empathie\n- Surveiller le temps\n- Prendre des notes de manière structurée\n- Reformuler\n- Demander pourquoi, comment, c'est-à-dire\n- Rebondir, quitte à changer l'ordre des questions\n- Improviser\n- Demander des contacts / références\n- Remercier\n- Annoncer les prochaines étapes\n\n**Pendant l'interview : DON'Ts**\n- Insister\n- Croiser les bras\n- Se montrer impatient.e\n- Regarder un écran (même pour prendre des notes)\n- Être plusieurs à poser des questions\n- Orienter les réponses / influencer\n- Invalider la personne ou la mettre en doute\n- Mettre la pression, stresser\n- Rigoler, sourire trop ou se moquer visiblement\n- Lever les yeux au ciel\n- Se pencher en arrière\n- Arrêter de prendre des notes\n- Couper les silences trop rapidement\n- Interrompre, couper la parole\n\n**La scène, d'après la photo du cours** : attention visible ; tourné vers l'invité.e ; reformulation, relances ; prise de notes structurées ; snacks et boissons ; espace confortable.\n\nAvant et après : [[interview]].",
+      "pieges": [
+        "**Regarder un écran** est un DON'T, **même pour prendre des notes**.",
+        "**Couper les silences trop rapidement** est un DON'T : laisse la personne réfléchir.",
+        "**Rebondir, quitte à changer l'ordre des questions** et **improviser** sont des DOs.",
+        "**Être plusieurs à poser des questions** est un DON'T."
+      ]
+    },
+    {
+      "id": "observation-ethnographique",
+      "titre": "Les observations ethnographiques (shadowing)",
+      "icone": "obs",
+      "resume": "Observer une personne **dans son contexte réel d'utilisation** (shadowing) : la meilleure manière de collecter des données qualitatives ; les observations complètent les interviews, **voire en contredisent** certaines conclusions.",
+      "analogie": "**Le reporter** ne se contente pas de l'interview : il suit la personne sur le terrain, et découvre parfois que ce qu'elle fait ne ressemble pas à ce qu'elle a raconté.",
+      "texte": "« Observer une personne dans son **contexte réel d'utilisation** (**shadowing**) d'un produit est la **meilleure manière** de collecter des données, surtout **qualitatives**, nécessaires pour mettre en oeuvre un processus d'empathie. »\n\n« Les observations sont un important **complément aux interviews**, comme elles permettent de **prendre du recul par rapport aux déclarations**. Ne pas blesser ou donner une mauvaise impression, réflexes acquis inconsciemment : il est fréquent que les observations complètent de manière conséquente les interviews, voire **en contredisent certaines conclusions**. »\n\nLe cours 1.3 l'appelle aussi « observation vs. déclaratif » ([[user-centric]]). Si l'observation n'est pas possible : [[journal-de-bord]].",
+      "pieges": [
+        "En interview, les gens peuvent dire ce qui ne blesse pas ou ne donne pas une mauvaise impression, par réflexe inconscient : l'observation aide à **prendre du recul**.",
+        "Une observation qui contredit une interview n'est pas une erreur : c'est **fréquent**, et c'est précieux."
+      ]
+    },
+    {
+      "id": "journal-de-bord",
+      "titre": "Le journal de bord",
+      "icone": "jdb",
+      "resume": "Les personnes remplissent **elles-mêmes**, pendant **plusieurs jours**, un journal de bord sur leur journée : déclaratif, mais **plus proche du contexte et du moment** ; on peut y joindre des **photos**.",
+      "analogie": "Quand **le reporter** ne peut pas suivre tout le monde, il confie un carnet à chacun : chaque soir, on y note ce qu'on a fait, ressenti, ce qui a coincé, avec une photo.",
+      "texte": "« Si des observations ethnographiques **ne sont pas envisageables**, ou si on préfère inclure **un grand nombre de personnes** dans notre recherche, on peut aisément les compléter avec un journal de bord : les personnes remplissent activement un journal de bord sur leur journée, et ce **pendant plusieurs jours**, en précisant par exemple comment elles se sentent, les tâches qu'elles ont accomplies, les problèmes qu'elles ont rencontrés, etc. »\n\n« Le journal de bord **rejoint le déclaratif** des interviews, mais offre l'avantage précieux d'être **plus proche du contexte et du moment** auquel les personnes ressentent ou font quelque chose. »\n\n« Le journal de bord peut offrir un **aspect émotionnel** important en proposant par exemple de joindre des **photos**. »\n\nLe cours 1.3 le cite parmi les méthodes de l'[[empathie]] : « journal de bord, journal photo ».",
+      "pieges": [
+        "Le journal de bord est **déclaratif** (comme l'interview) : ce n'est pas une observation.",
+        "Il dure **plusieurs jours**, pas une seule séance."
+      ]
+    }
+  ],
   "lecons": [
     {
       "id": "u03-l1",
-      "titre": "",
+      "titre": "Les 5 phases du Design Thinking",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "design-thinking",
+        "design-sprint"
+      ],
+      "cartes": [
+        {
+          "titre": "Une approche venue du design",
+          "texte": "Le **Design Thinking** est une approche qui s'appuie sur les méthodes issues du monde du design pour résoudre des **problèmes complexes**.\n\nSa succession de **5 grandes étapes** est particulièrement efficace pour répondre à des questions complexes, **dont on ne cerne pas tous les aspects**.",
+          "fiche": "design-thinking"
+        },
+        {
+          "titre": "5 étapes, 5 verbes",
+          "texte": "- **Comprendre** nos utilisateurs et leur environnement\n- **Reformuler** le problème et ses caractéristiques\n- **Brainstormer** toutes les idées possibles\n- **Rendre** une idée concrète et testable\n- **Recueillir** les feedbacks pour améliorer",
+          "astuce": "Dans le cours, chaque étape a son module, avec son nom anglais : Empathize, Define, Ideate, Prototype, Test."
+        },
+        {
+          "titre": "Les 5 phases et leur but",
+          "texte": "1. **Exploration** : collecter un maximum de données sur les domaines liés à la question de départ.\n2. **Définition** : synthétiser les données pour mieux cerner le problème, sous la forme « How might we... » (« Comment pourrait-on... »).\n3. **Idéation** : brainstormer pour créer des idées nouvelles.\n4. **Prototypage** : modéliser de manière plus détaillée les concepts choisis issus de l'idéation.\n5. **Test** : rapidement tester les prototypes avec des utilisateurs pour valider les idées et les ajuster.",
+          "analogie": "Proto part d'abord **en reportage** (Exploration), règle ensuite **le zoom** sur le bon problème (Définition), cherche des idées, dessine **le plan de la maison** (Prototypage), puis, comme **le chef qui fait goûter**, fait essayer (Test)."
+        },
+        {
+          "titre": "Le Design Sprint : tout en 5 jours",
+          "texte": "Basée sur le Design Thinking, la méthode du **Design Sprint** met en œuvre les 5 grandes étapes (Exploration, Définition, Idéation, Prototype et Test) **en 5 jours**, pour très rapidement tester des solutions sous forme de prototype et **déterminer la valeur d'une éventuelle implémentation**.",
+          "fiche": "design-sprint"
+        },
+        {
+          "titre": "Qui l'a inventé ?",
+          "texte": "Le Design Sprint a été développé et popularisé par **Jake Knapp, John Zeratsky et Braden Kowitz** au sein de **Google Ventures**. Il est aujourd'hui répandu un peu partout, notamment dans les **startups**.",
+          "piege": "Le Design Sprint n'est pas une 6e étape ni une autre méthode : ce sont les mêmes 5 étapes, en 5 jours."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u03-l1-e1",
+          "type": "ordre",
+          "question": "Remets les 5 phases du Design Thinking dans l'ordre.",
+          "items": [
+            "Exploration",
+            "Définition",
+            "Idéation",
+            "Prototypage",
+            "Test"
+          ],
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Exploration → Définition → Idéation → Prototypage → Test : on comprend, on reformule, on imagine, on rend concret, on fait tester."
+        },
+        {
+          "id": "u03-l1-e2",
+          "type": "assoc",
+          "question": "Relie chaque phase à ce qu'on y fait.",
+          "paires": [
+            [
+              "Exploration",
+              "Comprendre nos utilisateurs et leur environnement"
+            ],
+            [
+              "Définition",
+              "Reformuler le problème et ses caractéristiques"
+            ],
+            [
+              "Idéation",
+              "Brainstormer toutes les idées possibles"
+            ],
+            [
+              "Prototypage",
+              "Rendre une idée concrète et testable"
+            ],
+            [
+              "Test",
+              "Recueillir les feedbacks pour améliorer"
+            ]
+          ],
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Les 5 verbes du cours 2.1 : comprendre, reformuler, brainstormer, rendre concret et testable, recueillir les feedbacks."
+        },
+        {
+          "id": "u03-l1-e3",
+          "type": "qcm",
+          "question": "Dans quelle phase formule-t-on le problème sous la forme « How might we... » (« Comment pourrait-on... ») ?",
+          "choix": [
+            "Exploration",
+            "Définition",
+            "Idéation",
+            "Prototypage",
+            "Test"
+          ],
+          "bonne": 1,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "En **Définition** : on synthétise les données de l'Exploration pour mieux cerner le problème, sous la forme « How might we... ».",
+          "ordreFixe": true
+        },
+        {
+          "id": "u03-l1-e4",
+          "type": "vf",
+          "question": "Le Design Thinking est surtout utile pour des problèmes simples, dont on connaît déjà tous les aspects.",
+          "bonne": false,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Faux : il est particulièrement efficace pour répondre à des **questions complexes, dont on ne cerne pas tous les aspects**."
+        },
+        {
+          "id": "u03-l1-e5",
+          "type": "tri",
+          "question": "Une équipe repense l'appli d'un service de vélos en libre-service. Dans quelle phase est chaque action ?",
+          "categories": [
+            "Exploration",
+            "Définition",
+            "Idéation",
+            "Prototypage",
+            "Test"
+          ],
+          "items": [
+            [
+              "Lire les avis des cyclistes sur l'appli actuelle",
+              0
+            ],
+            [
+              "Résumer : « Comment pourrait-on aider les cyclistes à trouver un vélo libre près de chez eux ? »",
+              1
+            ],
+            [
+              "Lister 40 idées en 20 minutes, sans juger",
+              2
+            ],
+            [
+              "Dessiner les écrans de l'idée retenue, plus en détail",
+              3
+            ],
+            [
+              "Faire essayer ces écrans à quelques cyclistes, puis ajuster",
+              4
+            ]
+          ],
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "On collecte (Exploration), on reformule en « Comment pourrait-on… » (Définition), on brainstorme (Idéation), on modélise l'idée choisie (Prototypage), on fait tester (Test)."
+        },
+        {
+          "id": "u03-l1-e6",
+          "type": "qcm",
+          "question": "Le Design Sprint, c'est…",
+          "choix": [
+            "les 5 étapes du Design Thinking en 5 jours, pour tester très vite des solutions sous forme de prototype",
+            "une 6e étape ajoutée après le Test, pour développer le produit",
+            "un brainstorming de 5 jours, sans prototype",
+            "la phase d'Exploration, quand elle dure une semaine"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-sprint"
+          ],
+          "explication": "Le Design Sprint met en œuvre **les 5 grandes étapes en 5 jours**, pour tester très rapidement des solutions sous forme de prototype et déterminer la valeur d'une éventuelle implémentation."
+        },
+        {
+          "id": "u03-l1-e7",
+          "type": "qcm",
+          "question": "Au sein de quelle entreprise le Design Sprint a-t-il été développé (par Jake Knapp, John Zeratsky et Braden Kowitz) ?",
+          "choix": [
+            "Google Ventures",
+            "Apple",
+            "Nielsen Norman Group",
+            "IDEO"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-sprint"
+          ],
+          "explication": "Développé et popularisé par Jake Knapp, John Zeratsky et Braden Kowitz **au sein de Google Ventures** ; aujourd'hui répandu, notamment dans les startups."
+        }
+      ]
     },
     {
       "id": "u03-l2",
-      "titre": "",
+      "titre": "Empathize : l'empathie et les données publiques",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "empathie",
+        "donnees-publiques"
+      ],
+      "cartes": [
+        {
+          "titre": "Étape 1 : Empathize",
+          "texte": "« In a general sense, empathy is our ability to see the world through other people's eyes, to see what they see, feel what they feel, and experience things as they do. » (Interaction Design Foundation)\n\nL'empathie est un **processus de compréhension profonde** des problèmes et des réalités des personnes pour lesquelles on conçoit un service. Faire preuve d'empathie, c'est être capable de **se mettre à la place** d'une autre personne.",
+          "fiche": "empathie"
+        },
+        {
+          "titre": "Ni sympathie, ni compassion",
+          "texte": "Souvent faussement associée à la sympathie ou à la compassion, l'empathie est en design **l'ensemble des méthodes** qu'on peut mettre en place pour véritablement comprendre ce que nos utilisateurs **pensent, ressentent, font et disent**.",
+          "piege": "Être gentil avec les utilisateurs ne suffit pas : l'empathie, en design, ce sont des **méthodes**."
+        },
+        {
+          "titre": "D'abord, collecter",
+          "texte": "Une **phase exploratoire de collecte des données** est le plus souvent nécessaire pour être en mesure de faire preuve d'empathie.\n\nÀ moins bien sûr d'être **le seul utilisateur** du système qu'on conçoit !",
+          "analogie": "Proto part **en reportage** : pas d'article sans enquête."
+        },
+        {
+          "titre": "Les données publiques",
+          "texte": "On l'oublie souvent, mais il existe de nombreuses **données disponibles publiquement**.\n\nLes **commentaires sur les stores** Android ou iOS sont une **source spontanée** précieuse pour comprendre ce que les utilisateurs d'une application pensent, ressentent et les problèmes qu'ils rencontrent.",
+          "fiche": "donnees-publiques"
+        },
+        {
+          "titre": "Groupes, forums, personnalités",
+          "texte": "Rejoindre des **groupes thématiques** sur les réseaux sociaux, des **forums** ou suivre des **personnalités reconnues** du domaine est une excellente manière de se projeter dans l'expérience des utilisateurs.\n\nLa recherche utilisateur est plus efficace lorsqu'elle est menée **sur le long terme** et se rapproche d'un **intérêt réel** pour le domaine.",
+          "analogie": "**Le reporter** lit tout ce qui a déjà été publié avant d'aller sur le terrain, et suit son sujet dans la durée."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u03-l2-e1",
+          "type": "qcm",
+          "question": "En design, l'empathie, c'est…",
+          "choix": [
+            "l'ensemble des méthodes pour comprendre vraiment ce que nos utilisateurs pensent, ressentent, font et disent",
+            "de la sympathie pour les utilisateurs",
+            "de la compassion pour les personnes en difficulté",
+            "imaginer ce que les utilisateurs veulent, sans les rencontrer"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathie"
+          ],
+          "explication": "Souvent faussement associée à la sympathie ou à la compassion, l'empathie est en design **l'ensemble des méthodes** pour comprendre ce que pensent, ressentent, font et disent nos utilisateurs."
+        },
+        {
+          "id": "u03-l2-e2",
+          "type": "qcm",
+          "question": "« In a general sense, empathy is our ability to see the world through other people's eyes… » : de qui est cette définition ?",
+          "choix": [
+            "Interaction Design Foundation",
+            "Google Ventures",
+            "ISO 9241",
+            "Jake Knapp"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathie"
+          ],
+          "explication": "C'est la définition de l'**Interaction Design Foundation** (IxDF), citée dans les cours 1.3 et 2.2."
+        },
+        {
+          "id": "u03-l2-e3",
+          "type": "qcm",
+          "question": "Dans quel cas peut-on se passer d'une phase exploratoire de collecte des données ?",
+          "choix": [
+            "Quand on est le seul utilisateur du système qu'on conçoit",
+            "Quand le projet est urgent",
+            "Quand l'équipe connaît bien le domaine",
+            "Quand le client sait ce qu'il veut"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathie"
+          ],
+          "explication": "Une phase exploratoire est le plus souvent nécessaire, « à moins bien sûr d'être **le seul utilisateur** du système qu'on conçoit ! »"
+        },
+        {
+          "id": "u03-l2-e4",
+          "type": "tri",
+          "question": "Tu travailles sur une appli de recettes de cuisine. Quelles sources sont des données publiques ?",
+          "categories": [
+            "Donnée publique",
+            "Il faut rencontrer quelqu'un"
+          ],
+          "items": [
+            [
+              "Les avis 1 étoile de l'appli sur l'App Store",
+              0
+            ],
+            [
+              "Un groupe Facebook de cuisine du quotidien",
+              0
+            ],
+            [
+              "Un forum de parents qui cherchent des idées de repas",
+              0
+            ],
+            [
+              "Les publications d'un chef reconnu",
+              0
+            ],
+            [
+              "Discuter 45 minutes avec un cuisinier amateur",
+              1
+            ],
+            [
+              "Passer une soirée dans la cuisine d'une famille pendant le repas",
+              1
+            ]
+          ],
+          "notions": [
+            "donnees-publiques"
+          ],
+          "explication": "Stores, groupes thématiques, forums, personnalités reconnues : des données **déjà disponibles publiquement**. Une interview ou une observation demande de rencontrer quelqu'un."
+        },
+        {
+          "id": "u03-l2-e5",
+          "type": "qcm",
+          "question": "Pourquoi les commentaires sur les stores sont-ils précieux ?",
+          "choix": [
+            "C'est une source spontanée sur ce que les utilisateurs pensent, ressentent et les problèmes qu'ils rencontrent",
+            "Ils sont rédigés par des experts UX",
+            "Ils remplacent toute autre recherche utilisateur",
+            "Ils donnent des statistiques fiables sur tous les utilisateurs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "donnees-publiques"
+          ],
+          "explication": "Les commentaires des stores Android ou iOS sont une **source spontanée** précieuse : ce que les utilisateurs pensent, ressentent, et leurs problèmes avec le produit."
+        },
+        {
+          "id": "u03-l2-e6",
+          "type": "vf",
+          "question": "La recherche utilisateur est plus efficace lorsqu'elle est menée sur le long terme et se rapproche d'un intérêt réel dans le domaine.",
+          "bonne": true,
+          "notions": [
+            "donnees-publiques"
+          ],
+          "explication": "Vrai, c'est la dernière phrase de la slide « Données publiques »."
+        },
+        {
+          "id": "u03-l2-e7",
+          "type": "vf",
+          "question": "Faire preuve d'empathie, c'est être capable de se mettre à la place d'une autre personne.",
+          "bonne": true,
+          "notions": [
+            "empathie"
+          ],
+          "explication": "Vrai : l'empathie est un processus de compréhension profonde des problèmes et des réalités des personnes pour lesquelles on conçoit un service."
+        }
+      ]
     },
     {
       "id": "u03-l3",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Préparer une interview",
+      "duree": 6,
+      "notions": [
+        "interview"
+      ],
+      "cartes": [
+        {
+          "titre": "À quoi sert une interview ?",
+          "texte": "Les interviews individuelles permettent de poser des **questions ouvertes ou précises**, pour mieux comprendre les **besoins**, les **attentes**, les **freins ou problèmes** rencontrés, les **craintes** ou l'évaluation d'une solution proposée.\n\nElles peuvent servir **de base aux observations** ethnographiques, ou intervenir **a posteriori**, pour répondre à des questions plus précises.",
+          "fiche": "interview",
+          "analogie": "Proto, **le reporter**, part à la rencontre de quelqu'un pour raconter son histoire. « Le plus souvent les gens sont contents de vous parler de leur vie. »"
+        },
+        {
+          "titre": "Scriptée, mais souple",
+          "texte": "Une interview est **scriptée** : elle se base sur une liste de questions ou de points à évoquer, qui servent **uniquement de guide**.\n\nLe facilitateur doit pouvoir **s'adapter** aux réponses, sans rester figé dans une liste trop rigide. L'essentiel : **faire parler la personne** autour des sujets identifiés.",
+          "piege": "Lire ses questions l'une après l'autre sans écouter les réponses, ce n'est pas une interview."
+        },
+        {
+          "titre": "Avant : contenu, logistique, autres",
+          "texte": "- **Contenu** : identifier tes objectifs (personne n'aime perdre son temps : qu'est-ce qui rendra l'interview utile ?) ; préparer le guide d'interview ; prendre une connaissance générale minimum du domaine.\n- **Logistique** : choisir le créneau (**max. 1 heure**) ; réserver une salle confortable (attention **au bruit et à la confidentialité**) ; envoyer l'invitation et un rappel quelques jours avant.\n- **Autres** : la relation de confiance avec l'invité.e ; le matériel (prise de notes, etc.)."
+        },
+        {
+          "titre": "Des questions par catégorie",
+          "texte": "Le cours classe ses exemples de questions en 4 catégories :\n- **Contexte** : « Quel est votre métier ? », « A quoi ressemble une journée-type pour vous ? », « Quels outils ou logiciels utilisez-vous le plus ? »\n- **Motivations** : « Qu'est-ce qui vous a motivé.e à vous lancer dans ce domaine ? », « Quand vous êtes satisfait.e de votre journée, c'est pour quelles raisons ? »\n- **Pain-points** : « Qu'est-ce qui vous prend le plus de temps inutilement aujourd'hui ? », « Qu'est-ce qui vous freine dans votre travail ? »\n- **Ouverture** : « Si c'était à refaire, referiez-vous les mêmes choix professionnels ? »",
+          "astuce": "Toutes les questions de la liste sont dans la fiche [[interview]]."
+        },
+        {
+          "titre": "Des questions qui font parler",
+          "texte": "Les exemples du cours font raconter : « Pouvez-vous m'expliquer en quoi consiste votre travail ? », « Quels sont les défis majeurs que vous rencontrez dans votre quotidien ? », « Si vous pouviez changer une seule chose, mais ce que vous voulez, ce serait quoi ? »",
+          "analogie": "**Le reporter** cherche l'histoire de la personne : ses questions ouvrent la conversation au lieu de la fermer."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u03-l3-e1",
+          "type": "qcm",
+          "question": "Une interview « scriptée », c'est une interview…",
+          "choix": [
+            "basée sur une liste de questions ou de points à évoquer, qui sert uniquement de guide",
+            "où l'on pose toutes les questions dans l'ordre exact de la liste",
+            "entièrement improvisée, sans préparation",
+            "où l'invité.e reçoit les questions par écrit et répond seul.e"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview"
+          ],
+          "explication": "Scriptée = une liste de questions ou de points à évoquer **qui sert uniquement de guide** : le facilitateur s'adapte aux réponses."
+        },
+        {
+          "id": "u03-l3-e2",
+          "type": "vf",
+          "question": "Pendant une interview, le facilitateur doit suivre sa liste de questions sans s'en écarter.",
+          "bonne": false,
+          "notions": [
+            "interview"
+          ],
+          "explication": "Faux : il doit pouvoir **s'adapter** aux réponses de son interlocuteur, sans rester figé dans une liste trop rigide."
+        },
+        {
+          "id": "u03-l3-e3",
+          "type": "tri",
+          "question": "Tu prépares l'interview d'une infirmière pour une appli de planning. Range chaque tâche.",
+          "categories": [
+            "Contenu",
+            "Logistique",
+            "Autres"
+          ],
+          "items": [
+            [
+              "Définir ce que tu cherches à comprendre sur ses plannings",
+              0
+            ],
+            [
+              "Écrire le guide d'interview",
+              0
+            ],
+            [
+              "Lire un peu sur le métier d'infirmière",
+              0
+            ],
+            [
+              "Réserver une salle calme, à l'abri des oreilles indiscrètes",
+              1
+            ],
+            [
+              "Lui envoyer l'invitation, puis un rappel quelques jours avant",
+              1
+            ],
+            [
+              "Prévoir de quoi prendre des notes",
+              2
+            ],
+            [
+              "Créer une relation de confiance avec elle",
+              2
+            ]
+          ],
+          "notions": [
+            "interview"
+          ],
+          "explication": "Contenu : objectifs, guide, connaissance du domaine. Logistique : créneau, salle (bruit, confidentialité), invitation et rappel. Autres : relation de confiance, matériel."
+        },
+        {
+          "id": "u03-l3-e4",
+          "type": "qcm",
+          "question": "Quelle durée maximale le cours conseille-t-il pour le créneau d'une interview ?",
+          "choix": [
+            "30 minutes",
+            "1 heure",
+            "2 heures",
+            "Une demi-journée"
+          ],
+          "bonne": 1,
+          "notions": [
+            "interview"
+          ],
+          "explication": "Choix du créneau : **max. 1 heure**. Personne n'aime perdre son temps.",
+          "ordreFixe": true
+        },
+        {
+          "id": "u03-l3-e5",
+          "type": "tri",
+          "question": "Dans quelle catégorie le cours range-t-il chaque question ?",
+          "categories": [
+            "Contexte",
+            "Motivations",
+            "Pain-points",
+            "Ouverture"
+          ],
+          "items": [
+            [
+              "Quel est votre métier ?",
+              0
+            ],
+            [
+              "A quoi ressemble une journée-type pour vous ?",
+              0
+            ],
+            [
+              "Qu'est-ce qui vous a motivé.e à vous lancer dans ce domaine ?",
+              1
+            ],
+            [
+              "Comment aimeriez-vous que votre métier évolue dans le futur ?",
+              1
+            ],
+            [
+              "Qu'est-ce qui vous freine dans votre travail ?",
+              2
+            ],
+            [
+              "Est-ce que vous avez des inquiétudes par rapport à votre travail ?",
+              2
+            ],
+            [
+              "Si c'était à refaire, referiez-vous les mêmes choix professionnels ?",
+              3
+            ]
+          ],
+          "notions": [
+            "interview"
+          ],
+          "explication": "Contexte : le métier, le quotidien. Motivations : ce qui pousse et fait espérer. Pain-points : ce qui freine, fait perdre du temps, inquiète. Ouverture : le regard en arrière et les conseils."
+        },
+        {
+          "id": "u03-l3-e6",
+          "type": "qcm",
+          "question": "Tu interviewes un boulanger. Quelle question vise ses pain-points ?",
+          "choix": [
+            "Qu'est-ce qui vous prend le plus de temps inutilement aujourd'hui ?",
+            "Pouvez-vous me décrire votre parcours jusqu'à aujourd'hui ?",
+            "Quels conseils donneriez-vous à un.e apprenti.e qui voudrait se lancer ?",
+            "Qu'est-ce qui vous a motivé à devenir boulanger ?"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview"
+          ],
+          "explication": "Ce qui fait **perdre du temps inutilement** est un pain-point. Le parcours = Contexte ; les conseils = Ouverture ; ce qui a motivé = Motivations."
+        },
+        {
+          "id": "u03-l3-e7",
+          "type": "qcm",
+          "question": "Une interview et une observation ethnographique : dans quel ordre ?",
+          "choix": [
+            "Les deux sont possibles : l'interview peut servir de base aux observations, ou venir a posteriori pour des questions plus précises",
+            "Toujours l'interview d'abord",
+            "Toujours l'observation d'abord",
+            "Jamais les deux dans le même projet"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview",
+            "observation-ethnographique"
+          ],
+          "explication": "Les interviews peuvent servir **de base** aux observations ethnographiques, **ou au contraire intervenir a posteriori**, pour répondre à des questions plus précises."
+        }
+      ]
     },
     {
       "id": "u03-l4",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Pendant l'interview : DOs et DON'Ts",
+      "duree": 6,
+      "notions": [
+        "interview-dos-donts"
+      ],
+      "cartes": [
+        {
+          "titre": "Accueillir",
+          "texte": "**DOs** pour bien commencer :\n- Se présenter\n- Offrir quelque chose à boire\n- Mettre en confiance, rassurer\n- Commencer par des questions faciles\n- Posture neutre et encourageante",
+          "fiche": "interview-dos-donts",
+          "analogie": "**Le reporter** installe son invité.e dans un espace confortable, avec snacks et boissons, tourné vers lui ou elle."
+        },
+        {
+          "titre": "Écouter et relancer",
+          "texte": "**DOs** pendant l'échange :\n- Regarder la personne avec attention\n- Se synchroniser physiquement\n- Ecoute active, acquiescer, empathie\n- Demander pourquoi, comment, c'est-à-dire\n- Rebondir, quitte à changer l'ordre des questions\n- Improviser\n- Reformuler\n- Prendre des notes de manière structurée\n- Surveiller le temps"
+        },
+        {
+          "titre": "Bien finir",
+          "texte": "**DOs** pour conclure :\n- Demander des contacts / références\n- Remercier\n- Annoncer les prochaines étapes"
+        },
+        {
+          "titre": "Les DON'Ts du corps et du regard",
+          "texte": "- Croiser les bras\n- Se pencher en arrière\n- Se montrer impatient.e\n- Lever les yeux au ciel\n- Rigoler, sourire trop ou se moquer visiblement\n- **Regarder un écran (même pour prendre des notes)**\n- Arrêter de prendre des notes",
+          "piege": "Même pour prendre des notes, l'écran est interdit : on prend des notes structurées, sans écran entre soi et l'invité.e."
+        },
+        {
+          "titre": "Les DON'Ts de la parole",
+          "texte": "- Insister\n- Interrompre, couper la parole\n- Couper les silences trop rapidement\n- Être plusieurs à poser des questions\n- **Orienter les réponses / influencer**\n- Invalider la personne ou la mettre en doute\n- Mettre la pression, stresser",
+          "analogie": "**Le reporter** ne souffle pas la réponse qu'il aimerait entendre : il laisse parler, même après un silence."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u03-l4-e1",
+          "type": "tri",
+          "question": "DO ou DON'T ?",
+          "categories": [
+            "DO",
+            "DON'T"
+          ],
+          "items": [
+            [
+              "Commencer par des questions faciles",
+              0
+            ],
+            [
+              "Reformuler",
+              0
+            ],
+            [
+              "Se synchroniser physiquement",
+              0
+            ],
+            [
+              "Annoncer les prochaines étapes",
+              0
+            ],
+            [
+              "Croiser les bras",
+              1
+            ],
+            [
+              "Couper les silences trop rapidement",
+              1
+            ],
+            [
+              "Invalider la personne ou la mettre en doute",
+              1
+            ],
+            [
+              "Se pencher en arrière",
+              1
+            ]
+          ],
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "Les DOs mettent en confiance et font parler ; les DON'Ts ferment la conversation ou mettent mal à l'aise."
+        },
+        {
+          "id": "u03-l4-e2",
+          "type": "qcm",
+          "question": "Tu interviewes un chauffeur de bus et tu tapes tes notes sur ton ordinateur portable pour aller plus vite. Qu'en dit le cours ?",
+          "choix": [
+            "C'est un DON'T : regarder un écran, même pour prendre des notes",
+            "C'est un DO : prendre des notes de manière structurée",
+            "C'est neutre, du moment que tu acquiesces",
+            "C'est un DO si tu préviens la personne"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "« Regarder un écran (**même pour prendre des notes**) » est dans la liste des DON'Ts. On prend des notes structurées, mais sans écran."
+        },
+        {
+          "id": "u03-l4-e3",
+          "type": "qcm",
+          "question": "La personne dit : « C'est compliqué avec le planning. » Quelle relance est un DO ?",
+          "choix": [
+            "« C'est-à-dire ? »",
+            "« Ah oui, le planning, c'est toujours nul. »",
+            "« Bon, passons à la question suivante. »",
+            "« Vous êtes sûre que ce n'est pas plutôt vous qui êtes mal organisée ? »"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "**Demander pourquoi, comment, c'est-à-dire** est un DO. Les autres : orienter les réponses, ne pas rebondir, invalider la personne."
+        },
+        {
+          "id": "u03-l4-e4",
+          "type": "vf",
+          "question": "Après une question, l'invitée se tait. Il faut vite relancer pour éviter un silence gênant.",
+          "bonne": false,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "Faux : **couper les silences trop rapidement** est un DON'T. Laisse-lui le temps de réfléchir."
+        },
+        {
+          "id": "u03-l4-e5",
+          "type": "vf",
+          "question": "Rebondir sur une réponse, quitte à changer l'ordre des questions, est un DO.",
+          "bonne": true,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "Vrai : rebondir et improviser sont des DOs ; le script sert **uniquement de guide**."
+        },
+        {
+          "id": "u03-l4-e6",
+          "type": "qcm",
+          "question": "Pendant l'interview d'une libraire, ton collègue pose lui aussi ses propres questions. Qu'en dit le cours ?",
+          "choix": [
+            "C'est un DON'T : être plusieurs à poser des questions",
+            "C'est un DO : on obtient plus d'informations",
+            "C'est un DO si chacun pose la moitié des questions",
+            "Le cours n'en dit rien"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "**Être plusieurs à poser des questions** est un DON'T : la personne se sent sous pression."
+        },
+        {
+          "id": "u03-l4-e7",
+          "type": "qcm",
+          "question": "« Vous trouvez aussi que l'appli est beaucoup trop lente, non ? » Quel DON'T commet cette question ?",
+          "choix": [
+            "Orienter les réponses / influencer",
+            "Couper les silences trop rapidement",
+            "Se pencher en arrière",
+            "Arrêter de prendre des notes"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "La question souffle la réponse attendue : c'est **orienter les réponses / influencer**. Mieux : « Comment se passe l'utilisation de l'appli pour vous ? »"
+        },
+        {
+          "id": "u03-l4-e8",
+          "type": "qcm",
+          "question": "Ce que tu as noté pendant l'interview sert à préparer la suite. Laquelle de ces pratiques est un DO ?",
+          "choix": [
+            "Prendre des notes de manière structurée",
+            "Arrêter de prendre des notes quand la réponse est longue",
+            "Prendre ses notes sur son téléphone",
+            "Laisser un collègue noter et poser des questions en même temps"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview-dos-donts",
+            "interview"
+          ],
+          "explication": "**Prendre des notes de manière structurée** est un DO ; après l'interview, tu les relis et les synthétises avec des codes couleur."
+        }
+      ]
     },
     {
       "id": "u03-l5",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Observer, faire écrire, et après l'interview",
+      "duree": 6,
+      "notions": [
+        "observation-ethnographique",
+        "journal-de-bord",
+        "interview"
+      ],
+      "cartes": [
+        {
+          "titre": "Après l'interview",
+          "texte": "- **Notes** : relire et synthétiser tes notes, avec des **codes couleur** (pour faciliter la suite) ; noter rapidement tes impressions / idées sur le moment.\n- **Relation** : envoyer un **email de remerciement** ; en profiter pour communiquer sur ton projet (**follow-up**).",
+          "fiche": "interview"
+        },
+        {
+          "titre": "Observer : le shadowing",
+          "texte": "Observer une personne **dans son contexte réel d'utilisation** d'un produit (**shadowing**) est la **meilleure manière** de collecter des données, surtout **qualitatives**, nécessaires pour un processus d'empathie.",
+          "fiche": "observation-ethnographique",
+          "analogie": "**Le reporter** suit la personne sur le terrain, au lieu de seulement l'écouter raconter."
+        },
+        {
+          "titre": "Ce qu'on dit, ce qu'on fait",
+          "texte": "Les observations sont un important **complément aux interviews** : elles permettent de **prendre du recul par rapport aux déclarations**.\n\nNe pas blesser ou donner une mauvaise impression : ce sont des réflexes acquis inconsciemment. Il est donc **fréquent** que les observations complètent les interviews, **voire en contredisent** certaines conclusions.",
+          "astuce": "Le cours 1.3 parlait déjà d'« observation vs. déclaratif »."
+        },
+        {
+          "titre": "Le journal de bord",
+          "texte": "Si les observations **ne sont pas envisageables**, ou pour inclure **un grand nombre de personnes**, on peut les compléter avec un **journal de bord** : les personnes le remplissent sur leur journée, **pendant plusieurs jours** (comment elles se sentent, les tâches accomplies, les problèmes rencontrés…).",
+          "fiche": "journal-de-bord"
+        },
+        {
+          "titre": "Proche du moment",
+          "texte": "Le journal de bord **rejoint le déclaratif** des interviews, mais il est **plus proche du contexte et du moment** où les personnes ressentent ou font quelque chose.\n\nIl peut offrir un **aspect émotionnel** important, par exemple en y joignant des **photos**."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u03-l5-e1",
+          "type": "qcm",
+          "question": "Le « shadowing », c'est…",
+          "choix": [
+            "observer une personne dans son contexte réel d'utilisation d'un produit",
+            "faire remplir un journal de bord pendant plusieurs jours",
+            "lire les commentaires des stores",
+            "interviewer quelqu'un dans une salle calme"
+          ],
+          "bonne": 0,
+          "notions": [
+            "observation-ethnographique"
+          ],
+          "explication": "Le shadowing est l'**observation ethnographique** : suivre la personne dans son contexte réel d'utilisation."
+        },
+        {
+          "id": "u03-l5-e2",
+          "type": "qcm",
+          "question": "Pourquoi les observations sont-elles un important complément aux interviews ?",
+          "choix": [
+            "Elles permettent de prendre du recul par rapport aux déclarations, qui peuvent être influencées par des réflexes inconscients",
+            "Elles vont plus vite qu'une interview",
+            "Elles évitent de rencontrer les utilisateurs",
+            "Elles donnent des chiffres plutôt que des données qualitatives"
+          ],
+          "bonne": 0,
+          "notions": [
+            "observation-ethnographique"
+          ],
+          "explication": "Pour ne pas blesser ou donner une mauvaise impression, on déclare parfois autre chose que ce qu'on fait : l'observation permet de **prendre du recul par rapport aux déclarations**."
+        },
+        {
+          "id": "u03-l5-e3",
+          "type": "qcm",
+          "question": "Tu veux comprendre les journées de 40 étudiants pendant une semaine, mais tu ne peux pas les suivre. Quelle méthode du cours choisir ?",
+          "choix": [
+            "Le journal de bord",
+            "L'observation ethnographique",
+            "Une seule interview de groupe",
+            "Le Design Sprint"
+          ],
+          "bonne": 0,
+          "notions": [
+            "journal-de-bord"
+          ],
+          "explication": "Si les observations ne sont pas envisageables, ou pour inclure **un grand nombre de personnes**, on les complète avec un **journal de bord**, rempli pendant plusieurs jours."
+        },
+        {
+          "id": "u03-l5-e4",
+          "type": "tri",
+          "question": "Après l'interview : Notes ou Relation ?",
+          "categories": [
+            "Notes",
+            "Relation"
+          ],
+          "items": [
+            [
+              "Relire et synthétiser tes notes avec des codes couleur",
+              0
+            ],
+            [
+              "Noter rapidement tes impressions et idées sur le moment",
+              0
+            ],
+            [
+              "Envoyer un email de remerciement",
+              1
+            ],
+            [
+              "En profiter pour communiquer sur ton projet",
+              1
+            ]
+          ],
+          "notions": [
+            "interview"
+          ],
+          "explication": "Notes : synthèse avec codes couleur, impressions sur le moment. Relation : remerciement et follow-up sur le projet."
+        },
+        {
+          "id": "u03-l5-e5",
+          "type": "vf",
+          "question": "Le journal de bord est une forme d'observation : il ne repose pas sur ce que les personnes déclarent.",
+          "bonne": false,
+          "notions": [
+            "journal-de-bord"
+          ],
+          "explication": "Faux : le journal de bord **rejoint le déclaratif** des interviews ; son avantage est d'être plus proche du contexte et du moment."
+        },
+        {
+          "id": "u03-l5-e6",
+          "type": "ordre",
+          "question": "Tu interviewes un fleuriste. Remets ces étapes dans l'ordre.",
+          "items": [
+            "Fixer tes objectifs : que cherches-tu à comprendre ?",
+            "Lui envoyer l'invitation et un rappel quelques jours avant",
+            "Te présenter et lui offrir quelque chose à boire",
+            "Reformuler ce qu'il dit et demander « pourquoi ? »",
+            "Relire et synthétiser tes notes avec des codes couleur"
+          ],
+          "notions": [
+            "interview",
+            "interview-dos-donts"
+          ],
+          "explication": "Avant (contenu, puis logistique), pendant (accueillir, puis écouter et relancer), après (notes)."
+        },
+        {
+          "id": "u03-l5-e7",
+          "type": "tri",
+          "question": "Une équipe repense une appli de livraison de repas. Quelle méthode d'Empathize utilise-t-elle ?",
+          "categories": [
+            "Données publiques",
+            "Interview",
+            "Observation",
+            "Journal de bord"
+          ],
+          "items": [
+            [
+              "Lire les avis 1 étoile de l'appli",
+              0
+            ],
+            [
+              "Discuter 45 minutes avec un restaurateur, à partir d'un guide de questions",
+              1
+            ],
+            [
+              "Suivre une livreuse à vélo pendant sa tournée",
+              2
+            ],
+            [
+              "Demander à 30 clients de noter chaque soir, pendant une semaine, leurs commandes et leur humeur, photo à l'appui",
+              3
+            ]
+          ],
+          "notions": [
+            "donnees-publiques",
+            "interview",
+            "observation-ethnographique",
+            "journal-de-bord"
+          ],
+          "explication": "Stores = données publiques ; échange scripté = interview ; suivre sur le terrain = observation (shadowing) ; écrit par les personnes pendant plusieurs jours = journal de bord."
+        }
+      ]
     }
   ],
-  "jeux": [],
+  "jeux": [
+    {
+      "id": "u03-jeu",
+      "titre": "Le carnet du reporter",
+      "description": "Questions éclair sur le Design Thinking et l'étape Empathize.",
+      "tours": 10,
+      "questions": [
+        {
+          "id": "u03-jeu-q1",
+          "type": "qcm",
+          "question": "Combien d'étapes compte le Design Thinking ?",
+          "choix": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "bonne": 2,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "5 grandes étapes : Exploration, Définition, Idéation, Prototypage, Test.",
+          "ordreFixe": true
+        },
+        {
+          "id": "u03-jeu-q2",
+          "type": "qcm",
+          "question": "En combien de jours le Design Sprint met-il en œuvre les 5 étapes ?",
+          "choix": [
+            "1",
+            "3",
+            "5",
+            "10"
+          ],
+          "bonne": 2,
+          "notions": [
+            "design-sprint"
+          ],
+          "explication": "**5 jours**.",
+          "ordreFixe": true
+        },
+        {
+          "id": "u03-jeu-q3",
+          "type": "qcm",
+          "question": "Quelle est la 1re phase du Design Thinking ?",
+          "choix": [
+            "Exploration",
+            "Définition",
+            "Idéation",
+            "Prototypage",
+            "Test"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "**Exploration** (Empathize) : collecter un maximum de données.",
+          "ordreFixe": true
+        },
+        {
+          "id": "u03-jeu-q4",
+          "type": "qcm",
+          "question": "Quelle phase vient juste après l'Idéation ?",
+          "choix": [
+            "Exploration",
+            "Définition",
+            "Idéation",
+            "Prototypage",
+            "Test"
+          ],
+          "bonne": 3,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Idéation → **Prototypage** : modéliser plus en détail les concepts choisis.",
+          "ordreFixe": true
+        },
+        {
+          "id": "u03-jeu-q5",
+          "type": "vf",
+          "question": "Le Design Sprint a été développé chez Google Ventures.",
+          "bonne": true,
+          "notions": [
+            "design-sprint"
+          ],
+          "explication": "Vrai : par Jake Knapp, John Zeratsky et Braden Kowitz, au sein de Google Ventures."
+        },
+        {
+          "id": "u03-jeu-q6",
+          "type": "vf",
+          "question": "L'empathie, en design, c'est de la sympathie pour les utilisateurs.",
+          "bonne": false,
+          "notions": [
+            "empathie"
+          ],
+          "explication": "Faux : souvent faussement associée à la sympathie, c'est l'**ensemble des méthodes** pour comprendre ce que pensent, ressentent, font et disent les utilisateurs."
+        },
+        {
+          "id": "u03-jeu-q7",
+          "type": "qcm",
+          "question": "Durée maximale du créneau d'une interview ?",
+          "choix": [
+            "30 min",
+            "1 heure",
+            "2 heures",
+            "3 heures"
+          ],
+          "bonne": 1,
+          "notions": [
+            "interview"
+          ],
+          "explication": "Max. **1 heure**.",
+          "ordreFixe": true
+        },
+        {
+          "id": "u03-jeu-q8",
+          "type": "vf",
+          "question": "« Acquiescer » est un DO.",
+          "bonne": true,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "Vrai : écoute active, acquiescer, empathie."
+        },
+        {
+          "id": "u03-jeu-q9",
+          "type": "vf",
+          "question": "« Regarder un écran pour prendre des notes » est un DO.",
+          "bonne": false,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "Faux : regarder un écran est un DON'T, **même pour prendre des notes**."
+        },
+        {
+          "id": "u03-jeu-q10",
+          "type": "vf",
+          "question": "« Improviser » est un DO.",
+          "bonne": true,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "Vrai : le script sert uniquement de guide."
+        },
+        {
+          "id": "u03-jeu-q11",
+          "type": "vf",
+          "question": "« Lever les yeux au ciel » est un DON'T.",
+          "bonne": true,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "Vrai, évidemment."
+        },
+        {
+          "id": "u03-jeu-q12",
+          "type": "qcm",
+          "question": "Autre nom de l'observation ethnographique ?",
+          "choix": [
+            "Shadowing",
+            "Bodystorming",
+            "Design Sprint",
+            "Follow-up"
+          ],
+          "bonne": 0,
+          "notions": [
+            "observation-ethnographique"
+          ],
+          "explication": "Le **shadowing** : observer une personne dans son contexte réel d'utilisation."
+        },
+        {
+          "id": "u03-jeu-q13",
+          "type": "vf",
+          "question": "On peut joindre des photos à un journal de bord.",
+          "bonne": true,
+          "notions": [
+            "journal-de-bord"
+          ],
+          "explication": "Vrai : cela lui donne un aspect émotionnel important."
+        },
+        {
+          "id": "u03-jeu-q14",
+          "type": "qcm",
+          "question": "Après l'interview, on synthétise ses notes avec…",
+          "choix": [
+            "des codes couleur",
+            "un Design Sprint",
+            "un enregistrement vidéo",
+            "un questionnaire"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview"
+          ],
+          "explication": "Relire et synthétiser ses notes **+ codes couleur** (pour faciliter la suite)."
+        },
+        {
+          "id": "u03-jeu-q15",
+          "type": "qcm",
+          "question": "« Quand vous rentrez le soir et que vous râlez… » : quelle catégorie de question ?",
+          "choix": [
+            "Contexte",
+            "Motivations",
+            "Pain-points",
+            "Ouverture"
+          ],
+          "bonne": 2,
+          "notions": [
+            "interview"
+          ],
+          "explication": "Les causes d'une mauvaise journée : **Pain-points**.",
+          "ordreFixe": true
+        },
+        {
+          "id": "u03-jeu-q16",
+          "type": "qcm",
+          "question": "« Connectivity as Aid » : combien d'interviews ?",
+          "choix": [
+            "5",
+            "10",
+            "50",
+            "211"
+          ],
+          "bonne": 2,
+          "notions": [
+            "interview"
+          ],
+          "explication": "**50 interviews** pour ce nouveau service (VTS : 10 personnes).",
+          "ordreFixe": true
+        }
+      ]
+    }
+  ],
   "quiz": {
     "titre": "Quiz : Design Thinking et Empathize",
-    "questions": []
+    "questions": [
+      {
+        "id": "u03-quiz-q1",
+        "type": "ordre",
+        "question": "Remets les 5 phases du Design Thinking dans l'ordre.",
+        "items": [
+          "Exploration",
+          "Définition",
+          "Idéation",
+          "Prototypage",
+          "Test"
+        ],
+        "notions": [
+          "design-thinking"
+        ],
+        "explication": "Exploration, Définition, Idéation, Prototypage, Test."
+      },
+      {
+        "id": "u03-quiz-q2",
+        "type": "qcm",
+        "question": "Quelle phase consiste à « modéliser de manière plus détaillée les concepts choisis issus de la phase d'idéation » ?",
+        "choix": [
+          "Exploration",
+          "Définition",
+          "Idéation",
+          "Prototypage",
+          "Test"
+        ],
+        "bonne": 3,
+        "notions": [
+          "design-thinking"
+        ],
+        "explication": "C'est le **Prototypage** : rendre une idée concrète et testable.",
+        "ordreFixe": true
+      },
+      {
+        "id": "u03-quiz-q3",
+        "type": "qcm",
+        "question": "Quelle phase consiste à « rapidement tester les prototypes avec des utilisateurs pour valider les idées et les ajuster » ?",
+        "choix": [
+          "Exploration",
+          "Définition",
+          "Idéation",
+          "Prototypage",
+          "Test"
+        ],
+        "bonne": 4,
+        "notions": [
+          "design-thinking"
+        ],
+        "explication": "Le **Test** : recueillir les feedbacks pour améliorer.",
+        "ordreFixe": true
+      },
+      {
+        "id": "u03-quiz-q4",
+        "type": "qcm",
+        "question": "À quoi sert le Design Sprint ?",
+        "choix": [
+          "Tester très rapidement des solutions sous forme de prototype et déterminer la valeur d'une éventuelle implémentation",
+          "Développer le produit final en 5 jours",
+          "Remplacer la phase de Test",
+          "Former l'équipe au Design Thinking"
+        ],
+        "bonne": 0,
+        "notions": [
+          "design-sprint"
+        ],
+        "explication": "Les 5 étapes en 5 jours, pour **tester très vite** et **déterminer la valeur d'une éventuelle implémentation**."
+      },
+      {
+        "id": "u03-quiz-q5",
+        "type": "tri",
+        "question": "Une association veut une appli pour les bénévoles d'une banque alimentaire. Quelle méthode utilise-t-elle ?",
+        "categories": [
+          "Données publiques",
+          "Interview",
+          "Observation",
+          "Journal de bord"
+        ],
+        "items": [
+          [
+            "Lire un forum de bénévoles d'associations",
+            0
+          ],
+          [
+            "Rencontrer la responsable des bénévoles pendant 1 heure avec un guide",
+            1
+          ],
+          [
+            "Passer une matinée à côté des bénévoles pendant une distribution",
+            2
+          ],
+          [
+            "Demander à 20 bénévoles de noter, pendant deux semaines, leurs tâches et leurs soucis",
+            3
+          ]
+        ],
+        "notions": [
+          "donnees-publiques",
+          "interview",
+          "observation-ethnographique",
+          "journal-de-bord"
+        ],
+        "explication": "Forum = donnée publique ; échange guidé = interview ; être sur place = observation ; écrit par les personnes sur plusieurs jours = journal de bord."
+      },
+      {
+        "id": "u03-quiz-q6",
+        "type": "qcm",
+        "question": "Que permettent de faire les groupes thématiques sur les réseaux sociaux, les forums et les personnalités reconnues du domaine ?",
+        "choix": [
+          "Se projeter dans l'expérience des utilisateurs",
+          "Tester un prototype",
+          "Recruter des testeurs rémunérés",
+          "Remplacer les interviews"
+        ],
+        "bonne": 0,
+        "notions": [
+          "donnees-publiques"
+        ],
+        "explication": "C'est « une excellente manière de nous **projeter dans leur expérience** »."
+      },
+      {
+        "id": "u03-quiz-q7",
+        "type": "vf",
+        "question": "Les interviews peuvent intervenir a posteriori des observations ethnographiques, pour répondre à des questions plus précises.",
+        "bonne": true,
+        "notions": [
+          "interview",
+          "observation-ethnographique"
+        ],
+        "explication": "Vrai : elles peuvent servir de base aux observations, ou au contraire intervenir **a posteriori**."
+      },
+      {
+        "id": "u03-quiz-q8",
+        "type": "tri",
+        "question": "Avant l'interview : dans quelle colonne du cours ?",
+        "categories": [
+          "Contenu",
+          "Logistique",
+          "Autres"
+        ],
+        "items": [
+          [
+            "Préparation du guide d'interview",
+            0
+          ],
+          [
+            "Identifiez vos objectifs",
+            0
+          ],
+          [
+            "Choix du créneau (max. 1 heure)",
+            1
+          ],
+          [
+            "Réservation d'une salle appropriée",
+            1
+          ],
+          [
+            "Relation de confiance avec l'invité.e",
+            2
+          ],
+          [
+            "Matériel : prise de notes, etc.",
+            2
+          ]
+        ],
+        "notions": [
+          "interview"
+        ],
+        "explication": "Contenu : objectifs, guide, domaine. Logistique : créneau, salle, invitation. Autres : confiance, matériel."
+      },
+      {
+        "id": "u03-quiz-q9",
+        "type": "qcm",
+        "question": "Pour réserver la salle d'une interview, à quoi le cours dit-il de faire attention ?",
+        "choix": [
+          "Au bruit et à la confidentialité",
+          "À la présence d'un écran",
+          "À la taille de la table",
+          "À pouvoir y inviter toute l'équipe"
+        ],
+        "bonne": 0,
+        "notions": [
+          "interview"
+        ],
+        "explication": "Une salle appropriée à une conversation confortable : **attention au bruit et à la confidentialité**."
+      },
+      {
+        "id": "u03-quiz-q10",
+        "type": "tri",
+        "question": "Classe ces questions d'interview, posées à un agriculteur.",
+        "categories": [
+          "Contexte",
+          "Motivations",
+          "Pain-points",
+          "Ouverture"
+        ],
+        "items": [
+          [
+            "Que faites-vous au quotidien ?",
+            0
+          ],
+          [
+            "Quels outils ou logiciels utilisez-vous le plus ?",
+            0
+          ],
+          [
+            "Quelles sont vos raisons d'espérer pour l'avenir de l'agriculture ?",
+            1
+          ],
+          [
+            "Si vous pouviez changer une seule chose, ce serait quoi ?",
+            2
+          ],
+          [
+            "Quels conseils donneriez-vous à un.e étudiant.e qui voudrait se lancer ?",
+            3
+          ]
+        ],
+        "notions": [
+          "interview"
+        ],
+        "explication": "Quotidien et outils : Contexte. Raisons d'espérer : Motivations. Changer une seule chose : Pain-points. Conseils : Ouverture."
+      },
+      {
+        "id": "u03-quiz-q11",
+        "type": "tri",
+        "question": "DO ou DON'T ?",
+        "categories": [
+          "DO",
+          "DON'T"
+        ],
+        "items": [
+          [
+            "Demander des contacts / références",
+            0
+          ],
+          [
+            "Surveiller le temps",
+            0
+          ],
+          [
+            "Posture neutre et encourageante",
+            0
+          ],
+          [
+            "Insister",
+            1
+          ],
+          [
+            "Mettre la pression, stresser",
+            1
+          ],
+          [
+            "Interrompre, couper la parole",
+            1
+          ]
+        ],
+        "notions": [
+          "interview-dos-donts"
+        ],
+        "explication": "DOs : références, temps, posture neutre. DON'Ts : insister, stresser, couper la parole."
+      },
+      {
+        "id": "u03-quiz-q12",
+        "type": "qcm",
+        "question": "L'invité hésite et se tait quelques secondes. Que fais-tu ?",
+        "choix": [
+          "Tu laisses le silence : couper les silences trop rapidement est un DON'T",
+          "Tu proposes toi-même une réponse pour l'aider",
+          "Tu passes à la question suivante",
+          "Tu regardes ton téléphone en attendant"
+        ],
+        "bonne": 0,
+        "notions": [
+          "interview-dos-donts"
+        ],
+        "explication": "Ne coupe pas le silence trop vite, ne souffle pas de réponse (orienter), ne regarde pas d'écran."
+      },
+      {
+        "id": "u03-quiz-q13",
+        "type": "qcm",
+        "question": "En interview, un caissier dit qu'il n'utilise jamais le raccourci « annuler ». En l'observant, tu le vois l'utiliser dix fois par heure. Qu'en conclure ?",
+        "choix": [
+          "C'est fréquent : les observations complètent les interviews, voire en contredisent certaines conclusions",
+          "Il a menti : il faut l'écarter de l'étude",
+          "L'observation est fausse : seule l'interview compte",
+          "Il faut refaire l'interview jusqu'à obtenir la même réponse"
+        ],
+        "bonne": 0,
+        "notions": [
+          "observation-ethnographique"
+        ],
+        "explication": "Les observations permettent de **prendre du recul par rapport aux déclarations** ; des réflexes acquis inconsciemment expliquent qu'elles contredisent parfois les interviews."
+      },
+      {
+        "id": "u03-quiz-q14",
+        "type": "qcm",
+        "question": "Quel avantage le journal de bord a-t-il sur l'interview ?",
+        "choix": [
+          "Il est plus proche du contexte et du moment où la personne ressent ou fait quelque chose",
+          "Il n'est pas déclaratif",
+          "Il se fait en une seule séance",
+          "Il remplace toutes les autres méthodes"
+        ],
+        "bonne": 0,
+        "notions": [
+          "journal-de-bord"
+        ],
+        "explication": "Il rejoint le déclaratif des interviews, mais il est **plus proche du contexte et du moment**."
+      },
+      {
+        "id": "u03-quiz-q15",
+        "type": "qcm",
+        "question": "Selon le cours, les personas sont…",
+        "choix": [
+          "des utilisateurs fictifs d'un système (archétypes), basés sur des caractéristiques représentatives des utilisateurs réels",
+          "les vrais utilisateurs interviewés pendant l'Exploration",
+          "les membres de l'équipe projet",
+          "des profils inventés sans recherche, pour aller vite"
+        ],
+        "bonne": 0,
+        "notions": [
+          "persona"
+        ],
+        "explication": "Définition du cours 1.3. Ils se construisent **après la recherche ethnographique** : c'est à ça que sert l'étape Empathize."
+      },
+      {
+        "id": "u03-quiz-q16",
+        "type": "qcm",
+        "question": "Sur quoi la démarche user-centric est-elle basée ?",
+        "choix": [
+          "L'analyse des besoins et des attentes des utilisateurs",
+          "Les goûts du chef de projet",
+          "L'avis de la dernière personne qui a parlé en réunion",
+          "Les fonctionnalités des concurrents"
+        ],
+        "bonne": 0,
+        "notions": [
+          "user-centric"
+        ],
+        "explication": "« La démarche ergonomique est basée sur l'analyse des besoins et des attentes des utilisateurs » : utilisateurs réels, contexte réel, observation vs. déclaratif."
+      },
+      {
+        "id": "u03-quiz-q17",
+        "type": "vf",
+        "question": "Le journal de bord (et le journal photo) fait partie des méthodes de l'empathie citées dès le cours 1.3.",
+        "bonne": true,
+        "notions": [
+          "empathie",
+          "journal-de-bord"
+        ],
+        "explication": "Vrai : What, How, Why ; 5 Whys ; Bodystorming ; **Journal de bord, journal photo**."
+      }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u03-b1",
+      "titre": "Le reporter en mission",
+      "source": "Étude de cas d'après le cours 2.2 (Empathize)",
+      "notions": [
+        "interview",
+        "interview-dos-donts",
+        "observation-ethnographique",
+        "journal-de-bord"
+      ],
+      "cartes": [
+        {
+          "titre": "Pourquoi c'est vital : 3 exemples du cours",
+          "texte": "- **Connectivity as Aid** (nouveau service) : 50 interviews.\n- **Agence de services IT** (redesign du site Web) : atelier avec proxies (commerciaux, en contact direct avec les utilisateurs finaux).\n- **VTS** (redesign de la Web app) : interviews avec 10 personnes.\n\nÀ chaque fois, la recherche a apporté des **informations inattendues** qui ont changé le projet."
+        },
+        {
+          "titre": "La mission de Proto",
+          "texte": "La médiathèque d'une ville veut refaire son appli de réservation de livres. Proto, **le reporter**, doit préparer et mener l'interview d'une bibliothécaire, puis l'observer au guichet.\n\nÀ toi de l'aider : retrouve d'abord ce que les 3 exemples du cours ont appris, puis prépare, mène et exploite l'interview."
+        }
+      ],
+      "seuil": 0.8,
+      "questions": [
+        {
+          "id": "u03-b1-q1",
+          "type": "assoc",
+          "question": "Relie chaque projet du cours à sa méthode de recherche.",
+          "paires": [
+            [
+              "Connectivity as Aid",
+              "50 interviews"
+            ],
+            [
+              "Agence de services IT",
+              "Atelier avec proxies (commerciaux)"
+            ],
+            [
+              "VTS",
+              "Interviews avec 10 personnes"
+            ]
+          ],
+          "notions": [
+            "interview"
+          ],
+          "explication": "Connectivity as Aid : 50 interviews ; agence IT : atelier avec des proxies, en contact direct avec les utilisateurs finaux ; VTS : interviews avec 10 personnes."
+        },
+        {
+          "id": "u03-b1-q2",
+          "type": "assoc",
+          "question": "Relie chaque projet à son information inattendue.",
+          "paires": [
+            [
+              "Connectivity as Aid",
+              "La connexion à Internet est jugée plus importante que manger ou boire"
+            ],
+            [
+              "Agence de services IT",
+              "Les profils experts entrent via un article de blog, pas via le site"
+            ],
+            [
+              "VTS",
+              "Chaque rôle veut voir des informations différentes"
+            ]
+          ],
+          "notions": [
+            "interview"
+          ],
+          "explication": "Ces surprises ne pouvaient venir que des utilisateurs (ou de leurs proxies) : c'est pour ça que l'étape Empathize est vitale."
+        },
+        {
+          "id": "u03-b1-q3",
+          "type": "qcm",
+          "question": "VTS découvre aussi que chaque rôle imprime ou exporte en PDF pour transmettre au rôle suivant. Quelle conséquence le cours tire-t-il, pour VTS et pour l'agence IT ?",
+          "choix": [
+            "VTS : identification des contenus et priorisation par rôle ; agence IT : penser chaque article de blog comme une landing page",
+            "VTS : supprimer l'export PDF ; agence IT : supprimer le blog",
+            "VTS : faire une seule page pour tous les rôles ; agence IT : tout focaliser sur la page d'accueil",
+            "Aucune : ces informations ne changent pas le design"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview"
+          ],
+          "explication": "VTS : contenus identifiés et priorisés **par rôle**. Agence IT : chaque article de blog pensé **comme une landing page** plutôt que tout focaliser sur la page d'accueil."
+        },
+        {
+          "id": "u03-b1-q4",
+          "type": "tri",
+          "question": "Proto prépare son guide. Dans quelle catégorie va chaque question pour la bibliothécaire ?",
+          "categories": [
+            "Contexte",
+            "Motivations",
+            "Pain-points",
+            "Ouverture"
+          ],
+          "items": [
+            [
+              "A quoi ressemble une journée-type à la médiathèque ?",
+              0
+            ],
+            [
+              "Quels logiciels utilisez-vous le plus pour les réservations ?",
+              0
+            ],
+            [
+              "Qu'est-ce qui vous a motivée à devenir bibliothécaire ?",
+              1
+            ],
+            [
+              "Qu'est-ce qui vous prend le plus de temps inutilement avec les réservations ?",
+              2
+            ],
+            [
+              "Quand vous rentrez le soir en râlant, quelles en sont les causes ?",
+              2
+            ],
+            [
+              "Quels conseils donneriez-vous à un.e étudiant.e qui voudrait travailler en bibliothèque ?",
+              3
+            ]
+          ],
+          "notions": [
+            "interview"
+          ],
+          "explication": "Journée-type et logiciels : Contexte. Ce qui a motivé : Motivations. Temps perdu, causes de râler : Pain-points. Conseils : Ouverture."
+        },
+        {
+          "id": "u03-b1-q5",
+          "type": "ordre",
+          "question": "Remets la mission de Proto dans l'ordre.",
+          "items": [
+            "Identifier ses objectifs : qu'est-ce qui rendra l'interview utile ?",
+            "Réserver une salle calme et choisir un créneau d'une heure au plus",
+            "Se présenter et commencer par des questions faciles",
+            "Rebondir sur les réponses et reformuler",
+            "Remercier et annoncer les prochaines étapes",
+            "Relire et synthétiser ses notes avec des codes couleur"
+          ],
+          "notions": [
+            "interview",
+            "interview-dos-donts"
+          ],
+          "explication": "Avant (contenu, logistique), pendant (accueillir, écouter, conclure), après (notes)."
+        },
+        {
+          "id": "u03-b1-q6",
+          "type": "tri",
+          "question": "Voici le compte rendu de l'interview. DO ou DON'T ?",
+          "categories": [
+            "DO",
+            "DON'T"
+          ],
+          "items": [
+            [
+              "Proto a demandé « c'est-à-dire ? » quand elle a parlé de « galère des réservations »",
+              0
+            ],
+            [
+              "Proto a reformulé ce qu'elle disait avant de passer à la suite",
+              0
+            ],
+            [
+              "Proto a pris ses notes sur sa tablette",
+              1
+            ],
+            [
+              "Proto a terminé ses phrases à sa place pour gagner du temps",
+              1
+            ],
+            [
+              "Proto a demandé « Le logiciel actuel est nul, non ? »",
+              1
+            ],
+            [
+              "Le collègue de Proto a posé ses propres questions en même temps",
+              1
+            ]
+          ],
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "DOs : demander c'est-à-dire, reformuler. DON'Ts : regarder un écran (même pour les notes), couper la parole, orienter les réponses, être plusieurs à poser des questions."
+        },
+        {
+          "id": "u03-b1-q7",
+          "type": "qcm",
+          "question": "En interview, la bibliothécaire dit que le logiciel de réservation est « très simple ». Au guichet, Proto la voit tout noter sur des post-it à côté de l'écran. Que retenir ?",
+          "choix": [
+            "C'est fréquent : l'observation permet de prendre du recul par rapport aux déclarations, voire de contredire l'interview",
+            "L'interview a raté : il faut la refaire",
+            "Les post-it n'ont rien à voir avec le logiciel : on les ignore",
+            "Elle a menti : on ne tient pas compte de son interview"
+          ],
+          "bonne": 0,
+          "notions": [
+            "observation-ethnographique"
+          ],
+          "explication": "Ne pas blesser ou donner une mauvaise impression sont des réflexes inconscients : il est **fréquent** que les observations complètent les interviews, **voire en contredisent** certaines conclusions."
+        },
+        {
+          "id": "u03-b1-q8",
+          "type": "qcm",
+          "question": "La médiathèque veut aussi comprendre les habitudes de 50 lecteurs pendant deux semaines, mais Proto ne peut pas les suivre. Que propose-t-il ?",
+          "choix": [
+            "Un journal de bord, rempli chaque jour par les lecteurs, avec des photos",
+            "50 observations ethnographiques en même temps",
+            "Une seule interview d'une heure avec un lecteur",
+            "Lire les avis de l'appli et s'arrêter là"
+          ],
+          "bonne": 0,
+          "notions": [
+            "journal-de-bord"
+          ],
+          "explication": "Quand les observations ne sont pas envisageables ou pour **un grand nombre de personnes** : un **journal de bord**, pendant plusieurs jours, éventuellement avec des photos."
+        }
+      ]
+    }
+  ]
 }

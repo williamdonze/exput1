@@ -58,7 +58,7 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Leçons : 1. Ergonomie, utilisabilité, UX : trois définitions emboîtées 2. UX ou UI ? Les idées reçues 3. Une histoire des interfaces (frise : `ordre`) 4. Mélange
 - Jeu : « Vocabulaire de pro » (assoc, vf, qcm sur les définitions et dates), avec `"badge": "memoire"` et `"seuilBadge": 0.8`
 - Boss : étude de cas « Convaincre ton équipe » : des collègues répètent les idées reçues (« l'UX, c'est des wireframes », « c'est trop cher », « le design ça sert à rien ») ; choisir les bons arguments du cours (Cours 1.1), et situer des produits non-Web (enceinte vocale, appli AR) dans l'UX (Cours 1.2)
-- État : à écrire
+- État : écrite, testée
 
 ## u02 — Concepts-clés et acteurs de l'UX
 - Objectif : expliquer les concepts-clés (user-centric, empathie, personas, omnichannel, accessibilité) et situer l'UX dans les équipes et les métiers.
@@ -67,7 +67,7 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Notions des unités précédentes à revoir : ux, utilisabilite, ux-vs-ui
 - Leçons : 1. User-centric et empathie 2. Personas : la boussole 3. Omnichannel et accessibilité 4. Les acteurs et les métiers de l'UX 5. Mélange
 - Boss : étude de cas « Le projet d'appli » : une équipe projet d'application (rôles de la slide 1.4) doit trancher une décision (HIPPO ou user-centric ?), choisir des utilisateurs à rencontrer (dont extrêmes), un parcours cross-device, un niveau WCAG ; trier skills et soft skills d'une offre d'emploi fictive
-- État : à écrire
+- État : écrite, testée
 
 ## u03 — Design Thinking et étape 1 : Empathize
 - Objectif : citer et ordonner les 5 phases du Design Thinking, connaître le Design Sprint, et préparer, mener et exploiter une interview, une observation, un journal de bord.
@@ -76,7 +76,7 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Notions des unités précédentes à revoir : empathie, user-centric, persona
 - Leçons : 1. Les 5 phases du Design Thinking (et le Design Sprint) 2. Empathize : données publiques 3. Préparer une interview 4. Pendant l'interview : DOs et DON'Ts 5. Observer, faire écrire, et après l'interview
 - Boss : étude de cas « Le reporter en mission » : les 3 exemples du cours (Connectivity as Aid, agence de services IT, VTS) : quelle méthode, quelle information inattendue, quelle conséquence ; puis une interview à préparer et à mener dans un autre domaine (repérer les DON'Ts dans un compte rendu, classer des questions par catégorie, remettre l'avant / pendant / après dans l'ordre)
-- État : à écrire
+- État : écrite, testée
 
 ## u04 — Étape 2 : Define (HMW et empathy map)
 - Objectif : formuler et juger un HMW (« Comment pourrait-on… de manière à… »), organiser la recherche utilisateurs, et construire une empathy map.
