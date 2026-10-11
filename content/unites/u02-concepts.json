@@ -2,55 +2,737 @@
   "id": "u02",
   "titre": "Concepts-clés et acteurs de l'UX",
   "sousTitre": "Cours 1.3 et 1.4",
-  "objectif": "",
-  "icone": "",
-  "fiches": [],
+  "objectif": "Expliquer les concepts-clés de l'UX (user-centric, empathie, personas, omnichannel, accessibilité) et situer l'UX dans les équipes et les métiers.",
+  "icone": "1.3",
+  "fiches": [
+    {
+      "id": "user-centric",
+      "titre": "User-centric : partir des utilisateurs",
+      "icone": "UC",
+      "resume": "La démarche ergonomique est basée sur l'analyse des besoins et des attentes des utilisateurs.",
+      "analogie": "La boussole : l'équipe ne prend pas sa direction d'après l'avis du chef ou du dernier qui a parlé, mais d'après les utilisateurs, représentés par les personas qu'elle consulte à chaque décision.",
+      "texte": "**User-centric** : la démarche ergonomique est basée sur l'analyse des besoins et des attentes des utilisateurs.\n\n- Démarche constante tout au long du projet\n- Utilisateurs réels dans un contexte réel\n- Observation vs. déclaratif\n- Création de valeur\n- Recherches ethnographiques\n\nLes [[persona|personas]] représentent des archétypes des utilisateurs. Référence tout au long du processus, ils permettent de prendre des décisions user-centric.\n\nLe cours oppose trois façons de décider : **user-centric** vs. **HIPPO** vs. **last-one talking** (le dernier qui a parlé).",
+      "pieges": [
+        "User-centric n'est pas une étape du début du projet : c'est une démarche constante, tout au long du projet.",
+        "Ce que les gens disent (déclaratif) et ce qu'on les voit faire (observation) ne se recouvrent pas toujours : le cours oppose les deux.",
+        "Décider d'après le HIPPO ou d'après le dernier qui a parlé, ce n'est pas user-centric."
+      ]
+    },
+    {
+      "id": "empathie",
+      "titre": "L'empathie",
+      "icone": "EMP",
+      "resume": "L'empathie est un processus de compréhension profonde des problèmes et des réalités des personnes pour lesquelles on conçoit un service.",
+      "analogie": "Le reporter : Proto, le renard, part en reportage chez les gens pour qui il conçoit ; il écoute, observe et note, pour voir le monde avec leurs yeux.",
+      "texte": "**Empathie** : l'empathie est un processus de compréhension profonde des problèmes et des réalités des personnes pour lesquelles on conçoit un service.\n\n- Etat d'esprit\n- What, How, Why\n- 5 Whys\n- Bodystorming\n- Journal de bord, journal photo\n\nDéfinition de l'Interaction Design Foundation : « In a general sense, empathy is our ability to see the world through other people's eyes, to see what they see, feel what they feel, and experience things as they do. »",
+      "pieges": [
+        "L'empathie n'est pas seulement de la gentillesse : c'est un processus de compréhension profonde des problèmes et des réalités des personnes.",
+        "On conçoit pour les personnes qui vont utiliser le service, pas pour soi : l'empathie, c'est voir le monde avec leurs yeux."
+      ]
+    },
+    {
+      "id": "persona",
+      "titre": "Les personas",
+      "icone": "P",
+      "resume": "Les personas sont des utilisateurs fictifs d'un système (archétypes), basés sur des caractéristiques représentatives des utilisateurs réels.",
+      "analogie": "La boussole : le persona est la boussole de l'équipe tout au long du projet ; on la consulte à chaque décision.",
+      "texte": "**Personas** : les personas sont des utilisateurs fictifs d'un système (archétypes), basés sur des caractéristiques représentatives des utilisateurs réels.\n\n- Rassembler les données ethnographiques\n- Conception centrée sur les utilisateurs\n- User-centric vs. HIPPO vs. last-one talking\n- Atelier\n- Utilisateurs extrêmes\n\n**Objectifs** : représenter les utilisateurs ; adopter une démarche [[user-centric]] ; orienter les décisions.\n\n**Quand** : après la recherche ethnographique.\n\n**Qui** : UX ou ergonome, équipe projet, toute personne ayant un contact direct avec les utilisateurs, panel d'utilisateurs.",
+      "pieges": [
+        "Un persona est fictif, mais pas inventé au hasard : il est basé sur des caractéristiques représentatives des utilisateurs réels.",
+        "On crée les personas **après** la recherche ethnographique, pas avant.",
+        "Le persona n'est pas l'affaire du seul UX : l'équipe projet, toute personne en contact direct avec les utilisateurs et un panel d'utilisateurs peuvent y participer."
+      ]
+    },
+    {
+      "id": "omnichannel",
+      "titre": "Omnichannel",
+      "icone": "OMNI",
+      "resume": "Stratégie de contenus cohérente à travers tous les canaux on et offline.",
+      "analogie": "La boussole : quel que soit le canal où l'utilisateur se trouve, on garde la même direction, la sienne : son parcours, d'un appareil à l'autre.",
+      "texte": "**Omnichannel** : stratégie de contenus cohérente à travers tous les canaux on et offline.\n\n- Multichannel vs. omnichannel\n- Parcours utilisateur cross-device\n- Miroir vs. complément\n- Conception basée sur des scénarios\n\n« Customers don't see channels: they see brands. »\n\n**84 %** de tous les achats ont été recherchés en ligne pendant le processus de décision.",
+      "pieges": [
+        "Omnichannel couvre les canaux **on et offline**, pas seulement le Web.",
+        "Le client ne voit pas des canaux, il voit une marque : les contenus doivent rester cohérents d'un canal à l'autre."
+      ]
+    },
+    {
+      "id": "accessibilite",
+      "titre": "Accessibilité",
+      "icone": "A11Y",
+      "resume": "Le WCAG fixe les normes pour l'accessibilité aux contenus numériques par les personnes en situation de handicap.",
+      "analogie": "La boussole : les utilisateurs en situation de handicap font partie des utilisateurs réels ; la boussole de l'équipe les inclut.",
+      "texte": "**Accessibilité** : le WCAG (World Content Accessibility Guidelines, d'après la slide) fixe les normes pour l'accessibilité aux contenus numériques par les personnes en situation de handicap.\n\n- Handicap permanent ou temporaire\n- Web et applications mobiles\n- Normes A à AAA\n- Secteur de la santé\n\n**1,4 million** de personnes vivent en situation de handicap en Suisse.",
+      "pieges": [
+        "Le handicap peut être **temporaire**, pas seulement permanent.",
+        "L'accessibilité ne concerne pas que le Web : aussi les applications mobiles.",
+        "Les normes vont de A à AAA : il y a plusieurs niveaux."
+      ]
+    },
+    {
+      "id": "acteurs-ux",
+      "titre": "Les acteurs de l'UX",
+      "icone": "QUI",
+      "resume": "Qui sont les UX, où on les trouve, et avec qui ils travaillent dans une équipe projet.",
+      "texte": "**Qui sont les UX ?** Ils viennent du design UI, de la gestion de projet, de la communication / marketing, du développement, des sciences sociales, de la psychologie cognitive.\n\n- 71 % sont des hommes\n- 75 % ont entre 26 et 40 ans\n- 60 % ont un master ou équivalent\n- 30 % en design, 30 % sciences sociales, 30 % ingénierie\n- 6-10 ans d'expérience\n\n**Où les trouve-t-on ?** 40 % en agence ou cabinet de consulting, 30 % chez l'annonceur, 12 % en agence de développement, 12 % en startup, freelance.\n\n**Les acteurs de la démarche UX** : Product Owner, chef de projet, client, parties prenantes ; Business Analyste ; stratège (marketing, communication, publicité) ; UX, ergonome ; DA/DC, graphiste, designer UI, concepteur-rédacteur ; développeur front/back, lead dév, lead tech.\n\n**L'UX dans l'équipe projet** (selon le volume et la fréquence des interactions) :\n\n- Projet de communication : designer UX ; chef de projet, designer UI, dev full stack ; stratège marketing, copywriter.\n- Projet d'application : consultant UX ; Product Owner, Business Analyst, designer UI, dev front ; dev back, architecte, Scrum Master, chef de projet.",
+      "pieges": [
+        "Les UX ne viennent pas tous du design : 30 % design, 30 % sciences sociales, 30 % ingénierie.",
+        "Le plus grand nombre d'UX travaille en agence ou cabinet de consulting (40 %), pas chez l'annonceur (30 %).",
+        "L'équipe change selon le projet : stratège marketing et copywriter dans un projet de communication ; Product Owner, Scrum Master, architecte dans un projet d'application."
+      ]
+    },
+    {
+      "id": "competences-ux",
+      "titre": "Devenir UX : skills et soft skills",
+      "icone": "SKL",
+      "resume": "Les skills (savoir-faire) et les soft skills (savoir-être) de l'UX, et les revenus en Suisse.",
+      "texte": "**Skills (savoir-faire)** : concevoir des interfaces ; comprendre les besoins ; faciliter des ateliers ; prototypage ; rapid prototyping ; tester ; rédiger des spécifications ; construire et maintenir le Design System ; recherche qualitative et quantitative ; recherche utilisateurs ; conception centrée utilisateurs ; maîtrise de Figma, Adobe XD ; etc.\n\n**Soft skills (savoir-être)** : travailler en équipe pluridisciplinaire ; communication, collaboration ; analyse et esprit de synthèse ; proactivité ; innovation ; problem solving ; [[empathie]] ; créativité ; plusieurs langues (notamment anglais) ; autonomie ; capacité à défendre ses partis-pris ; etc.\n\n**Les revenus de l'UX** (salaires moyens en Suisse, brut annuel) : Software Engineer 75 000 à 130 000 CHF ; Product Owner 90 000 à 130 000 ; UX/UI 75 000 à 125 000 ; chef de projet IT conseil : salaire médian 160 000 CHF ; Business Analyste : salaire médian 121 000 CHF.\n\n**TJM moyen en Suisse** (facturé / jour) : développement Web 640 à 1 600 CHF ; design graphique 560 à 1 200 CHF ; consulting marketing 800 à 2 400 CHF.",
+      "pieges": [
+        "Skill = savoir-faire (une technique, un outil) ; soft skill = savoir-être (une façon de travailler avec les autres et avec soi).",
+        "L'empathie est rangée dans les soft skills ; la recherche utilisateurs dans les skills."
+      ]
+    }
+  ],
   "lecons": [
     {
       "id": "u02-l1",
-      "titre": "",
+      "titre": "User-centric et empathie",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": ["user-centric", "empathie"],
+      "cartes": [
+        {
+          "titre": "User-centric",
+          "texte": "La démarche ergonomique est basée sur l'analyse des **besoins** et des **attentes** des utilisateurs.\n\n- Démarche constante tout au long du projet\n- Utilisateurs réels dans un contexte réel\n- Observation vs. déclaratif\n- Création de valeur\n- Recherches ethnographiques",
+          "fiche": "user-centric"
+        },
+        {
+          "titre": "Qui décide ?",
+          "texte": "Le cours oppose trois façons de prendre une décision : **user-centric** vs. **HIPPO** vs. **last-one talking** (le dernier qui a parlé).\n\nDans une démarche user-centric, ce sont les utilisateurs, à travers les personas, qui orientent les décisions.",
+          "analogie": "La boussole : on ne suit pas la voix la plus forte de la réunion, on regarde la boussole des utilisateurs.",
+          "fiche": "user-centric"
+        },
+        {
+          "titre": "Observer, pas seulement demander",
+          "texte": "**Utilisateurs réels dans un contexte réel** et **observation vs. déclaratif** : ce que les gens racontent n'est pas toujours ce qu'ils font. Imagine une appli de bibliothèque : on peut demander aux lecteurs comment ils cherchent un livre, ou aller les regarder chercher, sur place.",
+          "astuce": "Les deux se complètent : le déclaratif dit ce que la personne pense faire, l'observation montre ce qu'elle fait.",
+          "fiche": "user-centric"
+        },
+        {
+          "titre": "L'empathie",
+          "texte": "L'empathie est un processus de compréhension profonde des problèmes et des réalités des personnes pour lesquelles on conçoit un service.\n\nInteraction Design Foundation : « In a general sense, empathy is our ability to see the world through other people's eyes, to see what they see, feel what they feel, and experience things as they do. »",
+          "analogie": "Le reporter : Proto part en reportage chez les gens, pour voir ce qu'ils voient et ressentir ce qu'ils ressentent.",
+          "fiche": "empathie"
+        },
+        {
+          "titre": "Les outils de l'empathie",
+          "texte": "La slide cite :\n\n- Etat d'esprit\n- What, How, Why\n- 5 Whys\n- Bodystorming\n- Journal de bord, journal photo\n\nTu les retrouveras dans l'étape Empathize du Design Thinking.",
+          "fiche": "empathie"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u02-l1-e1",
+          "type": "qcm",
+          "question": "Complète la définition du cours : « La démarche ergonomique est basée sur l'analyse des … des utilisateurs. »",
+          "choix": ["besoins et des attentes", "goûts et des couleurs préférées", "opinions sur le produit fini"],
+          "bonne": 0,
+          "notions": ["user-centric"],
+          "explication": "User-centric : la démarche ergonomique est basée sur l'analyse des **besoins et des attentes** des utilisateurs."
+        },
+        {
+          "id": "u02-l1-e2",
+          "type": "vf",
+          "question": "Une démarche user-centric, on la fait au début du projet, puis on passe à autre chose.",
+          "bonne": false,
+          "notions": ["user-centric"],
+          "explication": "C'est une **démarche constante tout au long du projet**."
+        },
+        {
+          "id": "u02-l1-e3",
+          "type": "qcm",
+          "question": "L'équipe d'une appli de covoiturage hésite sur un écran. Le directeur tranche : « On fait comme je dis. » Comment le cours appelle-t-il cette façon de décider ?",
+          "choix": ["HIPPO", "User-centric", "Last-one talking"],
+          "bonne": 0,
+          "notions": ["user-centric"],
+          "explication": "Le cours oppose **user-centric** vs. **HIPPO** vs. **last-one talking**. Ici, c'est l'avis du chef qui décide (HIPPO), pas les utilisateurs."
+        },
+        {
+          "id": "u02-l1-e4",
+          "type": "qcm",
+          "question": "Même équipe, autre réunion : on adopte l'idée de la dernière personne qui a pris la parole avant la fin. C'est…",
+          "choix": ["last-one talking", "user-centric", "de l'empathie"],
+          "bonne": 0,
+          "notions": ["user-centric"],
+          "explication": "Décider d'après le dernier qui a parlé, c'est le **last-one talking**, l'opposé d'une décision user-centric."
+        },
+        {
+          "id": "u02-l1-e5",
+          "type": "qcm",
+          "question": "Quelle phrase correspond à la définition de l'empathie du cours ?",
+          "choix": [
+            "Un processus de compréhension profonde des problèmes et des réalités des personnes pour lesquelles on conçoit un service.",
+            "Une technique pour rendre une interface plus jolie.",
+            "Le fait d'être aimable avec le client pendant une réunion."
+          ],
+          "bonne": 0,
+          "notions": ["empathie"],
+          "explication": "L'empathie est un **processus de compréhension profonde** des problèmes et des réalités des personnes pour lesquelles on conçoit un service."
+        },
+        {
+          "id": "u02-l1-e6",
+          "type": "tri",
+          "question": "Ces éléments figurent-ils sur la slide « Empathie » ou sur la slide « User-centric » ?",
+          "categories": ["Empathie", "User-centric"],
+          "items": [["5 Whys", 0], ["Bodystorming", 0], ["Journal de bord, journal photo", 0], ["What, How, Why", 0], ["Création de valeur", 1], ["Observation vs. déclaratif", 1], ["Utilisateurs réels dans un contexte réel", 1]],
+          "notions": ["empathie", "user-centric"],
+          "explication": "Empathie : état d'esprit, What How Why, 5 Whys, bodystorming, journal de bord / photo. User-centric : démarche constante, utilisateurs réels en contexte réel, observation vs. déclaratif, création de valeur, recherches ethnographiques."
+        },
+        {
+          "id": "u02-l1-e7",
+          "type": "vf",
+          "question": "Pour une appli de bibliothèque, il suffit de demander aux lecteurs comment ils cherchent un livre : inutile d'aller les observer.",
+          "bonne": false,
+          "notions": ["user-centric"],
+          "explication": "Le cours insiste sur les **utilisateurs réels dans un contexte réel** et oppose **observation vs. déclaratif** : ce qu'on dit et ce qu'on fait ne se recouvrent pas toujours."
+        }
+      ]
     },
     {
       "id": "u02-l2",
-      "titre": "",
+      "titre": "Personas : la boussole",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": ["persona", "user-centric"],
+      "cartes": [
+        {
+          "titre": "Un persona, c'est quoi ?",
+          "texte": "Les personas sont des **utilisateurs fictifs** d'un système (**archétypes**), basés sur des caractéristiques représentatives des **utilisateurs réels**.",
+          "analogie": "La boussole : le persona est la boussole de l'équipe tout au long du projet ; on la consulte à chaque décision.",
+          "fiche": "persona"
+        },
+        {
+          "titre": "À quoi ça sert ?",
+          "texte": "**Objectifs** :\n\n- Représenter les utilisateurs\n- Adopter une démarche user-centric\n- Orienter les décisions\n\nRéférence tout au long du processus, ils permettent de prendre des décisions user-centric (plutôt que HIPPO ou last-one talking).",
+          "fiche": "persona"
+        },
+        {
+          "titre": "Quand et qui ?",
+          "texte": "**Quand** : après la recherche ethnographique.\n\n**Qui** : UX ou ergonome, équipe projet, toute personne ayant un contact direct avec les utilisateurs, panel d'utilisateurs.",
+          "piege": "Pas de persona avant d'avoir rencontré les utilisateurs : il se construit **après** la recherche ethnographique.",
+          "fiche": "persona"
+        },
+        {
+          "titre": "Comment ?",
+          "texte": "La slide cite :\n\n- Rassembler les données ethnographiques\n- Conception centrée sur les utilisateurs\n- User-centric vs. HIPPO vs. last-one talking\n- Atelier\n- Utilisateurs extrêmes\n\nTu verras le processus complet dans l'unité sur les personas.",
+          "fiche": "persona"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u02-l2-e1",
+          "type": "qcm",
+          "question": "Les personas sont…",
+          "choix": [
+            "des utilisateurs fictifs d'un système (archétypes), basés sur des caractéristiques représentatives des utilisateurs réels",
+            "des utilisateurs réels qu'on interroge pendant le projet",
+            "des personnages imaginés librement par le designer, sans données"
+          ],
+          "bonne": 0,
+          "notions": ["persona"],
+          "explication": "Fictifs, oui, mais **basés sur des caractéristiques représentatives des utilisateurs réels**."
+        },
+        {
+          "id": "u02-l2-e2",
+          "type": "qcm",
+          "question": "Quand crée-t-on les personas ?",
+          "choix": ["Après la recherche ethnographique", "Avant de rencontrer les utilisateurs", "À la fin du projet, pour le rapport"],
+          "bonne": 0,
+          "notions": ["persona"],
+          "explication": "**Quand** : après la recherche ethnographique. On rassemble d'abord les données ethnographiques."
+        },
+        {
+          "id": "u02-l2-e3",
+          "type": "tri",
+          "question": "Selon la slide, ces éléments sont-ils des objectifs des personas, ou le « qui » (les personnes qui les créent) ?",
+          "categories": ["Objectifs", "Qui"],
+          "items": [["Représenter les utilisateurs", 0], ["Adopter une démarche user-centric", 0], ["Orienter les décisions", 0], ["UX ou ergonome", 1], ["Équipe projet", 1], ["Panel d'utilisateurs", 1], ["Toute personne ayant un contact direct avec les utilisateurs", 1]],
+          "notions": ["persona"],
+          "explication": "Objectifs : représenter les utilisateurs, adopter une démarche user-centric, orienter les décisions. Qui : UX ou ergonome, équipe projet, toute personne ayant un contact direct avec les utilisateurs, panel d'utilisateurs."
+        },
+        {
+          "id": "u02-l2-e4",
+          "type": "vf",
+          "question": "Seul l'UX ou l'ergonome peut participer à la création des personas.",
+          "bonne": false,
+          "notions": ["persona"],
+          "explication": "**Qui** : UX ou ergonome, mais aussi l'équipe projet, toute personne ayant un contact direct avec les utilisateurs et un panel d'utilisateurs."
+        },
+        {
+          "id": "u02-l2-e5",
+          "type": "qcm",
+          "question": "Une salle de sport crée une appli. Le chef veut une fonction « défis entre amis » ; l'équipe consulte ses personas, qui montrent que les membres veulent surtout réserver un cours vite. À quoi a servi le persona ici ?",
+          "choix": ["Orienter les décisions", "Remplacer la recherche ethnographique", "Décorer le rapport final"],
+          "bonne": 0,
+          "notions": ["persona", "user-centric"],
+          "explication": "Le persona sert à **orienter les décisions** de façon user-centric plutôt que HIPPO : c'est la boussole de l'équipe."
+        },
+        {
+          "id": "u02-l2-e6",
+          "type": "ordre",
+          "question": "Remets dans l'ordre, selon la slide « Quand » :",
+          "items": ["Recherche ethnographique (rassembler les données)", "Création des personas", "Décisions de conception orientées par les personas"],
+          "notions": ["persona"],
+          "explication": "Les personas se créent **après la recherche ethnographique** ; ensuite, référence tout au long du processus, ils orientent les décisions."
+        },
+        {
+          "id": "u02-l2-e7",
+          "type": "qcm",
+          "question": "La slide « Personas » cite un type d'utilisateurs particulier à prendre en compte. Lequel ?",
+          "choix": ["Les utilisateurs extrêmes", "Les utilisateurs les mieux payés", "Uniquement les utilisateurs moyens"],
+          "bonne": 0,
+          "notions": ["persona"],
+          "explication": "La slide cite les **utilisateurs extrêmes**, à côté de l'atelier et du rassemblement des données ethnographiques."
+        }
+      ]
     },
     {
       "id": "u02-l3",
-      "titre": "",
+      "titre": "Omnichannel et accessibilité",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": ["omnichannel", "accessibilite"],
+      "cartes": [
+        {
+          "titre": "Omnichannel",
+          "texte": "**Stratégie de contenus cohérente à travers tous les canaux on et offline.**\n\n- Multichannel vs. omnichannel\n- Parcours utilisateur cross-device\n- Miroir vs. complément\n- Conception basée sur des scénarios",
+          "fiche": "omnichannel"
+        },
+        {
+          "titre": "Une marque, pas des canaux",
+          "texte": "« Customers don't see channels: they see brands. »\n\n**84 %** de tous les achats ont été recherchés en ligne pendant le processus de décision.\n\nExemple : une cliente repère un vélo sur son téléphone, compare sur son ordinateur, puis l'essaie en magasin. Pour elle, c'est un seul parcours, avec une seule marque : un parcours **cross-device**.",
+          "analogie": "La boussole : d'un canal à l'autre, on suit le parcours de l'utilisateur, pas l'organisation interne des canaux.",
+          "fiche": "omnichannel"
+        },
+        {
+          "titre": "Accessibilité",
+          "texte": "Le **WCAG** fixe les normes pour l'accessibilité aux contenus numériques par les personnes en situation de handicap.\n\n- Handicap permanent ou temporaire\n- Web et applications mobiles\n- Normes A à AAA\n- Secteur de la santé",
+          "fiche": "accessibilite"
+        },
+        {
+          "titre": "Un chiffre à retenir",
+          "texte": "**1,4 million** de personnes vivent en situation de handicap en Suisse.",
+          "piege": "Le handicap n'est pas forcément permanent : un poignet cassé pendant six semaines, c'est un handicap **temporaire**.",
+          "fiche": "accessibilite"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u02-l3-e1",
+          "type": "qcm",
+          "question": "Quelle est la définition d'omnichannel dans le cours ?",
+          "choix": [
+            "Stratégie de contenus cohérente à travers tous les canaux on et offline",
+            "Publier le même message sur le plus de réseaux sociaux possible",
+            "Stratégie qui ne concerne que les canaux en ligne"
+          ],
+          "bonne": 0,
+          "notions": ["omnichannel"],
+          "explication": "Omnichannel : **stratégie de contenus cohérente à travers tous les canaux on et offline**."
+        },
+        {
+          "id": "u02-l3-e2",
+          "type": "qcm",
+          "question": "Complète la citation : « Customers don't see channels: they see … »",
+          "choix": ["brands", "screens", "prices"],
+          "bonne": 0,
+          "notions": ["omnichannel"],
+          "explication": "« Customers don't see channels: they see **brands**. » D'où la cohérence des contenus d'un canal à l'autre."
+        },
+        {
+          "id": "u02-l3-e3",
+          "type": "qcm",
+          "question": "Un voyageur cherche un train sur son ordinateur, achète le billet sur son téléphone et le montre au contrôleur sur sa montre. Comment le cours appelle-t-il ce parcours ?",
+          "choix": ["Un parcours utilisateur cross-device", "Un bodystorming", "Un persona"],
+          "bonne": 0,
+          "notions": ["omnichannel"],
+          "explication": "Le parcours passe d'un appareil à l'autre : c'est un **parcours utilisateur cross-device**, un point de la slide Omnichannel."
+        },
+        {
+          "id": "u02-l3-e4",
+          "type": "vf",
+          "question": "Selon la slide, 84 % de tous les achats ont été recherchés en ligne pendant le processus de décision.",
+          "bonne": true,
+          "notions": ["omnichannel"],
+          "explication": "Oui : **84 %** de tous les achats ont été recherchés en ligne pendant le processus de décision. Même un achat en magasin commence souvent en ligne."
+        },
+        {
+          "id": "u02-l3-e5",
+          "type": "vf",
+          "question": "Une personne avec la jambe dans le plâtre pendant un mois est concernée par l'accessibilité.",
+          "bonne": true,
+          "notions": ["accessibilite"],
+          "explication": "La slide parle de **handicap permanent ou temporaire** : un handicap temporaire compte aussi."
+        },
+        {
+          "id": "u02-l3-e6",
+          "type": "ordre",
+          "question": "Remets les niveaux de normes WCAG dans l'ordre de la slide (« Normes A à AAA ») :",
+          "items": ["A", "AA", "AAA"],
+          "notions": ["accessibilite"],
+          "explication": "Les normes vont **de A à AAA**."
+        },
+        {
+          "id": "u02-l3-e7",
+          "type": "qcm",
+          "question": "Combien de personnes vivent en situation de handicap en Suisse, selon la slide ?",
+          "choix": ["1,4 million", "140 000", "14 millions"],
+          "bonne": 0,
+          "notions": ["accessibilite"],
+          "explication": "**1,4 million** de personnes vivent en situation de handicap en Suisse."
+        },
+        {
+          "id": "u02-l3-e8",
+          "type": "vf",
+          "question": "L'accessibilité selon le WCAG ne concerne que les sites Web, pas les applications mobiles.",
+          "bonne": false,
+          "notions": ["accessibilite"],
+          "explication": "La slide dit **Web et applications mobiles**."
+        }
+      ]
     },
     {
       "id": "u02-l4",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Les acteurs et les métiers de l'UX",
+      "duree": 6,
+      "notions": ["acteurs-ux", "competences-ux"],
+      "cartes": [
+        {
+          "titre": "Qui sont les UX ?",
+          "texte": "Ils viennent du design UI, de la gestion de projet, de la communication / marketing, du développement, des sciences sociales, de la psychologie cognitive.\n\n- 71 % sont des hommes\n- 75 % ont entre 26 et 40 ans\n- 60 % ont un master ou équivalent\n- 30 % en design, 30 % sciences sociales, 30 % ingénierie\n- 6-10 ans d'expérience",
+          "fiche": "acteurs-ux"
+        },
+        {
+          "titre": "Où les trouve-t-on ?",
+          "texte": "- 40 % en agence ou cabinet de consulting\n- 30 % chez l'annonceur\n- 12 % en agence de développement\n- 12 % en startup\n- Freelance",
+          "fiche": "acteurs-ux"
+        },
+        {
+          "titre": "L'UX dans l'équipe projet",
+          "texte": "Classés selon le volume et la fréquence des interactions :\n\n- **Projet de communication** : designer UX ; chef de projet, designer UI, dev full stack ; stratège marketing, copywriter.\n- **Projet d'application** : consultant UX ; Product Owner, Business Analyst, designer UI, dev front ; dev back, architecte, Scrum Master, chef de projet.",
+          "astuce": "Chef de projet et designer UI sont dans les deux équipes ; stratège marketing et copywriter seulement en communication ; Product Owner, Scrum Master et architecte seulement en application.",
+          "fiche": "acteurs-ux"
+        },
+        {
+          "titre": "Skills et soft skills",
+          "texte": "**Skills (savoir-faire)** : concevoir des interfaces, comprendre les besoins, faciliter des ateliers, prototypage, tester, rédiger des spécifications, recherche utilisateurs, maîtrise de Figma, Adobe XD…\n\n**Soft skills (savoir-être)** : travailler en équipe pluridisciplinaire, communication, collaboration, proactivité, empathie, créativité, autonomie, capacité à défendre ses partis-pris…",
+          "fiche": "competences-ux"
+        },
+        {
+          "titre": "Les revenus",
+          "texte": "Salaires moyens en Suisse (brut annuel) : UX/UI **75 000 à 125 000 CHF** ; Product Owner 90 000 à 130 000 ; Software Engineer 75 000 à 130 000 CHF.\n\nTJM moyen (facturé / jour) : design graphique 560 à 1 200 CHF ; développement Web 640 à 1 600 CHF ; consulting marketing 800 à 2 400 CHF.",
+          "fiche": "competences-ux"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u02-l4-e1",
+          "type": "qcm",
+          "question": "Où travaillent le plus grand nombre d'UX, selon la slide ?",
+          "choix": ["En agence ou cabinet de consulting (40 %)", "Chez l'annonceur (30 %)", "En startup (12 %)"],
+          "bonne": 0,
+          "notions": ["acteurs-ux"],
+          "explication": "40 % en agence ou cabinet de consulting, 30 % chez l'annonceur, 12 % en agence de développement, 12 % en startup, et des freelances."
+        },
+        {
+          "id": "u02-l4-e2",
+          "type": "assoc",
+          "question": "Associe chaque chiffre à ce qu'il décrit chez les UX :",
+          "paires": [["71 %", "sont des hommes"], ["75 %", "ont entre 26 et 40 ans"], ["60 %", "ont un master ou équivalent"], ["6-10 ans", "d'expérience"]],
+          "notions": ["acteurs-ux"],
+          "explication": "71 % d'hommes, 75 % entre 26 et 40 ans, 60 % avec un master ou équivalent, 6-10 ans d'expérience."
+        },
+        {
+          "id": "u02-l4-e3",
+          "type": "vf",
+          "question": "Les UX viennent presque tous du design.",
+          "bonne": false,
+          "notions": ["acteurs-ux"],
+          "explication": "30 % en design, 30 % sciences sociales, 30 % ingénierie : les origines sont variées (design UI, gestion de projet, communication / marketing, développement, sciences sociales, psychologie cognitive)."
+        },
+        {
+          "id": "u02-l4-e4",
+          "type": "tri",
+          "question": "Dans quelle équipe projet la slide place-t-elle ces rôles ?",
+          "categories": ["Projet de communication", "Projet d'application"],
+          "items": [["Stratège marketing", 0], ["Copywriter", 0], ["Dev full stack", 0], ["Product Owner", 1], ["Scrum Master", 1], ["Architecte", 1], ["Business Analyst", 1]],
+          "notions": ["acteurs-ux"],
+          "explication": "Communication : designer UX, chef de projet, designer UI, dev full stack, stratège marketing, copywriter. Application : consultant UX, Product Owner, Business Analyst, designer UI, dev front, dev back, architecte, Scrum Master, chef de projet."
+        },
+        {
+          "id": "u02-l4-e5",
+          "type": "tri",
+          "question": "Skill (savoir-faire) ou soft skill (savoir-être) ?",
+          "categories": ["Skill (savoir-faire)", "Soft skill (savoir-être)"],
+          "items": [["Faciliter des ateliers", 0], ["Rédiger des spécifications", 0], ["Recherche utilisateurs", 0], ["Maîtrise de Figma, Adobe XD", 0], ["Empathie", 1], ["Autonomie", 1], ["Capacité à défendre ses partis-pris", 1], ["Travailler en équipe pluridisciplinaire", 1]],
+          "notions": ["competences-ux"],
+          "explication": "Skills : concevoir des interfaces, comprendre les besoins, faciliter des ateliers, prototypage, tester, rédiger des spécifications, Design System, recherche, conception centrée utilisateurs, Figma / Adobe XD. Soft skills : équipe pluridisciplinaire, communication, synthèse, proactivité, innovation, problem solving, empathie, créativité, langues, autonomie, défendre ses partis-pris."
+        },
+        {
+          "id": "u02-l4-e6",
+          "type": "qcm",
+          "question": "Quel est le salaire moyen d'un UX/UI en Suisse (brut annuel), selon la slide ?",
+          "choix": ["75 000 à 125 000 CHF", "40 000 à 60 000 CHF", "160 000 CHF (médian)"],
+          "bonne": 0,
+          "notions": ["competences-ux"],
+          "explication": "UX/UI : **75 000 à 125 000 CHF**. Les 160 000 CHF médians, c'est le chef de projet IT conseil."
+        },
+        {
+          "id": "u02-l4-e7",
+          "type": "vf",
+          "question": "Le chef de projet et le designer UI figurent à la fois dans l'équipe d'un projet de communication et dans celle d'un projet d'application.",
+          "bonne": true,
+          "notions": ["acteurs-ux"],
+          "explication": "Oui : ils sont dans les deux schémas de la slide « L'UX dans l'équipe projet »."
+        }
+      ]
     },
     {
       "id": "u02-l5",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Mélange",
+      "duree": 6,
+      "notions": ["user-centric", "empathie", "persona", "omnichannel", "accessibilite", "acteurs-ux", "competences-ux"],
+      "cartes": [
+        {
+          "titre": "Les cinq concepts-clés",
+          "texte": "- [[user-centric|User-centric]] : partir des besoins et des attentes des utilisateurs.\n- [[empathie|Empathie]] : comprendre en profondeur leurs problèmes et leurs réalités.\n- [[persona|Personas]] : des archétypes fictifs, basés sur des utilisateurs réels.\n- [[omnichannel|Omnichannel]] : des contenus cohérents sur tous les canaux on et offline.\n- [[accessibilite|Accessibilité]] : les normes WCAG pour les personnes en situation de handicap."
+        },
+        {
+          "titre": "Les analogies",
+          "texte": "Proto le renard est un **reporter** quand il fait preuve d'empathie : il observe et écoute. Ce qu'il rapporte devient la **boussole** de l'équipe : les personas, consultés à chaque décision.",
+          "analogie": "Le reporter rapporte, la boussole oriente."
+        },
+        {
+          "titre": "Et les gens ?",
+          "texte": "L'UX se fait en équipe : les rôles changent entre un projet de communication et un projet d'application, et le métier demande des **skills** (savoir-faire) et des **soft skills** (savoir-être), dont l'empathie."
+        },
+        {
+          "titre": "Retour à l'UX",
+          "texte": "Tout cela sert l'UX telle que définie au chapitre précédent : une approche qui prend en compte les personnes qui vont utiliser le service et le contexte dans lequel l'utilisation aura lieu.",
+          "fiche": "ux"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u02-l5-e1",
+          "type": "assoc",
+          "question": "Associe chaque concept-clé à sa définition :",
+          "paires": [
+            ["User-centric", "La démarche ergonomique est basée sur l'analyse des besoins et des attentes des utilisateurs"],
+            ["Empathie", "Un processus de compréhension profonde des problèmes et des réalités des personnes"],
+            ["Personas", "Des utilisateurs fictifs (archétypes) basés sur des caractéristiques représentatives des utilisateurs réels"],
+            ["Omnichannel", "Une stratégie de contenus cohérente à travers tous les canaux on et offline"],
+            ["Accessibilité", "Les normes WCAG pour l'accès aux contenus numériques des personnes en situation de handicap"]
+          ],
+          "notions": ["user-centric", "empathie", "persona", "omnichannel", "accessibilite"],
+          "explication": "Les cinq concepts-clés du Cours 1.3, avec leur définition."
+        },
+        {
+          "id": "u02-l5-e2",
+          "type": "qcm",
+          "question": "Une boulangerie lance la commande en ligne. Les clients commandent sur le site et retirent en magasin, mais le site affiche des prix différents de ceux de la vitrine. Quel concept-clé est malmené ?",
+          "choix": ["Omnichannel", "Accessibilité", "Persona"],
+          "bonne": 0,
+          "notions": ["omnichannel"],
+          "explication": "Omnichannel : une stratégie de contenus **cohérente** à travers tous les canaux on et offline. Le client ne voit pas deux canaux, il voit une marque."
+        },
+        {
+          "id": "u02-l5-e3",
+          "type": "qcm",
+          "question": "Une équipe va passer une journée avec des gardiens de musée pour comprendre leur métier avant de concevoir leur appli. Quel concept-clé met-elle en œuvre ?",
+          "choix": ["L'empathie", "L'omnichannel", "Le last-one talking"],
+          "bonne": 0,
+          "notions": ["empathie", "user-centric"],
+          "explication": "Comprendre en profondeur les problèmes et les réalités des personnes pour qui on conçoit : c'est l'**empathie** (le reporter en reportage)."
+        },
+        {
+          "id": "u02-l5-e4",
+          "type": "tri",
+          "question": "Concept-clé (Cours 1.3) ou acteurs de l'UX (Cours 1.4) ?",
+          "categories": ["Concepts-clés", "Acteurs de l'UX"],
+          "items": [["WCAG", 0], ["Parcours cross-device", 0], ["5 Whys", 0], ["Scrum Master", 1], ["Soft skills", 1], ["TJM moyen en Suisse", 1]],
+          "notions": ["accessibilite", "omnichannel", "empathie", "acteurs-ux", "competences-ux"],
+          "explication": "WCAG (accessibilité), cross-device (omnichannel), 5 Whys (empathie) : concepts-clés. Scrum Master, soft skills, TJM : acteurs et métiers de l'UX."
+        },
+        {
+          "id": "u02-l5-e5",
+          "type": "vf",
+          "question": "L'empathie fait partie des soft skills attendues d'un UX.",
+          "bonne": true,
+          "notions": ["empathie", "competences-ux"],
+          "explication": "Oui : l'empathie est un concept-clé de l'UX et la slide « Devenir UX » la range dans les soft skills (savoir-être)."
+        },
+        {
+          "id": "u02-l5-e6",
+          "type": "qcm",
+          "question": "Quel lien entre user-centric et personas ?",
+          "choix": [
+            "Les personas, référence tout au long du processus, permettent de prendre des décisions user-centric.",
+            "Les personas remplacent les utilisateurs réels : plus besoin de les rencontrer.",
+            "Il n'y en a pas : ce sont deux méthodes concurrentes."
+          ],
+          "bonne": 0,
+          "notions": ["persona", "user-centric"],
+          "explication": "Slide User-centric : « Les personas représentent des archétypes des utilisateurs. Référence tout au long du processus, ils permettent de prendre des décisions user-centric. »"
+        },
+        {
+          "id": "u02-l5-e7",
+          "type": "qcm",
+          "question": "Une appli de prise de rendez-vous médicaux veut respecter les normes d'accessibilité. Quel référentiel cite le cours ?",
+          "choix": ["Le WCAG", "La norme ISO 9241 sur l'UX", "Le HIPPO"],
+          "bonne": 0,
+          "notions": ["accessibilite"],
+          "explication": "Le **WCAG** fixe les normes pour l'accessibilité aux contenus numériques ; la slide cite d'ailleurs le secteur de la santé."
+        }
+      ]
     }
   ],
-  "jeux": [],
+  "jeux": [
+    {
+      "id": "u02-jeu",
+      "titre": "Chiffres et mots-clés",
+      "description": "Les chiffres et le vocabulaire des Cours 1.3 et 1.4, en rafale.",
+      "tours": 10,
+      "questions": [
+        { "id": "u02-jeu-q1", "type": "vf", "question": "84 % de tous les achats ont été recherchés en ligne pendant le processus de décision.", "bonne": true, "notions": ["omnichannel"], "explication": "Chiffre de la slide Omnichannel : 84 %." },
+        { "id": "u02-jeu-q2", "type": "vf", "question": "1,4 million de personnes vivent en situation de handicap en Suisse.", "bonne": true, "notions": ["accessibilite"], "explication": "Chiffre de la slide Accessibilité : 1,4 million." },
+        { "id": "u02-jeu-q3", "type": "vf", "question": "71 % des UX sont des femmes.", "bonne": false, "notions": ["acteurs-ux"], "explication": "71 % sont des **hommes**." },
+        { "id": "u02-jeu-q4", "type": "vf", "question": "30 % des UX travaillent chez l'annonceur.", "bonne": true, "notions": ["acteurs-ux"], "explication": "40 % en agence ou consulting, **30 % chez l'annonceur**, 12 % en agence de développement, 12 % en startup." },
+        { "id": "u02-jeu-q5", "type": "vf", "question": "75 % des UX ont entre 26 et 40 ans.", "bonne": true, "notions": ["acteurs-ux"], "explication": "Oui, 75 % ont entre 26 et 40 ans." },
+        { "id": "u02-jeu-q6", "type": "vf", "question": "Les personas se créent avant la recherche ethnographique.", "bonne": false, "notions": ["persona"], "explication": "**Après** la recherche ethnographique." },
+        { "id": "u02-jeu-q7", "type": "vf", "question": "Le WCAG prévoit des normes de A à AAA.", "bonne": true, "notions": ["accessibilite"], "explication": "Normes A à AAA." },
+        { "id": "u02-jeu-q8", "type": "vf", "question": "Omnichannel ne concerne que les canaux en ligne.", "bonne": false, "notions": ["omnichannel"], "explication": "Tous les canaux **on et offline**." },
+        { "id": "u02-jeu-q9", "type": "qcm", "question": "« Customers don't see channels: they see … »", "choix": ["brands", "apps", "ads"], "bonne": 0, "notions": ["omnichannel"], "explication": "« Customers don't see channels: they see brands. »" },
+        { "id": "u02-jeu-q10", "type": "qcm", "question": "Bodystorming, 5 Whys, What How Why : outils de…", "choix": ["l'empathie", "l'omnichannel", "l'accessibilité"], "bonne": 0, "notions": ["empathie"], "explication": "Ce sont des points de la slide Empathie." },
+        { "id": "u02-jeu-q11", "type": "qcm", "question": "Combien d'années d'expérience ont les UX, selon la slide ?", "choix": ["6-10 ans", "1-2 ans", "plus de 20 ans"], "bonne": 0, "notions": ["acteurs-ux"], "explication": "6-10 ans d'expérience." },
+        { "id": "u02-jeu-q12", "type": "qcm", "question": "Qui a défini l'empathie comme « our ability to see the world through other people's eyes » ?", "choix": ["L'Interaction Design Foundation", "La norme ISO 9241", "Le WCAG"], "bonne": 0, "notions": ["empathie"], "explication": "Citation de l'**Interaction Design Foundation**." },
+        { "id": "u02-jeu-q13", "type": "vf", "question": "La créativité est un skill (savoir-faire) dans la slide « Devenir UX ».", "bonne": false, "notions": ["competences-ux"], "explication": "La créativité est rangée dans les **soft skills** (savoir-être)." },
+        { "id": "u02-jeu-q14", "type": "vf", "question": "« Construire et maintenir le Design System » est un skill (savoir-faire).", "bonne": true, "notions": ["competences-ux"], "explication": "Oui, dans la colonne Skills (savoir-faire)." },
+        { "id": "u02-jeu-q15", "type": "vf", "question": "Le TJM, c'est le montant facturé par jour.", "bonne": true, "notions": ["competences-ux"], "explication": "La slide parle du « TJM moyen en Suisse (facturé / jour) »." },
+        { "id": "u02-jeu-q16", "type": "vf", "question": "60 % des UX ont un master ou équivalent.", "bonne": true, "notions": ["acteurs-ux"], "explication": "Oui, 60 %." }
+      ]
+    }
+  ],
   "quiz": {
     "titre": "Quiz : Concepts-clés et acteurs de l'UX",
-    "questions": []
+    "questions": [
+      { "id": "u02-quiz-q1", "type": "qcm", "question": "« La démarche ergonomique est basée sur l'analyse des besoins et des attentes des utilisateurs. » C'est la définition de…", "choix": ["user-centric", "omnichannel", "l'accessibilité"], "bonne": 0, "notions": ["user-centric"], "explication": "C'est la définition de **user-centric**." },
+      { "id": "u02-quiz-q2", "type": "vf", "question": "Une démarche user-centric s'appuie sur des utilisateurs réels dans un contexte réel.", "bonne": true, "notions": ["user-centric"], "explication": "Oui : « Utilisateurs réels dans un contexte réel »." },
+      { "id": "u02-quiz-q3", "type": "qcm", "question": "Dans une agence, on retient l'idée du directeur sans consulter les utilisateurs. Le cours appelle ça…", "choix": ["HIPPO", "user-centric", "bodystorming"], "bonne": 0, "notions": ["user-centric"], "explication": "User-centric vs. **HIPPO** vs. last-one talking : ici, c'est l'avis du chef qui l'emporte." },
+      { "id": "u02-quiz-q4", "type": "qcm", "question": "L'empathie, selon le cours, c'est…", "choix": ["un processus de compréhension profonde des problèmes et des réalités des personnes pour lesquelles on conçoit un service", "l'art de convaincre un client", "une norme d'accessibilité"], "bonne": 0, "notions": ["empathie"], "explication": "Définition du Cours 1.3." },
+      { "id": "u02-quiz-q5", "type": "vf", "question": "Les personas sont des utilisateurs réels qu'on suit pendant tout le projet.", "bonne": false, "notions": ["persona"], "explication": "Ce sont des utilisateurs **fictifs** (archétypes), basés sur des caractéristiques représentatives des utilisateurs réels." },
+      { "id": "u02-quiz-q6", "type": "tri", "question": "Objectif des personas, ou « quand » les créer ?", "categories": ["Objectif", "Quand"], "items": [["Orienter les décisions", 0], ["Représenter les utilisateurs", 0], ["Adopter une démarche user-centric", 0], ["Après la recherche ethnographique", 1]], "notions": ["persona"], "explication": "Objectifs : représenter les utilisateurs, adopter une démarche user-centric, orienter les décisions. Quand : après la recherche ethnographique." },
+      { "id": "u02-quiz-q7", "type": "qcm", "question": "Une cliente réserve une table au restaurant sur son téléphone, puis reçoit la confirmation sur son ordinateur. Quel point de la slide Omnichannel cela illustre-t-il ?", "choix": ["Le parcours utilisateur cross-device", "Les normes A à AAA", "Les utilisateurs extrêmes"], "bonne": 0, "notions": ["omnichannel"], "explication": "D'un appareil à l'autre : **parcours utilisateur cross-device**." },
+      { "id": "u02-quiz-q8", "type": "vf", "question": "Selon la slide, 84 % de tous les achats ont été recherchés en ligne pendant le processus de décision.", "bonne": true, "notions": ["omnichannel"], "explication": "Oui, 84 %." },
+      { "id": "u02-quiz-q9", "type": "qcm", "question": "Que fixe le WCAG ?", "choix": ["Les normes pour l'accessibilité aux contenus numériques par les personnes en situation de handicap", "Le salaire minimum des UX en Suisse", "Les étapes du Design Thinking"], "bonne": 0, "notions": ["accessibilite"], "explication": "Le WCAG fixe les normes pour l'accessibilité aux contenus numériques par les personnes en situation de handicap." },
+      { "id": "u02-quiz-q10", "type": "vf", "question": "L'accessibilité ne concerne que les handicaps permanents.", "bonne": false, "notions": ["accessibilite"], "explication": "Handicap **permanent ou temporaire**." },
+      { "id": "u02-quiz-q11", "type": "qcm", "question": "Dans quel type de structure travaillent 40 % des UX ?", "choix": ["Agence ou cabinet de consulting", "Startup", "Agence de développement"], "bonne": 0, "notions": ["acteurs-ux"], "explication": "40 % en agence ou cabinet de consulting." },
+      { "id": "u02-quiz-q12", "type": "tri", "question": "Dans quelle équipe projet la slide place-t-elle ces rôles ?", "categories": ["Projet de communication", "Projet d'application"], "items": [["Copywriter", 0], ["Stratège marketing", 0], ["Scrum Master", 1], ["Dev back", 1], ["Product Owner", 1]], "notions": ["acteurs-ux"], "explication": "Stratège marketing et copywriter : projet de communication. Product Owner, dev back, Scrum Master : projet d'application." },
+      { "id": "u02-quiz-q13", "type": "tri", "question": "Skill (savoir-faire) ou soft skill (savoir-être) ?", "categories": ["Skill", "Soft skill"], "items": [["Prototypage", 0], ["Tester", 0], ["Concevoir des interfaces", 0], ["Proactivité", 1], ["Problem solving", 1], ["Communication, collaboration", 1]], "notions": ["competences-ux"], "explication": "Prototypage, tester, concevoir des interfaces : skills. Proactivité, problem solving, communication / collaboration : soft skills." },
+      { "id": "u02-quiz-q14", "type": "qcm", "question": "Qui peut participer à la création des personas, selon la slide ?", "choix": ["UX ou ergonome, équipe projet, toute personne ayant un contact direct avec les utilisateurs, panel d'utilisateurs", "Uniquement le client", "Uniquement le développeur front"], "bonne": 0, "notions": ["persona"], "explication": "**Qui** : UX ou ergonome, équipe projet, toute personne ayant un contact direct avec les utilisateurs, panel d'utilisateurs." },
+      { "id": "u02-quiz-q15", "type": "qcm", "question": "Révision (Cours 1.1) : « Degré selon lequel un produit peut être utilisé, par des utilisateurs identifiés, pour atteindre des buts définis avec efficacité, efficience et satisfaction, dans un contexte d'utilisation spécifié. » (ISO 9241) C'est…", "choix": ["l'utilisabilité", "l'accessibilité", "l'omnichannel"], "bonne": 0, "notions": ["utilisabilite"], "explication": "C'est la définition de l'**utilisabilité** selon l'ISO 9241." },
+      { "id": "u02-quiz-q16", "type": "vf", "question": "Révision (Cours 1.1) : selon l'ISO 9241, l'expérience utilisateur couvre ce qui se passe avant, pendant et après l'usage.", "bonne": true, "notions": ["ux"], "explication": "« … that occur before, during and after use » : avant, pendant et après l'usage." },
+      { "id": "u02-quiz-q17", "type": "vf", "question": "Révision (Cours 1.1) : dans le schéma de conclusion, l'UX englobe l'utilisabilité, qui englobe l'ergonomie.", "bonne": true, "notions": ["ux-vs-ui", "utilisabilite"], "explication": "Schéma « En conclusion » : ergonomie ⊂ utilisabilité ⊂ UX, du rationnel vers l'émotionnel." }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u02-b1",
+      "titre": "Le projet d'appli",
+      "source": "Étude de cas d'après les Cours 1.3 et 1.4",
+      "notions": ["user-centric", "persona", "omnichannel", "accessibilite", "acteurs-ux", "competences-ux"],
+      "enonce": "Ta ville lance **Roulib**, une appli de vélos en libre-service : trouver un vélo, le réserver, le payer, le rendre à une station. Tu rejoins l'équipe projet comme UX. Autour de la table : un Product Owner, un Business Analyst, un designer UI, un dev front, un dev back, un architecte, un Scrum Master et un chef de projet.\n\nPremière réunion : le Product Owner veut une carte 3D animée « parce que c'est spectaculaire ». Le dev back, qui parle en dernier, propose un classement des meilleurs cyclistes. Personne n'a encore rencontré d'utilisateurs.\n\nÀ toi de remettre l'équipe dans une démarche user-centric.",
+      "questions": [
+        {
+          "id": "u02-b1-q1",
+          "type": "qcm",
+          "question": "Les deux propositions de la réunion relèvent de quelles façons de décider ?",
+          "choix": ["HIPPO (Product Owner) et last-one talking (dev back)", "User-centric toutes les deux", "Omnichannel et accessibilité"],
+          "bonne": 0,
+          "notions": ["user-centric"],
+          "explication": "User-centric vs. **HIPPO** vs. **last-one talking** : ni l'avis du chef ni celui du dernier qui a parlé ne s'appuient sur les besoins et les attentes des utilisateurs."
+        },
+        {
+          "id": "u02-b1-q2",
+          "type": "qcm",
+          "question": "Que proposes-tu en premier ?",
+          "choix": [
+            "Aller rencontrer et observer des utilisateurs réels dans un contexte réel (aux stations), puis créer des personas",
+            "Créer tout de suite des personas autour de la table, d'après nos idées",
+            "Voter entre la carte 3D et le classement"
+          ],
+          "bonne": 0,
+          "notions": ["user-centric", "persona"],
+          "explication": "User-centric : utilisateurs réels dans un contexte réel, observation. Les personas viennent **après la recherche ethnographique** et sont basés sur des utilisateurs réels."
+        },
+        {
+          "id": "u02-b1-q3",
+          "type": "qcm",
+          "question": "Quel groupe d'utilisateurs à rencontrer suit le mieux la slide Personas ?",
+          "choix": [
+            "Des utilisateurs variés, dont des utilisateurs extrêmes : une livreuse qui roule toute la journée, un retraité qui n'a jamais réservé en ligne",
+            "Les membres de l'équipe projet, qui font tous du vélo",
+            "Uniquement des cyclistes sportifs de 30 ans"
+          ],
+          "bonne": 0,
+          "notions": ["persona", "user-centric"],
+          "explication": "La slide cite les **utilisateurs extrêmes**, et les personas doivent être basés sur des caractéristiques représentatives des **utilisateurs réels**, pas sur l'équipe."
+        },
+        {
+          "id": "u02-b1-q4",
+          "type": "qcm",
+          "question": "Un utilisateur cherche un vélo sur son ordinateur au bureau, le réserve sur son téléphone dans la rue et le déverrouille à la borne de la station. Quel principe dois-tu défendre ?",
+          "choix": [
+            "Omnichannel : un parcours cross-device avec des contenus cohérents sur tous les canaux on et offline",
+            "Concevoir seulement l'appli mobile : la borne n'est pas numérique",
+            "Faire un écran différent par canal, sans lien entre eux"
+          ],
+          "bonne": 0,
+          "notions": ["omnichannel"],
+          "explication": "« Customers don't see channels: they see brands. » Omnichannel : stratégie de contenus cohérente à travers tous les canaux on et offline, parcours cross-device."
+        },
+        {
+          "id": "u02-b1-q5",
+          "type": "vf",
+          "question": "Le chef de projet dit : « L'accessibilité, ça ne nous concerne pas : nos utilisateurs font du vélo, ils n'ont pas de handicap. » A-t-il raison ?",
+          "bonne": false,
+          "notions": ["accessibilite"],
+          "explication": "Le handicap peut être **permanent ou temporaire** (une personne malvoyante qui réserve pour un proche, quelqu'un qui a le bras dans le plâtre…), et le WCAG concerne le **Web et les applications mobiles**. 1,4 million de personnes vivent en situation de handicap en Suisse."
+        },
+        {
+          "id": "u02-b1-q6",
+          "type": "ordre",
+          "question": "La ville exige le niveau d'accessibilité le plus élevé. Range les niveaux WCAG du plus bas au plus haut :",
+          "items": ["A", "AA", "AAA"],
+          "notions": ["accessibilite"],
+          "explication": "Normes **A à AAA** : le plus élevé est AAA."
+        },
+        {
+          "id": "u02-b1-q7",
+          "type": "tri",
+          "question": "Le rôle de chacun : dans la slide, ces personnes sont-elles dans l'équipe d'un projet d'application comme Roulib, ou seulement dans celle d'un projet de communication ?",
+          "categories": ["Projet d'application", "Seulement projet de communication"],
+          "items": [["Product Owner", 0], ["Scrum Master", 0], ["Architecte", 0], ["Dev front", 0], ["Copywriter", 1], ["Stratège marketing", 1], ["Dev full stack", 1]],
+          "notions": ["acteurs-ux"],
+          "explication": "Projet d'application : consultant UX, Product Owner, Business Analyst, designer UI, dev front, dev back, architecte, Scrum Master, chef de projet. Copywriter, stratège marketing et dev full stack apparaissent dans l'équipe d'un projet de communication."
+        },
+        {
+          "id": "u02-b1-q8",
+          "type": "tri",
+          "question": "Pour recruter un deuxième UX, l'équipe rédige une offre d'emploi. Range ses exigences : skill (savoir-faire) ou soft skill (savoir-être) ?",
+          "categories": ["Skill (savoir-faire)", "Soft skill (savoir-être)"],
+          "items": [["Faciliter des ateliers", 0], ["Recherche qualitative et quantitative", 0], ["Rapid prototyping", 0], ["Conception centrée utilisateurs", 0], ["Créativité", 1], ["Analyse et esprit de synthèse", 1], ["Plusieurs langues (notamment anglais)", 1], ["Innovation", 1]],
+          "notions": ["competences-ux"],
+          "explication": "Skills : faciliter des ateliers, recherche qualitative et quantitative, rapid prototyping, conception centrée utilisateurs. Soft skills : créativité, analyse et esprit de synthèse, plusieurs langues, innovation."
+        }
+      ],
+      "seuil": 0.8
+    }
+  ]
 }
