@@ -112,7 +112,7 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Notions des unités précédentes à revoir : bonne-idee, design-thinking, ux-vs-ui
 - Leçons : 1. Du papier d'abord 2. Zoning puis wireframe 3. Maquette et prototype 4. Les outils et les alternatives 5. Mélange (et « quel livrable pour quel besoin ? »)
 - Boss : étude de cas « Le bon livrable au bon moment » : pour une appli (autre domaine), choisir à chaque situation le livrable (paper prototype, zoning, wireframe, maquette, prototype cliquable) et l'outil ; remettre les niveaux dans l'ordre ; repérer les erreurs (montrer un zoning à des utilisateurs, maquette avant les tests…)
-- État : à écrire
+- État : écrite, testée
 
 ## u08 — Étape 5 : Tests utilisateurs
 - Objectif : préparer, mener et exploiter un test utilisateur : objectifs, scénario de test, déroulé en 13 étapes, et suite à donner.

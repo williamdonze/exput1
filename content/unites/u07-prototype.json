@@ -2,55 +2,1607 @@
   "id": "u07",
   "titre": "Prototype",
   "sousTitre": "Cours 5.1",
-  "objectif": "",
-  "icone": "",
-  "fiches": [],
+  "objectif": "Expliquer les niveaux de conception d'une interface, du paper prototype à la maquette et au prototype, et choisir le bon livrable et le bon outil selon le besoin.",
+  "icone": "▦",
+  "fiches": [
+    {
+      "id": "wireframe",
+      "titre": "Le wireframe (fil de fer)",
+      "icone": "#",
+      "resume": "Une visualisation plus ou moins schématique des écrans et de leurs interactions ; l'étape wireframe détaille les blocs du zoning (contenus, widgets) et c'est la plus adaptée pour les feedbacks et les tests utilisateurs.",
+      "analogie": "**Le plan de la maison** : après le plan des pièces en blocs (le zoning), le wireframe, c'est **le plan meublé** : on voit où va le canapé, la table, le lit. On peut déjà le montrer aux futurs habitants.",
+      "texte": "**Définition générale** : « Les wireframes (fil de fer) sont une visualisation plus ou moins schématique des écrans et des interactions d'un produit digital. Ils représentent de manière plus ou moins détaillée la structure des écrans et les interactions qui les lient entre eux. »\n\n**L'étape wireframe** : « Une fois la structure établie, on détaille chaque bloc au fur et à mesure, en ajoutant des éléments plus visuels, des exemples de contenus, etc. L'étape de wireframes est la plus adaptée pour recueillir les feedbacks des parties prenantes ou mener des tests utilisateurs. »\n\nEn résumé, sur la slide : **zonings + contenus + widgets plus détaillés**.",
+      "pieges": [
+        "« Wireframe » désigne à la fois la famille des visualisations schématiques des écrans (fil de fer) et l'étape qui suit le zoning.",
+        "C'est l'étape wireframe, pas le zoning, qui est la plus adaptée pour recueillir les feedbacks des parties prenantes ou mener des tests utilisateurs."
+      ]
+    },
+    {
+      "id": "paper-prototyping",
+      "titre": "Le paper prototyping",
+      "icone": "✎",
+      "resume": "Du papier et quelques stylos suffisent souvent : pour explorer différentes idées (la quantité plutôt que la finalité), en workshop de co-conception et pour récolter les besoins.",
+      "analogie": "**Le plan de la maison**, griffonné au crayon sur un coin de table : on dessine dix plans en vitesse pour choisir lequel on garde, bien avant d'appeler l'architecte avec son logiciel.",
+      "texte": "**Définition du cours** : « Inutile de se précipiter vers un logiciel spécialisé : pour représenter une idée de manière simple et permettre aux membres de l'équipe de se projeter, du papier et quelques stylos suffisent souvent. Ce format est surtout utile pour explorer différentes idées, où on privilégie la quantité plutôt que la finalité. C'est un bon support dans le cadre de workshops, notamment de co-conception, et pour récolter les besoins. »\n\nLe cours fournit des **templates** de paper prototype (par exemple un template « Responsive ») : des cadres d'écrans imprimés à remplir à la main.",
+      "pieges": [
+        "Pas besoin d'un logiciel spécialisé : « inutile de se précipiter ».",
+        "Le paper prototyping privilégie la **quantité** plutôt que la finalité : on explore plusieurs idées, on ne peaufine pas."
+      ]
+    },
+    {
+      "id": "zoning",
+      "titre": "Le zoning",
+      "icone": "▦",
+      "resume": "La composition d'un écran en blocs en nuances de gris, avec une couleur pour les éléments cliquables et les call-to-action ; un document de travail interne à l'équipe, complexe à appréhender pour les parties prenantes et les utilisateurs.",
+      "analogie": "**Le plan de la maison** : le zoning, c'est **le plan des pièces en blocs** (ici la cuisine, là le salon). Les architectes s'en servent entre eux ; le futur habitant, lui, a du mal à s'y projeter.",
+      "texte": "**Définition du cours** : « Le zoning représente sous forme de blocs en nuances de gris, avec une couleur pour mettre en avant les éléments cliquables et les call-to-action, la composition d'un écran. L'étape des zonings est surtout utile comme document de travail intermédiaire entre les membres de l'équipe projet. C'est un format complexe à appréhender par les parties prenantes et les utilisateurs. »\n\nSur la slide : des **blocs**.",
+      "pieges": [
+        "Blocs en **nuances de gris** : une seule couleur, réservée aux éléments cliquables et aux call-to-action.",
+        "Le zoning n'est pas fait pour être montré aux utilisateurs : c'est un document de travail **entre les membres de l'équipe projet**."
+      ]
+    },
+    {
+      "id": "maquette",
+      "titre": "La maquette",
+      "icone": "◐",
+      "resume": "Sur la base de zonings, wireframes ou prototype cliquable, le designer crée l'identité graphique (couleurs, alignements, contrastes) : c'est le livrable final de la conception UX/UI, le brief de l'équipe de développement. Passage du côté UI.",
+      "analogie": "**Le plan de la maison** : la maquette, c'est **la maison décorée** : peinture, lumière, matières. On ne décore qu'une fois le plan validé.",
+      "texte": "**Définition du cours** : « Sur la base de zonings, wireframes ou prototype cliquable, le designer peut créer l'identité graphique du produit, en travaillant sur les couleurs, les alignements, les contrastes, etc. pour un look-and-feel en accord avec l'expérience utilisateurs définie. Il s'agit du livrable final de tout le processus de conception UX/UI, qui servira de brief à l'équipe de développement. »\n\nSur la slide : **passage du côté UI** (voir [[ux-vs-ui]]).",
+      "pieges": [
+        "La maquette est le **livrable final** du processus de conception UX/UI : elle sert de **brief à l'équipe de développement**, ce n'est pas le produit développé.",
+        "Avec la maquette, on passe **du côté UI** : identité graphique, look-and-feel."
+      ]
+    },
+    {
+      "id": "prototype",
+      "titre": "Le prototype",
+      "icone": "▶",
+      "resume": "Des écrans interreliés qui forment des parcours utilisateurs (user journeys) : des wireframes cliquables, idéaux pour les tests utilisateurs. « L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »",
+      "analogie": "**Le plan de la maison** : le prototype, c'est **la visite**, où l'on passe d'une pièce à l'autre. Et c'est aussi le plat que **le chef fait goûter** avant de le mettre à la carte.",
+      "texte": "**Définition du cours** : « Dans un produit digital, les écrans sont tous interreliés et s'enchainent pour former des user journeys ou parcours utilisateurs. Très vite dans le processus de conception, il est important de penser les écrans dans le contexte des parcours utilisateurs, en prototypant les interactions principales et les liens entre les différentes pages. Ce format est idéal pour des tests utilisateurs. »\n\nSur la slide : **wireframes cliquables**.\n\n« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »",
+      "pieges": [
+        "Un prototype n'est **pas le produit final** : il sert à tester et faire tester.",
+        "On pense les écrans dans le contexte des parcours utilisateurs **très vite** dans le processus de conception, pas à la fin."
+      ]
+    },
+    {
+      "id": "outils-prototypage",
+      "titre": "Les outils de prototypage et les alternatives",
+      "icone": "⚙",
+      "resume": "Figma pour des prototypes interactifs (lien partageable, desktop, tablette et mobile) ; en avancé : Axure et Google Analytics, eye-tracking ; aussi Lovable et Figma Make ; alternatives : jeu de rôle, storyboard, slides type Powerpoint, low-code / no-code, constructions / installations.",
+      "analogie": "**Le plan de la maison** se dessine avec plusieurs outils : le crayon, le logiciel d'architecte, ou même une maquette en carton. Ce qui compte, c'est de pouvoir **faire visiter** et, comme **le chef qui fait goûter**, faire essayer.",
+      "texte": "**Prototypes interactifs : Figma**\n- Maquettes interactives simulant les interactions principales sous forme de prototype\n- Lien partageable pour support de tests utilisateurs\n- Desktop, tablette et mobile\n- **Avancé** : Axure et Google Analytics ; eye-tracking\n\nLe cours montre aussi **Lovable** et **Figma Make**.\n\n**Alternatives** :\n- Jeu de rôle\n- Storyboard (exemple : StoryboardThat)\n- Slides type Powerpoint\n- Low-code / no-code (exemple : Glide)\n- Constructions / installations",
+      "pieges": [
+        "Le lien partageable de Figma sert de **support de tests utilisateurs**.",
+        "StoryboardThat est un exemple de **storyboard**, Glide un exemple de **low-code / no-code**."
+      ]
+    }
+  ],
   "lecons": [
     {
       "id": "u07-l1",
-      "titre": "",
+      "titre": "Du papier d'abord",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "wireframe",
+        "paper-prototyping"
+      ],
+      "cartes": [
+        {
+          "titre": "Étape 4 : Prototype",
+          "texte": "Après Empathize, Define et Ideate, voici la 4e étape du Design Thinking : **Prototype**.\n\nRappel de la définition du cours : « **Prototypage** : modéliser de manière plus détaillée les concepts choisis issus de la phase d'idéation ». On ne prototype donc pas toutes les idées : seulement celles qu'on a choisies.",
+          "fiche": "design-thinking"
+        },
+        {
+          "titre": "Les wireframes (fil de fer)",
+          "texte": "« Les wireframes (fil de fer) sont une visualisation plus ou moins schématique des écrans et des interactions d'un produit digital. Ils représentent de manière plus ou moins détaillée la structure des écrans et les interactions qui les lient entre eux. »",
+          "analogie": "Pense au **plan de la maison** : plus ou moins détaillé, il montre les pièces et les portes qui les relient. Le wireframe montre les écrans et les liens entre eux.",
+          "fiche": "wireframe"
+        },
+        {
+          "titre": "Du papier et des stylos",
+          "texte": "« Inutile de se précipiter vers un logiciel spécialisé : pour représenter une idée de manière simple et permettre aux membres de l'équipe de se projeter, **du papier et quelques stylos suffisent souvent**. »",
+          "fiche": "paper-prototyping"
+        },
+        {
+          "titre": "La quantité plutôt que la finalité",
+          "texte": "« Ce format est surtout utile pour **explorer différentes idées**, où on privilégie **la quantité plutôt que la finalité**. C'est un bon support dans le cadre de **workshops**, notamment de **co-conception**, et pour **récolter les besoins**. »",
+          "astuce": "Le cours fournit des **templates** de paper prototype : des cadres d'écrans à imprimer et remplir à la main.",
+          "fiche": "paper-prototyping"
+        },
+        {
+          "titre": "Proto griffonne",
+          "texte": "Exemple : une équipe imagine une appli pour réserver un court de tennis. En 20 minutes, chacun dessine trois écrans d'accueil différents sur papier. On les compare, on en garde un ou deux.",
+          "analogie": "Comme un architecte qui griffonne dix **plans de la maison** sur un coin de table avant d'ouvrir son logiciel.",
+          "piege": "On ne soigne pas les couleurs à ce stade : on explore."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u07-l1-e1",
+          "type": "qcm",
+          "question": "Prototype est l'étape n°… du Design Thinking.",
+          "choix": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Exploration (Empathize), Définition (Define), Idéation (Ideate), **Prototypage**, Test : la 4e."
+        },
+        {
+          "id": "u07-l1-e2",
+          "type": "qcm",
+          "question": "Selon le cours, les wireframes (fil de fer) sont…",
+          "choix": [
+            "une visualisation plus ou moins schématique des écrans et des interactions d'un produit digital",
+            "l'identité graphique finale d'un produit digital",
+            "le code de la première version du produit",
+            "la liste des besoins des utilisateurs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "wireframe"
+          ],
+          "explication": "« Les wireframes (fil de fer) sont une visualisation plus ou moins schématique des écrans et des interactions d'un produit digital. Ils représentent de manière plus ou moins détaillée la structure des écrans et les interactions qui les lient entre eux. »"
+        },
+        {
+          "id": "u07-l1-e3",
+          "type": "vf",
+          "question": "Pour représenter une idée de manière simple, il faut d'abord ouvrir un logiciel spécialisé.",
+          "bonne": false,
+          "notions": [
+            "paper-prototyping"
+          ],
+          "explication": "« **Inutile de se précipiter** vers un logiciel spécialisé : […] du papier et quelques stylos suffisent souvent. »"
+        },
+        {
+          "id": "u07-l1-e4",
+          "type": "qcm",
+          "question": "Le paper prototyping privilégie…",
+          "choix": [
+            "la quantité plutôt que la finalité",
+            "la finalité plutôt que la quantité",
+            "les couleurs plutôt que la structure",
+            "un seul écran très soigné"
+          ],
+          "bonne": 0,
+          "notions": [
+            "paper-prototyping"
+          ],
+          "explication": "« Ce format est surtout utile pour explorer différentes idées, où on privilégie **la quantité plutôt que la finalité**. »"
+        },
+        {
+          "id": "u07-l1-e5",
+          "type": "tri",
+          "question": "Le paper prototyping : pour quoi est-ce un bon support, selon le cours ?",
+          "categories": [
+            "Oui, cité par le cours",
+            "Non"
+          ],
+          "items": [
+            [
+              "Explorer différentes idées",
+              0
+            ],
+            [
+              "Un workshop de co-conception",
+              0
+            ],
+            [
+              "Récolter les besoins",
+              0
+            ],
+            [
+              "Servir de brief final à l'équipe de développement",
+              1
+            ],
+            [
+              "Fixer l'identité graphique du produit",
+              1
+            ]
+          ],
+          "notions": [
+            "paper-prototyping",
+            "maquette"
+          ],
+          "explication": "Paper prototyping : explorer, workshops (notamment de co-conception), récolter les besoins. Le brief final et l'identité graphique, c'est la **maquette**."
+        },
+        {
+          "id": "u07-l1-e6",
+          "type": "qcm",
+          "question": "Une équipe prépare une appli de bibliothèque municipale. Elle a choisi deux idées en Ideate et veut les montrer vite aux autres membres de l'équipe pour qu'ils se projettent. Que conseille le cours ?",
+          "choix": [
+            "Dessiner les écrans sur papier, avec quelques stylos",
+            "Commander la maquette finale au graphiste",
+            "Développer une première version de l'appli",
+            "Attendre d'avoir choisi les couleurs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "paper-prototyping"
+          ],
+          "explication": "Pour représenter une idée simplement et permettre à l'équipe de se projeter, « du papier et quelques stylos suffisent souvent »."
+        },
+        {
+          "id": "u07-l1-e7",
+          "type": "vf",
+          "question": "Les wireframes représentent la structure des écrans et les interactions qui les lient entre eux.",
+          "bonne": true,
+          "notions": [
+            "wireframe"
+          ],
+          "explication": "« Ils représentent de manière plus ou moins détaillée **la structure des écrans et les interactions qui les lient entre eux**. »"
+        }
+      ]
     },
     {
       "id": "u07-l2",
-      "titre": "",
+      "titre": "Zoning puis wireframe",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "zoning",
+        "wireframe"
+      ],
+      "cartes": [
+        {
+          "titre": "Le zoning : des blocs",
+          "texte": "« Le zoning représente sous forme de **blocs en nuances de gris**, avec **une couleur** pour mettre en avant les **éléments cliquables et les call-to-action**, la composition d'un écran. »",
+          "analogie": "**Le plan de la maison** en blocs : ici la cuisine, là le salon, et la porte d'entrée en couleur.",
+          "fiche": "zoning"
+        },
+        {
+          "titre": "Un document de travail interne",
+          "texte": "« L'étape des zonings est surtout utile comme **document de travail intermédiaire entre les membres de l'équipe projet**. C'est un format **complexe à appréhender par les parties prenantes et les utilisateurs**. »",
+          "piege": "Montrer un zoning à des utilisateurs : ils auront du mal à s'y retrouver.",
+          "fiche": "zoning"
+        },
+        {
+          "titre": "Le wireframe : on détaille",
+          "texte": "« Une fois la structure établie, on **détaille chaque bloc** au fur et à mesure, en ajoutant des éléments plus visuels, des **exemples de contenus**, etc. »\n\nSur la slide : **zonings + contenus + widgets plus détaillés**.",
+          "analogie": "Le **plan meublé** : on place le canapé, la table, le lit dans les pièces.",
+          "fiche": "wireframe"
+        },
+        {
+          "titre": "Le bon moment pour les retours",
+          "texte": "« L'étape de wireframes est **la plus adaptée pour recueillir les feedbacks des parties prenantes ou mener des tests utilisateurs**. »",
+          "astuce": "Zoning : entre nous, dans l'équipe. Wireframe : on peut le montrer.",
+          "fiche": "wireframe"
+        },
+        {
+          "titre": "Exemple : une appli de covoiturage",
+          "texte": "Zoning de l'écran d'accueil : un bloc gris « en-tête », un bloc gris « liste des trajets », un bloc **en couleur** « Proposer un trajet » (le call-to-action).\n\nWireframe du même écran : le bloc « liste des trajets » montre maintenant trois exemples de trajets (« Lausanne → Yverdon, 7 h 40 »), un champ de recherche, un bouton de filtre."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u07-l2-e1",
+          "type": "qcm",
+          "question": "Dans un zoning, à quoi sert la seule couleur ?",
+          "choix": [
+            "À mettre en avant les éléments cliquables et les call-to-action",
+            "À montrer l'identité graphique",
+            "À distinguer les zones de texte des images",
+            "À rien : le zoning est entièrement en couleurs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "zoning"
+          ],
+          "explication": "« Blocs en nuances de gris, avec **une couleur pour mettre en avant les éléments cliquables et les call-to-action**. »"
+        },
+        {
+          "id": "u07-l2-e2",
+          "type": "vf",
+          "question": "Le zoning est un format facile à appréhender pour les utilisateurs : c'est le meilleur support pour un test utilisateur.",
+          "bonne": false,
+          "notions": [
+            "zoning",
+            "wireframe"
+          ],
+          "explication": "Le zoning est « un format **complexe à appréhender** par les parties prenantes et les utilisateurs ». Pour les tests, c'est l'étape **wireframe** (ou le prototype)."
+        },
+        {
+          "id": "u07-l2-e3",
+          "type": "qcm",
+          "question": "Pour qui le zoning est-il surtout utile ?",
+          "choix": [
+            "Les membres de l'équipe projet, comme document de travail intermédiaire",
+            "Les utilisateurs, pendant les tests",
+            "L'équipe de développement, comme brief final",
+            "Les clients, pour valider les couleurs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "zoning"
+          ],
+          "explication": "« L'étape des zonings est surtout utile comme document de travail intermédiaire **entre les membres de l'équipe projet**. »"
+        },
+        {
+          "id": "u07-l2-e4",
+          "type": "qcm",
+          "question": "Que résume la slide du wireframe ?",
+          "choix": [
+            "Zonings + contenus + widgets plus détaillés",
+            "Blocs en nuances de gris",
+            "Passage du côté UI",
+            "Wireframes cliquables"
+          ],
+          "bonne": 0,
+          "notions": [
+            "wireframe",
+            "zoning"
+          ],
+          "explication": "Wireframe = **zonings + contenus + widgets plus détaillés**. « Blocs » résume le zoning, « passage du côté UI » la maquette, « wireframes cliquables » le prototype."
+        },
+        {
+          "id": "u07-l2-e5",
+          "type": "tri",
+          "question": "Zoning ou wireframe ?",
+          "categories": [
+            "Zoning",
+            "Wireframe"
+          ],
+          "items": [
+            [
+              "Blocs en nuances de gris",
+              0
+            ],
+            [
+              "Document de travail entre membres de l'équipe projet",
+              0
+            ],
+            [
+              "Complexe à appréhender pour les utilisateurs",
+              0
+            ],
+            [
+              "Exemples de contenus ajoutés",
+              1
+            ],
+            [
+              "Le plus adapté pour recueillir les feedbacks des parties prenantes",
+              1
+            ],
+            [
+              "Widgets plus détaillés",
+              1
+            ]
+          ],
+          "notions": [
+            "zoning",
+            "wireframe"
+          ],
+          "explication": "Le zoning pose la structure en blocs gris, pour l'équipe ; le wireframe détaille chaque bloc (contenus, widgets) et se montre aux parties prenantes et aux utilisateurs."
+        },
+        {
+          "id": "u07-l2-e6",
+          "type": "ordre",
+          "question": "Remets dans l'ordre la construction de l'écran d'accueil d'une appli de covoiturage.",
+          "items": [
+            "Établir la structure en blocs gris (zoning)",
+            "Mettre en couleur le bloc « Proposer un trajet » (call-to-action)",
+            "Détailler chaque bloc avec des exemples de trajets (wireframe)",
+            "Montrer le wireframe aux parties prenantes pour recueillir leurs feedbacks"
+          ],
+          "notions": [
+            "zoning",
+            "wireframe"
+          ],
+          "explication": "« **Une fois la structure établie**, on détaille chaque bloc » : d'abord le zoning (avec sa couleur pour les call-to-action), puis le wireframe, l'étape la plus adaptée aux feedbacks."
+        },
+        {
+          "id": "u07-l2-e7",
+          "type": "qcm",
+          "question": "Proto veut recueillir l'avis de la direction du club de tennis sur l'écran de réservation. Quel niveau lui montrer ?",
+          "choix": [
+            "Le wireframe",
+            "Le zoning",
+            "Une feuille avec les call-to-action seulement",
+            "Aucun : attendre le produit développé"
+          ],
+          "bonne": 0,
+          "notions": [
+            "wireframe",
+            "zoning"
+          ],
+          "explication": "« L'étape de wireframes est la plus adaptée pour recueillir les **feedbacks des parties prenantes** ou mener des tests utilisateurs. » Le zoning est complexe à appréhender pour elles."
+        }
+      ]
     },
     {
       "id": "u07-l3",
-      "titre": "",
+      "titre": "Maquette et prototype",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "maquette",
+        "prototype"
+      ],
+      "cartes": [
+        {
+          "titre": "La maquette : l'identité graphique",
+          "texte": "« Sur la base de zonings, wireframes ou prototype cliquable, le designer peut créer **l'identité graphique** du produit, en travaillant sur **les couleurs, les alignements, les contrastes**, etc. pour un **look-and-feel** en accord avec l'expérience utilisateurs définie. »",
+          "analogie": "**La maison décorée** : peinture, lumières, matières, une fois le plan validé.",
+          "fiche": "maquette"
+        },
+        {
+          "titre": "Le livrable final",
+          "texte": "« Il s'agit du **livrable final** de tout le processus de conception UX/UI, qui servira de **brief à l'équipe de développement**. »\n\nSur la slide : **passage du côté UI**.",
+          "astuce": "Rappel de [[ux-vs-ui]] : l'UI finalise les maquettes jusqu'aux interfaces intégrables.",
+          "fiche": "maquette"
+        },
+        {
+          "titre": "Le prototype : des écrans qui s'enchaînent",
+          "texte": "« Dans un produit digital, les écrans sont tous **interreliés** et s'enchainent pour former des **user journeys** ou **parcours utilisateurs**. **Très vite** dans le processus de conception, il est important de penser les écrans dans le contexte des parcours utilisateurs, en prototypant **les interactions principales et les liens entre les différentes pages**. »",
+          "analogie": "Le prototype, c'est **la visite** de la maison : on passe d'une pièce à l'autre.",
+          "fiche": "prototype"
+        },
+        {
+          "titre": "Wireframes cliquables",
+          "texte": "Sur la slide : **wireframes cliquables**. « Ce format est **idéal pour des tests utilisateurs**. »",
+          "fiche": "prototype"
+        },
+        {
+          "titre": "Tester et faire tester",
+          "texte": "« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »",
+          "analogie": "**Le chef qui fait goûter** : il fait goûter le plat avant de le mettre à la carte ; ce qu'il fait goûter n'est pas encore le menu servi en salle.",
+          "fiche": "prototype"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u07-l3-e1",
+          "type": "qcm",
+          "question": "Sur quoi le designer travaille-t-il dans la maquette ?",
+          "choix": [
+            "Les couleurs, les alignements, les contrastes",
+            "Les blocs en nuances de gris",
+            "Les interviews des utilisateurs",
+            "Le code de l'application"
+          ],
+          "bonne": 0,
+          "notions": [
+            "maquette"
+          ],
+          "explication": "Le designer crée l'**identité graphique** du produit, « en travaillant sur les couleurs, les alignements, les contrastes, etc. »"
+        },
+        {
+          "id": "u07-l3-e2",
+          "type": "qcm",
+          "question": "Selon le cours, la maquette est…",
+          "choix": [
+            "le livrable final de tout le processus de conception UX/UI, qui servira de brief à l'équipe de développement",
+            "un document de travail intermédiaire entre les membres de l'équipe projet",
+            "un format surtout utile pour explorer différentes idées",
+            "le produit final, prêt à être publié"
+          ],
+          "bonne": 0,
+          "notions": [
+            "maquette",
+            "zoning",
+            "paper-prototyping"
+          ],
+          "explication": "« Il s'agit du **livrable final** de tout le processus de conception UX/UI, qui servira de **brief à l'équipe de développement**. » Le document de travail interne, c'est le zoning ; explorer des idées, c'est le paper prototyping."
+        },
+        {
+          "id": "u07-l3-e3",
+          "type": "vf",
+          "question": "L'objectif d'un prototype, c'est de tester et faire tester : ce n'est pas le produit final.",
+          "bonne": true,
+          "notions": [
+            "prototype"
+          ],
+          "explication": "« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »"
+        },
+        {
+          "id": "u07-l3-e4",
+          "type": "qcm",
+          "question": "Que résume la slide du prototype ?",
+          "choix": [
+            "Wireframes cliquables",
+            "Passage du côté UI",
+            "Blocs",
+            "Zonings + contenus + widgets plus détaillés"
+          ],
+          "bonne": 0,
+          "notions": [
+            "prototype",
+            "maquette"
+          ],
+          "explication": "Prototype = **wireframes cliquables** ; maquette = passage du côté UI ; zoning = blocs ; wireframe = zonings + contenus + widgets."
+        },
+        {
+          "id": "u07-l3-e5",
+          "type": "vf",
+          "question": "On attend la fin de la conception pour penser les écrans dans le contexte des parcours utilisateurs.",
+          "bonne": false,
+          "notions": [
+            "prototype"
+          ],
+          "explication": "« **Très vite** dans le processus de conception, il est important de penser les écrans dans le contexte des parcours utilisateurs. »"
+        },
+        {
+          "id": "u07-l3-e6",
+          "type": "assoc",
+          "question": "Associe chaque niveau à son image du plan de la maison.",
+          "paires": [
+            [
+              "Zoning",
+              "Le plan des pièces en blocs"
+            ],
+            [
+              "Wireframe",
+              "Le plan meublé"
+            ],
+            [
+              "Maquette",
+              "La maison décorée"
+            ],
+            [
+              "Prototype",
+              "La visite, d'une pièce à l'autre"
+            ]
+          ],
+          "notions": [
+            "zoning",
+            "wireframe",
+            "maquette",
+            "prototype"
+          ],
+          "explication": "Zoning = la structure en blocs ; wireframe = chaque bloc détaillé ; maquette = l'identité graphique ; prototype = les écrans interreliés qu'on parcourt."
+        },
+        {
+          "id": "u07-l3-e7",
+          "type": "qcm",
+          "question": "Avec quel niveau « passe-t-on du côté UI » ?",
+          "choix": [
+            "La maquette",
+            "Le zoning",
+            "Le wireframe",
+            "Le paper prototype"
+          ],
+          "bonne": 0,
+          "notions": [
+            "maquette",
+            "ux-vs-ui"
+          ],
+          "explication": "La slide de la maquette dit « **passage du côté UI** » : l'identité graphique, le look-and-feel."
+        }
+      ]
     },
     {
       "id": "u07-l4",
-      "titre": "",
+      "titre": "Les outils et les alternatives",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "outils-prototypage"
+      ],
+      "cartes": [
+        {
+          "titre": "Figma : prototypes interactifs",
+          "texte": "Avec **Figma** :\n- des maquettes interactives simulant les interactions principales sous forme de prototype ;\n- un **lien partageable** pour support de tests utilisateurs ;\n- **desktop, tablette et mobile**.",
+          "fiche": "outils-prototypage"
+        },
+        {
+          "titre": "Avancé",
+          "texte": "Pour aller plus loin, le cours cite : **Axure et Google Analytics**, et l'**eye-tracking**.",
+          "fiche": "outils-prototypage"
+        },
+        {
+          "titre": "Lovable et Figma Make",
+          "texte": "Le cours montre aussi **Lovable** et **Figma Make**.",
+          "fiche": "outils-prototypage"
+        },
+        {
+          "titre": "Les alternatives",
+          "texte": "Pas forcément un écran ! Le cours cite :\n- **jeu de rôle** ;\n- **storyboard** (exemple : StoryboardThat) ;\n- **slides type Powerpoint** ;\n- **low-code / no-code** (exemple : Glide) ;\n- **constructions / installations**.",
+          "analogie": "Comme **le chef qui fait goûter** : ce qui compte, c'est de pouvoir faire essayer, avec l'outil qu'on a sous la main.",
+          "fiche": "outils-prototypage"
+        },
+        {
+          "titre": "Rappel",
+          "texte": "« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »\n\nL'outil change, l'objectif reste le même.",
+          "fiche": "prototype"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u07-l4-e1",
+          "type": "qcm",
+          "question": "Selon le cours, quel outil sert aux prototypes interactifs, avec un lien partageable pour les tests utilisateurs ?",
+          "choix": [
+            "Figma",
+            "StoryboardThat",
+            "Google Analytics",
+            "Powerpoint"
+          ],
+          "bonne": 0,
+          "notions": [
+            "outils-prototypage"
+          ],
+          "explication": "**Prototypes interactifs : Figma** : maquettes interactives, lien partageable pour support de tests utilisateurs, desktop, tablette et mobile."
+        },
+        {
+          "id": "u07-l4-e2",
+          "type": "tri",
+          "question": "Outil interactif (Figma et l'avancé) ou alternative ?",
+          "categories": [
+            "Figma et l'avancé",
+            "Alternatives"
+          ],
+          "items": [
+            [
+              "Lien partageable pour support de tests",
+              0
+            ],
+            [
+              "Axure et Google Analytics",
+              0
+            ],
+            [
+              "Eye-tracking",
+              0
+            ],
+            [
+              "Jeu de rôle",
+              1
+            ],
+            [
+              "Storyboard",
+              1
+            ],
+            [
+              "Constructions / installations",
+              1
+            ],
+            [
+              "Slides type Powerpoint",
+              1
+            ]
+          ],
+          "notions": [
+            "outils-prototypage"
+          ],
+          "explication": "Figma, avec en avancé Axure et Google Analytics, et l'eye-tracking ; alternatives : jeu de rôle, storyboard, slides type Powerpoint, low-code / no-code, constructions / installations."
+        },
+        {
+          "id": "u07-l4-e3",
+          "type": "assoc",
+          "question": "Associe chaque exemple du cours à sa catégorie.",
+          "paires": [
+            [
+              "StoryboardThat",
+              "Storyboard"
+            ],
+            [
+              "Glide",
+              "Low-code / no-code"
+            ],
+            [
+              "Figma",
+              "Prototypes interactifs"
+            ],
+            [
+              "Axure",
+              "Avancé"
+            ]
+          ],
+          "notions": [
+            "outils-prototypage"
+          ],
+          "explication": "StoryboardThat illustre le storyboard, Glide le low-code / no-code ; Figma pour les prototypes interactifs ; Axure (et Google Analytics) dans « avancé »."
+        },
+        {
+          "id": "u07-l4-e4",
+          "type": "vf",
+          "question": "Les prototypes Figma ne fonctionnent que sur ordinateur.",
+          "bonne": false,
+          "notions": [
+            "outils-prototypage"
+          ],
+          "explication": "Le cours dit : **desktop, tablette et mobile**."
+        },
+        {
+          "id": "u07-l4-e5",
+          "type": "qcm",
+          "question": "Lequel n'est PAS une alternative citée par le cours ?",
+          "choix": [
+            "Le produit final développé",
+            "Le jeu de rôle",
+            "Les slides type Powerpoint",
+            "Les constructions / installations"
+          ],
+          "bonne": 0,
+          "notions": [
+            "outils-prototypage",
+            "prototype"
+          ],
+          "explication": "Les alternatives : jeu de rôle, storyboard, slides, low-code / no-code, constructions / installations. Et un prototype « n'est pas le produit final »."
+        },
+        {
+          "id": "u07-l4-e6",
+          "type": "qcm",
+          "question": "Une équipe conçoit le parcours d'accueil d'un musée, sans écran : un visiteur arrive, prend un plan, suit un fléchage. Quelle alternative du cours permet de le faire vivre en atelier ?",
+          "choix": [
+            "Un jeu de rôle",
+            "Un zoning",
+            "Une maquette graphique",
+            "L'eye-tracking"
+          ],
+          "bonne": 0,
+          "notions": [
+            "outils-prototypage"
+          ],
+          "explication": "Parmi les alternatives du cours : le **jeu de rôle** (ou un storyboard, ou des constructions / installations). Zoning et maquette sont des écrans."
+        }
+      ]
     },
     {
       "id": "u07-l5",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Mélange : quel livrable pour quel besoin ?",
+      "duree": 6,
+      "notions": [
+        "paper-prototyping",
+        "zoning",
+        "wireframe",
+        "maquette",
+        "prototype",
+        "outils-prototypage",
+        "bonne-idee",
+        "design-thinking"
+      ],
+      "cartes": [
+        {
+          "titre": "Les niveaux, d'un coup d'œil",
+          "texte": "- **Paper prototyping** : explorer, la quantité plutôt que la finalité, en workshop.\n- **Zoning** : blocs gris, pour l'équipe projet.\n- **Wireframe** : zonings + contenus + widgets ; feedbacks et tests.\n- **Maquette** : identité graphique ; livrable final, brief pour le développement.\n- **Prototype** : wireframes cliquables ; idéal pour les tests utilisateurs.",
+          "analogie": "Griffonné, le plan des pièces, le plan meublé, la maison décorée, la visite : toujours **le plan de la maison**."
+        },
+        {
+          "titre": "Qui le regarde ?",
+          "texte": "Une bonne question pour choisir : **qui va regarder ce livrable ?**\n- L'équipe projet entre elle : zoning.\n- Les parties prenantes, les utilisateurs en test : wireframe, prototype.\n- L'équipe de développement : maquette (le brief)."
+        },
+        {
+          "titre": "De l'idée au concept",
+          "texte": "Rappel d'Ideate : une bonne idée « n'est que dans notre tête ». Pour en faire **un concept qui prend forme**, « on la prototype de manière à pouvoir la présenter à d'autres, les faire tester et adhérer à notre idée ».",
+          "fiche": "bonne-idee"
+        },
+        {
+          "titre": "Et ensuite ?",
+          "texte": "Après Prototype vient **Test** : « rapidement tester les prototypes avec des utilisateurs pour valider les idées et les ajuster ».",
+          "analogie": "**Le chef qui fait goûter** : le plat est prêt à être goûté.",
+          "fiche": "design-thinking"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u07-l5-e1",
+          "type": "qcm",
+          "question": "Une équipe veut, en atelier de co-conception avec des bénévoles d'une épicerie solidaire, explorer beaucoup d'idées d'écrans en une heure. Quel format ?",
+          "choix": [
+            "Le paper prototyping",
+            "La maquette",
+            "Le prototype Figma avec eye-tracking",
+            "Le zoning"
+          ],
+          "bonne": 0,
+          "notions": [
+            "paper-prototyping"
+          ],
+          "explication": "Explorer différentes idées, la quantité plutôt que la finalité, en workshop de co-conception : le **paper prototyping**."
+        },
+        {
+          "id": "u07-l5-e2",
+          "type": "qcm",
+          "question": "Elle doit maintenant transmettre aux développeurs le document qui leur servira de brief. Lequel ?",
+          "choix": [
+            "La maquette",
+            "Le zoning",
+            "Le paper prototype",
+            "Le storyboard"
+          ],
+          "bonne": 0,
+          "notions": [
+            "maquette"
+          ],
+          "explication": "La maquette est « le livrable final de tout le processus de conception UX/UI, qui servira de **brief à l'équipe de développement** »."
+        },
+        {
+          "id": "u07-l5-e3",
+          "type": "qcm",
+          "question": "Elle veut faire tester le parcours « réserver un panier » à des utilisateurs, en passant d'un écran à l'autre. Quel format est idéal ?",
+          "choix": [
+            "Un prototype (wireframes cliquables)",
+            "Un zoning",
+            "Une maquette d'un seul écran",
+            "Une liste de fonctionnalités"
+          ],
+          "bonne": 0,
+          "notions": [
+            "prototype"
+          ],
+          "explication": "Penser les écrans dans le contexte des parcours utilisateurs, prototyper les interactions principales et les liens entre les pages : « ce format est **idéal pour des tests utilisateurs** »."
+        },
+        {
+          "id": "u07-l5-e4",
+          "type": "tri",
+          "question": "Qui regarde surtout ce livrable ?",
+          "categories": [
+            "L'équipe projet, entre elle",
+            "Les parties prenantes ou les utilisateurs en test",
+            "L'équipe de développement"
+          ],
+          "items": [
+            [
+              "Zoning",
+              0
+            ],
+            [
+              "Wireframe",
+              1
+            ],
+            [
+              "Prototype cliquable",
+              1
+            ],
+            [
+              "Maquette",
+              2
+            ]
+          ],
+          "notions": [
+            "zoning",
+            "wireframe",
+            "prototype",
+            "maquette"
+          ],
+          "explication": "Zoning : document de travail entre les membres de l'équipe projet. Wireframe et prototype : feedbacks et tests utilisateurs. Maquette : brief à l'équipe de développement."
+        },
+        {
+          "id": "u07-l5-e5",
+          "type": "ordre",
+          "question": "Remets dans l'ordre les 5 étapes du Design Thinking.",
+          "items": [
+            "Empathize",
+            "Define",
+            "Ideate",
+            "Prototype",
+            "Test"
+          ],
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Exploration, Définition, Idéation, **Prototypage**, Test."
+        },
+        {
+          "id": "u07-l5-e6",
+          "type": "qcm",
+          "question": "Dans le Design Thinking, que modélise-t-on à l'étape Prototype ?",
+          "choix": [
+            "Les concepts choisis issus de la phase d'idéation, de manière plus détaillée",
+            "Toutes les idées du brainstorming, sans exception",
+            "Les personas",
+            "Les résultats des interviews"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-thinking",
+            "bonne-idee"
+          ],
+          "explication": "« Prototypage : modéliser de manière plus détaillée **les concepts choisis** issus de la phase d'idéation. »"
+        },
+        {
+          "id": "u07-l5-e7",
+          "type": "vf",
+          "question": "Vrai ou faux : « Pendant un test, le zoning est le format le plus clair pour les utilisateurs. »",
+          "bonne": false,
+          "notions": [
+            "zoning",
+            "wireframe"
+          ],
+          "explication": "Le zoning est « complexe à appréhender par les parties prenantes et les utilisateurs ». Pour les tests : le wireframe ou le prototype."
+        },
+        {
+          "id": "u07-l5-e8",
+          "type": "qcm",
+          "question": "Une start-up présente son prototype cliquable à un investisseur comme « notre produit fini ». Qu'en dit le cours ?",
+          "choix": [
+            "Un prototype n'est pas le produit final : il sert à tester et faire tester",
+            "C'est juste : prototype et produit final sont synonymes",
+            "C'est juste si le prototype a des couleurs",
+            "C'est juste s'il fonctionne sur mobile"
+          ],
+          "bonne": 0,
+          "notions": [
+            "prototype"
+          ],
+          "explication": "« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »"
+        }
+      ]
     }
   ],
-  "jeux": [],
+  "jeux": [
+    {
+      "id": "u07-jeu",
+      "titre": "Fil de fer",
+      "description": "Questions éclair sur l'étape Prototype : paper prototyping, zoning, wireframe, maquette, prototype, outils.",
+      "tours": 10,
+      "questions": [
+        {
+          "id": "u07-jeu-q1",
+          "type": "qcm",
+          "question": "Wireframe se traduit par…",
+          "choix": [
+            "fil de fer",
+            "maquette",
+            "plan de site",
+            "parcours"
+          ],
+          "bonne": 0,
+          "notions": [
+            "wireframe"
+          ],
+          "explication": "« Les wireframes (**fil de fer**)… »"
+        },
+        {
+          "id": "u07-jeu-q2",
+          "type": "qcm",
+          "question": "Le zoning : des blocs en…",
+          "choix": [
+            "nuances de gris",
+            "couleurs vives",
+            "noir et blanc pur",
+            "couleurs de la marque"
+          ],
+          "bonne": 0,
+          "notions": [
+            "zoning"
+          ],
+          "explication": "Blocs en **nuances de gris**, avec une couleur pour les cliquables et les call-to-action."
+        },
+        {
+          "id": "u07-jeu-q3",
+          "type": "qcm",
+          "question": "Dans un zoning, la couleur sert aux…",
+          "choix": [
+            "éléments cliquables et call-to-action",
+            "titres",
+            "images",
+            "zones de texte"
+          ],
+          "bonne": 0,
+          "notions": [
+            "zoning"
+          ],
+          "explication": "Une couleur pour mettre en avant **les éléments cliquables et les call-to-action**."
+        },
+        {
+          "id": "u07-jeu-q4",
+          "type": "qcm",
+          "question": "Paper prototyping : on privilégie…",
+          "choix": [
+            "la quantité",
+            "la finalité",
+            "les couleurs",
+            "le code"
+          ],
+          "bonne": 0,
+          "notions": [
+            "paper-prototyping"
+          ],
+          "explication": "« La **quantité** plutôt que la finalité. »"
+        },
+        {
+          "id": "u07-jeu-q5",
+          "type": "qcm",
+          "question": "Wireframe = zonings + contenus + …",
+          "choix": [
+            "widgets plus détaillés",
+            "couleurs de la marque",
+            "code",
+            "personas"
+          ],
+          "bonne": 0,
+          "notions": [
+            "wireframe"
+          ],
+          "explication": "« Zonings + contenus + **widgets plus détaillés**. »"
+        },
+        {
+          "id": "u07-jeu-q6",
+          "type": "qcm",
+          "question": "Maquette : passage du côté…",
+          "choix": [
+            "UI",
+            "UX",
+            "code",
+            "test"
+          ],
+          "bonne": 0,
+          "notions": [
+            "maquette",
+            "ux-vs-ui"
+          ],
+          "explication": "« Passage du côté **UI**. »"
+        },
+        {
+          "id": "u07-jeu-q7",
+          "type": "qcm",
+          "question": "Prototype : wireframes…",
+          "choix": [
+            "cliquables",
+            "imprimés",
+            "colorés",
+            "en blocs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "prototype"
+          ],
+          "explication": "« Wireframes **cliquables**. »"
+        },
+        {
+          "id": "u07-jeu-q8",
+          "type": "vf",
+          "question": "Un prototype, c'est le produit final.",
+          "bonne": false,
+          "notions": [
+            "prototype"
+          ],
+          "explication": "« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »"
+        },
+        {
+          "id": "u07-jeu-q9",
+          "type": "qcm",
+          "question": "La maquette sert de brief à…",
+          "choix": [
+            "l'équipe de développement",
+            "les utilisateurs en test",
+            "les parties prenantes en workshop",
+            "l'équipe d'idéation"
+          ],
+          "bonne": 0,
+          "notions": [
+            "maquette"
+          ],
+          "explication": "« Livrable final […] qui servira de brief à **l'équipe de développement**. »"
+        },
+        {
+          "id": "u07-jeu-q10",
+          "type": "qcm",
+          "question": "L'étape la plus adaptée aux feedbacks des parties prenantes ?",
+          "choix": [
+            "Wireframe",
+            "Zoning",
+            "Paper prototype",
+            "Storyboard"
+          ],
+          "bonne": 0,
+          "notions": [
+            "wireframe"
+          ],
+          "explication": "« L'étape de **wireframes** est la plus adaptée pour recueillir les feedbacks des parties prenantes ou mener des tests utilisateurs. »"
+        },
+        {
+          "id": "u07-jeu-q11",
+          "type": "qcm",
+          "question": "Glide est un exemple de…",
+          "choix": [
+            "low-code / no-code",
+            "storyboard",
+            "eye-tracking",
+            "zoning"
+          ],
+          "bonne": 0,
+          "notions": [
+            "outils-prototypage"
+          ],
+          "explication": "Glide illustre l'alternative **low-code / no-code**."
+        },
+        {
+          "id": "u07-jeu-q12",
+          "type": "qcm",
+          "question": "StoryboardThat est un exemple de…",
+          "choix": [
+            "storyboard",
+            "low-code / no-code",
+            "prototype Figma",
+            "maquette"
+          ],
+          "bonne": 0,
+          "notions": [
+            "outils-prototypage"
+          ],
+          "explication": "StoryboardThat illustre le **storyboard**."
+        },
+        {
+          "id": "u07-jeu-q13",
+          "type": "qcm",
+          "question": "Figma (avancé) se combine avec…",
+          "choix": [
+            "Axure et Google Analytics",
+            "Glide",
+            "Powerpoint",
+            "StoryboardThat"
+          ],
+          "bonne": 0,
+          "notions": [
+            "outils-prototypage"
+          ],
+          "explication": "Avancé : **Axure et Google Analytics**, et l'eye-tracking."
+        },
+        {
+          "id": "u07-jeu-q14",
+          "type": "vf",
+          "question": "Le zoning est un format facile à appréhender pour les utilisateurs.",
+          "bonne": false,
+          "notions": [
+            "zoning"
+          ],
+          "explication": "C'est « un format **complexe** à appréhender par les parties prenantes et les utilisateurs »."
+        },
+        {
+          "id": "u07-jeu-q15",
+          "type": "qcm",
+          "question": "Prototype : quelle étape du Design Thinking ?",
+          "choix": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-thinking"
+          ],
+          "explication": "Empathize, Define, Ideate, **Prototype** (4e), Test."
+        }
+      ]
+    }
+  ],
   "quiz": {
     "titre": "Quiz : Prototype",
-    "questions": []
+    "questions": [
+      {
+        "id": "u07-quiz-q1",
+        "type": "qcm",
+        "question": "Quelle est la définition des wireframes dans le cours ?",
+        "choix": [
+          "Une visualisation plus ou moins schématique des écrans et des interactions d'un produit digital",
+          "L'identité graphique du produit, en accord avec l'expérience définie",
+          "La composition d'un écran en blocs gris",
+          "Les écrans interreliés qui forment des parcours utilisateurs"
+        ],
+        "bonne": 0,
+        "notions": [
+          "wireframe"
+        ],
+        "explication": "« Les wireframes (fil de fer) sont une visualisation plus ou moins schématique des écrans et des interactions d'un produit digital. Ils représentent de manière plus ou moins détaillée la structure des écrans et les interactions qui les lient entre eux. »"
+      },
+      {
+        "id": "u07-quiz-q2",
+        "type": "qcm",
+        "question": "Pourquoi le paper prototyping est-il un bon support en workshop ?",
+        "choix": [
+          "Il permet de représenter une idée simplement et d'explorer différentes idées, notamment en co-conception",
+          "Il fixe le look-and-feel du produit",
+          "Il sert de brief à l'équipe de développement",
+          "Il permet l'eye-tracking"
+        ],
+        "bonne": 0,
+        "notions": [
+          "paper-prototyping"
+        ],
+        "explication": "« Inutile de se précipiter vers un logiciel spécialisé : pour représenter une idée de manière simple et permettre aux membres de l'équipe de se projeter, du papier et quelques stylos suffisent souvent. Ce format est surtout utile pour explorer différentes idées, où on privilégie la quantité plutôt que la finalité. C'est un bon support dans le cadre de workshops, notamment de co-conception, et pour récolter les besoins. »"
+      },
+      {
+        "id": "u07-quiz-q3",
+        "type": "vf",
+        "question": "Le zoning est surtout utile comme document de travail intermédiaire entre les membres de l'équipe projet.",
+        "bonne": true,
+        "notions": [
+          "zoning"
+        ],
+        "explication": "« Le zoning représente sous forme de blocs en nuances de gris, avec une couleur pour mettre en avant les éléments cliquables et les call-to-action, la composition d'un écran. L'étape des zonings est surtout utile comme document de travail intermédiaire entre les membres de l'équipe projet. C'est un format complexe à appréhender par les parties prenantes et les utilisateurs. »"
+      },
+      {
+        "id": "u07-quiz-q4",
+        "type": "tri",
+        "question": "À quel niveau correspond chaque description ?",
+        "categories": [
+          "Zoning",
+          "Wireframe",
+          "Maquette",
+          "Prototype"
+        ],
+        "items": [
+          [
+            "Blocs en nuances de gris",
+            0
+          ],
+          [
+            "Exemples de contenus et widgets détaillés",
+            1
+          ],
+          [
+            "Couleurs, alignements, contrastes",
+            2
+          ],
+          [
+            "Écrans interreliés, parcours utilisateurs",
+            3
+          ],
+          [
+            "Livrable final, brief pour le développement",
+            2
+          ],
+          [
+            "Wireframes cliquables",
+            3
+          ]
+        ],
+        "notions": [
+          "zoning",
+          "wireframe",
+          "maquette",
+          "prototype"
+        ],
+        "explication": "Zoning = blocs gris ; wireframe = contenus et widgets ; maquette = identité graphique, livrable final ; prototype = écrans interreliés, wireframes cliquables."
+      },
+      {
+        "id": "u07-quiz-q5",
+        "type": "ordre",
+        "question": "Remets dans l'ordre, du plus brut au plus fini, les niveaux présentés dans le cours.",
+        "items": [
+          "Paper prototyping",
+          "Zoning",
+          "Wireframe",
+          "Maquette"
+        ],
+        "notions": [
+          "paper-prototyping",
+          "zoning",
+          "wireframe",
+          "maquette"
+        ],
+        "explication": "On explore sur papier ; on établit la structure en blocs (zoning) ; « une fois la structure établie, on détaille chaque bloc » (wireframe) ; la maquette, faite « sur la base de zonings, wireframes ou prototype cliquable », est le livrable final."
+      },
+      {
+        "id": "u07-quiz-q6",
+        "type": "qcm",
+        "question": "Que dit le cours de l'objectif d'un prototype ?",
+        "choix": [
+          "Tester et faire tester ; ce n'est pas le produit final",
+          "Remplacer les tests utilisateurs",
+          "Fixer l'identité graphique",
+          "Servir de document interne à l'équipe"
+        ],
+        "bonne": 0,
+        "notions": [
+          "prototype"
+        ],
+        "explication": "« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »"
+      },
+      {
+        "id": "u07-quiz-q7",
+        "type": "qcm",
+        "question": "Une équipe montre son zoning à des utilisateurs pour un test, et ils ne comprennent rien. Pourquoi ?",
+        "choix": [
+          "Le zoning est un format complexe à appréhender pour les utilisateurs : il aurait fallu un wireframe ou un prototype",
+          "Le zoning n'avait pas assez de couleurs : il en faut partout",
+          "Les utilisateurs étaient mal choisis",
+          "Il aurait fallu montrer le code"
+        ],
+        "bonne": 0,
+        "notions": [
+          "zoning",
+          "wireframe",
+          "prototype"
+        ],
+        "explication": "Le zoning est « complexe à appréhender par les parties prenantes et les utilisateurs ». Pour les tests : le wireframe (« la plus adaptée ») ou le prototype (« idéal pour des tests utilisateurs »)."
+      },
+      {
+        "id": "u07-quiz-q8",
+        "type": "qcm",
+        "question": "Sur quelle base le designer peut-il créer la maquette ?",
+        "choix": [
+          "Zonings, wireframes ou prototype cliquable",
+          "Seulement le produit développé",
+          "Seulement les interviews",
+          "Seulement le paper prototype"
+        ],
+        "bonne": 0,
+        "notions": [
+          "maquette"
+        ],
+        "explication": "« **Sur la base de zonings, wireframes ou prototype cliquable**, le designer peut créer l'identité graphique du produit. »"
+      },
+      {
+        "id": "u07-quiz-q9",
+        "type": "vf",
+        "question": "Il est important de penser les écrans dans le contexte des parcours utilisateurs très vite dans le processus de conception.",
+        "bonne": true,
+        "notions": [
+          "prototype"
+        ],
+        "explication": "« Dans un produit digital, les écrans sont tous interreliés et s'enchainent pour former des user journeys ou parcours utilisateurs. Très vite dans le processus de conception, il est important de penser les écrans dans le contexte des parcours utilisateurs, en prototypant les interactions principales et les liens entre les différentes pages. Ce format est idéal pour des tests utilisateurs. »"
+      },
+      {
+        "id": "u07-quiz-q10",
+        "type": "assoc",
+        "question": "Associe chaque outil ou méthode à ce qu'en dit le cours.",
+        "paires": [
+          [
+            "Figma",
+            "Lien partageable pour support de tests utilisateurs"
+          ],
+          [
+            "Eye-tracking",
+            "Avancé"
+          ],
+          [
+            "Glide",
+            "Low-code / no-code"
+          ],
+          [
+            "Jeu de rôle",
+            "Alternative"
+          ]
+        ],
+        "notions": [
+          "outils-prototypage"
+        ],
+        "explication": "Figma : prototypes interactifs, lien partageable ; avancé : Axure et Google Analytics, eye-tracking ; Glide pour le low-code / no-code ; le jeu de rôle parmi les alternatives."
+      },
+      {
+        "id": "u07-quiz-q11",
+        "type": "qcm",
+        "question": "Les prototypes interactifs Figma fonctionnent sur…",
+        "choix": [
+          "desktop, tablette et mobile",
+          "desktop uniquement",
+          "mobile uniquement",
+          "papier"
+        ],
+        "bonne": 0,
+        "notions": [
+          "outils-prototypage"
+        ],
+        "explication": "« **Desktop, tablette et mobile**. »"
+      },
+      {
+        "id": "u07-quiz-q12",
+        "type": "qcm",
+        "question": "Lequel de ces outils est montré dans le cours à côté de Figma Make ?",
+        "choix": [
+          "Lovable",
+          "Glide",
+          "Axure",
+          "StoryboardThat"
+        ],
+        "bonne": 0,
+        "notions": [
+          "outils-prototypage"
+        ],
+        "explication": "Les slides montrent **Lovable** et **Figma Make** ; Glide et StoryboardThat illustrent les alternatives, Axure l'avancé."
+      },
+      {
+        "id": "u07-quiz-q13",
+        "type": "qcm",
+        "question": "Pour une appli de prêt de vélos, l'équipe veut l'avis des parties prenantes (la commune) sur l'écran d'accueil, avant de travailler les couleurs. Quel niveau ?",
+        "choix": [
+          "Le wireframe",
+          "Le zoning",
+          "La maquette",
+          "Aucun"
+        ],
+        "bonne": 0,
+        "notions": [
+          "wireframe",
+          "maquette"
+        ],
+        "explication": "Le wireframe est le plus adapté aux feedbacks des parties prenantes ; les couleurs viendront avec la maquette."
+      },
+      {
+        "id": "u07-quiz-q14",
+        "type": "qcm",
+        "question": "Avec la maquette, on passe du côté UI. Selon le cours, que fait l'UI ?",
+        "choix": [
+          "Elle développe les concepts créatifs et finalise les maquettes jusqu'aux interfaces intégrables",
+          "Elle mène les interviews et les observations",
+          "Elle rédige les HMW",
+          "Elle choisit les personas"
+        ],
+        "bonne": 0,
+        "notions": [
+          "ux-vs-ui",
+          "maquette"
+        ],
+        "explication": "Rappel de [[ux-vs-ui]] : l'UI développe les concepts créatifs et finalise les maquettes jusqu'aux interfaces intégrables."
+      },
+      {
+        "id": "u07-quiz-q15",
+        "type": "qcm",
+        "question": "Dans le Design Thinking, le prototypage consiste à…",
+        "choix": [
+          "modéliser de manière plus détaillée les concepts choisis issus de la phase d'idéation",
+          "brainstormer pour créer des idées nouvelles",
+          "rapidement tester avec des utilisateurs",
+          "reformuler le problème en HMW"
+        ],
+        "bonne": 0,
+        "notions": [
+          "design-thinking"
+        ],
+        "explication": "« **Prototypage** : modéliser de manière plus détaillée les concepts choisis issus de la phase d'idéation. »"
+      },
+      {
+        "id": "u07-quiz-q16",
+        "type": "qcm",
+        "question": "D'après Ideate, pourquoi prototyper une bonne idée ?",
+        "choix": [
+          "Pour pouvoir la présenter à d'autres, la faire tester et faire adhérer à l'idée",
+          "Pour la garder dans notre tête",
+          "Pour éviter de la montrer",
+          "Pour sauter l'étape Test"
+        ],
+        "bonne": 0,
+        "notions": [
+          "bonne-idee",
+          "prototype"
+        ],
+        "explication": "Un concept qui prend forme : « on la prototype de manière à pouvoir la présenter à d'autres, les faire tester et adhérer à notre idée »."
+      }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u07-b1",
+      "titre": "Le bon livrable au bon moment",
+      "source": "Étude de cas d'après le cours 5.1 (Prototype)",
+      "notions": [
+        "paper-prototyping",
+        "zoning",
+        "wireframe",
+        "maquette",
+        "prototype",
+        "outils-prototypage"
+      ],
+      "cartes": [
+        {
+          "titre": "La mission de Proto",
+          "texte": "Une **ludothèque de quartier** (prêt de jeux de société) veut une appli pour réserver et emprunter des jeux. Les interviews, le persona et l'atelier d'idéation sont faits : l'idée retenue est « réserver un jeu depuis son téléphone et venir le chercher ».\n\nProto, le renard, accompagne l'équipe (une designer, deux développeurs, la responsable de la ludothèque) à l'étape **Prototype**.\n\nÀ toi de choisir, à chaque moment, le bon livrable et le bon outil, et de repérer les erreurs.",
+          "analogie": "Toujours **le plan de la maison** : griffonné, en blocs, meublé, décoré, puis la visite."
+        }
+      ],
+      "questions": [
+        {
+          "id": "u07-b1-q1",
+          "type": "qcm",
+          "question": "Premier atelier, avec des membres de la ludothèque : on veut explorer beaucoup d'idées d'écrans en peu de temps et récolter leurs besoins. Quel format ?",
+          "choix": [
+            "Le paper prototyping, avec un template d'écrans",
+            "La maquette, pour qu'ils voient le résultat final",
+            "Un prototype Figma avec eye-tracking",
+            "Le zoning, pour qu'ils voient les blocs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "paper-prototyping"
+          ],
+          "explication": "Explorer différentes idées (la quantité plutôt que la finalité), workshop de co-conception, récolter les besoins : le **paper prototyping**."
+        },
+        {
+          "id": "u07-b1-q2",
+          "type": "qcm",
+          "question": "La designer pose la structure de l'écran « Catalogue » pour en discuter avec les deux développeurs. Elle dessine des blocs gris, et le bouton « Réserver » en couleur. Qu'a-t-elle produit ?",
+          "choix": [
+            "Un zoning",
+            "Un wireframe",
+            "Une maquette",
+            "Un prototype"
+          ],
+          "bonne": 0,
+          "notions": [
+            "zoning"
+          ],
+          "explication": "Blocs en nuances de gris, une couleur pour le call-to-action, document de travail entre membres de l'équipe projet : un **zoning**."
+        },
+        {
+          "id": "u07-b1-q3",
+          "type": "vf",
+          "question": "Bonne pratique ? La designer envoie ce zoning à la responsable de la ludothèque pour recueillir son avis.",
+          "bonne": false,
+          "notions": [
+            "zoning",
+            "wireframe"
+          ],
+          "explication": "Le zoning est « complexe à appréhender par les parties prenantes » : pour recueillir l'avis de la responsable, mieux vaut le **wireframe**, l'étape « la plus adaptée pour recueillir les feedbacks des parties prenantes »."
+        },
+        {
+          "id": "u07-b1-q4",
+          "type": "ordre",
+          "question": "Remets dans l'ordre le travail sur l'écran « Catalogue ».",
+          "items": [
+            "Esquisser plusieurs idées sur papier",
+            "Poser la structure en blocs gris (zoning)",
+            "Détailler chaque bloc avec des exemples de jeux (wireframe)",
+            "Créer l'identité graphique : couleurs, alignements, contrastes (maquette)"
+          ],
+          "notions": [
+            "paper-prototyping",
+            "zoning",
+            "wireframe",
+            "maquette"
+          ],
+          "explication": "Papier pour explorer, zoning pour la structure, « une fois la structure établie, on détaille chaque bloc » (wireframe), puis la maquette, livrable final."
+        },
+        {
+          "id": "u07-b1-q5",
+          "type": "qcm",
+          "question": "On veut faire tester le parcours « chercher un jeu → le réserver → choisir l'heure de retrait » à des membres, sur leur téléphone. Quel livrable et quel outil ?",
+          "choix": [
+            "Un prototype (wireframes cliquables) dans Figma, avec un lien partageable",
+            "Une maquette imprimée de l'écran d'accueil",
+            "Le zoning de chaque écran, envoyé par e-mail",
+            "Un storyboard dessiné"
+          ],
+          "bonne": 0,
+          "notions": [
+            "prototype",
+            "outils-prototypage"
+          ],
+          "explication": "Écrans interreliés, parcours utilisateurs, interactions principales : un **prototype**, « idéal pour des tests utilisateurs ». Figma : lien partageable pour support de tests, desktop, tablette et mobile."
+        },
+        {
+          "id": "u07-b1-q6",
+          "type": "vf",
+          "question": "Bonne pratique ? Un développeur propose de terminer la maquette graphique complète de tous les écrans avant le moindre test.",
+          "bonne": false,
+          "notions": [
+            "prototype",
+            "wireframe",
+            "maquette"
+          ],
+          "explication": "Le cours dit de penser les écrans dans le contexte des parcours « **très vite** dans le processus de conception » ; les tests se font sur des wireframes ou un prototype. La maquette est le **livrable final**."
+        },
+        {
+          "id": "u07-b1-q7",
+          "type": "qcm",
+          "question": "Les tests sont faits. Qu'est-ce que la designer remet aux développeurs comme brief ?",
+          "choix": [
+            "La maquette",
+            "Le zoning",
+            "Le paper prototype",
+            "Le jeu de rôle"
+          ],
+          "bonne": 0,
+          "notions": [
+            "maquette"
+          ],
+          "explication": "La maquette est « le livrable final de tout le processus de conception UX/UI, qui servira de **brief à l'équipe de développement** »."
+        },
+        {
+          "id": "u07-b1-q8",
+          "type": "qcm",
+          "question": "La responsable dit : « Le prototype marche, publions-le tel quel ! » Que lui répond Proto ?",
+          "choix": [
+            "« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »",
+            "« Oui, un prototype cliquable est un produit fini. »",
+            "« Oui, s'il fonctionne sur mobile. »",
+            "« Il faut d'abord refaire le zoning. »"
+          ],
+          "bonne": 0,
+          "notions": [
+            "prototype"
+          ],
+          "explication": "« L'objectif d'un prototype, c'est de tester et faire tester. Ce n'est pas le produit final. »"
+        }
+      ],
+      "seuil": 0.8
+    }
+  ]
 }
