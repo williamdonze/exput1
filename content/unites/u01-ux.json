@@ -2,47 +2,1064 @@
   "id": "u01",
   "titre": "Qu'est-ce que l'UX ?",
   "sousTitre": "Cours 1.1 et 1.2",
-  "objectif": "",
-  "icone": "",
-  "fiches": [],
+  "objectif": "Définir l'ergonomie, l'utilisabilité et l'UX (et les distinguer), situer UX et UI, démonter les idées reçues et retracer l'histoire des interfaces.",
+  "icone": "UX",
+  "fiches": [
+    {
+      "id": "ux",
+      "titre": "L'UX (expérience utilisateur)",
+      "icone": "UX",
+      "resume": "L'UX est une approche de design qui prend en compte **les personnes** qui vont utiliser un produit ou un service et **le contexte** d'utilisation ; selon l'ISO 9241, elle couvre **avant, pendant et après** l'usage.",
+      "analogie": "Le chef qui fait goûter : l'expérience d'un repas ne se limite pas à l'assiette. Elle commence quand on lit la carte (avant), se vit à table (pendant) et continue dans le souvenir qu'on en garde (après). L'UX, c'est pareil : avant, pendant et après l'usage.",
+      "texte": "**La définition du cours (Cours 1.1)** :\n\n« L'UX est une approche de design d'un service ou d'un produit qui prend en compte les personnes qui vont l'utiliser et le contexte dans lequel l'utilisation aura lieu, de manière à inclure ce service ou ce produit dans une expérience d'utilisation efficace, efficiente et satisfaisante pour ses utilisateurs. »\n\n**La définition de l'ISO 9241** (en anglais sur la slide) :\n\n« A person's perceptions and responses that result from the use or anticipated use of a product, system or service, that occur before, during and after use »\n\nCes perceptions et réactions, ce sont :\n- Emotions\n- Beliefs\n- Preferences\n- Perceptions\n- Physical responses\n- Psychological responses\n- Behaviors\n- Accomplishments\n\n**Plusieurs facettes à l'UX** :\n- **UX = métier** : les personnes chargées de mettre en place une démarche UX dans le cadre d'un projet ou d'une entreprise ;\n- **UX = démarche** : une démarche basée sur l'ergonomie et l'utilisabilité, et qui a pour but d'améliorer les interactions entre un utilisateur et un système ;\n- **UX = phénomène** : l'ensemble des ressentis et des actions liés à une interaction avec un système, avant, pendant et après cette interaction.",
+      "pieges": [
+        "L'UX ne commence pas au premier clic : l'ISO 9241 parle aussi de l'usage **anticipé** (« anticipated use ») et de ce qui se passe **avant** et **après** l'usage.",
+        "Le mot « UX » a trois sens dans le cours : un **métier**, une **démarche** et un **phénomène**. Lis bien la phrase pour savoir duquel on parle."
+      ]
+    },
+    {
+      "id": "ergonomie",
+      "titre": "L'ergonomie",
+      "icone": "ERG",
+      "resume": "L'ergonomie applique des connaissances sur l'humain pour concevoir des outils utilisables avec **confort, sécurité et efficacité** (SELF) ; c'est à la fois une **discipline scientifique** et une **profession** (AIE, 2000).",
+      "analogie": "Le plan de la maison : la belle façade décorée, c'est ce qu'on voit ; les fondations, le plan des pièces et les tuyaux sont cachés dessous. L'ergonomie, c'est pareil : le résultat visible ne tient que grâce au processus caché.",
+      "texte": "**Société d'ergonomie de Langue Française (SELF)** :\n\n« La mise en œuvre de connaissances scientifiques relatives à l'homme et nécessaires pour concevoir des outils, des machines et des dispositifs qui puissent être utilisés avec le maximum de confort, de sécurité et d'efficacité pour le plus grand nombre »\n\n**Association Internationale d'Ergonomie (AIE, 2000)** :\n\n« La discipline scientifique qui vise la compréhension fondamentale des interactions entre les humains et les autres composantes d'un système, et la profession qui applique les principes théoriques, données et méthodes en vue d'optimiser le bien-être des personnes et la performance globale des systèmes »\n\n**L'ergonomie et le processus ergonomique** (l'iceberg du Cours 1.1) :\n- **Ergonomie : le résultat**, la pointe visible de l'iceberg : le *visual design* ;\n- **Ergonomie : le processus**, la partie immergée : *interaction design*, *usability testing*, *navigation design*, *content*, *information architecture*, *functional specification*, *concept*, *user research / needs*, *requirements*, *business needs*.",
+      "pieges": [
+        "SELF : « confort, sécurité, efficacité » « pour le plus grand nombre ». AIE : « bien-être des personnes » et « performance globale des systèmes ». Ne mélange pas les deux définitions.",
+        "Pour l'AIE, l'ergonomie est **deux choses** : une discipline scientifique **et** une profession.",
+        "Le *visual design* n'est que la pointe de l'iceberg : la plus grande partie du travail ergonomique ne se voit pas."
+      ]
+    },
+    {
+      "id": "utilisabilite",
+      "titre": "L'utilisabilité (usability)",
+      "icone": "USA",
+      "resume": "Selon l'ISO 9241 : le degré selon lequel un produit peut être utilisé, par des utilisateurs identifiés, pour atteindre des buts définis avec **efficacité, efficience et satisfaction**, dans un **contexte d'utilisation spécifié**.",
+      "texte": "**ISO 9241** :\n\n« Degré selon lequel un produit peut être utilisé, par des utilisateurs identifiés, pour atteindre des buts définis avec efficacité, efficience et satisfaction, dans un contexte d'utilisation spécifié »\n\nLes quatre morceaux à retenir :\n- des **utilisateurs identifiés** ;\n- des **buts définis** ;\n- **efficacité, efficience et satisfaction** ;\n- un **contexte d'utilisation spécifié**.\n\nEn anglais : **usability**.",
+      "pieges": [
+        "L'utilisabilité ne se juge pas « dans l'absolu » : elle dépend des utilisateurs, de leurs buts et du contexte d'utilisation.",
+        "Le trio « efficacité, efficience et satisfaction » se retrouve **aussi** dans la définition de l'UX du cours : c'est un indice que les deux notions sont emboîtées.",
+        "Ne confonds pas l'ISO 9241 sur l'utilisabilité (« degré selon lequel… ») et l'ISO 9241 sur l'UX (« perceptions and responses… before, during and after use »)."
+      ]
+    },
+    {
+      "id": "ux-vs-ui",
+      "titre": "UX ou UI ?",
+      "icone": "UI",
+      "resume": "L'UX est surtout une **démarche** fondée sur la compréhension des utilisateurs (recherche, wireframes, prototypes) ; l'UI développe les concepts créatifs et finalise les maquettes jusqu'aux interfaces intégrables. Ergonomie, utilisabilité et UX s'emboîtent, du rationnel vers l'émotionnel.",
+      "analogie": "Le plan de la maison : l'UX dessine le plan des pièces en pensant aux habitants (#specs) ; l'UI décore la maison pour qu'on ait envie d'y vivre (#produitfinal). Les deux comptent, mais la maison décorée sans plan pensé pour ses habitants reste inconfortable.",
+      "texte": "**UX & UI** (Cours 1.1) :\n- **UX** : « De manière générale, l'UX va se concentrer davantage sur la recherche utilisateurs et la conception de wireframes, prototypes cliquables ou maquettes low-resolution. #specs »\n- **UI** : « L'UI va développer des concepts créatifs, et finaliser les maquettes de manière à livrer des interfaces intégrables, voire du code CSS (front-end). #produitfinal »\n\n« L'UX est un ensemble de connaissances et de compétences, mais c'est surtout une démarche fondée sur la compréhension des utilisateurs. »\n\n**En conclusion : l'écosystème** (schéma du Cours 1.1) : trois carrés emboîtés sur deux axes.\n- Axe horizontal : du **rationnel** (à gauche) à l'**émotionnel** (à droite) ;\n- Axe vertical : du **produit** (en bas) à l'**écosystème** (en haut) ;\n- **Ergonomie** (le plus petit, côté rationnel et produit), puis **utilisabilité**, puis **User Experience (UX)** (le plus grand, côté émotionnel et écosystème).",
+      "pieges": [
+        "UX et UI ne sont pas synonymes : les wireframes ne sont que la partie visible de la démarche UX.",
+        "Dans le schéma, l'UX ne remplace pas l'ergonomie et l'utilisabilité : elle les **englobe** et va plus loin, vers l'émotionnel et l'écosystème."
+      ]
+    },
+    {
+      "id": "idees-recues-ux",
+      "titre": "Les idées reçues sur l'UX",
+      "icone": "#",
+      "resume": "Trois idées reçues et leurs réponses : les wireframes ne sont que la partie visible de la démarche UX ; c'est l'interface que les utilisateurs voient surtout ; l'UX est un investissement avec des bénéfices à court et long terme.",
+      "analogie": "Le chef qui fait goûter : goûter la sauce en cuisine prend quelques minutes ; un plat renvoyé par toute la salle coûte bien plus cher. Quelques jours d'UX, c'est le goûter en cuisine.",
+      "texte": "**1. « L'UX est un soft skill, moi aussi je peux faire des wireframes avec Balsamiq. »** #toutlemondepeutlefaire\n\nRéponse : « Les wireframes ne sont que la partie visible de la démarche UX. » #audelàdeswireframes\n\n« L'UX est un ensemble de connaissances et de compétences, mais c'est surtout une démarche fondée sur la compréhension des utilisateurs. »\n- Soft skills comme empathie, curiosité, esprit de synthèse\n- Corpus sciences sociales, ergonomie, psychologie cognitive, marketing\n- Focus temps : recherche utilisateurs, tests, interviews, etc.\n\n**2. « Le design, ça sert à rien. »** #limportantcestquecafonctionne\n\nRéponse : « C'est l'interface que les utilisateurs voient surtout et avec laquelle ils interagissent. » #onpeutpasselouper\n\n« Le design est essentiel parce que c'est ce que les utilisateurs vont surtout voir, au-delà de la qualité du code ou de l'architecture des données, qu'ils n'appréhenderont que par des points-clés comme le temps de chargement. »\n- Importance dans l'évaluation de la satisfaction\n- Syndrome de l'ingénieur\n- Collaboration front-back\n- Valoriser le travail\n- Projet d'ensemble\n\n**3. « L'UX, c'est très cher et ça prend beaucoup de temps. »** #aiemonbudget\n\nRéponse : « L'UX est un investissement avec des bénéfices à court et long terme. » #investissement\n\n« Avec même quelques jours consacrés à l'UX, on peut améliorer la productivité et la conversion d'un produit, avec des impacts mesurables et chiffrés. »\n- Impact sur la productivité et la conversion\n- Réduction des risques par l'anticipation des problèmes\n- Meilleure estimation du projet\n- Réduction du temps de réalisation grâce à des livrables intermédiaires et des itérations rapides",
+      "pieges": [
+        "Chaque idée reçue a **sa** réponse : ne réponds pas « c'est un investissement » à quelqu'un qui dit que tout le monde peut faire des wireframes.",
+        "Le code et l'architecture des données, les utilisateurs ne les perçoivent que par des points-clés comme le **temps de chargement** : c'est l'argument du « design essentiel »."
+      ]
+    },
+    {
+      "id": "historique-interfaces",
+      "titre": "Une histoire des interfaces",
+      "icone": "1963",
+      "resume": "Des cartes perforées aux interfaces vocales et à la réalité augmentée : quand on parle d'ergonomie ou d'UX, on pense à une multitude d'usages et d'interfaces, **et pas uniquement à une page Web**.",
+      "analogie": "Le reporter : Proto remonte le temps pour son reportage et note chaque nouvelle façon de dialoguer avec une machine : des trous dans du carton, une souris, un écran tactile, une voix, une image superposée au salon.",
+      "texte": "**1960 – 1980 : démocratisation des ordinateurs** (la frise du Cours 1.2) : 1940, premiers méga-calculateurs ; 1970, 1ers ordinateurs familiaux ; 2019, ultra-connexion ; 2054, « Qu'est-ce qu'une interface ? »\n\n**Les cartes perforées**\n- Programmation des métiers à tisser et des pianos mécaniques dès le 18e siècle\n- 1928 : brevet IBM pour les cartes perforées 80 colonnes\n- 1ers systèmes d'entrée-sortie et mémoire de masse\n\n**L'invention de la souris**\n- 1963 : Douglas Engelbart, du Stanford Research Institute, invente la souris\n- 1975 : premiers ordinateurs personnels, MITS Altair 8800, avec le compilateur Micro-soft BASIC\n- 1976 : Apple I\n\n**La révolution de la mobilité**\n- 2007 : lancement de l'iPhone\n- 2017 : un Américain de plus de 18 ans passe en moyenne 2h51 sur son téléphone\n- 2018 : 92 % des adultes en Suisse possèdent un smartphone, et 97 % d'entre eux l'utilisent quotidiennement\n\n**Les interfaces vocales**\n- 2014 : Amazon présente Alexa\n- 2016 : Google lance Google Home\n- 2018 : Apple lance son Homepod\n- Février 2018 : 20 % des foyers équipés du Wifi aux USA ont un smart speaker\n\n**Réalité augmentée, réalité virtuelle**\n- 2016 : lancement du jeu Pokemon Go\n- 2017 : Apple lance iOS 11, avec son ARKit\n- 2017 : Ikea lance Ikea Place, qui permet de visualiser un meuble dans son environnement avant de l'acheter\n\n**En résumé** : « Quand on parle d'ergonomie ou d'UX, on pense à une multitude d'usages et d'interfaces, et pas uniquement à une page Web. »",
+      "pieges": [
+        "Les cartes perforées ne sont pas nées avec l'informatique : on programmait déjà des métiers à tisser et des pianos mécaniques au 18e siècle.",
+        "La souris (1963) est **plus ancienne** que les premiers ordinateurs personnels (1975) et que l'Apple I (1976).",
+        "L'UX ne concerne pas que le Web : une enceinte vocale ou une appli de réalité augmentée ont aussi une ergonomie et une expérience utilisateur."
+      ]
+    },
+    {
+      "id": "references-ux",
+      "titre": "Les références de l'UX",
+      "icone": "REF",
+      "resume": "Pour aller plus loin : Jakob Nielsen et Don Norman (Nielsen & Norman Group), Jean-François Nogier (Usabilis), Christian Bastien et Dominique Scapin (critères d'évaluation heuristique).",
+      "texte": "**Pour aller plus loin…** (Cours 1.1)\n- **Jakob Nielsen et Don Norman**, *Nielsen & Norman Group* : références pour l'ergonomie, les bonnes pratiques et la démarche user-centric design ;\n- **Jean-François Nogier**, *Usabilis* : référence pour l'ergonomie et le design UX en français ;\n- **Christian Bastien et Dominique Scapin** : connus pour leurs critères d'évaluation heuristique.",
+      "pieges": [
+        "Bastien et Scapin sont associés aux **critères d'évaluation heuristique** ; Nogier est la référence **en français**."
+      ]
+    }
+  ],
   "lecons": [
     {
       "id": "u01-l1",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Ergonomie, utilisabilité, UX : trois définitions emboîtées",
+      "duree": 6,
+      "notions": ["ergonomie", "utilisabilite", "ux"],
+      "cartes": [
+        {
+          "titre": "Bienvenue chez les pros de l'UX",
+          "texte": "Proto le renard part en reportage : il veut comprendre ce que font les gens de l'UX. Première étape, le vocabulaire. Trois mots reviennent sans cesse : **ergonomie**, **utilisabilité** et **UX**. Ils ne veulent pas dire la même chose, mais ils s'emboîtent comme des poupées russes.",
+          "analogie": "Le reporter : avant d'interviewer quelqu'un, un bon reporter apprend le vocabulaire du métier. C'est ce qu'on fait ici."
+        },
+        {
+          "titre": "L'ergonomie : deux définitions officielles",
+          "texte": "**SELF** (Société d'ergonomie de Langue Française) : la mise en œuvre de connaissances scientifiques relatives à l'homme pour concevoir des outils, des machines et des dispositifs utilisables avec le maximum de **confort, de sécurité et d'efficacité** pour le plus grand nombre.\n\n**AIE** (2000) : à la fois une **discipline scientifique** (comprendre les interactions entre les humains et les autres composantes d'un système) et une **profession** (optimiser le **bien-être** des personnes et la **performance globale** des systèmes).",
+          "fiche": "ergonomie"
+        },
+        {
+          "titre": "L'iceberg de l'ergonomie",
+          "texte": "Ce qu'on voit d'un produit (le *visual design*), c'est **l'ergonomie : le résultat**, la pointe de l'iceberg.\n\nSous l'eau se cache **l'ergonomie : le processus** : *business needs*, *requirements*, *user research / needs*, *concept*, *information architecture*, *content*, *navigation design*, *interaction design*, *functional specification*, *usability testing*.",
+          "analogie": "Le plan de la maison : on admire la façade, mais c'est le plan des pièces qui fait qu'on s'y sent bien.",
+          "fiche": "ergonomie"
+        },
+        {
+          "titre": "L'utilisabilité selon l'ISO 9241",
+          "texte": "« Degré selon lequel un produit peut être utilisé, par des **utilisateurs identifiés**, pour atteindre des **buts définis** avec **efficacité, efficience et satisfaction**, dans un **contexte d'utilisation spécifié** »\n\nPrends un distributeur de tickets de bus : il peut être très utilisable pour un habitué pressé à midi, et beaucoup moins pour un touriste la nuit, sous la pluie. Mêmes boutons, autres utilisateurs, autre contexte.",
+          "astuce": "Retiens les quatre morceaux : utilisateurs identifiés, buts définis, efficacité-efficience-satisfaction, contexte spécifié.",
+          "fiche": "utilisabilite"
+        },
+        {
+          "titre": "L'UX : avant, pendant et après",
+          "texte": "**Le cours** : une approche de design qui prend en compte **les personnes** et **le contexte** d'utilisation, pour une expérience **efficace, efficiente et satisfaisante**.\n\n**ISO 9241** : « A person's perceptions and responses that result from the use or anticipated use of a product, system or service, that occur **before, during and after use** » : émotions, croyances, préférences, perceptions, réactions physiques et psychologiques, comportements, accomplissements.",
+          "analogie": "Le chef qui fait goûter : le repas commence en lisant la carte et se termine dans le souvenir qu'on en garde. L'expérience déborde de l'assiette.",
+          "fiche": "ux"
+        },
+        {
+          "titre": "Trois facettes du mot « UX »",
+          "texte": "- **UX = métier** : les personnes chargées de mettre en place une démarche UX dans un projet ou une entreprise ;\n- **UX = démarche** : basée sur l'ergonomie et l'utilisabilité, pour améliorer les interactions entre un utilisateur et un système ;\n- **UX = phénomène** : l'ensemble des ressentis et des actions liés à une interaction avec un système, avant, pendant et après.",
+          "piege": "Quand quelqu'un dit « l'UX de cette appli est mauvaise », il parle du **phénomène** ; quand il dit « on recrute une UX », du **métier**.",
+          "fiche": "ux"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u01-l1-e1",
+          "type": "assoc",
+          "question": "Associe chaque organisme à sa définition de l'ergonomie.",
+          "paires": [
+            ["SELF", "Connaissances scientifiques sur l'homme pour concevoir des outils utilisables avec confort, sécurité et efficacité"],
+            ["AIE (2000)", "Discipline scientifique et profession qui optimise le bien-être des personnes et la performance des systèmes"]
+          ],
+          "notions": ["ergonomie"],
+          "explication": "La **SELF** parle de confort, de sécurité et d'efficacité « pour le plus grand nombre » ; l'**AIE** décrit une discipline scientifique **et** une profession, qui vise le bien-être des personnes et la performance globale des systèmes."
+        },
+        {
+          "id": "u01-l1-e2",
+          "type": "tri",
+          "question": "L'iceberg de l'ergonomie : la partie visible ou la partie immergée ?",
+          "categories": ["Le résultat (visible)", "Le processus (immergé)"],
+          "items": [
+            ["Visual design", 0],
+            ["User research / needs", 1],
+            ["Information architecture", 1],
+            ["Usability testing", 1],
+            ["Business needs", 1]
+          ],
+          "notions": ["ergonomie"],
+          "explication": "Seul le **visual design** dépasse de l'eau : c'est l'ergonomie comme **résultat**. Tout le reste (recherche utilisateurs, architecture de l'information, tests d'utilisabilité, besoins métier…) est le **processus**, invisible pour l'utilisateur."
+        },
+        {
+          "id": "u01-l1-e3",
+          "type": "qcm",
+          "question": "Selon l'ISO 9241, l'utilisabilité est le degré selon lequel un produit peut être utilisé…",
+          "choix": [
+            "par des utilisateurs identifiés, pour atteindre des buts définis avec efficacité, efficience et satisfaction, dans un contexte d'utilisation spécifié",
+            "par le plus grand nombre, avec le maximum de confort, de sécurité et d'efficacité",
+            "avant, pendant et après l'usage, avec des émotions et des préférences",
+            "par n'importe qui, dans n'importe quel contexte, sans formation"
+          ],
+          "bonne": 0,
+          "notions": ["utilisabilite"],
+          "explication": "C'est la définition de l'**ISO 9241** pour l'utilisabilité. « Confort, sécurité, efficacité pour le plus grand nombre » vient de la définition de l'**ergonomie** (SELF) ; « avant, pendant, après » vient de la définition de l'**UX**."
+        },
+        {
+          "id": "u01-l1-e4",
+          "type": "vf",
+          "question": "Une appli de réservation de vélos peut être très utilisable pour des cyclistes habitués en ville, et peu utilisable pour des touristes qui ne parlent pas la langue.",
+          "bonne": true,
+          "notions": ["utilisabilite"],
+          "explication": "Vrai : l'ISO 9241 parle d'**utilisateurs identifiés** et d'un **contexte d'utilisation spécifié**. L'utilisabilité ne se juge pas dans l'absolu."
+        },
+        {
+          "id": "u01-l1-e5",
+          "type": "vf",
+          "question": "Selon l'ISO 9241, l'expérience utilisateur commence seulement quand la personne utilise le produit pour la première fois.",
+          "bonne": false,
+          "notions": ["ux"],
+          "explication": "Faux : l'ISO 9241 parle de « use or **anticipated use** » et de ce qui se passe « **before**, during and after use ». L'attente, l'impatience ou la méfiance avant d'utiliser un produit font déjà partie de l'UX."
+        },
+        {
+          "id": "u01-l1-e6",
+          "type": "tri",
+          "question": "De quelle facette de l'UX parle chaque phrase ?",
+          "categories": ["UX = métier", "UX = démarche", "UX = phénomène"],
+          "items": [
+            ["« L'agence cherche une UX pour son équipe. »", 0],
+            ["« On va améliorer les interactions entre les clients et la borne, en s'appuyant sur l'ergonomie. »", 1],
+            ["« Je me suis senti perdu et agacé en payant mon parking avec cette appli. »", 2],
+            ["« Elle est chargée de mettre en place l'UX dans l'entreprise. »", 0]
+          ],
+          "notions": ["ux"],
+          "explication": "**Métier** : les personnes chargées de la démarche UX. **Démarche** : basée sur l'ergonomie et l'utilisabilité, pour améliorer les interactions. **Phénomène** : les ressentis et les actions liés à une interaction, avant, pendant et après."
+        },
+        {
+          "id": "u01-l1-e7",
+          "type": "qcm",
+          "question": "Laquelle de ces définitions est celle de l'**UX** donnée dans le cours ?",
+          "choix": [
+            "Une approche de design d'un service ou d'un produit qui prend en compte les personnes qui vont l'utiliser et le contexte dans lequel l'utilisation aura lieu",
+            "La discipline scientifique qui vise la compréhension fondamentale des interactions entre les humains et les autres composantes d'un système",
+            "La mise en œuvre de connaissances scientifiques relatives à l'homme pour concevoir des outils et des machines",
+            "L'ensemble des choix de couleurs, de polices et d'icônes d'une interface"
+          ],
+          "bonne": 0,
+          "notions": ["ux", "ergonomie"],
+          "explication": "L'UX du cours : une **approche de design** qui prend en compte **les personnes** et **le contexte**. Les deux suivantes définissent l'**ergonomie** (AIE, puis SELF). Les couleurs et les polices, ce n'est qu'une petite partie visible."
+        }
+      ]
     },
     {
       "id": "u01-l2",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "UX ou UI ? Les idées reçues",
+      "duree": 6,
+      "notions": ["ux-vs-ui", "idees-recues-ux", "references-ux"],
+      "cartes": [
+        {
+          "titre": "UX & UI",
+          "texte": "**UX** : « De manière générale, l'UX va se concentrer davantage sur la recherche utilisateurs et la conception de wireframes, prototypes cliquables ou maquettes low-resolution. **#specs** »\n\n**UI** : « L'UI va développer des concepts créatifs, et finaliser les maquettes de manière à livrer des interfaces intégrables, voire du code CSS (front-end). **#produitfinal** »",
+          "analogie": "Le plan de la maison : l'UX trace le plan des pièces pour les habitants ; l'UI décore la maison et la rend prête à habiter.",
+          "fiche": "ux-vs-ui"
+        },
+        {
+          "titre": "Idée reçue n° 1 : « tout le monde peut le faire »",
+          "texte": "« L'UX est un soft skill, moi aussi je peux faire des wireframes avec Balsamiq. » #toutlemondepeutlefaire\n\nRéponse : « Les wireframes ne sont que la **partie visible** de la démarche UX. » #audelàdeswireframes\n\nL'UX est surtout une **démarche fondée sur la compréhension des utilisateurs** : des soft skills (empathie, curiosité, esprit de synthèse), un corpus (sciences sociales, ergonomie, psychologie cognitive, marketing) et du temps (recherche utilisateurs, tests, interviews).",
+          "fiche": "idees-recues-ux"
+        },
+        {
+          "titre": "Idée reçue n° 2 : « le design, ça sert à rien »",
+          "texte": "« Le design, ça sert à rien. » #limportantcestquecafonctionne\n\nRéponse : « C'est l'**interface** que les utilisateurs voient surtout et avec laquelle ils interagissent. » #onpeutpasselouper\n\nLe code et l'architecture des données, les utilisateurs ne les perçoivent que par des points-clés comme le **temps de chargement**. Arguments : importance dans l'évaluation de la satisfaction, syndrome de l'ingénieur, collaboration front-back, valoriser le travail, projet d'ensemble.",
+          "fiche": "idees-recues-ux"
+        },
+        {
+          "titre": "Idée reçue n° 3 : « l'UX, c'est très cher »",
+          "texte": "« L'UX, c'est très cher et ça prend beaucoup de temps. » #aiemonbudget\n\nRéponse : « L'UX est un **investissement** avec des bénéfices à court et long terme. » #investissement\n\nAvec **même quelques jours** consacrés à l'UX : impact sur la productivité et la conversion, réduction des risques par l'anticipation des problèmes, meilleure estimation du projet, réduction du temps de réalisation grâce à des livrables intermédiaires et des itérations rapides.",
+          "analogie": "Le chef qui fait goûter : une sauce corrigée en cuisine coûte moins qu'un plat renvoyé de la salle.",
+          "fiche": "idees-recues-ux"
+        },
+        {
+          "titre": "L'écosystème : du produit à l'écosystème",
+          "texte": "Le schéma de conclusion du Cours 1.1 emboîte trois carrés : **ergonomie** (le plus petit), **utilisabilité**, puis **UX** (le plus grand).\n\nDeux axes : du **rationnel** à l'**émotionnel**, et du **produit** à l'**écosystème**. L'ergonomie est du côté rationnel et produit ; l'UX s'étend vers l'émotionnel et l'écosystème.",
+          "fiche": "ux-vs-ui"
+        },
+        {
+          "titre": "Pour aller plus loin",
+          "texte": "- **Jakob Nielsen et Don Norman** (Nielsen & Norman Group) : ergonomie, bonnes pratiques, démarche user-centric design ;\n- **Jean-François Nogier** (Usabilis) : la référence en français ;\n- **Christian Bastien et Dominique Scapin** : les critères d'évaluation heuristique.",
+          "fiche": "references-ux"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u01-l2-e1",
+          "type": "tri",
+          "question": "Plutôt UX ou plutôt UI ?",
+          "categories": ["Plutôt UX (#specs)", "Plutôt UI (#produitfinal)"],
+          "items": [
+            ["Mener une recherche utilisateurs", 0],
+            ["Concevoir des wireframes", 0],
+            ["Faire un prototype cliquable ou une maquette low-resolution", 0],
+            ["Développer des concepts créatifs", 1],
+            ["Finaliser les maquettes pour livrer des interfaces intégrables", 1],
+            ["Livrer du code CSS (front-end)", 1]
+          ],
+          "notions": ["ux-vs-ui"],
+          "explication": "L'UX se concentre sur la **recherche utilisateurs** et la conception de **wireframes, prototypes cliquables ou maquettes low-resolution** (#specs). L'UI développe des **concepts créatifs** et finalise les maquettes jusqu'aux **interfaces intégrables**, voire au code CSS (#produitfinal)."
+        },
+        {
+          "id": "u01-l2-e2",
+          "type": "assoc",
+          "question": "Associe chaque idée reçue à la réponse du cours.",
+          "paires": [
+            ["« Moi aussi je peux faire des wireframes avec Balsamiq. »", "Les wireframes ne sont que la partie visible de la démarche UX."],
+            ["« Le design, ça sert à rien. »", "C'est l'interface que les utilisateurs voient surtout et avec laquelle ils interagissent."],
+            ["« L'UX, c'est très cher et ça prend beaucoup de temps. »", "L'UX est un investissement avec des bénéfices à court et long terme."]
+          ],
+          "notions": ["idees-recues-ux"],
+          "explication": "Chaque idée reçue a sa réponse : au-delà des wireframes (#audelàdeswireframes), on ne peut pas se louper sur l'interface (#onpeutpasselouper), et l'UX est un investissement (#investissement)."
+        },
+        {
+          "id": "u01-l2-e3",
+          "type": "qcm",
+          "question": "Un développeur te dit : « Mon code est parfait, le design ça sert à rien. » Quel argument du cours lui réponds-tu ?",
+          "choix": [
+            "Les utilisateurs voient surtout l'interface ; ton code, ils ne le perçoivent que par des points-clés comme le temps de chargement.",
+            "Le design est plus important que le code, donc ton travail compte moins.",
+            "L'UX est un soft skill, tout le monde peut faire du design.",
+            "Avec quelques jours d'UX, on peut supprimer les tests."
+          ],
+          "bonne": 0,
+          "notions": ["idees-recues-ux"],
+          "explication": "Le cours dit que le design est essentiel parce que c'est ce que les utilisateurs vont **surtout voir**, au-delà de la qualité du code, qu'ils n'appréhendent que par des points-clés comme le **temps de chargement**. Il ne dévalorise pas le code : il parle de **collaboration front-back** et de **valoriser le travail**."
+        },
+        {
+          "id": "u01-l2-e4",
+          "type": "tri",
+          "question": "À quelle idée reçue répond chaque argument ?",
+          "categories": ["« Tout le monde peut le faire »", "« Le design, ça sert à rien »", "« L'UX, c'est très cher »"],
+          "items": [
+            ["Corpus sciences sociales, ergonomie, psychologie cognitive, marketing", 0],
+            ["Focus temps : recherche utilisateurs, tests, interviews", 0],
+            ["Syndrome de l'ingénieur", 1],
+            ["Importance dans l'évaluation de la satisfaction", 1],
+            ["Réduction des risques par l'anticipation des problèmes", 2],
+            ["Meilleure estimation du projet", 2]
+          ],
+          "notions": ["idees-recues-ux"],
+          "explication": "Le **savoir** et le **temps** de recherche répondent à « tout le monde peut le faire ». La **satisfaction** et le **syndrome de l'ingénieur** répondent à « le design ça sert à rien ». Les **risques anticipés** et la **meilleure estimation** répondent à « c'est trop cher »."
+        },
+        {
+          "id": "u01-l2-e5",
+          "type": "vf",
+          "question": "Dans le schéma de l'écosystème, l'UX est le plus grand des trois carrés : elle englobe l'utilisabilité et l'ergonomie, et s'étend vers l'émotionnel et l'écosystème.",
+          "bonne": true,
+          "notions": ["ux-vs-ui"],
+          "explication": "Vrai : ergonomie (côté **rationnel** et **produit**) ⊂ utilisabilité ⊂ UX (qui va vers l'**émotionnel** et l'**écosystème**)."
+        },
+        {
+          "id": "u01-l2-e6",
+          "type": "assoc",
+          "question": "Associe chaque référence à ce pour quoi elle est connue.",
+          "paires": [
+            ["Jakob Nielsen et Don Norman", "Nielsen & Norman Group : ergonomie, bonnes pratiques, user-centric design"],
+            ["Jean-François Nogier", "Usabilis : la référence en français"],
+            ["Christian Bastien et Dominique Scapin", "Les critères d'évaluation heuristique"]
+          ],
+          "notions": ["references-ux"],
+          "explication": "Nielsen & Norman Group pour les bonnes pratiques et la démarche user-centric, **Nogier** (Usabilis) en français, **Bastien et Scapin** pour les critères d'évaluation heuristique."
+        },
+        {
+          "id": "u01-l2-e7",
+          "type": "qcm",
+          "question": "Ta cheffe de projet te dit : « On n'a qu'une semaine pour l'UX, ça ne sert à rien. » Que dit le cours ?",
+          "choix": [
+            "Avec même quelques jours consacrés à l'UX, on peut améliorer la productivité et la conversion, avec des impacts mesurables et chiffrés.",
+            "Elle a raison : l'UX ne commence à servir qu'après plusieurs mois.",
+            "Il suffit de faire des wireframes pendant cette semaine.",
+            "Une semaine suffit à remplacer l'ergonome par un graphiste."
+          ],
+          "bonne": 0,
+          "notions": ["idees-recues-ux", "ux"],
+          "explication": "Réponse à « l'UX c'est très cher » : « Avec **même quelques jours** consacrés à l'UX, on peut améliorer la productivité et la conversion d'un produit, avec des impacts mesurables et chiffrés. » Les wireframes seuls ne sont que la partie visible de la démarche."
+        }
+      ]
     },
     {
       "id": "u01-l3",
-      "titre": "",
+      "titre": "Une histoire des interfaces",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": ["historique-interfaces"],
+      "cartes": [
+        {
+          "titre": "Qu'est-ce qu'une interface ?",
+          "texte": "La frise du Cours 1.2 : **1940**, premiers méga-calculateurs ; **1970**, 1ers ordinateurs familiaux ; **2019**, ultra-connexion ; **2054**, « Qu'est-ce qu'une interface ? »\n\nProto remonte le temps pour son reportage : à chaque époque, une nouvelle façon de parler aux machines.",
+          "analogie": "Le reporter : Proto note dans son carnet chaque nouvelle façon de dialoguer avec une machine, époque par époque.",
+          "fiche": "historique-interfaces"
+        },
+        {
+          "titre": "Les cartes perforées",
+          "texte": "- Dès le **18e siècle** : programmation des métiers à tisser et des pianos mécaniques\n- **1928** : brevet IBM pour les cartes perforées 80 colonnes\n- Les 1ers systèmes d'entrée-sortie et la mémoire de masse",
+          "fiche": "historique-interfaces"
+        },
+        {
+          "titre": "La souris et les premiers ordinateurs personnels",
+          "texte": "- **1963** : Douglas Engelbart, du Stanford Research Institute, invente la **souris**\n- **1975** : premiers ordinateurs personnels, **MITS Altair 8800**, avec le compilateur Micro-soft BASIC\n- **1976** : **Apple I**",
+          "fiche": "historique-interfaces"
+        },
+        {
+          "titre": "La révolution de la mobilité",
+          "texte": "- **2007** : lancement de l'**iPhone**\n- **2017** : un Américain de plus de 18 ans passe en moyenne **2h51** sur son téléphone\n- **2018** : **92 %** des adultes en Suisse possèdent un smartphone, et **97 %** d'entre eux l'utilisent quotidiennement",
+          "fiche": "historique-interfaces"
+        },
+        {
+          "titre": "La voix et la réalité augmentée",
+          "texte": "**Interfaces vocales** : 2014, Amazon présente **Alexa** ; 2016, **Google Home** ; 2018, Apple lance son **Homepod** ; février 2018, **20 %** des foyers équipés du Wifi aux USA ont un smart speaker.\n\n**Réalité augmentée, réalité virtuelle** : 2016, **Pokemon Go** ; 2017, iOS 11 et son **ARKit** ; 2017, **Ikea Place**, pour visualiser un meuble dans son environnement avant de l'acheter.",
+          "fiche": "historique-interfaces"
+        },
+        {
+          "titre": "En résumé",
+          "texte": "« Quand on parle d'ergonomie ou d'UX, on pense à une **multitude d'usages et d'interfaces**, et pas uniquement à une page Web. »\n\nUne montre connectée, un tableau de bord de voiture ou une borne de cinéma ont, eux aussi, leur ergonomie et leur UX.",
+          "fiche": "historique-interfaces"
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u01-l3-e1",
+          "type": "ordre",
+          "question": "Remets ces étapes de l'histoire des interfaces dans l'ordre chronologique.",
+          "items": [
+            "Métiers à tisser et pianos mécaniques programmés par cartes perforées",
+            "Brevet IBM des cartes perforées 80 colonnes",
+            "Invention de la souris",
+            "MITS Altair 8800",
+            "Apple I",
+            "Lancement de l'iPhone"
+          ],
+          "notions": ["historique-interfaces"],
+          "explication": "18e siècle (métiers à tisser, pianos mécaniques) → 1928 (brevet IBM) → 1963 (souris) → 1975 (Altair 8800) → 1976 (Apple I) → 2007 (iPhone)."
+        },
+        {
+          "id": "u01-l3-e2",
+          "type": "qcm",
+          "question": "Qui a inventé la souris, en 1963 ?",
+          "choix": ["Douglas Engelbart, du Stanford Research Institute", "Steve Jobs, chez Apple", "IBM, avec son brevet de 1928", "Micro-soft, avec son compilateur BASIC"],
+          "bonne": 0,
+          "notions": ["historique-interfaces"],
+          "explication": "En **1963**, **Douglas Engelbart**, du Stanford Research Institute, invente la souris. Le brevet IBM de 1928 concerne les cartes perforées ; Micro-soft BASIC accompagne l'Altair 8800 en 1975."
+        },
+        {
+          "id": "u01-l3-e3",
+          "type": "tri",
+          "question": "Classe chaque produit dans sa famille d'interfaces.",
+          "categories": ["Interface vocale", "Réalité augmentée / virtuelle", "Mobilité"],
+          "items": [
+            ["Alexa (2014)", 0],
+            ["Google Home (2016)", 0],
+            ["Homepod (2018)", 0],
+            ["Pokemon Go (2016)", 1],
+            ["Ikea Place (2017)", 1],
+            ["iPhone (2007)", 2]
+          ],
+          "notions": ["historique-interfaces"],
+          "explication": "Alexa, Google Home et Homepod sont des **interfaces vocales** ; Pokemon Go, l'ARKit d'iOS 11 et Ikea Place sont de la **réalité augmentée** ; l'iPhone lance la **révolution de la mobilité**."
+        },
+        {
+          "id": "u01-l3-e4",
+          "type": "assoc",
+          "question": "Associe chaque chiffre à ce qu'il mesure.",
+          "paires": [
+            ["2h51", "Temps moyen d'un Américain de plus de 18 ans sur son téléphone (2017)"],
+            ["92 %", "Adultes en Suisse qui possèdent un smartphone (2018)"],
+            ["97 %", "Propriétaires suisses de smartphone qui l'utilisent quotidiennement (2018)"],
+            ["20 %", "Foyers équipés du Wifi aux USA qui ont un smart speaker (février 2018)"]
+          ],
+          "notions": ["historique-interfaces"],
+          "explication": "Les chiffres du Cours 1.2 : 2h51 par jour sur le téléphone (2017), 92 % des adultes suisses ont un smartphone et 97 % d'entre eux l'utilisent chaque jour (2018), 20 % des foyers américains avec Wifi ont un smart speaker (février 2018)."
+        },
+        {
+          "id": "u01-l3-e5",
+          "type": "vf",
+          "question": "La souris a été inventée après les premiers ordinateurs personnels comme l'Altair 8800.",
+          "bonne": false,
+          "notions": ["historique-interfaces"],
+          "explication": "Faux : la souris date de **1963**, l'Altair 8800 de **1975** et l'Apple I de **1976**."
+        },
+        {
+          "id": "u01-l3-e6",
+          "type": "qcm",
+          "question": "Une start-up conçoit l'interface d'un vélo d'appartement connecté, sans site Web. Que dit le cours ?",
+          "choix": [
+            "C'est bien de l'UX : on pense à une multitude d'usages et d'interfaces, pas uniquement à une page Web.",
+            "Ce n'est pas de l'UX : l'UX ne concerne que les sites Web.",
+            "Ce n'est que de l'UI : il n'y a pas d'utilisateurs à comprendre.",
+            "L'UX ne s'applique qu'aux ordinateurs et aux smartphones."
+          ],
+          "bonne": 0,
+          "notions": ["historique-interfaces", "ux"],
+          "explication": "« Quand on parle d'ergonomie ou d'UX, on pense à une **multitude d'usages et d'interfaces**, et pas uniquement à une page Web. » Le vélo connecté a des utilisateurs, un contexte et une expérience avant, pendant et après l'usage."
+        },
+        {
+          "id": "u01-l3-e7",
+          "type": "ordre",
+          "question": "Remets ces interfaces vocales et de réalité augmentée dans l'ordre de leur lancement.",
+          "items": [
+            "Amazon présente Alexa",
+            "Lancement de Pokemon Go",
+            "Apple lance iOS 11 et son ARKit",
+            "Apple lance son Homepod"
+          ],
+          "notions": ["historique-interfaces"],
+          "explication": "2014 : Alexa → 2016 : Pokemon Go → 2017 : iOS 11 et ARKit → 2018 : Homepod."
+        }
+      ]
     },
     {
       "id": "u01-l4",
-      "titre": "",
-      "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "titre": "Mélange",
+      "duree": 6,
+      "notions": ["ux", "ergonomie", "utilisabilite", "ux-vs-ui", "idees-recues-ux", "historique-interfaces"],
+      "cartes": [
+        {
+          "titre": "Trois définitions emboîtées",
+          "texte": "- **Ergonomie** : confort, sécurité, efficacité pour le plus grand nombre (SELF) ; une discipline et une profession (AIE).\n- **Utilisabilité** (ISO 9241) : utilisateurs identifiés, buts définis, efficacité-efficience-satisfaction, contexte spécifié.\n- **UX** (ISO 9241) : perceptions et réactions, **avant, pendant et après** l'usage.\n\nDu plus petit au plus grand : ergonomie ⊂ utilisabilité ⊂ UX.",
+          "fiche": "ux-vs-ui"
+        },
+        {
+          "titre": "UX, UI et idées reçues",
+          "texte": "L'UX, c'est surtout une **démarche** (#specs) ; l'UI livre le **produit final**. Les wireframes ne sont que la partie visible ; l'interface est ce que les utilisateurs voient surtout ; l'UX est un investissement.",
+          "fiche": "idees-recues-ux"
+        },
+        {
+          "titre": "Pas uniquement une page Web",
+          "texte": "Des cartes perforées aux enceintes vocales, l'UX concerne toutes les interfaces.",
+          "analogie": "Le reporter : Proto ne fait pas son reportage que sur Internet ; il observe les gens partout où ils utilisent une machine.",
+          "fiche": "historique-interfaces"
+        },
+        {
+          "titre": "À toi !",
+          "texte": "Les exercices qui suivent mélangent tout. Si tu hésites, ouvre la fiche liée : elle te redonne la définition exacte du cours."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u01-l4-e1",
+          "type": "assoc",
+          "question": "Associe chaque notion à la définition qui la caractérise.",
+          "paires": [
+            ["Ergonomie (SELF)", "Maximum de confort, de sécurité et d'efficacité pour le plus grand nombre"],
+            ["Utilisabilité (ISO 9241)", "Utilisateurs identifiés, buts définis, contexte d'utilisation spécifié"],
+            ["UX (ISO 9241)", "Perceptions et réactions avant, pendant et après l'usage"]
+          ],
+          "notions": ["ergonomie", "utilisabilite", "ux"],
+          "explication": "Trois définitions officielles : la SELF pour l'ergonomie, l'ISO 9241 pour l'utilisabilité **et** pour l'UX."
+        },
+        {
+          "id": "u01-l4-e2",
+          "type": "ordre",
+          "question": "Range ces trois notions de la plus petite (la plus centrée sur le produit et le rationnel) à la plus large (écosystème, émotionnel).",
+          "items": ["Ergonomie", "Utilisabilité", "UX"],
+          "notions": ["ux-vs-ui"],
+          "explication": "Dans le schéma de conclusion du Cours 1.1, l'**ergonomie** est le plus petit carré, côté rationnel et produit ; l'**utilisabilité** l'englobe ; l'**UX** est le plus grand, vers l'émotionnel et l'écosystème."
+        },
+        {
+          "id": "u01-l4-e3",
+          "type": "qcm",
+          "question": "Un ami graphiste dit : « L'UX, c'est faire des wireframes jolis. » Qu'est-ce qui cloche ?",
+          "choix": [
+            "Les wireframes ne sont que la partie visible : l'UX est surtout une démarche fondée sur la compréhension des utilisateurs.",
+            "Rien : l'UX se limite aux wireframes.",
+            "L'UX ne fait jamais de wireframes : c'est le travail de l'UI.",
+            "Les wireframes servent uniquement à écrire le code CSS."
+          ],
+          "bonne": 0,
+          "notions": ["idees-recues-ux", "ux-vs-ui"],
+          "explication": "L'UX conçoit bien des wireframes (#specs), mais « les wireframes ne sont que la **partie visible** de la démarche UX » : derrière, il y a la recherche utilisateurs, les tests, les interviews."
+        },
+        {
+          "id": "u01-l4-e4",
+          "type": "vf",
+          "question": "Pour l'AIE, l'ergonomie est à la fois une discipline scientifique et une profession.",
+          "bonne": true,
+          "notions": ["ergonomie"],
+          "explication": "Vrai : « La **discipline scientifique** qui vise la compréhension fondamentale des interactions […] et la **profession** qui applique les principes théoriques, données et méthodes […] »."
+        },
+        {
+          "id": "u01-l4-e5",
+          "type": "tri",
+          "question": "Dans la définition de l'UX de l'ISO 9241, à quel moment se passe chaque situation ?",
+          "categories": ["Avant l'usage", "Pendant l'usage", "Après l'usage"],
+          "items": [
+            ["Hâte de tester une nouvelle appli de cuisine après avoir vu sa pub", 0],
+            ["Agacement parce que le bouton « valider » ne répond pas", 1],
+            ["Fierté d'avoir réussi sa première recette guidée", 2],
+            ["Méfiance en lisant les avis du store avant de l'installer", 0],
+            ["Envie de recommander l'appli à un ami le lendemain", 2]
+          ],
+          "notions": ["ux"],
+          "explication": "L'ISO 9241 couvre l'usage **anticipé** (avant), l'usage lui-même (pendant) et ce qui reste ensuite (après) : émotions, croyances, comportements, accomplissements…"
+        },
+        {
+          "id": "u01-l4-e6",
+          "type": "qcm",
+          "question": "Laquelle de ces phrases sur l'histoire des interfaces est juste ?",
+          "choix": [
+            "Les cartes perforées programmaient déjà des métiers à tisser au 18e siècle.",
+            "La souris a été inventée par Apple en 1976.",
+            "L'iPhone a été lancé en 2014, la même année qu'Alexa.",
+            "Ikea Place est une enceinte vocale."
+          ],
+          "bonne": 0,
+          "notions": ["historique-interfaces"],
+          "explication": "Les cartes perforées programmaient des **métiers à tisser et des pianos mécaniques** dès le 18e siècle. La souris : Engelbart, 1963. L'iPhone : 2007. Ikea Place : réalité augmentée (2017)."
+        },
+        {
+          "id": "u01-l4-e7",
+          "type": "tri",
+          "question": "Chaque phrase parle-t-elle d'ergonomie comme résultat ou comme processus ?",
+          "categories": ["Ergonomie : le résultat", "Ergonomie : le processus"],
+          "items": [
+            ["Les couleurs et les boutons de l'écran d'accueil", 0],
+            ["Les interviews pour comprendre les besoins des clients", 1],
+            ["L'organisation des rubriques du menu (architecture de l'information)", 1],
+            ["Les tests d'utilisabilité avec cinq clients", 1]
+          ],
+          "notions": ["ergonomie"],
+          "explication": "Seul le **visual design** est visible (le résultat). La recherche utilisateurs, l'architecture de l'information et les tests d'utilisabilité sont sous l'eau : c'est le **processus**."
+        },
+        {
+          "id": "u01-l4-e8",
+          "type": "qcm",
+          "question": "Quel argument répond le mieux à « l'UX, c'est très cher » ?",
+          "choix": [
+            "Réduction du temps de réalisation grâce à des livrables intermédiaires et des itérations rapides",
+            "Syndrome de l'ingénieur",
+            "Soft skills comme empathie, curiosité, esprit de synthèse",
+            "Collaboration front-back"
+          ],
+          "bonne": 0,
+          "notions": ["idees-recues-ux"],
+          "explication": "Contre « c'est très cher » : l'UX est un **investissement** (productivité et conversion, réduction des risques, meilleure estimation, **réduction du temps de réalisation**). Le syndrome de l'ingénieur et la collaboration front-back répondent à « le design ça sert à rien » ; les soft skills à « tout le monde peut le faire »."
+        }
+      ]
     }
   ],
-  "jeux": [],
+  "jeux": [
+    {
+      "id": "u01-jeu",
+      "titre": "Vocabulaire de pro",
+      "description": "Définitions, références et dates : réponds vite et juste. 8 sur 10 pour le badge !",
+      "tours": 10,
+      "badge": "memoire",
+      "seuilBadge": 0.8,
+      "questions": [
+        {
+          "id": "u01-jeu-q1",
+          "type": "vf",
+          "question": "La définition de l'ergonomie de la SELF parle de « confort, sécurité et efficacité ».",
+          "bonne": true,
+          "notions": ["ergonomie"],
+          "explication": "Vrai : « le maximum de confort, de sécurité et d'efficacité pour le plus grand nombre »."
+        },
+        {
+          "id": "u01-jeu-q2",
+          "type": "vf",
+          "question": "L'utilisabilité se définit dans l'ISO 9241 avec « efficacité, efficience et satisfaction ».",
+          "bonne": true,
+          "notions": ["utilisabilite"],
+          "explication": "Vrai : « … pour atteindre des buts définis avec efficacité, efficience et satisfaction, dans un contexte d'utilisation spécifié »."
+        },
+        {
+          "id": "u01-jeu-q3",
+          "type": "qcm",
+          "question": "« Before, during and after use » : c'est la définition ISO 9241 de…",
+          "choix": ["l'UX", "l'utilisabilité", "l'ergonomie", "l'UI"],
+          "bonne": 0,
+          "notions": ["ux"],
+          "explication": "L'UX selon l'ISO 9241 : « A person's perceptions and responses […] that occur before, during and after use »."
+        },
+        {
+          "id": "u01-jeu-q4",
+          "type": "qcm",
+          "question": "En quelle année l'AIE a-t-elle donné sa définition de l'ergonomie ?",
+          "choix": ["2000", "1963", "2007", "1928"],
+          "bonne": 0,
+          "notions": ["ergonomie"],
+          "explication": "Association Internationale d'Ergonomie, **2000**."
+        },
+        {
+          "id": "u01-jeu-q5",
+          "type": "assoc",
+          "question": "Associe chaque hashtag à son camp.",
+          "paires": [
+            ["#specs", "UX"],
+            ["#produitfinal", "UI"],
+            ["#aiemonbudget", "Idée reçue"],
+            ["#investissement", "Réponse du cours"]
+          ],
+          "notions": ["ux-vs-ui", "idees-recues-ux"],
+          "explication": "#specs pour l'UX, #produitfinal pour l'UI ; #aiemonbudget accompagne l'idée reçue « l'UX c'est très cher », #investissement la réponse."
+        },
+        {
+          "id": "u01-jeu-q6",
+          "type": "qcm",
+          "question": "Qui est connu pour ses critères d'évaluation heuristique ?",
+          "choix": ["Christian Bastien et Dominique Scapin", "Jean-François Nogier", "Douglas Engelbart", "Amazon"],
+          "bonne": 0,
+          "notions": ["references-ux"],
+          "explication": "**Bastien et Scapin** : les critères d'évaluation heuristique. Nogier (Usabilis) : la référence en français. Engelbart : la souris."
+        },
+        {
+          "id": "u01-jeu-q7",
+          "type": "qcm",
+          "question": "Jean-François Nogier est associé à…",
+          "choix": ["Usabilis", "Nielsen & Norman Group", "Stanford Research Institute", "IBM"],
+          "bonne": 0,
+          "notions": ["references-ux"],
+          "explication": "Jean-François Nogier, **Usabilis** : la référence pour l'ergonomie et le design UX en français."
+        },
+        {
+          "id": "u01-jeu-q8",
+          "type": "qcm",
+          "question": "En quelle année la souris a-t-elle été inventée ?",
+          "choix": ["1963", "1975", "1928", "2007"],
+          "bonne": 0,
+          "notions": ["historique-interfaces"],
+          "explication": "**1963**, par Douglas Engelbart. 1928 : brevet IBM des cartes perforées ; 1975 : Altair 8800 ; 2007 : iPhone."
+        },
+        {
+          "id": "u01-jeu-q9",
+          "type": "qcm",
+          "question": "Combien de colonnes avaient les cartes perforées du brevet IBM de 1928 ?",
+          "choix": ["80", "40", "100", "64"],
+          "bonne": 0,
+          "notions": ["historique-interfaces"],
+          "explication": "1928 : brevet IBM pour les cartes perforées **80 colonnes**."
+        },
+        {
+          "id": "u01-jeu-q10",
+          "type": "vf",
+          "question": "En 2018, 92 % des adultes en Suisse possédaient un smartphone.",
+          "bonne": true,
+          "notions": ["historique-interfaces"],
+          "explication": "Vrai, et **97 %** d'entre eux l'utilisaient quotidiennement."
+        },
+        {
+          "id": "u01-jeu-q11",
+          "type": "qcm",
+          "question": "En quelle année Amazon a-t-il présenté Alexa ?",
+          "choix": ["2014", "2016", "2018", "2007"],
+          "bonne": 0,
+          "notions": ["historique-interfaces"],
+          "explication": "**2014** : Alexa ; 2016 : Google Home ; 2018 : Homepod."
+        },
+        {
+          "id": "u01-jeu-q12",
+          "type": "vf",
+          "question": "Dans l'iceberg de l'ergonomie, le visual design est la partie immergée.",
+          "bonne": false,
+          "notions": ["ergonomie"],
+          "explication": "Faux : le visual design est la **pointe visible** (le résultat) ; le processus est sous l'eau."
+        },
+        {
+          "id": "u01-jeu-q13",
+          "type": "qcm",
+          "question": "Quel premier ordinateur personnel est sorti en 1975, avec le compilateur Micro-soft BASIC ?",
+          "choix": ["MITS Altair 8800", "Apple I", "iPhone", "Homepod"],
+          "bonne": 0,
+          "notions": ["historique-interfaces"],
+          "explication": "**1975 : MITS Altair 8800**, avec Micro-soft BASIC ; l'Apple I suit en 1976."
+        },
+        {
+          "id": "u01-jeu-q14",
+          "type": "vf",
+          "question": "Selon l'ISO 9241, l'utilisabilité se mesure dans un contexte d'utilisation spécifié.",
+          "bonne": true,
+          "notions": ["utilisabilite"],
+          "explication": "Vrai : « … dans un **contexte d'utilisation spécifié** », pour des **utilisateurs identifiés** et des **buts définis**."
+        }
+      ]
+    }
+  ],
   "quiz": {
     "titre": "Quiz : Qu'est-ce que l'UX ?",
-    "questions": []
+    "questions": [
+      {
+        "id": "u01-quiz-q1",
+        "type": "qcm",
+        "question": "Selon le cours, l'UX est une approche de design qui prend en compte…",
+        "choix": [
+          "les personnes qui vont utiliser le produit et le contexte dans lequel l'utilisation aura lieu",
+          "uniquement l'apparence visuelle du produit",
+          "uniquement les besoins du client qui paie le projet",
+          "la qualité du code et l'architecture des données"
+        ],
+        "bonne": 0,
+        "notions": ["ux"],
+        "explication": "« L'UX est une approche de design d'un service ou d'un produit qui prend en compte **les personnes** qui vont l'utiliser et **le contexte** dans lequel l'utilisation aura lieu… »"
+      },
+      {
+        "id": "u01-quiz-q2",
+        "type": "vf",
+        "question": "La définition de l'UX de l'ISO 9241 inclut l'usage anticipé d'un produit.",
+        "bonne": true,
+        "notions": ["ux"],
+        "explication": "Vrai : « … that result from the use or **anticipated use** of a product, system or service »."
+      },
+      {
+        "id": "u01-quiz-q3",
+        "type": "qcm",
+        "question": "Qui définit l'ergonomie comme « la discipline scientifique […] et la profession qui applique les principes théoriques, données et méthodes en vue d'optimiser le bien-être des personnes et la performance globale des systèmes » ?",
+        "choix": ["L'Association Internationale d'Ergonomie (2000)", "La Société d'ergonomie de Langue Française", "L'ISO 9241", "Le Nielsen & Norman Group"],
+        "bonne": 0,
+        "notions": ["ergonomie"],
+        "explication": "C'est l'**AIE (2000)**. La SELF parle de confort, de sécurité et d'efficacité pour le plus grand nombre ; l'ISO 9241 définit l'utilisabilité et l'UX."
+      },
+      {
+        "id": "u01-quiz-q4",
+        "type": "tri",
+        "question": "Quel mot-clé vient de quelle définition ?",
+        "categories": ["Ergonomie (SELF)", "Utilisabilité (ISO 9241)", "UX (ISO 9241)"],
+        "items": [
+          ["Confort, sécurité, efficacité", 0],
+          ["Pour le plus grand nombre", 0],
+          ["Utilisateurs identifiés", 1],
+          ["Contexte d'utilisation spécifié", 1],
+          ["Before, during and after use", 2],
+          ["Emotions, beliefs, preferences", 2]
+        ],
+        "notions": ["ergonomie", "utilisabilite", "ux"],
+        "explication": "SELF : confort, sécurité, efficacité, pour le plus grand nombre. ISO 9241 (utilisabilité) : utilisateurs identifiés, buts définis, contexte spécifié. ISO 9241 (UX) : avant, pendant, après ; émotions, croyances, préférences…"
+      },
+      {
+        "id": "u01-quiz-q5",
+        "type": "qcm",
+        "question": "Dans l'iceberg du processus ergonomique, qu'est-ce qui forme « l'ergonomie : le résultat » ?",
+        "choix": ["Le visual design", "La recherche utilisateurs", "Les business needs", "L'architecture de l'information"],
+        "bonne": 0,
+        "notions": ["ergonomie"],
+        "explication": "Le **visual design** est la pointe visible : le résultat. Tout le reste est le processus, sous l'eau."
+      },
+      {
+        "id": "u01-quiz-q6",
+        "type": "tri",
+        "question": "Métier, démarche ou phénomène ?",
+        "categories": ["UX = métier", "UX = démarche", "UX = phénomène"],
+        "items": [
+          ["Les personnes chargées de mettre en place une démarche UX", 0],
+          ["Une démarche basée sur l'ergonomie et l'utilisabilité pour améliorer les interactions", 1],
+          ["L'ensemble des ressentis et des actions liés à une interaction avec un système", 2]
+        ],
+        "notions": ["ux"],
+        "explication": "Les trois facettes de l'UX du Cours 1.1 : **métier** (les personnes), **démarche** (la méthode), **phénomène** (les ressentis et actions, avant, pendant et après)."
+      },
+      {
+        "id": "u01-quiz-q7",
+        "type": "qcm",
+        "question": "Selon le cours, sur quoi l'UX se concentre-t-elle « de manière générale » ?",
+        "choix": [
+          "La recherche utilisateurs et la conception de wireframes, prototypes cliquables ou maquettes low-resolution",
+          "Les concepts créatifs et les maquettes finales intégrables",
+          "Le code CSS front-end",
+          "Le choix du serveur et de la base de données"
+        ],
+        "bonne": 0,
+        "notions": ["ux-vs-ui"],
+        "explication": "UX : recherche utilisateurs, wireframes, prototypes cliquables, maquettes low-resolution (**#specs**). Concepts créatifs, maquettes finales et CSS : c'est l'**UI** (#produitfinal)."
+      },
+      {
+        "id": "u01-quiz-q8",
+        "type": "vf",
+        "question": "Dans le schéma de l'écosystème, l'ergonomie est du côté émotionnel et l'UX du côté rationnel.",
+        "bonne": false,
+        "notions": ["ux-vs-ui"],
+        "explication": "Faux, c'est l'inverse : l'ergonomie est du côté **rationnel** (et produit), l'UX s'étend vers l'**émotionnel** (et l'écosystème)."
+      },
+      {
+        "id": "u01-quiz-q9",
+        "type": "assoc",
+        "question": "Associe chaque idée reçue à son hashtag.",
+        "paires": [
+          ["« Moi aussi je peux faire des wireframes avec Balsamiq. »", "#toutlemondepeutlefaire"],
+          ["« Le design, ça sert à rien. »", "#limportantcestquecafonctionne"],
+          ["« L'UX, c'est très cher et ça prend beaucoup de temps. »", "#aiemonbudget"]
+        ],
+        "notions": ["idees-recues-ux"],
+        "explication": "Et leurs réponses : #audelàdeswireframes, #onpeutpasselouper, #investissement."
+      },
+      {
+        "id": "u01-quiz-q10",
+        "type": "qcm",
+        "question": "Quelle phrase fait partie de la réponse du cours à « l'UX est un soft skill, tout le monde peut le faire » ?",
+        "choix": [
+          "L'UX est un ensemble de connaissances et de compétences, mais c'est surtout une démarche fondée sur la compréhension des utilisateurs.",
+          "L'UX est un investissement avec des bénéfices à court et long terme.",
+          "C'est l'interface que les utilisateurs voient surtout.",
+          "L'UX, c'est l'apparence visuelle de l'interface."
+        ],
+        "bonne": 0,
+        "notions": ["idees-recues-ux"],
+        "explication": "Contre « tout le monde peut le faire » : l'UX est surtout une **démarche fondée sur la compréhension des utilisateurs**, avec des soft skills, un corpus (sciences sociales, ergonomie, psychologie cognitive, marketing) et du temps de recherche."
+      },
+      {
+        "id": "u01-quiz-q11",
+        "type": "vf",
+        "question": "Selon le cours, les utilisateurs perçoivent la qualité du code surtout par des points-clés comme le temps de chargement.",
+        "bonne": true,
+        "notions": ["idees-recues-ux"],
+        "explication": "Vrai : le design est ce que les utilisateurs vont surtout voir, « au-delà de la qualité du code ou de l'architecture des données, qu'ils n'appréhenderont que par des points-clés comme le **temps de chargement** »."
+      },
+      {
+        "id": "u01-quiz-q12",
+        "type": "assoc",
+        "question": "Associe chaque référence à ce qu'elle apporte.",
+        "paires": [
+          ["Nielsen & Norman Group", "Bonnes pratiques et démarche user-centric design"],
+          ["Usabilis (Nogier)", "Ergonomie et design UX en français"],
+          ["Bastien et Scapin", "Critères d'évaluation heuristique"]
+        ],
+        "notions": ["references-ux"],
+        "explication": "Les trois références « Pour aller plus loin… » du Cours 1.1."
+      },
+      {
+        "id": "u01-quiz-q13",
+        "type": "ordre",
+        "question": "Remets dans l'ordre chronologique.",
+        "items": [
+          "Brevet IBM des cartes perforées 80 colonnes",
+          "Invention de la souris par Douglas Engelbart",
+          "Apple I",
+          "Lancement de l'iPhone",
+          "Amazon présente Alexa",
+          "Apple lance son Homepod"
+        ],
+        "notions": ["historique-interfaces"],
+        "explication": "1928 → 1963 → 1976 → 2007 → 2014 → 2018."
+      },
+      {
+        "id": "u01-quiz-q14",
+        "type": "qcm",
+        "question": "Qu'est-ce qu'Ikea Place, lancé en 2017 ?",
+        "choix": [
+          "Une appli de réalité augmentée qui permet de visualiser un meuble dans son environnement avant de l'acheter",
+          "Une enceinte connectée vocale",
+          "Le premier ordinateur personnel d'Ikea",
+          "Un jeu de réalité virtuelle comme Pokemon Go"
+        ],
+        "bonne": 0,
+        "notions": ["historique-interfaces"],
+        "explication": "Ikea Place (2017) : **réalité augmentée**, pour visualiser un meuble chez soi avant de l'acheter. Même année : iOS 11 et l'ARKit d'Apple."
+      },
+      {
+        "id": "u01-quiz-q15",
+        "type": "vf",
+        "question": "Selon le cours, l'UX concerne surtout les pages Web.",
+        "bonne": false,
+        "notions": ["historique-interfaces"],
+        "explication": "Faux : « Quand on parle d'ergonomie ou d'UX, on pense à une multitude d'usages et d'interfaces, et **pas uniquement à une page Web**. »"
+      },
+      {
+        "id": "u01-quiz-q16",
+        "type": "qcm",
+        "question": "Une borne de commande de fast-food est rapide pour les habitués, mais les clients âgés s'y perdent. Quelle notion explique le mieux ce constat ?",
+        "choix": [
+          "L'utilisabilité, qui dépend d'utilisateurs identifiés et d'un contexte d'utilisation spécifié",
+          "L'UI, parce que les couleurs sont mal choisies",
+          "L'historique des interfaces, parce que les bornes sont récentes",
+          "Les critères d'évaluation heuristique, qui ne s'appliquent qu'au Web"
+        ],
+        "bonne": 0,
+        "notions": ["utilisabilite"],
+        "explication": "L'utilisabilité (ISO 9241) se juge pour des **utilisateurs identifiés** et un **contexte spécifié** : la même borne peut être efficace pour les uns et pas pour les autres."
+      }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u01-b1",
+      "titre": "Convaincre ton équipe",
+      "source": "Étude de cas d'après les cours 1.1 (Introduction) et 1.2 (Historique)",
+      "notions": ["idees-recues-ux", "ux-vs-ui", "ux", "historique-interfaces"],
+      "enonce": "Tu viens d'arriver comme UX dans une petite agence qui développe une **appli de réservation de salles de sport**, une **skill pour enceinte vocale** et une **appli de réalité augmentée** pour essayer des lunettes. À la réunion du lundi, tes collègues ne sont pas convaincus :\n\n- Kevin, développeur : « Le design, ça sert à rien, l'important c'est que ça fonctionne. »\n- Léa, cheffe de projet : « L'UX, c'est très cher et ça prend beaucoup de temps. On n'a pas le budget. »\n- Sam, graphiste : « L'UX, c'est des wireframes. Moi aussi je peux en faire avec Balsamiq. »\n- Nora, directrice : « L'enceinte et l'appli AR, ce n'est pas du Web : pas besoin d'UX. »\n\nÀ toi de répondre à chacun avec les arguments du cours.",
+      "seuil": 0.8,
+      "questions": [
+        {
+          "id": "u01-b1-q1",
+          "type": "qcm",
+          "question": "Que réponds-tu à Kevin (« le design, ça sert à rien ») ?",
+          "choix": [
+            "C'est l'interface que les utilisateurs voient surtout et avec laquelle ils interagissent ; ton code, ils ne le perçoivent que par des points-clés comme le temps de chargement.",
+            "L'UX est un investissement avec des bénéfices à court et long terme.",
+            "Les wireframes ne sont que la partie visible de la démarche UX.",
+            "Tu as raison : si ça fonctionne, l'utilisateur sera satisfait."
+          ],
+          "bonne": 0,
+          "notions": ["idees-recues-ux"],
+          "explication": "À « le design ça sert à rien » (#limportantcestquecafonctionne), le cours répond : « C'est l'interface que les utilisateurs voient surtout et avec laquelle ils interagissent » (#onpeutpasselouper)."
+        },
+        {
+          "id": "u01-b1-q2",
+          "type": "tri",
+          "question": "Prépare tes arguments pour Léa (« c'est trop cher »). Lesquels lui parlent vraiment ?",
+          "categories": ["Bon argument pour Léa", "Argument pour quelqu'un d'autre"],
+          "items": [
+            ["Impact sur la productivité et la conversion", 0],
+            ["Réduction des risques par l'anticipation des problèmes", 0],
+            ["Meilleure estimation du projet", 0],
+            ["Réduction du temps de réalisation grâce à des livrables intermédiaires et des itérations rapides", 0],
+            ["Syndrome de l'ingénieur", 1],
+            ["Corpus sciences sociales, ergonomie, psychologie cognitive, marketing", 1]
+          ],
+          "notions": ["idees-recues-ux"],
+          "explication": "Contre « l'UX c'est très cher » : productivité et conversion, risques anticipés, meilleure estimation, temps de réalisation réduit. Le syndrome de l'ingénieur est pour Kevin ; le corpus de connaissances est pour Sam."
+        },
+        {
+          "id": "u01-b1-q3",
+          "type": "qcm",
+          "question": "Léa insiste : « Mais on n'a que quelques jours ! » Quelle phrase du cours lui opposes-tu ?",
+          "choix": [
+            "Avec même quelques jours consacrés à l'UX, on peut améliorer la productivité et la conversion d'un produit, avec des impacts mesurables et chiffrés.",
+            "Sans au moins six mois d'UX, le projet est perdu.",
+            "Quelques jours suffisent pour faire des wireframes, et c'est tout ce qu'est l'UX.",
+            "L'UX ne sert qu'aux grands projets."
+          ],
+          "bonne": 0,
+          "notions": ["idees-recues-ux"],
+          "explication": "« Avec **même quelques jours** consacrés à l'UX, on peut améliorer la productivité et la conversion d'un produit, avec des impacts mesurables et chiffrés. »"
+        },
+        {
+          "id": "u01-b1-q4",
+          "type": "qcm",
+          "question": "Que réponds-tu à Sam (« l'UX, c'est des wireframes ») ?",
+          "choix": [
+            "Les wireframes ne sont que la partie visible de la démarche UX : l'UX est surtout une démarche fondée sur la compréhension des utilisateurs.",
+            "Les wireframes, c'est le travail de l'UI, pas de l'UX.",
+            "Le design, c'est ce que les utilisateurs voient surtout.",
+            "Balsamiq n'est pas un outil d'UX."
+          ],
+          "bonne": 0,
+          "notions": ["idees-recues-ux", "ux-vs-ui"],
+          "explication": "« Les wireframes ne sont que la partie visible de la démarche UX » (#audelàdeswireframes). L'UX conçoit bien des wireframes (#specs), mais elle repose surtout sur la recherche utilisateurs, les tests et les interviews."
+        },
+        {
+          "id": "u01-b1-q5",
+          "type": "tri",
+          "question": "Pour clarifier les rôles avec Sam : ces tâches de l'appli de salles de sport, plutôt UX ou plutôt UI ?",
+          "categories": ["Plutôt UX (#specs)", "Plutôt UI (#produitfinal)"],
+          "items": [
+            ["Interroger des sportifs sur leur façon de réserver", 0],
+            ["Dessiner un prototype cliquable du parcours de réservation", 0],
+            ["Créer le concept graphique de l'appli", 1],
+            ["Finaliser les maquettes pour que les développeurs puissent les intégrer", 1]
+          ],
+          "notions": ["ux-vs-ui"],
+          "explication": "UX : recherche utilisateurs, wireframes, prototypes cliquables, maquettes low-resolution. UI : concepts créatifs, maquettes finales intégrables, voire CSS."
+        },
+        {
+          "id": "u01-b1-q6",
+          "type": "qcm",
+          "question": "Que réponds-tu à Nora (« l'enceinte et l'appli AR, ce n'est pas du Web ») ?",
+          "choix": [
+            "Quand on parle d'ergonomie ou d'UX, on pense à une multitude d'usages et d'interfaces, et pas uniquement à une page Web : les interfaces vocales et la réalité augmentée en font partie.",
+            "Elle a raison : l'UX est née avec le Web et ne concerne que lui.",
+            "Pour l'enceinte, il suffit de soigner l'UI.",
+            "L'appli AR n'a pas d'utilisateurs, seulement des clients."
+          ],
+          "bonne": 0,
+          "notions": ["historique-interfaces", "ux"],
+          "explication": "Le Cours 1.2 se conclut ainsi : « pas uniquement une page Web ». Alexa, Google Home, Homepod (vocal), Pokemon Go, ARKit, Ikea Place (réalité augmentée) : autant d'interfaces qui ont leur UX."
+        },
+        {
+          "id": "u01-b1-q7",
+          "type": "tri",
+          "question": "Pour illustrer ta réponse à Nora, range ces exemples du cours dans la bonne famille d'interfaces.",
+          "categories": ["Interface vocale", "Réalité augmentée"],
+          "items": [
+            ["Alexa", 0],
+            ["Homepod", 0],
+            ["Ikea Place", 1],
+            ["ARKit d'iOS 11", 1]
+          ],
+          "notions": ["historique-interfaces"],
+          "explication": "Alexa (2014) et Homepod (2018) sont des interfaces vocales ; Ikea Place et l'ARKit (2017) relèvent de la réalité augmentée."
+        },
+        {
+          "id": "u01-b1-q8",
+          "type": "vf",
+          "question": "Pour la skill vocale, l'expérience d'un utilisateur qui hésite à parler à l'enceinte avant même de l'essayer fait déjà partie de l'UX selon l'ISO 9241.",
+          "bonne": true,
+          "notions": ["ux"],
+          "explication": "Vrai : l'ISO 9241 parle de l'usage **anticipé** et de ce qui se passe **avant**, pendant et après l'usage."
+        }
+      ]
+    }
+  ]
 }
