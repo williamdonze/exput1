@@ -2,23 +2,1228 @@
   "id": "u09",
   "titre": "Examen blanc",
   "sousTitre": "Examen théorique sur table",
-  "objectif": "",
-  "icone": "",
+  "objectif": "T'entraîner à l'examen théorique : des questions sur toutes les unités, définitions et chiffres compris, et deux études de cas du HMW au test, sans indice.",
+  "icone": "A+",
   "fiches": [],
   "lecons": [
     {
       "id": "u09-l1",
-      "titre": "",
+      "titre": "Comment aborder l'examen blanc",
       "duree": 5,
-      "notions": [],
-      "cartes": [],
-      "exercices": []
+      "notions": [
+        "design-thinking",
+        "empathie",
+        "hmw",
+        "persona",
+        "prototype",
+        "test-utilisateur"
+      ],
+      "cartes": [
+        {
+          "titre": "Un examen blanc, pas un nouveau cours",
+          "texte": "Ici, **rien de nouveau** : tout vient des fiches des unités 1 à 8.\n\n- un **quiz de 30 questions** (3 ou 4 par unité), définitions et chiffres compris ;\n- deux **études de cas** qui parcourent toute la démarche, du HMW au test, sur des sujets que tu n'as jamais vus.\n\n**Aucun indice** : comme le jour de l'« Examen théorique sur table ». Le format exact de l'examen n'est pas connu : demande-le à l'enseignante.",
+          "astuce": "Quand tu te trompes, rouvre la fiche liée dans l'explication avant de recommencer : c'est en allant rechercher l'info dans ta mémoire que tu la retiens."
+        },
+        {
+          "titre": "Le fil rouge : les 5 étapes",
+          "texte": "Devant chaque question, demande-toi d'abord **où on en est** dans le [[design-thinking|Design Thinking]] :\n\n- **Empathize** : interviews, observations, journal de bord, données publiques ;\n- **Define** : HMW, empathy map, personas ;\n- **Ideate** : brainstorming, crazy 8, cadavre exquis, dot-voting ;\n- **Prototype** : zoning, wireframe, maquette, prototype ;\n- **Test** : tests utilisateurs, guerilla testing, synthèse.",
+          "fiche": "design-thinking"
+        },
+        {
+          "titre": "Les cinq images de Proto",
+          "texte": "Les analogies du cours t'aident à retrouver la bonne réponse :\n\n- le **reporter** : il écoute, observe, prend des notes structurées ([[empathie]]) ;\n- le **zoom de l'appareil photo** : un [[hmw|HMW]] ni trop large, ni trop serré ;\n- la **boussole** : le [[persona]] guide chaque décision ;\n- le **plan de la maison** : zoning, wireframe, maquette, [[prototype]] ;\n- le **chef qui fait goûter** : tester tôt et souvent ([[test-utilisateur]])."
+        },
+        {
+          "titre": "Définitions et chiffres : par cœur",
+          "texte": "Certaines questions demandent les **mots exacts** du cours : ISO 9241 (UX et utilisabilité), SELF et AIE (ergonomie), Lubart (créativité), Interaction Design Foundation (empathie).\n\nEt les **chiffres** : 5 utilisateurs = 80 % des problèmes ; 211 personas dans 43 projets ; max. 5 personas principaux ; interview de max. 1 heure ; 1,4 million de personnes en situation de handicap en Suisse.",
+          "piege": "Les définitions se ressemblent : « efficacité, efficience et satisfaction » est dans l'utilisabilité **et** dans la définition de l'UX du cours. Regarde ce qui les distingue (contexte spécifié ; avant, pendant et après l'usage)."
+        }
+      ],
+      "exercices": [
+        {
+          "id": "u09-l1-e1",
+          "type": "tri",
+          "question": "À quelle étape du Design Thinking se trouve chaque activité ?",
+          "categories": [
+            "Empathize",
+            "Define",
+            "Ideate",
+            "Prototype",
+            "Test"
+          ],
+          "items": [
+            [
+              "Suivre un mécanicien vélo dans son atelier (shadowing)",
+              0
+            ],
+            [
+              "Faire tenir un journal de bord à des joueurs d'échecs",
+              0
+            ],
+            [
+              "Écrire « Comment pourrait-on… de manière à… »",
+              1
+            ],
+            [
+              "Plier une feuille en 8 cases pour y dessiner des idées",
+              2
+            ],
+            [
+              "Coller des points sur les idées au mur",
+              2
+            ],
+            [
+              "Relier des wireframes pour qu'ils soient cliquables",
+              3
+            ],
+            [
+              "Faire essayer le prototype quelques minutes dans une gare",
+              4
+            ]
+          ],
+          "notions": [
+            "design-thinking",
+            "observation-ethnographique",
+            "journal-de-bord",
+            "hmw",
+            "techniques-ideation",
+            "prototype",
+            "guerilla-testing"
+          ],
+          "explication": "Shadowing et journal de bord : Empathize. HMW : Define. Crazy 8 et dot-voting : Ideate. Wireframes cliquables : Prototype. Guerilla testing : Test."
+        },
+        {
+          "id": "u09-l1-e2",
+          "type": "assoc",
+          "question": "Relie chaque image de Proto à ce qu'elle illustre",
+          "paires": [
+            [
+              "Le reporter",
+              "Les interviews et les observations"
+            ],
+            [
+              "Le zoom de l'appareil photo",
+              "Le HMW, ni trop large ni trop précis"
+            ],
+            [
+              "La boussole",
+              "Le persona, consulté à chaque décision"
+            ],
+            [
+              "Le plan de la maison",
+              "Zoning, wireframe, maquette, prototype"
+            ],
+            [
+              "Le chef qui fait goûter",
+              "Tester tôt et souvent, avec quelques personnes"
+            ]
+          ],
+          "notions": [
+            "empathie",
+            "hmw",
+            "persona",
+            "prototype",
+            "test-utilisateur"
+          ],
+          "explication": "Ce sont les cinq analogies du cours : elles reviennent d'une unité à l'autre."
+        },
+        {
+          "id": "u09-l1-e3",
+          "type": "qcm",
+          "question": "Qui a développé et popularisé le Design Sprint ?",
+          "choix": [
+            "Jake Knapp, John Zeratsky et Braden Kowitz, chez Google Ventures",
+            "Jakob Nielsen et Don Norman, chez Nielsen & Norman Group",
+            "Christian Bastien et Dominique Scapin",
+            "Todd Lubart"
+          ],
+          "bonne": 0,
+          "notions": [
+            "design-sprint",
+            "references-ux"
+          ],
+          "explication": "Le Design Sprint (5 étapes en 5 jours) vient de Google Ventures. Nielsen et Norman sont des références de l'ergonomie, Bastien et Scapin des critères heuristiques, Lubart de la créativité."
+        },
+        {
+          "id": "u09-l1-e4",
+          "type": "vf",
+          "question": "Une observation ethnographique qui contredit ce que la personne a dit en interview est une erreur : on la met de côté.",
+          "bonne": false,
+          "notions": [
+            "observation-ethnographique",
+            "interview"
+          ],
+          "explication": "Faux. Il est **fréquent** que les observations complètent les interviews, voire en contredisent certaines conclusions : elles aident à prendre du recul par rapport aux déclarations."
+        },
+        {
+          "id": "u09-l1-e5",
+          "type": "qcm",
+          "question": "« Our ability to see the world through other people's eyes, to see what they see, feel what they feel… » : quelle notion l'Interaction Design Foundation définit-elle ainsi ?",
+          "choix": [
+            "L'empathie",
+            "L'utilisabilité",
+            "La créativité",
+            "L'omnichannel"
+          ],
+          "bonne": 0,
+          "notions": [
+            "empathie"
+          ],
+          "explication": "C'est la définition de l'**empathie** par l'Interaction Design Foundation. Le cours la définit aussi comme un processus de compréhension profonde des problèmes et des réalités des personnes."
+        },
+        {
+          "id": "u09-l1-e6",
+          "type": "vf",
+          "question": "« Customers don't see channels: they see brands. » illustre l'omnichannel : une stratégie de contenus cohérente à travers tous les canaux, on et offline.",
+          "bonne": true,
+          "notions": [
+            "omnichannel"
+          ],
+          "explication": "Vrai. Le client ne voit pas des canaux, il voit une marque : les contenus restent cohérents d'un canal à l'autre, en ligne comme hors ligne."
+        },
+        {
+          "id": "u09-l1-e7",
+          "type": "qcm",
+          "question": "« La forme suit la fonction. » Ce principe est du côté…",
+          "choix": [
+            "du design : répondre à un problème de manière créative",
+            "de l'art : exprimer la vision de l'artiste",
+            "de l'art et du design à égalité",
+            "ni de l'un ni de l'autre"
+          ],
+          "bonne": 0,
+          "notions": [
+            "art-vs-design"
+          ],
+          "explication": "Design : la fonction avant tout, mesurable, centré sur l'utilisateur. Art : le message d'abord, centré sur l'artiste."
+        },
+        {
+          "id": "u09-l1-e8",
+          "type": "qcm",
+          "question": "Quels auteurs le cours associe-t-il aux critères d'évaluation heuristique ?",
+          "choix": [
+            "Christian Bastien et Dominique Scapin",
+            "Jean-François Nogier",
+            "Jared M. Spool",
+            "Avinash Kaushik"
+          ],
+          "bonne": 0,
+          "notions": [
+            "references-ux"
+          ],
+          "explication": "Bastien et Scapin : critères d'évaluation heuristique. Nogier (Usabilis) est la référence en français."
+        }
+      ]
     }
   ],
   "jeux": [],
   "quiz": {
     "titre": "Quiz : Examen blanc",
-    "questions": []
+    "questions": [
+      {
+        "id": "u09-quiz-q1",
+        "type": "qcm",
+        "question": "Un collègue affirme : « L'UX commence au moment où la personne ouvre l'appli. » Que lui répond la définition de l'ISO 9241 ?",
+        "choix": [
+          "Elle couvre les perceptions et réactions avant, pendant et après l'usage, et même l'usage anticipé",
+          "Il a raison : l'UX ne concerne que le moment de l'usage",
+          "L'UX ne concerne que ce qui se passe après l'achat",
+          "L'UX ne concerne que le visual design"
+        ],
+        "bonne": 0,
+        "notions": [
+          "ux"
+        ],
+        "explication": "ISO 9241 : « A person's perceptions and responses that result from the use or anticipated use of a product, system or service, that occur before, during and after use »."
+      },
+      {
+        "id": "u09-quiz-q2",
+        "type": "assoc",
+        "question": "Relie chaque source à sa définition",
+        "paires": [
+          [
+            "SELF",
+            "Confort, sécurité et efficacité pour le plus grand nombre"
+          ],
+          [
+            "AIE (2000)",
+            "Une discipline scientifique et une profession : bien-être des personnes et performance globale des systèmes"
+          ],
+          [
+            "ISO 9241, utilisabilité",
+            "Efficacité, efficience et satisfaction, dans un contexte d'utilisation spécifié"
+          ],
+          [
+            "ISO 9241, UX",
+            "Perceptions et réactions avant, pendant et après l'usage"
+          ]
+        ],
+        "notions": [
+          "ergonomie",
+          "utilisabilite",
+          "ux"
+        ],
+        "explication": "SELF et AIE définissent l'ergonomie ; l'ISO 9241 définit l'utilisabilité (« degré selon lequel… ») et l'UX (« perceptions and responses… »)."
+      },
+      {
+        "id": "u09-quiz-q3",
+        "type": "ordre",
+        "question": "Remets ces jalons dans l'ordre chronologique",
+        "items": [
+          "Brevet IBM des cartes perforées 80 colonnes",
+          "Douglas Engelbart invente la souris",
+          "MITS Altair 8800, un des premiers ordinateurs personnels",
+          "Apple I",
+          "Lancement de l'iPhone",
+          "Amazon présente Alexa"
+        ],
+        "notions": [
+          "historique-interfaces"
+        ],
+        "explication": "1928, 1963, 1975, 1976, 2007, 2014. La souris est plus ancienne que les premiers ordinateurs personnels."
+      },
+      {
+        "id": "u09-quiz-q4",
+        "type": "vf",
+        "question": "Dans le schéma de l'écosystème, l'UX est le plus grand carré, du côté émotionnel et écosystème : elle englobe l'utilisabilité et l'ergonomie.",
+        "bonne": true,
+        "notions": [
+          "ux-vs-ui"
+        ],
+        "explication": "Vrai. Ergonomie (rationnel, produit) ⊂ utilisabilité ⊂ UX (émotionnel, écosystème) : l'UX ne remplace pas les deux autres, elle les englobe."
+      },
+      {
+        "id": "u09-quiz-q5",
+        "type": "qcm",
+        "question": "Selon le cours, combien de personnes vivent en situation de handicap en Suisse ?",
+        "choix": [
+          "1,4 million",
+          "140 000",
+          "14 millions",
+          "400 000"
+        ],
+        "bonne": 0,
+        "notions": [
+          "accessibilite"
+        ],
+        "explication": "1,4 million. Et le handicap peut être permanent ou temporaire."
+      },
+      {
+        "id": "u09-quiz-q6",
+        "type": "tri",
+        "question": "Skill (savoir-faire) ou soft skill (savoir-être) ?",
+        "categories": [
+          "Skill",
+          "Soft skill"
+        ],
+        "items": [
+          [
+            "Faciliter des ateliers",
+            0
+          ],
+          [
+            "Rédiger des spécifications",
+            0
+          ],
+          [
+            "Recherche qualitative et quantitative",
+            0
+          ],
+          [
+            "Capacité à défendre ses partis-pris",
+            1
+          ],
+          [
+            "Analyse et esprit de synthèse",
+            1
+          ],
+          [
+            "Empathie",
+            1
+          ]
+        ],
+        "notions": [
+          "competences-ux"
+        ],
+        "explication": "Les skills sont des techniques et des outils ; les soft skills, une façon de travailler avec les autres et avec soi. L'empathie est une soft skill."
+      },
+      {
+        "id": "u09-quiz-q7",
+        "type": "qcm",
+        "question": "Dans une équipe, on tranche toujours selon l'avis du dernier qui a parlé. Quelle démarche le cours oppose-t-il à ce « last-one talking » ?",
+        "choix": [
+          "User-centric : partir de l'analyse des besoins et des attentes des utilisateurs",
+          "Omnichannel : être présent sur tous les canaux",
+          "Design Sprint : tout faire en 5 jours",
+          "Brainstorming : pas de jugement"
+        ],
+        "bonne": 0,
+        "notions": [
+          "user-centric",
+          "persona"
+        ],
+        "explication": "Le cours oppose user-centric, HIPPO et last-one talking. Les personas servent de référence pour prendre des décisions user-centric."
+      },
+      {
+        "id": "u09-quiz-q8",
+        "type": "qcm",
+        "question": "Où travaille le plus grand nombre d'UX, selon le cours ?",
+        "choix": [
+          "En agence ou cabinet de consulting (40 %)",
+          "Chez l'annonceur (60 %)",
+          "En startup (40 %)",
+          "En freelance (30 %)"
+        ],
+        "bonne": 0,
+        "notions": [
+          "acteurs-ux"
+        ],
+        "explication": "40 % en agence ou cabinet de consulting, 30 % chez l'annonceur, 12 % en agence de développement, 12 % en startup, freelance."
+      },
+      {
+        "id": "u09-quiz-q9",
+        "type": "qcm",
+        "question": "Pour quel genre de problème le Design Thinking est-il particulièrement efficace ?",
+        "choix": [
+          "Des questions complexes, dont on ne cerne pas tous les aspects",
+          "Des problèmes simples, déjà bien connus",
+          "Des bugs techniques dans le code",
+          "Des choix de couleurs"
+        ],
+        "bonne": 0,
+        "notions": [
+          "design-thinking"
+        ],
+        "explication": "« Cette succession de 5 grandes étapes est particulièrement efficace pour répondre à des questions complexes, dont on ne cerne pas tous les aspects. »"
+      },
+      {
+        "id": "u09-quiz-q10",
+        "type": "assoc",
+        "question": "Relie chaque phase du Design Thinking à son but",
+        "paires": [
+          [
+            "Exploration",
+            "Collecter un maximum de données sur les domaines liés à la question"
+          ],
+          [
+            "Définition",
+            "Synthétiser les données sous la forme « How might we… »"
+          ],
+          [
+            "Idéation",
+            "Brainstormer pour créer des idées nouvelles"
+          ],
+          [
+            "Prototypage",
+            "Modéliser plus en détail les concepts choisis"
+          ],
+          [
+            "Test",
+            "Tester rapidement avec des utilisateurs pour valider et ajuster"
+          ]
+        ],
+        "notions": [
+          "design-thinking"
+        ],
+        "explication": "Les 5 phases : Exploration, Définition, Idéation, Prototypage, Test (Empathize, Define, Ideate, Prototype, Test)."
+      },
+      {
+        "id": "u09-quiz-q11",
+        "type": "tri",
+        "question": "Interview d'un gardien de piscine : DO ou DON'T ?",
+        "categories": [
+          "DO",
+          "DON'T"
+        ],
+        "items": [
+          [
+            "Rebondir sur sa réponse, quitte à changer l'ordre des questions",
+            0
+          ],
+          [
+            "Lui demander s'il connaît d'autres personnes à interroger",
+            0
+          ],
+          [
+            "Surveiller le temps",
+            0
+          ],
+          [
+            "Taper ses notes sur l'ordinateur portable",
+            1
+          ],
+          [
+            "Poser les questions à deux, chacun son tour",
+            1
+          ],
+          [
+            "Se pencher en arrière sur sa chaise",
+            1
+          ]
+        ],
+        "notions": [
+          "interview-dos-donts"
+        ],
+        "explication": "Rebondir, demander des contacts et surveiller le temps sont des DOs. Regarder un écran (même pour prendre des notes), être plusieurs à poser des questions et se pencher en arrière sont des DON'Ts."
+      },
+      {
+        "id": "u09-quiz-q12",
+        "type": "qcm",
+        "question": "Pendant dix jours, des livreurs à vélo notent chaque soir leurs tâches, leurs problèmes, leur humeur, avec une photo. Quelle méthode ?",
+        "choix": [
+          "Le journal de bord",
+          "L'observation ethnographique (shadowing)",
+          "L'interview scriptée",
+          "Les données publiques"
+        ],
+        "bonne": 0,
+        "notions": [
+          "journal-de-bord"
+        ],
+        "explication": "Les personnes remplissent elles-mêmes un journal pendant plusieurs jours : c'est déclaratif, mais plus proche du contexte et du moment. Les photos ajoutent un aspect émotionnel."
+      },
+      {
+        "id": "u09-quiz-q13",
+        "type": "qcm",
+        "question": "Une équipe veut aider les étudiants à mieux manger. Quel HMW cadre juste ?",
+        "choix": [
+          "Comment pourrait-on aider les étudiants à cuisiner des repas équilibrés avec un petit budget, de manière à ce qu'ils mangent mieux sans dépenser plus ?",
+          "Comment pourrait-on améliorer l'alimentation dans le monde ?",
+          "Comment pourrait-on ajouter un bouton « recette à 5 CHF » sur l'accueil de notre appli, de manière à ce que les étudiants l'utilisent ?",
+          "Les étudiants mangent mal et c'est désespérant."
+        ],
+        "bonne": 0,
+        "notions": [
+          "hmw"
+        ],
+        "explication": "Le premier est assez précis pour démarrer, sans enfermer la réflexion. Le deuxième est trop large, le troisième contient déjà la solution, le dernier reste focalisé sur le problème (subjectif, bloqué)."
+      },
+      {
+        "id": "u09-quiz-q14",
+        "type": "tri",
+        "question": "Empathy map de Marco, père de deux écoliers : dans quelle zone ?",
+        "categories": [
+          "SAY",
+          "DO",
+          "HEAR",
+          "THINK and FEEL"
+        ],
+        "items": [
+          [
+            "« Je n'ai jamais le temps de lire les mails de l'école. »",
+            0
+          ],
+          [
+            "« Ce serait bien d'avoir tout au même endroit. »",
+            0
+          ],
+          [
+            "Il consulte le groupe de messagerie des parents en attendant le bus",
+            1
+          ],
+          [
+            "Il imprime le calendrier scolaire et l'affiche sur le frigo",
+            1
+          ],
+          [
+            "Ses collègues lui disent que l'appli de l'école plante souvent",
+            2
+          ],
+          [
+            "Un autre parent lui raconte qu'il a raté une réunion",
+            2
+          ],
+          [
+            "Il a peur de rater une sortie scolaire",
+            3
+          ],
+          [
+            "Il rêve de ne plus courir après les informations",
+            3
+          ]
+        ],
+        "notions": [
+          "empathy-map"
+        ],
+        "explication": "SAY : ce qu'on l'a entendu dire. DO : ce qu'il fait aujourd'hui. HEAR : ce qu'il entend les autres dire. THINK and FEEL : ses pains (peurs) et ses gains (rêves)."
+      },
+      {
+        "id": "u09-quiz-q15",
+        "type": "ordre",
+        "question": "Remets dans l'ordre le processus pour construire une empathy map",
+        "items": [
+          "Identifier le sujet central de la recherche",
+          "Faire le tour de la question (mind-map)",
+          "Identifier les parties prenantes",
+          "Écouter ce qu'elles disent (interviews, panels, forums…)",
+          "Synthétiser sous forme d'empathy map"
+        ],
+        "notions": [
+          "empathy-map-processus"
+        ],
+        "explication": "On ne commence pas par le template : il vient en dernier, pour synthétiser."
+      },
+      {
+        "id": "u09-quiz-q16",
+        "type": "qcm",
+        "question": "Les sages-femmes sont difficiles à joindre ; l'équipe commence par interroger une association qui les connaît bien. Comment le cours appelle-t-il cette association ?",
+        "choix": [
+          "Un proxy",
+          "Un persona",
+          "Une partie prenante extrême",
+          "Un panel"
+        ],
+        "bonne": 0,
+        "notions": [
+          "recherche-utilisateurs"
+        ],
+        "explication": "Un « proxy » : une personne qui connaît bien les profils qui t'intéressent, mais plus facile d'accès (associations, journalistes, business analysist…)."
+      },
+      {
+        "id": "u09-quiz-q17",
+        "type": "qcm",
+        "question": "Sur quoi porte l'étude Diverse Personas (Marie Kuter, 2023) ?",
+        "choix": [
+          "211 personas dans 43 projets digitaux",
+          "43 personas dans 211 projets digitaux",
+          "500 personas dans 20 projets",
+          "100 personas dans 10 startups"
+        ],
+        "bonne": 0,
+        "notions": [
+          "diverse-personas"
+        ],
+        "explication": "211 personas, 43 projets digitaux, présentée à la UX Conf Paris."
+      },
+      {
+        "id": "u09-quiz-q18",
+        "type": "ordre",
+        "question": "Remets dans l'ordre les 5 étapes pour fabriquer des personas",
+        "items": [
+          "Identifier les personnes qui pourraient utiliser la solution",
+          "Lister leurs pain-points, motivations, attitudes et contextes d'utilisation",
+          "Créer des catégories (clusters)",
+          "Représenter chaque catégorie par un personnage fictif",
+          "Prioriser les personas principaux (max. 5) et secondaires"
+        ],
+        "notions": [
+          "persona-processus"
+        ],
+        "explication": "On regroupe d'abord en clusters, puis on représente chaque catégorie par un personnage fictif, et on priorise (max. 5 principaux)."
+      },
+      {
+        "id": "u09-quiz-q19",
+        "type": "qcm",
+        "question": "Le persona « Claire » : 35 ans (âge choisi au hasard), une très belle photo de banque d'images en tailleur, trois pages sur ses loisirs. Qu'est-ce qui cloche ?",
+        "choix": [
+          "Une donnée préjugée, un visuel choisi pour sa beauté, et plus d'une page A4",
+          "Rien : plus un persona est détaillé, mieux c'est",
+          "Il lui manque un deuxième prénom",
+          "Il faudrait une photo encore plus belle"
+        ],
+        "bonne": 0,
+        "notions": [
+          "persona-conseils"
+        ],
+        "explication": "Le cours conseille d'éviter les données socio-démographiques préjugées (y compris dans le visuel), de préférer un visuel en contexte d'utilisation et de tenir sur une page A4."
+      },
+      {
+        "id": "u09-quiz-q20",
+        "type": "vf",
+        "question": "Pour être inclusif, un archétype supprime les pain-points et les motivations et ne garde qu'une photo de groupe.",
+        "bonne": false,
+        "notions": [
+          "archetypes"
+        ],
+        "explication": "Faux. L'archétype garde les informations essentielles (pain-points, motivations, contexte, attitudes) ; il illustre le contexte ou choisit un visuel inclusif, et raconte plusieurs histoires."
+      },
+      {
+        "id": "u09-quiz-q21",
+        "type": "qcm",
+        "question": "« La capacité à réaliser une production qui soit à la fois nouvelle et adaptée au contexte dans lequel elle se manifeste. » De quoi s'agit-il, et selon qui ?",
+        "choix": [
+          "La créativité, selon Todd Lubart",
+          "Le design, selon Philippe Starck",
+          "L'ergonomie, selon la SELF",
+          "L'idéation, selon Google Ventures"
+        ],
+        "bonne": 0,
+        "notions": [
+          "creativite"
+        ],
+        "explication": "C'est la définition de la créativité de Lubart (Psychologie de la créativité) : nouvelle **et** adaptée au contexte."
+      },
+      {
+        "id": "u09-quiz-q22",
+        "type": "tri",
+        "question": "Cette technique sert-elle à diverger (produire des idées) ou à converger (choisir) ?",
+        "categories": [
+          "Diverger",
+          "Converger"
+        ],
+        "items": [
+          [
+            "Crazy 8",
+            0
+          ],
+          [
+            "3-2-1 « cadavre exquis »",
+            0
+          ],
+          [
+            "Associations d'idées du Petit manuel anti page blanche",
+            0
+          ],
+          [
+            "Dot-voting",
+            1
+          ],
+          [
+            "Retenir l'idée qui remplit les 5 critères d'une bonne idée",
+            1
+          ]
+        ],
+        "notions": [
+          "techniques-ideation",
+          "brainstorming",
+          "bonne-idee"
+        ],
+        "explication": "On va de la quantité à la qualité : d'abord la divergence (crazy 8, cadavre exquis, associations d'idées), puis la convergence (dot-voting, tri selon les critères)."
+      },
+      {
+        "id": "u09-quiz-q23",
+        "type": "qcm",
+        "question": "Idée pour un formulaire de mutuelle : « une appli qui lit dans les pensées et remplit les champs toute seule ». Quel critère d'une bonne idée échoue ?",
+        "choix": [
+          "Il doit être physiquement possible qu'elle existe aujourd'hui et maintenant",
+          "Elle doit être originale",
+          "Elle doit répondre au besoin",
+          "Aucun : c'est une bonne idée"
+        ],
+        "bonne": 0,
+        "notions": [
+          "bonne-idee"
+        ],
+        "explication": "Elle est originale et répondrait au besoin, mais elle n'est pas physiquement possible aujourd'hui : les 5 critères comptent ensemble."
+      },
+      {
+        "id": "u09-quiz-q24",
+        "type": "assoc",
+        "question": "Relie chaque format à sa description",
+        "paires": [
+          [
+            "Zoning",
+            "Blocs en nuances de gris, document de travail interne à l'équipe"
+          ],
+          [
+            "Wireframe",
+            "Contenus et widgets détaillés, l'étape la plus adaptée aux feedbacks"
+          ],
+          [
+            "Maquette",
+            "Identité graphique, livrable final et brief des développeurs"
+          ],
+          [
+            "Prototype",
+            "Écrans interreliés en parcours, des wireframes cliquables"
+          ],
+          [
+            "Paper prototyping",
+            "Du papier et des stylos, la quantité plutôt que la finalité"
+          ]
+        ],
+        "notions": [
+          "zoning",
+          "wireframe",
+          "maquette",
+          "prototype",
+          "paper-prototyping"
+        ],
+        "explication": "Comme le plan de la maison : les pièces en blocs (zoning), le plan meublé (wireframe), la maison décorée (maquette), la visite d'une pièce à l'autre (prototype)."
+      },
+      {
+        "id": "u09-quiz-q25",
+        "type": "qcm",
+        "question": "Le chef de projet veut montrer le zoning tel quel à des utilisateurs pour un test. Que conseille le cours ?",
+        "choix": [
+          "Détailler d'abord en wireframes : le zoning est un document interne, complexe à appréhender pour les utilisateurs",
+          "Le montrer tel quel : c'est le format idéal pour les tests",
+          "Attendre que le produit soit développé",
+          "Montrer directement le code"
+        ],
+        "bonne": 0,
+        "notions": [
+          "zoning",
+          "wireframe"
+        ],
+        "explication": "Le zoning sert entre les membres de l'équipe projet. L'étape wireframe est la plus adaptée pour recueillir les feedbacks ou mener des tests utilisateurs."
+      },
+      {
+        "id": "u09-quiz-q26",
+        "type": "tri",
+        "question": "Prototype interactif ou alternative ?",
+        "categories": [
+          "Prototype interactif",
+          "Alternative"
+        ],
+        "items": [
+          [
+            "Un lien Figma partageable",
+            0
+          ],
+          [
+            "Axure et Google Analytics",
+            0
+          ],
+          [
+            "Un jeu de rôle",
+            1
+          ],
+          [
+            "Un storyboard (StoryboardThat)",
+            1
+          ],
+          [
+            "Du low-code / no-code (Glide)",
+            1
+          ],
+          [
+            "Des constructions / installations",
+            1
+          ]
+        ],
+        "notions": [
+          "outils-prototypage"
+        ],
+        "explication": "Figma (et en avancé Axure, Google Analytics, eye-tracking) pour les prototypes interactifs ; jeu de rôle, storyboard, slides, low-code / no-code et constructions sont les alternatives."
+      },
+      {
+        "id": "u09-quiz-q27",
+        "type": "qcm",
+        "question": "Petit budget, un seul round de tests possible pour l'instant. Selon Nielsen et Norman, combien d'utilisateurs permettent d'identifier 80 % des problèmes ergonomiques ?",
+        "choix": [
+          "5",
+          "1",
+          "20",
+          "50"
+        ],
+        "bonne": 0,
+        "notions": [
+          "test-utilisateur"
+        ],
+        "explication": "5 utilisateurs = 80 % des problèmes. Pas 100 % : c'est pour ça qu'on refait des rounds de tests."
+      },
+      {
+        "id": "u09-quiz-q28",
+        "type": "ordre",
+        "question": "Remets dans l'ordre ces phrases du facilitateur",
+        "items": [
+          "« Merci d'être venu·e ! Un café ou un thé ? » (Accueillir)",
+          "« On va regarder ensemble des écrans ; commentez à voix haute. » (Expliquer)",
+          "« Ce sont les écrans qu'on teste, pas vous ! » (Rassurer)",
+          "« J'ouvre le prototype ; certains boutons peuvent ne pas marcher. » (Démarrer)",
+          "« Mettez-vous dans la peau de… » (Mettre en situation)",
+          "« À partir de cet écran, que feriez-vous ? » (Réaliser la tâche)"
+        ],
+        "notions": [
+          "deroule-test"
+        ],
+        "explication": "Accueillir, Expliquer, Rassurer, Démarrer, Mettre en situation, Réaliser la tâche : on rassure avant d'ouvrir le prototype, et on met en situation avant les tâches."
+      },
+      {
+        "id": "u09-quiz-q29",
+        "type": "tri",
+        "question": "Dans quelle section du scénario de test ?",
+        "categories": [
+          "Contexte",
+          "Spécifiques",
+          "Subjectives"
+        ],
+        "items": [
+          [
+            "Fréquence d'utilisation",
+            0
+          ],
+          [
+            "Tâches principales",
+            0
+          ],
+          [
+            "« Saviez-vous que… ? »",
+            1
+          ],
+          [
+            "Expliquer un élément de l'interface",
+            1
+          ],
+          [
+            "Aime / n'aime pas",
+            2
+          ],
+          [
+            "Souhaits pour la suite",
+            2
+          ]
+        ],
+        "notions": [
+          "scenario-de-test"
+        ],
+        "explication": "Contexte : fréquence, tâches principales. Spécifiques : expliquer un élément, « Avez-vous remarqué… ? », « Saviez-vous que… ? ». Subjectives : aime / n'aime pas, souhaits, à la fin."
+      },
+      {
+        "id": "u09-quiz-q30",
+        "type": "qcm",
+        "question": "Les tests sont finis ; l'équipe veut tout corriger d'un coup, sans réunion, et s'arrêter là. Qu'oublie-t-elle ?",
+        "choix": [
+          "Prioriser les modifications, faire une réunion de débrief, décider, établir un plan d'action, puis refaire un round de tests",
+          "Rien : corriger tout de suite est la bonne méthode",
+          "Elle oublie seulement d'envoyer un email de remerciement",
+          "Elle oublie de refaire le zoning"
+        ],
+        "bonne": 0,
+        "notions": [
+          "apres-test"
+        ],
+        "explication": "Après les notes au propre et les points-clés : prioriser, réunion de débrief, décisions, plan d'action, implémentation… et un nouveau round de tests."
+      }
+    ]
   },
-  "boss": []
+  "boss": [
+    {
+      "id": "u09-b1",
+      "titre": "La laverie de l'immeuble",
+      "source": "Étude de cas transversale d'après les cours 1 à 6 (examen blanc)",
+      "notions": [
+        "hmw",
+        "empathy-map",
+        "interview-dos-donts",
+        "persona-conseils",
+        "persona-processus",
+        "bonne-idee",
+        "prototype",
+        "zoning",
+        "deroule-test",
+        "apres-test"
+      ],
+      "enonce": "Une coopérative d'habitation de 60 appartements a **une seule laverie** de 4 machines. On s'y inscrit sur une feuille papier scotchée à la porte. Les disputes sont fréquentes : machines prises, linge oublié dans le tambour.\n\nProto, le renard, a déjà mené des interviews et observé la laverie pendant une semaine. À toi de l'aider à suivre **toute la démarche**, du HMW au test. **Pas d'indice** : comme à l'examen.",
+      "questions": [
+        {
+          "id": "u09-b1-q1",
+          "type": "qcm",
+          "question": "Quel HMW Proto doit-il retenir ?",
+          "choix": [
+            "Comment pourrait-on aider les habitants à savoir quand une machine est libre, de manière à ce qu'ils ne descendent plus pour rien ?",
+            "Comment pourrait-on rendre la vie en immeuble plus agréable ?",
+            "Comment pourrait-on installer une borne à badge devant la machine 3 de manière à ce que les habitants réservent un créneau de 90 minutes ?",
+            "La feuille papier ne marche pas."
+          ],
+          "bonne": 0,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Le bon zoom : assez précis pour démarrer, assez ouvert pour laisser place aux idées. Trop large, trop serré (la solution est déjà dans la question), ou pas de HMW du tout."
+        },
+        {
+          "id": "u09-b1-q2",
+          "type": "tri",
+          "question": "Empathy map d'Aïcha, étudiante qui travaille le soir : dans quelle zone ?",
+          "categories": [
+            "SEE",
+            "SAY",
+            "THINK and FEEL : PAINS",
+            "THINK and FEEL : GAINS"
+          ],
+          "items": [
+            [
+              "La feuille d'inscription raturée sur la porte",
+              0
+            ],
+            [
+              "Des paniers de linge posés sur les machines",
+              0
+            ],
+            [
+              "« Je descends trois fois pour rien. »",
+              1
+            ],
+            [
+              "Peur qu'on lui reproche le linge oublié",
+              2
+            ],
+            [
+              "Frustration de perdre sa soirée",
+              2
+            ],
+            [
+              "Envie de savoir depuis chez elle si une machine est libre",
+              3
+            ]
+          ],
+          "notions": [
+            "empathy-map"
+          ],
+          "explication": "SEE : son environnement. SAY : ce qu'on l'a entendue dire. Dans THINK and FEEL, les PAINS (peurs, frustrations) et les GAINS (envies, besoins)."
+        },
+        {
+          "id": "u09-b1-q3",
+          "type": "qcm",
+          "question": "Relisant les notes d'interview, Proto trouve la question d'un collègue : « Vous ne trouvez pas que la feuille papier est nulle ? » Qu'est-ce qui cloche ?",
+          "choix": [
+            "Elle oriente la réponse : c'est un DON'T",
+            "Rien : c'est une bonne question ouverte",
+            "Elle est trop facile pour commencer",
+            "Elle aurait dû être posée en anglais"
+          ],
+          "bonne": 0,
+          "notions": [
+            "interview-dos-donts"
+          ],
+          "explication": "Orienter les réponses, influencer, est un DON'T. On fait parler la personne : « Comment faites-vous pour… ? », « Pourquoi ? »."
+        },
+        {
+          "id": "u09-b1-q4",
+          "type": "qcm",
+          "question": "L'équipe a fabriqué 9 personas principaux, chacun sur trois pages. Que conseille le cours ?",
+          "choix": [
+            "Max. 5 personas principaux (les autres secondaires), une page A4 chacun",
+            "Garder les 9 : plus il y en a, mieux c'est",
+            "En faire un seul pour tout l'immeuble",
+            "Ajouter une quatrième page sur leurs loisirs"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-conseils",
+            "persona-processus"
+          ],
+          "explication": "Ne pas dépasser 5 personas principaux et les limiter à une page A4, pour favoriser leur utilisation réelle : la boussole doit rester lisible."
+        },
+        {
+          "id": "u09-b1-q5",
+          "type": "qcm",
+          "question": "Après le brainstorming, quelle idée remplit les 5 critères d'une bonne idée ?",
+          "choix": [
+            "Afficher en direct sur le téléphone l'état de chaque machine, avec une alerte quand le cycle se termine",
+            "Interdire la laverie après 18 h : plus de disputes le soir",
+            "Une machine qui lave le linge sans eau ni électricité",
+            "Recopier la feuille papier dans un classeur"
+          ],
+          "bonne": 0,
+          "notions": [
+            "bonne-idee"
+          ],
+          "explication": "La première répond au besoin, est nouvelle par rapport à l'existant, n'ajoute pas au problème, convient aux personas et est possible aujourd'hui. Interdire le soir pénalise Aïcha ; la machine sans énergie n'est pas possible ; le classeur n'apporte rien de nouveau."
+        },
+        {
+          "id": "u09-b1-q6",
+          "type": "qcm",
+          "question": "Que Proto doit-il faire tester aux habitants ?",
+          "choix": [
+            "Un prototype : des wireframes cliquables qui forment le parcours, partagés par lien",
+            "Le zoning en blocs gris",
+            "La maquette finale, une fois validée par le développeur",
+            "Rien avant que l'appli soit développée"
+          ],
+          "bonne": 0,
+          "notions": [
+            "prototype",
+            "zoning",
+            "test-utilisateur"
+          ],
+          "explication": "Le prototype (wireframes cliquables) est idéal pour les tests utilisateurs. Le zoning est un document interne ; attendre le développement coûte cher : on fait goûter le plat tôt."
+        },
+        {
+          "id": "u09-b1-q7",
+          "type": "qcm",
+          "question": "Pendant une tâche, un habitant demande : « Je clique où ? » Que répond Proto ?",
+          "choix": [
+            "« À partir de cet écran, que feriez-vous ? Commentez ce que vous pensez. »",
+            "« Sur le bouton bleu en haut à droite. »",
+            "« Ce n'est pas compliqué, voyons ! »",
+            "Il prend la souris et le fait à sa place."
+          ],
+          "bonne": 0,
+          "notions": [
+            "deroule-test"
+          ],
+          "explication": "Pendant la tâche, on ne guide pas : c'est l'utilisateur qui prend les manettes. On teste les écrans, pas la personne."
+        },
+        {
+          "id": "u09-b1-q8",
+          "type": "qcm",
+          "question": "Cinq habitants ont testé ; trois problèmes reviennent. Quelle suite ?",
+          "choix": [
+            "Notes au propre, points-clés, prioriser, débrief, plan d'action, implémentation, puis un nouveau round de tests",
+            "Tout corriger le soir même et livrer",
+            "Refaire tester par 50 personnes avant de toucher à quoi que ce soit",
+            "Rien : 5 personnes, c'est trop peu pour conclure"
+          ],
+          "bonne": 0,
+          "notions": [
+            "apres-test",
+            "test-utilisateur"
+          ],
+          "explication": "5 utilisateurs identifient environ 80 % des problèmes. On synthétise, on priorise, on décide, on implémente, et la boucle se referme sur un nouveau round de tests."
+        }
+      ],
+      "seuil": 0.8
+    },
+    {
+      "id": "u09-b2",
+      "titre": "Le covoiturage du club junior",
+      "source": "Étude de cas transversale d'après les cours 3 à 6 (examen blanc)",
+      "notions": [
+        "hmw",
+        "persona-processus",
+        "persona-conseils",
+        "archetypes",
+        "techniques-ideation",
+        "paper-prototyping",
+        "guerilla-testing",
+        "scenario-de-test"
+      ],
+      "enonce": "Un club de football junior doit emmener ses équipes aux matchs à l'extérieur. Chaque samedi, il manque des places en voiture et les entraîneurs passent la soirée du vendredi au téléphone. Les familles sont très différentes : horaires de travail, nombre d'enfants, voitures, un parent en fauteuil roulant.\n\nProto, le renard, accompagne le club **du HMW au test**. **Pas d'indice** : comme à l'examen.",
+      "questions": [
+        {
+          "id": "u09-b2-q1",
+          "type": "vf",
+          "question": "« Comment pourrait-on créer un groupe de messagerie par équipe, de manière à ce que les parents s'y inscrivent ? » est un bon HMW.",
+          "bonne": false,
+          "notions": [
+            "hmw"
+          ],
+          "explication": "Faux : la solution (le groupe de messagerie) est déjà dans la question, il n'y a plus de problème à résoudre. Le zoom est trop serré."
+        },
+        {
+          "id": "u09-b2-q2",
+          "type": "qcm",
+          "question": "Pressé, le comité imagine ses personas sans aucune recherche, d'après ce qu'il croit savoir des familles. Comment s'appellent ces personas ?",
+          "choix": [
+            "Des proto-personas",
+            "Des archétypes",
+            "Des personas secondaires",
+            "Des empathy maps"
+          ],
+          "bonne": 0,
+          "notions": [
+            "persona-processus"
+          ],
+          "explication": "Des personas fondés sur des informations **projetées** s'appellent des proto-personas."
+        },
+        {
+          "id": "u09-b2-q3",
+          "type": "tri",
+          "question": "Pour le persona « Karim », que garder et que supprimer ou corriger ?",
+          "categories": [
+            "À garder",
+            "À supprimer ou corriger"
+          ],
+          "items": [
+            [
+              "Travaille le samedi matin une semaine sur deux",
+              0
+            ],
+            [
+              "Stressé à l'idée que son fils n'ait pas de place",
+              0
+            ],
+            [
+              "Veut rendre service aux autres familles",
+              0
+            ],
+            [
+              "Sa couleur préférée est le bleu",
+              1
+            ],
+            [
+              "Une photo de studio choisie parce qu'elle est belle",
+              1
+            ],
+            [
+              "Un âge choisi au hasard, sans recherche",
+              1
+            ]
+          ],
+          "notions": [
+            "persona-conseils"
+          ],
+          "explication": "On garde ce qui influence l'utilisation : contexte, pain-points, motivations. On supprime l'inutile, les données préjugées et le visuel « beau » plutôt que représentatif."
+        },
+        {
+          "id": "u09-b2-q4",
+          "type": "qcm",
+          "question": "Les personas du comité montrent tous des parents valides, de 35 à 45 ans. Quelle piste propose le cours ?",
+          "choix": [
+            "Des archétypes : illustrer le contexte, montrer les situations de handicap par des icônes, raconter plusieurs histoires",
+            "Supprimer les personas : ils ne servent à rien",
+            "Ajouter des photos plus belles",
+            "Garder un seul persona moyen pour tout le monde"
+          ],
+          "bonne": 0,
+          "notions": [
+            "archetypes",
+            "diverse-personas"
+          ],
+          "explication": "L'étude Diverse Personas montre beaucoup d'exclusion (âges extrêmes, handicaps). Les archétypes gardent l'essentiel, illustrent le contexte, représentent les handicaps par des icônes et racontent plusieurs histoires."
+        },
+        {
+          "id": "u09-b2-q5",
+          "type": "ordre",
+          "question": "Pour trouver des idées, Proto lance un 3-2-1 « cadavre exquis ». Remets les étapes dans l'ordre.",
+          "items": [
+            "Chacun liste 3 idées",
+            "On ajoute 2 idées",
+            "On ajoute 1 idée",
+            "Mise en commun et décisions"
+          ],
+          "notions": [
+            "techniques-ideation"
+          ],
+          "explication": "3, puis 2, puis 1 idée, et enfin la mise en commun et les décisions."
+        },
+        {
+          "id": "u09-b2-q6",
+          "type": "qcm",
+          "question": "En atelier avec des parents, le comité veut explorer vite plusieurs écrans possibles, sans logiciel. Quel format ?",
+          "choix": [
+            "Le paper prototyping",
+            "La maquette graphique",
+            "Un prototype Axure avec Google Analytics",
+            "Le produit développé"
+          ],
+          "bonne": 0,
+          "notions": [
+            "paper-prototyping"
+          ],
+          "explication": "Du papier et quelques stylos suffisent : on privilégie la quantité plutôt que la finalité, et c'est un bon support pour la co-conception."
+        },
+        {
+          "id": "u09-b2-q7",
+          "type": "vf",
+          "question": "Au bord du terrain, Proto fait un guerilla testing d'une heure avec chaque parent.",
+          "bonne": false,
+          "notions": [
+            "guerilla-testing"
+          ],
+          "explication": "Faux. Le guerilla testing dure **quelques minutes** ; c'est l'entretien structuré qui va jusqu'à 1 h maximum."
+        },
+        {
+          "id": "u09-b2-q8",
+          "type": "qcm",
+          "question": "« Were you able to complete your task today? » : d'où vient cette question du scénario de test ?",
+          "choix": [
+            "Des trois questions d'Avinash Kaushik",
+            "Du déroulé de Jared M. Spool",
+            "Des critères de Bastien et Scapin",
+            "De la définition de l'ISO 9241"
+          ],
+          "bonne": 0,
+          "notions": [
+            "scenario-de-test"
+          ],
+          "explication": "Avinash Kaushik propose « The Three Greatest Survey Questions Ever » : le but de la visite, la tâche réussie, et sinon pourquoi."
+        }
+      ],
+      "seuil": 0.8
+    }
+  ]
 }

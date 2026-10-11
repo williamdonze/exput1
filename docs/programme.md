@@ -129,4 +129,4 @@ Les boss sont donc des **études de cas** construites sur les exemples et templa
 - Fiches : aucune nouvelle (seulement des renvois aux fiches de u01 à u08)
 - Notions des unités précédentes à revoir : toutes
 - Leçons : aucune ou une seule de méthode (« comment réviser l'examen ») ; l'essentiel est le **quiz** (25 à 30 questions, 3 ou 4 par unité, dont les chiffres et définitions mot pour mot) et deux **boss études de cas transversaux** sans indice (une démarche Design Thinking complète du HMW au test, sur un nouveau sujet)
-- État : à écrire
+- État : écrite, testée

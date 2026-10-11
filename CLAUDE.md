@@ -13,7 +13,7 @@ Il descend de **Pampre** (le « Duolingo du vin », https://github.com/williamdo
 - **Unités** (`docs/programme.md`) : u01 Qu'est-ce que l'UX ? · u02 Concepts-clés et acteurs · u03 Design Thinking et Empathize · u04 Define (HMW, empathy map) · u05 Personas et design inclusif · u06 Ideate · u07 Prototype · u08 Tests utilisateurs · u09 Examen blanc (pour l'« Examen théorique sur table », format inconnu).
 - **Analogies** : le **reporter** (empathie, interviews) ; le **zoom de l'appareil photo** (HMW ni trop vague ni trop précis) ; la **boussole** (persona) ; le **plan de la maison** (zoning → wireframe → maquette → prototype) ; le **chef qui fait goûter** (tests, itérations, coût du changement).
 - **Pas enseigné faute de support** : SUS et Net Promoter Score (dans les objectifs, absents des slides).
-- **État** : u01 à u08 écrites et testées ; u09 en cours.
+- **État** : les 9 unités sont écrites et testées.
 
 ## Lancer
 
